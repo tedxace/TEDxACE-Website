@@ -547,14 +547,6 @@
 
   <a href="#" class="back-to-top"><i class="fa fa-angle-up"></i></a>
 
-    <script type="text/javascript">
-    //paste this code under the head tag or in a separate js file.
-  // Wait for window load
-  $(window).load(function() {
-    // Animate loader off screen
-    $(".se-pre-con").fadeOut("slow");;
-  });
-  </script>
 
   <!-- JavaScript Libraries -->
   <script src="lib/jquery/jquery.min.js"></script>
@@ -569,7 +561,14 @@
 
   <!-- Template Main Javascript File -->
   <script src="js/main.js"></script>
-  <script src="//instant.page/1.1.0" type="module" integrity="sha384-EwBObn5QAxP8f09iemwAJljc+sU+eUXeL9vSBw1eNmVarwhKk2F9vBEpaN9rsrtp"></script>
+    <script type="text/javascript">
+    //paste this code under the head tag or in a separate js file.
+  // Wait for window load
+  $(window).load(function() {
+    // Animate loader off screen
+    $(".se-pre-con").fadeOut("slow");;
+  });
+  </script>
 </body>
 
 </html>
