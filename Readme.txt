@@ -1,1 +1,1 @@
-Admin Contact = email@singhashw.in
+TEDxACE website maintained by raj vaya
