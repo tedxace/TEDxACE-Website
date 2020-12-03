@@ -24,8 +24,8 @@
 }
 
 .svg-elem-1 {
-  -webkit-animation: animate-svg-stroke-1 3s cubic-bezier(0.47, 0, 0.745, 0.715) 0s both infinite;;
-          animation: animate-svg-stroke-1 3s cubic-bezier(0.47, 0, 0.745, 0.715) 0s both infinite;;
+  -webkit-animation: animate-svg-stroke-1 4s cubic-bezier(0.47, 0, 0.745, 0.715) 0s both infinite;
+          animation: animate-svg-stroke-1 4s cubic-bezier(0.47, 0, 0.745, 0.715) 0s both infinite;
 }
 
 
