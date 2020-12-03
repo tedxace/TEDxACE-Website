@@ -1,6 +1,33 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+@-webkit-keyframes animate-svg-stroke-1 {
+  0% {
+    stroke-dashoffset: 1450.70166015625px;
+    stroke-dasharray: 1450.70166015625px;
+  }
+
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes animate-svg-stroke-1 {
+  0% {
+    stroke-dashoffset: 1450.70166015625px;
+    stroke-dasharray: 1450.70166015625px;
+  }
+
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+
+.svg-elem-1 {
+  -webkit-animation: animate-svg-stroke-1 3s cubic-bezier(0.47, 0, 0.745, 0.715) 0s both infinite;;
+          animation: animate-svg-stroke-1 3s cubic-bezier(0.47, 0, 0.745, 0.715) 0s both infinite;;
+}
+
 
 body {
   background: #fff;
@@ -465,12 +492,13 @@ body.mobile-nav-active #mobile-nav-toggle {
   background: url(../img/intro-bg.webp) top center;
   background-size: cover;
   overflow: hidden;
+  opacity: 75;
   position: relative;
 }
 
 #intro:before {
   content: "";
-  background: rgba(6, 12, 34, 0.8);
+  background: rgba(4, 1, 20, 0.85);
   position: absolute;
   bottom: 0;
   top: 0;
