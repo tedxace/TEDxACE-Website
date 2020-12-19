@@ -94,8 +94,8 @@
       </div>
       <p id="demo" style="color:#E62B1E; opacity: 80%; font-size: 30px; margin-bottom: 12px; margin-top: 24px; padding-top: 0px;" > </p>
       <a href="https://youtu.be/Jtxu8zbpSds" target="_blank" class="play-btn" data-vbtype="video" data-autoplay="true"></a>
-      <p id="demo" style="color:#E62B1E; opacity: 80%; font-size: 18px; margin-top: 10px;"> Join Us In After Event Interaton with Speakers and QnA</p>
-      <a href="#" target="_blank" class="about-btn scrollto">Join For After Event Interation and QnA</a>
+      <p id="qnatext" style="color:#E62B1E; opacity: 80%; font-size: 18px; margin-top: 10px;"> Join Us In After Event Interaton with Speakers and QnA</p>
+      <a id="qna" href="#" target="_blank" class="about-btn scrollto">Join For After Event Interation and QnA</a>
       <!-- Display the countdown timer in an element -->
     
 <script>
@@ -109,6 +109,9 @@ var x = setInterval(function() {
 
   // Find the distance between now and the count down date
   var distance = countDownDate - now;
+  document.getElementById("qna").style.display = "none"
+    document.getElementById("qnatext").style.display = "none"
+
 
   // Time calculations for days, hours, minutes and seconds
   var days = Math.floor(distance / (1000 * 60 * 60 * 24));
@@ -117,13 +120,15 @@ var x = setInterval(function() {
   var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
   // Display the result in the element with id="demo"
-  document.getElementById("demo").innerHTML = days + "d : " + hours + "h : "
+  document.getElementById("demo").innerHTML = hours + "h : "
   + minutes + "m : " + seconds + "s ";
-
+ 
   // If the count down is finished, write some text
   if (distance < 0) {
     clearInterval(x);
-    document.getElementById("demo").innerHTML = "Event Statred Click Below Link to Watch Event";
+    document.getElementById("demo").innerHTML = "Event Statred Click Below Play Button to Watch Event";
+    document.getElementById("qna").style.display = "block"
+    document.getElementById("qnatext").style.display = "block"
   }
 }, 1000);
 </script>
