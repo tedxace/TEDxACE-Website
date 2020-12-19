@@ -94,7 +94,7 @@
       </div>
       <p id="demo" style="color:#E62B1E; opacity: 80%; font-size: 30px; margin-bottom: 12px; margin-top: 24px; padding-top: 0px;" > </p>
       <a target="_blank" href="https://youtu.be/Jtxu8zbpSds"  class="play-btn" data-vbtype="video" data-autoplay="true"></a>
-      <p id="qnatext" style="color:#E62B1E; opacity: 80%; font-size: 18px; margin-top: 10px;"> Join Us In After Event Interaton with Speakers and QnA</p>
+      <p id="qnatext" style="color:#E62B1E; opacity: 80%; font-size: 18px; margin-top: 10px;"> Join Us In After Event Interaction with Speakers and QnA</p>
       <a id="qna" href="https://meet.google.com/pwu-ebuo-gus" target="_blank" class="about-btn scrollto">Join For After Event Interaction and Q&A</a>
       <!-- Display the countdown timer in an element -->
     
@@ -120,13 +120,13 @@ var x = setInterval(function() {
   var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
   // Display the result in the element with id="demo"
-  document.getElementById("demo").innerHTML = hours + "h : "
-  + minutes + "m : " + seconds + "s ";
+  document.getElementById("demo").innerHTML =  minutes + "m : " + seconds + "s ";
  
   // If the count down is finished, write some text
   if (distance < 0) {
     clearInterval(x);
     document.getElementById("demo").innerHTML = "Event Statred Click Below Play Button to Watch Event";
+    document.getElementById("demo").style.fontSize = "18px";
     document.getElementById("qna").style.display = "block"
     document.getElementById("qnatext").style.display = "block"
   }
