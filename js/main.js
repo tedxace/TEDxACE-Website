@@ -155,8 +155,8 @@ Pageclip.form(form, {
   successTemplate: " ",
 })
 
-var form = document.querySelector('.pageclip-form2')
-Pageclip.form(form, {
+var form1 = document.querySelector('.pageclip-form2')
+Pageclip.form(form1, {
   onSubmit: function (event) { 
     document.querySelector('.sub2').classList.add('done');
   },
