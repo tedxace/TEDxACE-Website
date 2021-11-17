@@ -8,5 +8,5 @@
 ### A special thanks to all the developers who have and are working on the website!
 
 <a href="https://github.com/rajvaya/TEDxACE/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=rajvaya/TEDxACE" />
+  <img src="https://contrib.rocks/image?repo=TEDxACE/Tedxace-website" />
 </a>
