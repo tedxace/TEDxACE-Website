@@ -146,10 +146,19 @@ jQuery(document).ready(function( $ ) {
 
 });
 
-var form = document.querySelector('.pageclip-form')
+var form = document.querySelector('.pageclip-form1')
 Pageclip.form(form, {
   onSubmit: function (event) { 
     document.querySelector('.subscription').classList.add('done');
+  },
+  onResponse: false,
+  successTemplate: " ",
+})
+
+var form = document.querySelector('.pageclip-form2')
+Pageclip.form(form, {
+  onSubmit: function (event) { 
+    document.querySelector('.sub2').classList.add('done');
   },
   onResponse: false,
   successTemplate: " ",
