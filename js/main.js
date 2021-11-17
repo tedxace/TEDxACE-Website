@@ -145,3 +145,12 @@ jQuery(document).ready(function( $ ) {
 // custom code
 
 });
+
+var form = document.querySelector('.pageclip-form')
+Pageclip.form(form, {
+  onSubmit: function (event) { 
+    document.querySelector('.subscription').classList.add('done');
+  },
+  onResponse: false,
+  successTemplate: " ",
+})
