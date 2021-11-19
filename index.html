@@ -57,12 +57,19 @@
 
   <!--==========================
       Header
+      <img src="./img/logo-resized.webp" type="image/webp" alt="" title="">
   ============================-->
   <header id="header">
     <div class="container">
 
       <div id="logo" class="pull-left">
-        <a href="#intro" class="scrollto"><img src="./img/logo-resized.webp" alt="" title=""></a>
+        <a href="#intro" class="scrollto"> 
+          <picture>
+            <source srcset="./img/logo-resized.webp" type="image/webp">
+            <source srcset="./img/logo-resized.png" type="image/png">
+            <img src="./img/logo-resized.webp alt="" title="">
+          </picture>
+        </a>
       </div>
 
       <!-- Navigation container -->

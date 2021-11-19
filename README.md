@@ -12,7 +12,7 @@ Like a normal html/css/js each file can be edited as you like. When switching fr
 After installing and running `http-server` if you wish for a hot reload function there exists an elegant solution for that too!
 
 1) Run the following command - `npm i -g nodemon`
-2) Now once this is installed run this command - `nodemon 'which http-server' --cors -e html,js,css`. This would would hot reload the http-server anytime it detects changes in an `.html`,`.js` or a `.css` file.
+2) Now once this is installed run this command - ```nodemon `which http-server` --cors -e html,js,css```. This would would hot reload the http-server anytime it detects changes in an `.html`,`.js` or a `.css` file.
 
 **Caveat** - Only the server hot-reloads you will still have to reload the localhost to see the changes.
 
