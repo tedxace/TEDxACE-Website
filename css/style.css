@@ -491,7 +491,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #intro {
   width: 100%;
   height: 100vh;
-  background: url(../img/intro-bg.webp),url(../img/intro-bg.jpg) top center;
+  background: url(../img/intro-bg.webp), url(../img/intro-bg.jpg) top center;
   background-size: cover;
   overflow: hidden;
   opacity: 75;
@@ -1870,7 +1870,7 @@ ul.tkt-desc li {
 
 /* Mobile Responsive */
 
-@media (max-width: 576px){
+@media (max-width: 576px) {
   .team .team-img img {
     width: 160px;
   }
@@ -1915,4 +1915,15 @@ ul.tkt-desc li {
     max-width: 1140px;
   }
 
+}
+
+#watch {
+  background-color: red;
+  color: white;
+  padding: 10px;
+  border-radius: 50px;
+  cursor: pointer;
+  margin: auto;
+  display: flex;
+  justify-content: center;
 }
