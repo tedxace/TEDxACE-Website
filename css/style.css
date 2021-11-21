@@ -1489,6 +1489,10 @@ body.mobile-nav-active #mobile-nav-toggle {
   transition: 0.3s;
 }
 
+.social-links a {
+  margin-right: 16px;
+}
+
 #footer .footer-top .social-links a:hover {
   background: #e62b1e;
   color: #fff;
