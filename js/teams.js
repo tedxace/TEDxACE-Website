@@ -6,102 +6,123 @@
     
     Debugging is faster as this way instead of verifying multiple 
     lines of HTML code all you need to do is verify the data.
+
+    Format for the array:
+    image - The image path should be in consideration of where the linked HTML is.
+    name - The name of the team member.
+    position - The position of the team member.
+    social - The first element is the social media icon and the second is the link.
 */
 
 const teams = [
   {
-    image: "./img/team/2020/naikgaurang.png",
-    name: "Gaurang Naik",
+    image: "./img/team/2022/prachi.jpeg",
+    name: "Prachi C.",
     position: "Licensee",
-    social: ["fa fa-instagram", "https://www.instagram.com/radicalbuzz"],
+    social: ["fa fa-linkedin", "https://www.linkedin.com/in/prachi-chodankar/"],
   },
   {
-    image: "./img/team/2020/Brandon.jpg",
-    name: "Brandon Saldanha",
+    image: "./img/team/2022/krupa.jpg",
+    name: "Krupa D.",
     position: "Co-Organizer",
-    social: ["fa fa-instagram", "https://www.instagram.com/brandon.saldanha"],
-  },
-  {
-    image: "./img/team/2020/priyal.jpeg",
-    name: "Priyal Bhiwapurkar",
-    position: "Curator",
-    social: ["fa fa-instagram", "https://www.instagram.com/priyalbhiwapurkar"],
-  },
-  {
-    image: "./img/team/2020/prachii.jpeg",
-    name: "Prachi Chodankar",
-    position: "Curator",
-    social: [
-      "fa fa-linkedin",
-      "https://www.linkedin.com/in/prachi-chodankar-b00728193/",
-    ],
-  },
-  {
-    image: "./img/team/2020/samyukta.jpg",
-    name: "Samyukta Vasaikar",
-    position: "Curator",
-    social: ["fa fa-instagram", "https://www.instagram.com/samyukta_15/"],
-  },
-  {
-    image: "./img/team/2020/krupa.jpeg",
-    name: "Krupa Doshi",
-    position: "Curator",
     social: ["fa fa-linkedin", "https://www.linkedin.com/in/doshi-krupa"],
   },
   {
-    image: "./img/team/2020/AkshayAgrawal.jpg",
-    name: "Akshay Agrawal",
+    image: "./img/team/2022/samyukta.jpg",
+    name: "Samyukta V.",
+    position: "Curator",
+    social: [
+      "fa fa-linkedin",
+      "https://www.linkedin.com/in/samyukta-vasaikar-ba07261bb",
+    ],
+  },
+  {
+    image: "./img/team/2022/jeenal.jpeg",
+    name: "Jeenal D.",
+    position: "Curator",
+    social: [
+      "fa fa-linkedin",
+      "https://www.linkedin.com/in/jeenal-dhuri-5ba810206/ ",
+    ],
+  },
+  {
+    image: "./img/team/2022/aarnav.jpg",
+    name: "Aarnav S.",
+    position: "Curator - Video Production",
+    social: ["fa fa-linkedin", "https://www.linkedin.com/in/aarnav-sangekar-11228b217/"],
+  },
+  {
+    image: "./img/team/2022/vedant.png",
+    name: "Vedant D.",
     position: "Designer",
-    social: ["fa fa-twitter", "https://twitter.com/axayagrawal"],
+    social: ["fa fa-linkedin", "http://www.linkedin.com/in/vedant-dandge-1010"],
   },
   {
-    image: "./img/team/2020/mohit.jpeg",
-    name: "Mohit Belokar",
+    image: "./img/team/2022/sumeet.jpeg",
+    name: "Sumeet B.",
     position: "Designer",
-    social: ["fa fa-linkedin", "https://www.linkedin.com/in/mohitbelokar/"],
+    social: ["fa fa-linkedin", "https://www.linkedin.com/in/sumeet-bhimanpally-9220a420a/"],
   },
   {
-    image: "./img/team/2020/vikrant.png",
-    name: "Vikrant Patankar",
-    position: "Designer - Filmmaker",
-    social: ["fa fa-linkedin", "https://www.linkedin.com/in/ivikrant"],
-  },
-  {
-    image: "./img/team/2020/shrilatha.png",
-    name: "Shrilatha Shripathi",
-    position: "Host",
-    social: ["fa fa-instagram", "https://www.instagram.com/shrilatha_0402"],
-  },
-  {
-    image: "./img/team/2020/AshayDave.jpg",
-    name: "Akshay Dave",
-    position: "Marketing - Social Media",
-    social: ["fa fa-instagram", "https://www.instagram.com/hibskitmusic"],
-  },
-  {
-    image: "./img/team/2020/Rajas.jpeg",
-    name: "Rajas Pofalkar",
-    position: "Social Media",
+    image: "./img/team/2022/rajas.jpg",
+    name: "Rajas P.",
+    position: "Social Media Manager",
     social: ["fa fa-instagram", "https://www.instagram.com/__rajaass__/"],
   },
   {
-    image: "./img/team/2020/rajvaya.jpg",
-    name: "Raj Vaya",
-    position: "Developer",
-    social: ["fa fa-globe", "https://raj.codes"],
+    image: "./img/team/2020/AshayDave.jpg",
+    name: "Gargi P.",
+    position: "Social Media",
+    social: ["fa fa-linkedin", "https://www.linkedin.com/in/gargi-p-0745131a0"],
   },
   {
-    image: "./img/team/2020/gauravkonde.jpeg",
-    name: "Gaurav Konde",
-    position: "Developer",
+    image: "./img/team/2022/ombhamare.jpg",
+    name: "Om B.",
+    position: "Social Media",
+    social: ["fa fa-instagram", "https://www.instagram.com/ombhamare99/"],
+  },
+  {
+    image: "./img/team/2022/shrilatha.jpg",
+    name: "Shrilatha S.",
+    position: "Marketing Head",
+    social: ["fa fa-linkedin", "https://www.linkedin.com/in/shrilathashripathi"],
+  },
+  {
+    image: "./img/team/2022/yash.jpeg",
+    name: "Yash P.",
+    position: "Marketing",
+    social: ["fa fa-instagram", "http://instagram.com/_yash_pawar17"],
+  },
+  {
+    image: "./img/team/2022/riya.jpg",
+    name: "Riya S.",
+    position: "Marketing",
+    social: ["fa fa-instagram", "https://instagram.com/aasya2468"],
+  },
+  {
+    image: "./img/team/2022/amitesh.JPG",
+    name: "Amitesh S.",
+    position: "Marketing",
+    social: ["fa fa-instagram", "https://instagram.com/amiitbhatt"],
+  },
+  {
+    image: "./img/team/2022/simran.jpg",
+    name: "Simran S.",
+    position: "Marketing",
+    social: ["fa fa-instagram", "https://instagram.com/simran_singh1391"],
+  },
+  {
+    image: "./img/team/2022/anjan.jpg",
+    name: "Anjan N.",
+    position: "Web Developer",
+    social: ["fa fa-globe", "https://anjannair.xyz"],
+  },
+  {
+    image: "./img/team/2022/gauravkonde.jpeg",
+    name: "Gaurav K.",
+    position: "Web Developer",
     social: ["fa fa-instagram", "https://www.instagram.com/codegrammed/"],
-  },
-  {
-    image: "./img/team/2020/parth.jpg",
-    name: "Parth Doshi",
-    position: "Operations Manager",
-    social: ["fa fa-instagram", "https://www.instagram.com/_.parthdoshi._/"],
-  },
+  }
 ];
 
 var wrapper = document.getElementById("teamWrite");
