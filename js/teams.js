@@ -70,7 +70,7 @@ const teams = [
     social: ["fa fa-instagram", "https://www.instagram.com/__rajaass__/"],
   },
   {
-    image: "./img/team/2020/AshayDave.jpg",
+    image: "./img/team/2022/gargi.jpg",
     name: "Gargi P.",
     position: "Social Media",
     social: ["fa fa-linkedin", "https://www.linkedin.com/in/gargi-p-0745131a0"],
