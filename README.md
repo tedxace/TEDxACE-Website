@@ -18,6 +18,10 @@ After installing and running `http-server` if you wish for a hot reload function
 
 You are all set to develop this website!
 
+### Tools
+1) [Crop Photos](https://watermarkly.com/crop-photo/) (Keep image dimensions 851x851px)
+2) [Free Compress](https://fengyuanchen.github.io/compressorjs/)
+
 ## Current team of developers -
 
 |Anjan Nair|Gaurav Konde|

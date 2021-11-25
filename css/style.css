@@ -1882,6 +1882,15 @@ ul.tkt-desc li {
   .team .team-content h2 {
     font-size: 20px;
   }
+
+  #filter {
+    text-align: center;
+  }
+
+  .list-group {
+    display: inline-block !important;
+  }
+
 }
 
 @media (min-width: 576px) {
@@ -1930,4 +1939,8 @@ ul.tkt-desc li {
   margin: auto;
   display: flex;
   justify-content: center;
+}
+
+.list-group-item.active {
+  background-color: #e62b1e !important;
 }

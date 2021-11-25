@@ -62,7 +62,7 @@
     <div class="container">
 
       <div id="logo" class="pull-left">
-        <a href="#intro" class="scrollto"> 
+        <a href="#intro" class="scrollto">
           <picture>
             <source srcset="./img/logo-resized.webp" type="image/webp">
             <source srcset="./img/logo-resized.png" type="image/png">
@@ -554,9 +554,53 @@ var countDownDate = new Date("Dec 19, 2020 16:00:00").getTime(); -->
     <section id="Team" class="wow fadeInUp">
       <div class="container">
         <div class="section-header">
-          <h2>Our Team Page</h2>
+          <h2>Our Team</h2>
         </div>
-        <div class="row" id="teamWrite"></div>
+        <div class="row justify-content-center">
+          <div class="col-lg-3 col-6 p-3">
+            <div class="team">
+              <div class="team-img">
+                <img src="./img/team/2022/prachi.jpeg" alt="Prachi C.">
+              </div>
+              <div class="team-content">
+                <h2>Prachi C.</h2>
+                <h3>Licensee</h3>
+                <a href="https://www.linkedin.com/in/prachi-chodankar/" class="fa fa-linkedin"></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-6 p-3">
+            <div class="team">
+              <div class="team-img">
+                <img src="./img/team/2022/krupa.jpg" alt="Krupa D.">
+              </div>
+              <div class="team-content">
+                <h2>Krupa D.</h2>
+                <h3>Co-Organizer</h3>
+                <a href="https://www.linkedin.com/in/doshi-krupa" class="fa fa-linkedin"></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div id="filter">
+          <ul class="list-group list-group-horizontal justify-content-center list-unstyled">
+            <li><button onclick="writeCurators()" data-toggle="pill" type="button" role="tab"
+                class="list-group-item list-group-item-action border-0 active">Curation</button></li>
+            <li><button onclick="writeSocial()" data-toggle="pill" type="button" role="tab"
+                class="list-group-item list-group-item-action border-0">Social Media</button></li>
+            <li><button onclick="writeDesign()" data-toggle="pill" type="button" role="tab"
+                class="list-group-item list-group-item-action border-0">Design</button></li>
+            <li><button onclick="writeMarket()" data-toggle="pill" type="button" role="tab"
+                class="list-group-item list-group-item-action border-0">Marketing</button></li>
+            <li><button onclick="writeTech()" data-toggle="pill" type="button" role="tab"
+                class="list-group-item list-group-item-action border-0">Technical</button></li>
+          </ul>
+        </div>
+
+        <div class="row justify-content-center" id="teamWrite"></div>
+      </div>
       </div>
       </div>
     </section>
@@ -612,7 +656,7 @@ var countDownDate = new Date("Dec 19, 2020 16:00:00").getTime(); -->
               </p>
             </div>
           </div>
-          
+
         </div>
       </div>
     </section><!-- #contact -->
@@ -649,7 +693,7 @@ var countDownDate = new Date("Dec 19, 2020 16:00:00").getTime(); -->
 
   <!-- Template Main Javascript File -->
   <script src="./js/main.js"></script>
-  
+
   <!-- Teams JS -->
   <script src="./js/teams.js"></script>
 

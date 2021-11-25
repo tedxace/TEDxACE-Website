@@ -14,19 +14,7 @@
     social - The first element is the social media icon and the second is the link.
 */
 
-const teams = [
-  {
-    image: "./img/team/2022/prachi.jpeg",
-    name: "Prachi C.",
-    position: "Licensee",
-    social: ["fa fa-linkedin", "https://www.linkedin.com/in/prachi-chodankar/"],
-  },
-  {
-    image: "./img/team/2022/krupa.jpg",
-    name: "Krupa D.",
-    position: "Co-Organizer",
-    social: ["fa fa-linkedin", "https://www.linkedin.com/in/doshi-krupa"],
-  },
+const curator = [
   {
     image: "./img/team/2022/samyukta.jpg",
     name: "Samyukta V.",
@@ -49,8 +37,14 @@ const teams = [
     image: "./img/team/2022/aarnav.jpg",
     name: "Aarnav S.",
     position: "Curator - Video Production",
-    social: ["fa fa-linkedin", "https://www.linkedin.com/in/aarnav-sangekar-11228b217/"],
+    social: [
+      "fa fa-linkedin",
+      "https://www.linkedin.com/in/aarnav-sangekar-11228b217/",
+    ],
   },
+];
+
+const designer = [
   {
     image: "./img/team/2022/vedant.png",
     name: "Vedant D.",
@@ -61,12 +55,18 @@ const teams = [
     image: "./img/team/2022/sumeet.jpeg",
     name: "Sumeet B.",
     position: "Designer",
-    social: ["fa fa-linkedin", "https://www.linkedin.com/in/sumeet-bhimanpally-9220a420a/"],
+    social: [
+      "fa fa-linkedin",
+      "https://www.linkedin.com/in/sumeet-bhimanpally-9220a420a/",
+    ],
   },
+];
+
+const social = [
   {
     image: "./img/team/2022/rajas.jpg",
     name: "Rajas P.",
-    position: "Social Media Manager",
+    position: "Social Media",
     social: ["fa fa-instagram", "https://www.instagram.com/__rajaass__/"],
   },
   {
@@ -82,10 +82,22 @@ const teams = [
     social: ["fa fa-instagram", "https://www.instagram.com/ombhamare99/"],
   },
   {
+    image: "./img/team/2022/ramya.jpg",
+    name: "Ramya",
+    position: "Social Media",
+    social: ["fa fa-instagram", "https://www.instagram.com/_.ramy.a/"],
+  },
+];
+
+const market = [
+  {
     image: "./img/team/2022/shrilatha.jpg",
     name: "Shrilatha S.",
-    position: "Marketing Head",
-    social: ["fa fa-linkedin", "https://www.linkedin.com/in/shrilathashripathi"],
+    position: "Marketing",
+    social: [
+      "fa fa-linkedin",
+      "https://www.linkedin.com/in/shrilathashripathi",
+    ],
   },
   {
     image: "./img/team/2022/yash.jpeg",
@@ -111,38 +123,151 @@ const teams = [
     position: "Marketing",
     social: ["fa fa-instagram", "https://instagram.com/simran_singh1391"],
   },
+];
+
+const tech = [
+  {
+    image: "./img/team/2022/gauravkonde.jpeg",
+    name: "Gaurav K.",
+    position: "Web Developer",
+    social: ["fa fa-instagram", "https://www.instagram.com/codegrammed/"],
+  },
   {
     image: "./img/team/2022/anjan.jpg",
     name: "Anjan N.",
     position: "Web Developer",
     social: ["fa fa-globe", "https://anjannair.xyz"],
   },
-  {
-    image: "./img/team/2022/gauravkonde.jpeg",
-    name: "Gaurav K.",
-    position: "Web Developer",
-    social: ["fa fa-instagram", "https://www.instagram.com/codegrammed/"],
-  }
 ];
 
 var wrapper = document.getElementById("teamWrite");
 
 var finalTeam = "";
 
-for (var i = 0; i < teams.length; i++) {
+for (var i = 0; i < curator.length; i++) {
   finalTeam += `
   <div class="col-lg-3 col-6 p-3">
   <div class="team">
     <div class="team-img">
-      <img src="${teams[i].image}" alt="${teams[i].name}">
+      <img src="${curator[i].image}" alt="${curator[i].name}">
     </div>
     <div class="team-content">
-      <h2>${teams[i].name}</h2>
-      <h3>${teams[i].position}</h3>
-      <a href="${teams[i].social[1]}" class="${teams[i].social[0]}"></a>
+      <h2>${curator[i].name}</h2>
+      <h3>${curator[i].position}</h3>
+      <a href="${curator[i].social[1]}" class="${curator[i].social[0]}"></a>
     </div>
   </div>
   </div>`;
 }
 
 wrapper.innerHTML = finalTeam;
+
+function writeCurators() {
+  var finalTeam = "";
+
+  for (var i = 0; i < curator.length; i++) {
+    finalTeam += `
+    <div class="col-lg-3 col-6 p-3">
+    <div class="team">
+      <div class="team-img">
+        <img src="${curator[i].image}" alt="${curator[i].name}">
+      </div>
+      <div class="team-content">
+        <h2>${curator[i].name}</h2>
+        <h3>${curator[i].position}</h3>
+        <a href="${curator[i].social[1]}" class="${curator[i].social[0]}"></a>
+      </div>
+    </div>
+    </div>`;
+  }
+
+  wrapper.innerHTML = finalTeam;
+}
+
+function writeSocial() {
+  var finalTeam = "";
+
+  for (var i = 0; i < social.length; i++) {
+    finalTeam += `
+    <div class="col-lg-3 col-6 p-3">
+    <div class="team">
+      <div class="team-img">
+        <img src="${social[i].image}" alt="${social[i].name}">
+      </div>
+      <div class="team-content">
+        <h2>${social[i].name}</h2>
+        <h3>${social[i].position}</h3>
+        <a href="${social[i].social[1]}" class="${social[i].social[0]}"></a>
+      </div>
+    </div>
+    </div>`;
+  }
+
+  wrapper.innerHTML = finalTeam;
+}
+
+function writeDesign() {
+  var finalTeam = "";
+
+  for (var i = 0; i < designer.length; i++) {
+    finalTeam += `
+    <div class="col-lg-3 col-6 p-3">
+    <div class="team">
+      <div class="team-img">
+        <img src="${designer[i].image}" alt="${designer[i].name}">
+      </div>
+      <div class="team-content">
+        <h2>${designer[i].name}</h2>
+        <h3>${designer[i].position}</h3>
+        <a href="${designer[i].social[1]}" class="${designer[i].social[0]}"></a>
+      </div>
+    </div>
+    </div>`;
+  }
+
+  wrapper.innerHTML = finalTeam;
+}
+
+function writeMarket() {
+  var finalTeam = "";
+
+  for (var i = 0; i < market.length; i++) {
+    finalTeam += `
+    <div class="col-lg-3 col-6 p-3">
+    <div class="team">
+      <div class="team-img">
+        <img src="${market[i].image}" alt="${market[i].name}">
+      </div>
+      <div class="team-content">
+        <h2>${market[i].name}</h2>
+        <h3>${market[i].position}</h3>
+        <a href="${market[i].social[1]}" class="${market[i].social[0]}"></a>
+      </div>
+    </div>
+    </div>`;
+  }
+
+  wrapper.innerHTML = finalTeam;
+}
+
+function writeTech() {
+  var finalTeam = "";
+
+  for (var i = 0; i < tech.length; i++) {
+    finalTeam += `
+    <div class="col-lg-3 col-6 p-3">
+    <div class="team">
+      <div class="team-img">
+        <img src="${tech[i].image}" alt="${tech[i].name}">
+      </div>
+      <div class="team-content">
+        <h2>${tech[i].name}</h2>
+        <h3>${tech[i].position}</h3>
+        <a href="${tech[i].social[1]}" class="${tech[i].social[0]}"></a>
+      </div>
+    </div>
+    </div>`;
+  }
+
+  wrapper.innerHTML = finalTeam;
+}
