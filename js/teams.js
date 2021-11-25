@@ -12,6 +12,8 @@
     name - The name of the team member.
     position - The position of the team member.
     social - The first element is the social media icon and the second is the link.
+
+    Its better to use a CDN to load images as it loads faster than loading from the GitHub server. Discord is the only free CDN.
 */
 
 const curator = [
@@ -46,12 +48,6 @@ const curator = [
 
 const designer = [
   {
-    image: "https://cdn.discordapp.com/attachments/744537793795194892/913477757189623858/vedant.png",
-    name: "Vedant D.",
-    position: "Designer",
-    social: ["fa fa-linkedin", "http://www.linkedin.com/in/vedant-dandge-1010"],
-  },
-  {
     image: "https://cdn.discordapp.com/attachments/744537793795194892/913477757474865172/sumeet.jpeg",
     name: "Sumeet B.",
     position: "Designer",
@@ -59,6 +55,12 @@ const designer = [
       "fa fa-linkedin",
       "https://www.linkedin.com/in/sumeet-bhimanpally-9220a420a/",
     ],
+  },
+  {
+    image: "https://cdn.discordapp.com/attachments/744537793795194892/913477757189623858/vedant.png",
+    name: "Vedant D.",
+    position: "Designer",
+    social: ["fa fa-linkedin", "http://www.linkedin.com/in/vedant-dandge-1010"],
   },
 ];
 
