@@ -163,3 +163,24 @@ Pageclip.form(form1, {
   onResponse: false,
   successTemplate: " ",
 })
+
+$(function () {
+  $('#button').click(function () {
+    if (!$('#iframe').length) {
+      $('#iframeHolder').html('<iframe id="iframe" src="https://maps.google.com/maps?q=atharva%20college%20of%20engineering&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" style="border:0" allowfullscreen></iframe>');
+    }
+  });
+});
+
+$(document).ready(function () {
+  $("#button").click(function () {
+    $("#hide").hide();
+  });
+  
+  setTimeout(() => {
+    const yearChange = document.getElementById('year__change')
+    yearChange.innerHTML = '2022'
+    console.log(yearChange)
+
+  }, 1500);
+});

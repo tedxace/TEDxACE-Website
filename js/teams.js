@@ -46,13 +46,13 @@ const curator = [
 
 const designer = [
   {
-    image: "./img/team/2022/vedant.png",
+    image: "https://cdn.discordapp.com/attachments/744537793795194892/913477757189623858/vedant.png",
     name: "Vedant D.",
     position: "Designer",
     social: ["fa fa-linkedin", "http://www.linkedin.com/in/vedant-dandge-1010"],
   },
   {
-    image: "./img/team/2022/sumeet.jpeg",
+    image: "https://cdn.discordapp.com/attachments/744537793795194892/913477757474865172/sumeet.jpeg",
     name: "Sumeet B.",
     position: "Designer",
     social: [
@@ -64,34 +64,34 @@ const designer = [
 
 const social = [
   {
-    image: "./img/team/2022/rajas.jpg",
+    image: "https://cdn.discordapp.com/attachments/744537793795194892/913477758666031186/ramya.jpg",
+    name: "Ramya",
+    position: "Social Media",
+    social: ["fa fa-instagram", "https://www.instagram.com/_.ramy.a/"],
+  },
+  {
+    image: "https://cdn.discordapp.com/attachments/744537793795194892/913477758858952814/rajas.jpg",
     name: "Rajas P.",
     position: "Social Media",
     social: ["fa fa-instagram", "https://www.instagram.com/__rajaass__/"],
   },
   {
-    image: "./img/team/2022/gargi.jpg",
+    image: "https://cdn.discordapp.com/attachments/744537793795194892/913477993500901386/gargi.jpg",
     name: "Gargi P.",
     position: "Social Media",
     social: ["fa fa-linkedin", "https://www.linkedin.com/in/gargi-p-0745131a0"],
   },
   {
-    image: "./img/team/2022/ombhamare.jpg",
+    image: "https://cdn.discordapp.com/attachments/744537793795194892/913477992641093642/ombhamare.jpg",
     name: "Om B.",
     position: "Social Media",
     social: ["fa fa-instagram", "https://www.instagram.com/ombhamare99/"],
-  },
-  {
-    image: "./img/team/2022/ramya.jpg",
-    name: "Ramya",
-    position: "Social Media",
-    social: ["fa fa-instagram", "https://www.instagram.com/_.ramy.a/"],
   },
 ];
 
 const market = [
   {
-    image: "./img/team/2022/shrilatha.jpg",
+    image: "https://cdn.discordapp.com/attachments/744537793795194892/913477758045282324/shrilatha.jpg",
     name: "Shrilatha S.",
     position: "Marketing",
     social: [
@@ -100,25 +100,25 @@ const market = [
     ],
   },
   {
-    image: "./img/team/2022/yash.jpeg",
+    image: "https://cdn.discordapp.com/attachments/744537793795194892/913477756958941194/yash.jpeg",
     name: "Yash P.",
     position: "Marketing",
     social: ["fa fa-instagram", "http://instagram.com/_yash_pawar17"],
   },
   {
-    image: "./img/team/2022/riya.jpg",
+    image: "https://cdn.discordapp.com/attachments/744537793795194892/913477758460522546/riya.jpg",
     name: "Riya S.",
     position: "Marketing",
     social: ["fa fa-instagram", "https://instagram.com/aasya2468"],
   },
   {
-    image: "./img/team/2022/amitesh.JPG",
+    image: "https://cdn.discordapp.com/attachments/744537793795194892/913477993823887430/amitesh.JPG",
     name: "Amitesh S.",
     position: "Marketing",
     social: ["fa fa-instagram", "https://instagram.com/amiitbhatt"],
   },
   {
-    image: "./img/team/2022/simran.jpg",
+    image: "https://cdn.discordapp.com/attachments/744537793795194892/913477757718122526/simran.jpg",
     name: "Simran S.",
     position: "Marketing",
     social: ["fa fa-instagram", "https://instagram.com/simran_singh1391"],
@@ -127,13 +127,13 @@ const market = [
 
 const tech = [
   {
-    image: "./img/team/2022/gauravkonde.jpeg",
+    image: "https://cdn.discordapp.com/attachments/744537793795194892/913474835303264296/gauravkonde.jpeg",
     name: "Gaurav K.",
     position: "Web Developer",
     social: ["fa fa-instagram", "https://www.instagram.com/codegrammed/"],
   },
   {
-    image: "./img/team/2022/anjan.jpg",
+    image: "https://cdn.discordapp.com/attachments/744537793795194892/913474835567493120/anjan.jpg",
     name: "Anjan N.",
     position: "Web Developer",
     social: ["fa fa-globe", "https://anjannair.xyz"],
