@@ -13,12 +13,12 @@
     position - The position of the team member.
     social - The first element is the social media icon and the second is the link.
 
-    Its better to use a CDN to load images as it loads faster than loading from the GitHub server. Discord is the only free CDN.
+    Its better to use a CDN to load images as it loads faster than loading from the GitHub server. Cloudinary can be used to store images in CDNs.
 */
 
 const curator = [
   {
-    image: "./img/team/2022/samyukta.jpg",
+    image: "https://res.cloudinary.com/tedxace/image/upload/v1637913191/2022/samyukta.jpg",
     name: "Samyukta V.",
     position: "Curator",
     social: [
@@ -27,7 +27,7 @@ const curator = [
     ],
   },
   {
-    image: "./img/team/2022/jeenal.jpeg",
+    image: "https://res.cloudinary.com/tedxace/image/upload/v1637913191/2022/jeenal.jpg",
     name: "Jeenal D.",
     position: "Curator",
     social: [
@@ -36,7 +36,7 @@ const curator = [
     ],
   },
   {
-    image: "./img/team/2022/aarnav.jpg",
+    image: "https://res.cloudinary.com/tedxace/image/upload/v1637913191/2022/aarnav.jpg",
     name: "Aarnav S.",
     position: "Curator - Video Production",
     social: [
@@ -48,7 +48,7 @@ const curator = [
 
 const designer = [
   {
-    image: "https://cdn.discordapp.com/attachments/744537793795194892/913477757474865172/sumeet.jpeg",
+    image: "https://res.cloudinary.com/tedxace/image/upload/v1637913191/2022/sumeet.jpg",
     name: "Sumeet B.",
     position: "Designer",
     social: [
@@ -57,7 +57,7 @@ const designer = [
     ],
   },
   {
-    image: "https://cdn.discordapp.com/attachments/744537793795194892/913477757189623858/vedant.png",
+    image: "https://res.cloudinary.com/tedxace/image/upload/v1637913191/2022/vedant.jpg",
     name: "Vedant D.",
     position: "Designer",
     social: ["fa fa-linkedin", "http://www.linkedin.com/in/vedant-dandge-1010"],
@@ -66,25 +66,25 @@ const designer = [
 
 const social = [
   {
-    image: "https://cdn.discordapp.com/attachments/744537793795194892/913477758666031186/ramya.jpg",
+    image: "https://res.cloudinary.com/tedxace/image/upload/v1637913191/2022/ramya.jpg",
     name: "Ramya",
     position: "Social Media",
     social: ["fa fa-instagram", "https://www.instagram.com/_.ramy.a/"],
   },
   {
-    image: "https://cdn.discordapp.com/attachments/744537793795194892/913477758858952814/rajas.jpg",
+    image: "https://res.cloudinary.com/tedxace/image/upload/v1637913191/2022/rajas.jpg",
     name: "Rajas P.",
     position: "Social Media",
     social: ["fa fa-instagram", "https://www.instagram.com/__rajaass__/"],
   },
   {
-    image: "https://cdn.discordapp.com/attachments/744537793795194892/913477993500901386/gargi.jpg",
+    image: "https://res.cloudinary.com/tedxace/image/upload/v1637913191/2022/gargi.jpg",
     name: "Gargi P.",
     position: "Social Media",
     social: ["fa fa-linkedin", "https://www.linkedin.com/in/gargi-p-0745131a0"],
   },
   {
-    image: "https://cdn.discordapp.com/attachments/744537793795194892/913477992641093642/ombhamare.jpg",
+    image: "https://res.cloudinary.com/tedxace/image/upload/v1637913191/2022/ombhamare.jpg",
     name: "Om B.",
     position: "Social Media",
     social: ["fa fa-instagram", "https://www.instagram.com/ombhamare99/"],
@@ -93,7 +93,7 @@ const social = [
 
 const market = [
   {
-    image: "https://cdn.discordapp.com/attachments/744537793795194892/913477758045282324/shrilatha.jpg",
+    image: "https://res.cloudinary.com/tedxace/image/upload/v1637913191/2022/shrilatha.jpg",
     name: "Shrilatha S.",
     position: "Marketing",
     social: [
@@ -102,25 +102,25 @@ const market = [
     ],
   },
   {
-    image: "https://cdn.discordapp.com/attachments/744537793795194892/913477756958941194/yash.jpeg",
+    image: "https://res.cloudinary.com/tedxace/image/upload/v1637913191/2022/yash.jpg",
     name: "Yash P.",
     position: "Marketing",
     social: ["fa fa-instagram", "http://instagram.com/_yash_pawar17"],
   },
   {
-    image: "https://cdn.discordapp.com/attachments/744537793795194892/913477758460522546/riya.jpg",
+    image: "https://res.cloudinary.com/tedxace/image/upload/v1637913191/2022/riya.jpg",
     name: "Riya S.",
     position: "Marketing",
     social: ["fa fa-instagram", "https://instagram.com/aasya2468"],
   },
   {
-    image: "https://cdn.discordapp.com/attachments/744537793795194892/913477993823887430/amitesh.JPG",
+    image: "https://res.cloudinary.com/tedxace/image/upload/v1637913190/2022/amitesh.jpg",
     name: "Amitesh S.",
     position: "Marketing",
     social: ["fa fa-instagram", "https://instagram.com/amiitbhatt"],
   },
   {
-    image: "https://cdn.discordapp.com/attachments/744537793795194892/913477757718122526/simran.jpg",
+    image: "https://res.cloudinary.com/tedxace/image/upload/v1637913190/2022/simran.jpg",
     name: "Simran S.",
     position: "Marketing",
     social: ["fa fa-instagram", "https://instagram.com/simran_singh1391"],
@@ -129,13 +129,13 @@ const market = [
 
 const tech = [
   {
-    image: "https://cdn.discordapp.com/attachments/744537793795194892/913474835303264296/gauravkonde.jpeg",
+    image: "https://res.cloudinary.com/tedxace/image/upload/v1637913191/2022/gauravkonde.jpg",
     name: "Gaurav K.",
     position: "Web Developer",
     social: ["fa fa-instagram", "https://www.instagram.com/codegrammed/"],
   },
   {
-    image: "https://cdn.discordapp.com/attachments/744537793795194892/913474835567493120/anjan.jpg",
+    image: "https://res.cloudinary.com/tedxace/image/upload/v1637913191/2022/anjan.jpg",
     name: "Anjan N.",
     position: "Web Developer",
     social: ["fa fa-globe", "https://anjannair.xyz"],
