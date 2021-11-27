@@ -1944,3 +1944,25 @@ ul.tkt-desc li {
 .list-group-item.active {
   background-color: #e62b1e !important;
 }
+
+#loading {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  opacity: 1;
+  background-color: #000;
+  z-index: 99;
+}
+
+#loading-image {
+  z-index: 100;
+}
+
+header {
+  display: none;
+}
