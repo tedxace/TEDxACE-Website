@@ -1890,16 +1890,6 @@ ul.tkt-desc li {
   .list-group {
     display: inline-block !important;
   }
-
-  #loading {
-    width: auto;
-    height: auto;
-  }
-  
-  #loading-image {
-    z-index: 100;
-  }
-
 }
 
 @media (min-width: 576px) {
