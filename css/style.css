@@ -1891,6 +1891,15 @@ ul.tkt-desc li {
     display: inline-block !important;
   }
 
+  #loading {
+    width: auto;
+    height: auto;
+  }
+  
+  #loading-image {
+    z-index: 100;
+  }
+
 }
 
 @media (min-width: 576px) {
@@ -1961,8 +1970,4 @@ ul.tkt-desc li {
 
 #loading-image {
   z-index: 100;
-}
-
-header {
-  display: none;
 }
