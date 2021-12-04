@@ -106,7 +106,7 @@ const social = [
     image:
       "https://res.cloudinary.com/tedxace/image/upload/v1637913191/2022/ombhamare.jpg",
     name: "Om B.",
-    position: "Social Media",
+    position: "Social Media - Video Production",
     social: ["fa fa-instagram", "https://www.instagram.com/ombhamare99/"],
   },
 ];
