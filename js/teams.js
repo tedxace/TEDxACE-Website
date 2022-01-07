@@ -47,16 +47,16 @@ const curator = [
       "https://www.linkedin.com/in/aarnav-sangekar-11228b217/",
     ],
   },
-  {
-    image:
-      "https://res.cloudinary.com/tedxace/image/upload/v1638080932/2022/fariah.jpg",
-    name: "Fariha S.",
-    position: "Curator",
-    social: [
-      "fa fa-instagram",
-      "https://instagram.com/fariha.shk",
-    ],
-  },
+  // {
+  //   image:
+  //     "https://res.cloudinary.com/tedxace/image/upload/v1638080932/2022/fariah.jpg",
+  //   name: "Fariha S.",
+  //   position: "Curator",
+  //   social: [
+  //     "fa fa-instagram",
+  //     "https://instagram.com/fariha.shk",
+  //   ],
+  // },
 
 ];
 
@@ -109,40 +109,6 @@ const social = [
     position: "Social Media - Video Production",
     social: ["fa fa-instagram", "https://www.instagram.com/ombhamare99/"],
   },
-];
-
-const market = [
-  {
-    image:
-      "https://res.cloudinary.com/tedxace/image/upload/v1637913191/2022/shrilatha.jpg",
-    name: "Shrilatha S.",
-    position: "Marketing",
-    social: [
-      "fa fa-linkedin",
-      "https://www.linkedin.com/in/shrilathashripathi",
-    ],
-  },
-  {
-    image:
-      "https://res.cloudinary.com/tedxace/image/upload/v1637913191/2022/yash.jpg",
-    name: "Yash P.",
-    position: "Marketing",
-    social: ["fa fa-instagram", "http://instagram.com/_yash_pawar17"],
-  },
-  {
-    image:
-      "https://res.cloudinary.com/tedxace/image/upload/v1637913191/2022/riya.jpg",
-    name: "Riya S.",
-    position: "Marketing",
-    social: ["fa fa-instagram", "https://instagram.com/aasya2468"],
-  },
-  {
-    image:
-      "https://res.cloudinary.com/tedxace/image/upload/v1637913190/2022/amitesh.jpg",
-    name: "Amitesh S.",
-    position: "Marketing",
-    social: ["fa fa-instagram", "https://instagram.com/amiitbhatt"],
-  },
   {
     image:
       "https://res.cloudinary.com/tedxace/image/upload/v1637913190/2022/simran.jpg",
@@ -150,14 +116,48 @@ const market = [
     position: "Marketing",
     social: ["fa fa-instagram", "https://instagram.com/simran_singh1391"],
   },
-  {
-    image:
-      "https://res.cloudinary.com/tedxace/image/upload/v1638080932/2022/khushi.jpg",
-    name: "Khushi K.",
-    position: "Marketing",
-    social: ["fa fa-instagram", "https://www.instagram.com/khushi__kw009__"],
-  },
 ];
+
+// const market = [
+//   {
+//     image:
+//       "https://res.cloudinary.com/tedxace/image/upload/v1637913191/2022/shrilatha.jpg",
+//     name: "Shrilatha S.",
+//     position: "Marketing",
+//     social: [
+//       "fa fa-linkedin",
+//       "https://www.linkedin.com/in/shrilathashripathi",
+//     ],
+//   },
+//   {
+//     image:
+//       "https://res.cloudinary.com/tedxace/image/upload/v1637913191/2022/yash.jpg",
+//     name: "Yash P.",
+//     position: "Marketing",
+//     social: ["fa fa-instagram", "http://instagram.com/_yash_pawar17"],
+//   },
+//   {
+//     image:
+//       "https://res.cloudinary.com/tedxace/image/upload/v1637913191/2022/riya.jpg",
+//     name: "Riya S.",
+//     position: "Marketing",
+//     social: ["fa fa-instagram", "https://instagram.com/aasya2468"],
+//   },
+//   {
+//     image:
+//       "https://res.cloudinary.com/tedxace/image/upload/v1637913190/2022/amitesh.jpg",
+//     name: "Amitesh S.",
+//     position: "Marketing",
+//     social: ["fa fa-instagram", "https://instagram.com/amiitbhatt"],
+//   },
+//   {
+//     image:
+//       "https://res.cloudinary.com/tedxace/image/upload/v1638080932/2022/khushi.jpg",
+//     name: "Khushi K.",
+//     position: "Marketing",
+//     social: ["fa fa-instagram", "https://www.instagram.com/khushi__kw009__"],
+//   },
+// ];
 
 const tech = [
   {
@@ -264,27 +264,27 @@ function writeDesign() {
   wrapper.innerHTML = finalTeam;
 }
 
-function writeMarket() {
-  var finalTeam = "";
+// function writeMarket() {
+//   var finalTeam = "";
 
-  for (var i = 0; i < market.length; i++) {
-    finalTeam += `
-    <div class="col-lg-3 col-6 p-3">
-    <div class="team">
-      <div class="team-img">
-        <img src="${market[i].image}" alt="${market[i].name}">
-      </div>
-      <div class="team-content">
-        <h2>${market[i].name}</h2>
-        <h3>${market[i].position}</h3>
-        <a href="${market[i].social[1]}" class="${market[i].social[0]}"></a>
-      </div>
-    </div>
-    </div>`;
-  }
+//   for (var i = 0; i < market.length; i++) {
+//     finalTeam += `
+//     <div class="col-lg-3 col-6 p-3">
+//     <div class="team">
+//       <div class="team-img">
+//         <img src="${market[i].image}" alt="${market[i].name}">
+//       </div>
+//       <div class="team-content">
+//         <h2>${market[i].name}</h2>
+//         <h3>${market[i].position}</h3>
+//         <a href="${market[i].social[1]}" class="${market[i].social[0]}"></a>
+//       </div>
+//     </div>
+//     </div>`;
+//   }
 
-  wrapper.innerHTML = finalTeam;
-}
+//   wrapper.innerHTML = finalTeam;
+// }
 
 function writeTech() {
   var finalTeam = "";
