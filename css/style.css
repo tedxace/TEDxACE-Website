@@ -1138,7 +1138,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .content {
-  width: 360px;
+  max-width: 360px;
+  width: 100%;
+  min-width: 260px;
   height: 40px;
   box-shadow: 2px 4px 10px rgba(0, 0, 0, .2);
   border-radius: 60px;
@@ -1269,11 +1271,13 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 @media (max-width: 576px) {
   .team .team-img img {
-    width: 160px;
+    max-width: 160px;
+    width: 100%;
+    min-width: 100px;
   }
 
   .team .team-content h2 {
-    font-size: 20px;
+    font-size: 18px;
   }
 
   #filter {
