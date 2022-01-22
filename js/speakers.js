@@ -1,33 +1,33 @@
 const speakers = [
   {
-    name: "Mr. Akshay Bhosale",
-    position: "Dancer and Choreographer",
-    image: "./img/speakers/speakers-2020/akshay.JPG",
-    href: "./speakers/speakers-2020/akshay-bhosale",
+    name: "Mr. Vedant Harlalka",
+    position: "Young Innovator and Change Maker",
+    image: "./img/speakers/speakers-2021/vedant.jpeg",
+    href: "./speakers/speakers-2021/vedant-harlalka",
   },
   {
-    name: "Ms. Haimanti Sen",
-    position: "Founder of Junoon- an NGO",
-    image: "./img/speakers/speakers-2020/haimanti.jpg",
-    href: "./speakers/speakers-2020/haimanti-sen",
+    name: "Mr. Sadakat Khan",
+    position: "The Harmonium Ustad",
+    image: "./img/speakers/speakers-2021/sadakat.jpg",
+    href: "./speakers/speakers-2021/sadakat-khan",
   },
   {
-    name: "Mr. Mitch Altman",
-    position: "Hacker & Inventor",
-    image: "./img/speakers/speakers-2020/mitch.jpg",
-    href: "./speakers/speakers-2020/mitch-altman",
+    name: "Ms. Sumedha Chopra",
+    position: "Former Indian Air Force Officer",
+    image: "./img/speakers/speakers-2021/sumedha.jpeg",
+    href: "./speakers/speakers-2021/sumedha-chopra",
   },
   {
-    name: "Ms. Sonal Jain",
-    position: "Menstrual Health Advocate",
-    image: "./img/speakers/speakers-2020/sonal.jpeg",
-    href: "./speakers/speakers-2020/sonal-jain",
+    name: "Mr. Mukesh Pandey",
+    position: "Entrepreneur and Visionary Educational Leader",
+    image: "./img/speakers/speakers-2021/mukesh.jpg",
+    href: "./speakers/speakers-2021/mukesh-pandey",
   },
   {
-    name: "Mr. Ravindra Desai",
-    position: "Director, River Rejuvenation Projects, AOL",
-    image: "./img/speakers/speakers-2020/Ravindra.jpeg",
-    href: "./speakers/speakers-2020/ravindra-desai",
+    name: "Mr. Subhajit Mukharjee",
+    position: "Founder of Mission Green Mumbai",
+    image: "./img/speakers/speakers-2021/subhajit.jpg",
+    href: "./speakers/speakers-2021/subhajit-mukharjee",
   },
 ];
 
@@ -38,12 +38,12 @@ let finalSpeaker = "";
 for (i = 0; i < speakers.length; i++) {
   finalSpeaker += `
     <div class="col-lg-4 col-md-6">
-            <a href="${speakers[i]['href']}">
+            <a href="${speakers[i]["href"]}">
               <div class="speaker">
-                <img src="${speakers[i]['image']}" alt="${speakers[i]['name']}" class="img-fluid imgbwcol">
+                <img src="${speakers[i]["image"]}" alt="${speakers[i]["name"]}" class="img-fluid imgbwcol">
                 <div class="details">
-                  <h3><a>${speakers[i]['name']}</a></h3>
-                  <p>${speakers[i]['position']}</p>
+                  <h3><a>${speakers[i]["name"]}</a></h3>
+                  <p>${speakers[i]["position"]}</p>
                 </div>
               </div>
             </a>
