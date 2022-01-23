@@ -113,7 +113,7 @@ const social = [
     image:
       "https://res.cloudinary.com/tedxace/image/upload/v1637913190/2022/simran.jpg",
     name: "Simran S.",
-    position: "Marketing",
+    position: "Social Media",
     social: ["fa fa-instagram", "https://instagram.com/simran_singh1391"],
   },
 ];
