@@ -24,10 +24,10 @@ const speakers = [
     href: "./speakers/speakers-2021/mukesh-pandey",
   },
   {
-    name: "Mr. Subhajit Mukharjee",
+    name: "Mr. Subhajit Mukherjee",
     position: "Founder of Mission Green Mumbai",
     image: "./img/speakers/speakers-2021/subhajit.jpg",
-    href: "./speakers/speakers-2021/subhajit-mukharjee",
+    href: "./speakers/speakers-2021/subhajit-mukherjee",
   },
 ];
 
