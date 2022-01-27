@@ -47,16 +47,16 @@ const curator = [
       "https://www.linkedin.com/in/aarnav-sangekar-11228b217/",
     ],
   },
-  // {
-  //   image:
-  //     "https://res.cloudinary.com/tedxace/image/upload/v1638080932/2022/fariah.jpg",
-  //   name: "Fariha S.",
-  //   position: "Curator",
-  //   social: [
-  //     "fa fa-instagram",
-  //     "https://instagram.com/fariha.shk",
-  //   ],
-  // },
+  {
+    image:
+      "https://res.cloudinary.com/tedxace/image/upload/v1638080932/2022/fariah.jpg",
+    name: "Fariha S.",
+    position: "Curator",
+    social: [
+      "fa fa-instagram",
+      "https://instagram.com/fariha.shk",
+    ],
+  },
 
 ];
 
