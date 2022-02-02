@@ -188,18 +188,6 @@ $(function () {
   });
 });
 
-$(document).ready(function () {
-  $("#button").click(function () {
-    $("#hide").hide();
-  });
-
-  setTimeout(() => {
-    const yearChange = document.getElementById("year__change");
-    yearChange.innerHTML = "2022";
-    console.log(yearChange);
-  }, 1500);
-});
-
 $(window).on("load", function () {
   $("#loading").hide();
 });
