@@ -14,19 +14,20 @@ After installing and running `http-server` if you wish for a hot reload function
 1) Run the following command - `npm i -g nodemon`
 2) Now once this is installed run this command - ```nodemon `which http-server` --cors -e html,js,css```. This would would hot reload the http-server anytime it detects changes in an `.html`,`.js` or a `.css` file.
 
-**Caveat** - Only the server hot-reloads you will still have to reload the localhost to see the changes.
+**Caveat** - Only the server hot-reloads you will still have to reload the website on your browser to see the changes.
 
 You are all set to develop this website!
 
 ### Tools
-1) [Crop Photos](https://watermarkly.com/crop-photo/) (Keep image dimensions 851x851px)
-2) [Free Compress](https://fengyuanchen.github.io/compressorjs/)
+1) [Crop Photos](https://watermarkly.com/crop-photo/) (Keep image dimensions 851px x 851px) - This should be used to crop images for the **team** section.
+2) [Free Compress](https://fengyuanchen.github.io/compressorjs/) - Compress images incase the images are heavy. If you use heavy images the loading time for them will be more.
+3) [Cloudinary](https://cloudinary.com/) - Use the free Cloudinary plan to host all your images. This greatly improves loading time for the images.
 
 ## Current team of developers -
 
-|Anjan Nair|Gaurav Konde|
-|---|---|
-|<img width=100 height=100 style="border-radius:50%" src="https://avatars.githubusercontent.com/u/22571613?v=4" />|<img width=100 height=100 style="border-radius:50%" src="https://avatars.githubusercontent.com/u/63660013?v=4"/>|
+| Anjan Nair                                                                                                        | Gaurav Konde                                                                                                     |
+| ----------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- |
+| <img width=100 height=100 style="border-radius:50%" src="https://avatars.githubusercontent.com/u/22571613?v=4" /> | <img width=100 height=100 style="border-radius:50%" src="https://avatars.githubusercontent.com/u/63660013?v=4"/> |
 
 ### A special thanks to all the developers who have and are working on the website!
 
