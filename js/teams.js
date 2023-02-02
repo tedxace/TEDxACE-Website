@@ -31,7 +31,7 @@ const curator = [
     image:
       "https://res.cloudinary.com/tedxace/image/upload/v1675337279/2023/Aarnav_Sangekar_qsrf8b.jpg",
     name: "Aarnav S.",
-    position: "Curator",
+    position: "Curator - Video Production",
     social: [
       "fa fa-linkedin",
       "https://www.linkedin.com/in/aarnav-sangekar-11228b217/",
@@ -109,7 +109,7 @@ const social = [
     image:
       "https://res.cloudinary.com/tedxace/image/upload/v1675337277/2023/Om_Bhamare_wzvifg.jpg",
     name: "Om B.",
-    position: "Social Media",
+    position: "Social Media - Video Production",
     social: ["fa fa-instagram", "https://www.instagram.com/ombhamare99/"],
   },
   {
@@ -133,14 +133,14 @@ const market = [
     image:
       "https://res.cloudinary.com/tedxace/image/upload/v1675337277/2023/Om_Bhamare_wzvifg.jpg",
     name: "Om B.",
-    position: "Marketing",
+    position: "Marketing - Video Production",
     social: ["fa fa-instagram", "https://www.instagram.com/ombhamare99/"],
   },
   {
     image:
       "https://res.cloudinary.com/tedxace/image/upload/v1675337279/2023/yash_mathkar_gavyqn.jpg",
     name: "Yash M.",
-    position: "Marketing",
+    position: "Marketing - Video Production",
     social: ["fa fa-instagram", "http://instagram.com/_yash_pawar17"],
   },
   {
@@ -173,6 +173,79 @@ const market = [
   },
 ];
 
+const decor = [
+  {
+    image:
+      "https://res.cloudinary.com/tedxace/image/upload/v1675337280/2023/Rajas_Pofalkar_cbi6xe.jpg",
+    name: "Rajas P.",
+    position: "Social Media",
+    social: ["fa fa-instagram", "https://www.instagram.com/__rajaass__/"],
+  },
+  {
+    image:
+      "https://res.cloudinary.com/tedxace/image/upload/v1675337277/2023/Samyukta_Vasaikar__ioqdgk.jpg",
+    name: "Samyukta V.",
+    position: "Decor",
+    social: ["fa fa-linkedin", "https://www.linkedin.com/in/samyukta-vasaikar/"],
+  },
+  {
+    image:
+      "https://res.cloudinary.com/tedxace/image/upload/v1675337280/2023/Ashwini_Khambe_m0lugq.jpg",
+    name: "Ashwini K.",
+    position: "Decor",
+    social: ["fa fa-globe", "https://anjannair.xyz"],
+  },
+  {
+    image:
+      "https://res.cloudinary.com/tedxace/image/upload/v1675337278/2023/Payal_Kheur_wk9jy7.jpg",
+    name: "Payal K.",
+    position: "Decor",
+    social: ["fa fa-globe", "https://anjannair.xyz"],
+  },
+  {
+    image:
+      "https://res.cloudinary.com/tedxace/image/upload/v1675337277/2023/Ashvin_Dige_lzjlxe.jpg",
+    name: "Ashvin D.",
+    position: "Decor",
+    social: ["fa fa-globe", "https://anjannair.xyz"],
+  },
+  {
+    image:
+      "https://res.cloudinary.com/tedxace/image/upload/v1675337277/2023/Ishika_Sanap__zgazx7.jpg",
+    name: "Ishika S.",
+    position: "Decor",
+    social: ["fa fa-globe", "https://anjannair.xyz"],
+  },
+  {
+    image:
+      "https://res.cloudinary.com/tedxace/image/upload/v1675337278/2023/Riya_Shetty_rx2lid.jpg",
+    name: "Riya S.",
+    position: "Decor",
+    social: ["fa fa-globe", "https://anjannair.xyz"],
+  },
+  {
+    image:
+      "https://res.cloudinary.com/tedxace/image/upload/v1638080932/2022/khushi.jpg",
+    name: "Khushi K.",
+    position: "Decor",
+    social: ["fa fa-globe", "https://anjannair.xyz"],
+  },
+  {
+    image:
+      "https://res.cloudinary.com/tedxace/image/upload/v1675337278/2023/Manasi_Powar_jebjnc.jpg",
+    name: "Manasi P.",
+    position: "Decor",
+    social: ["fa fa-globe", "https://anjannair.xyz"],
+  },
+  {
+    image:
+      "https://res.cloudinary.com/tedxace/image/upload/v1675337279/2023/Neha_Yadav_duwygx.png",
+    name: "Neha Y.",
+    position: "Decor",
+    social: ["fa fa-globe", "https://anjannair.xyz"],
+  },
+];
+
 const tech = [
   {
     image:
@@ -183,10 +256,38 @@ const tech = [
   },
   {
     image:
-      "https://res.cloudinary.com/tedxace/image/upload/v1637913191/2022/anjan.jpg",
+      "https://res.cloudinary.com/tedxace/image/upload/v1675337277/2023/ANJAN_NAIR_zjrxgr.png",
     name: "Anjan N.",
     position: "Web Developer",
-    social: ["fa fa-globe", "https://anjannair.xyz"],
+    social: ["fa fa-globe", "https://anjann.dev"],
+  },
+  {
+    image:
+      "https://res.cloudinary.com/tedxace/image/upload/v1675337280/2023/Vedant_urky7n.jpg",
+    name: "Vedant D.",
+    position: "Web Developer",
+    social: ["fa fa-globe", "https://anjann.dev"],
+  },
+  {
+    image:
+      "https://res.cloudinary.com/tedxace/image/upload/v1675337277/2023/Jamil_Shaikh_xvaomb.png",
+    name: "Jamil S.",
+    position: "Web Developer",
+    social: ["fa fa-globe", "https://anjann.dev"],
+  },
+  {
+    image:
+      "https://res.cloudinary.com/tedxace/image/upload/v1675337278/2023/Om_Kulkarni_vskrp5.png",
+    name: "Om K.",
+    position: "Web Developer",
+    social: ["fa fa-globe", "https://anjann.dev"],
+  },
+  {
+    image:
+      "https://res.cloudinary.com/tedxace/image/upload/v1675337280/2023/Suhaani_Bhansali_rgyii1.jpg",
+    name: "Suhaani B.",
+    position: "Web Developer",
+    social: ["fa fa-globe", "https://anjann.dev"],
   },
 ];
 
@@ -292,6 +393,28 @@ function writeMarket() {
         <h2>${market[i].name}</h2>
         <h3>${market[i].position}</h3>
         <a href="${market[i].social[1]}" class="${market[i].social[0]}"></a>
+      </div>
+    </div>
+    </div>`;
+  }
+
+  wrapper.innerHTML = finalTeam;
+}
+
+function writeDecor() {
+  var finalTeam = "";
+
+  for (var i = 0; i < decor.length; i++) {
+    finalTeam += `
+    <div class="col-lg-3 col-6 p-3">
+    <div class="team">
+      <div class="team-img">
+        <img src="${decor[i].image}" alt="${decor[i].name}">
+      </div>
+      <div class="team-content">
+        <h2>${decor[i].name}</h2>
+        <h3>${decor[i].position}</h3>
+        <a href="${decor[i].social[1]}" class="${decor[i].social[0]}"></a>
       </div>
     </div>
     </div>`;
