@@ -43,8 +43,8 @@ const curator = [
     name: "Nishit P.",
     position: "Curator",
     social: [
-      "fa fa-linkedin",
-      "https://www.linkedin.com/in/aarnav-sangekar-11228b217/",
+      "fa fa-instagram",
+      "https://instagram.com/nishitposting01",
     ],
   },
   {
@@ -53,8 +53,8 @@ const curator = [
     name: "Soham R.",
     position: "Curator",
     social: [
-      "fa fa-instagram",
-      "https://instagram.com/fariha.shk",
+      "fa fa-linkedin",
+      "https://www.linkedin.com/in/soham-rane-150109135",
     ],
   },
   {
@@ -63,8 +63,8 @@ const curator = [
     name: "Shivam W.",
     position: "Curator",
     social: [
-      "fa fa-instagram",
-      "https://instagram.com/fariha.shk",
+      "fa fa-linkedin",
+      "https://www.linkedin.com/in/shivam-whatkar-699b46199",
     ],
   },
 
@@ -86,14 +86,14 @@ const designer = [
       "https://res.cloudinary.com/tedxace/image/upload/v1675337280/2023/Agneya_d3azxa.jpg",
     name: "Agneya P.",
     position: "Designer",
-    social: ["fa fa-linkedin", "http://www.linkedin.com/in/vedant-dandge-1010"],
+    social: ["fa fa-globe", "https://linktr.ee/agneyapathare"],
   },
   {
     image:
       "https://res.cloudinary.com/tedxace/image/upload/v1675337277/2023/Dheeraj_Rapelli__lqqhdy.jpg",
     name: "Dheeraj R.",
     position: "Designer",
-    social: ["fa fa-linkedin", "http://www.linkedin.com/in/vedant-dandge-1010"],
+    social: ["fa fa-linkedin", "https://www.linkedin.com/in/dheeraj-rapelli-b9a9b3218"],
   },
 ];
 
@@ -117,14 +117,14 @@ const social = [
       "https://res.cloudinary.com/tedxace/image/upload/v1675337280/2023/Aarya_Jadhav_hncdks.jpg",
     name: "Aarya J.",
     position: "Social Media",
-    social: ["fa fa-instagram", "https://instagram.com/simran_singh1391"],
+    social: ["fa fa-instagram", "https://instagram.com/_aarya.28"],
   },
   {
     image:
       "https://res.cloudinary.com/tedxace/image/upload/v1675337278/2023/Om_Kulkarni_vskrp5.png",
     name: "Om K.",
     position: "Social Media",
-    social: ["fa fa-instagram", "https://instagram.com/simran_singh1391"],
+    social: ["fa fa-instagram", "https://www.instagram.com/omkulkarniii/"],
   },
 ];
 
@@ -141,35 +141,35 @@ const market = [
       "https://res.cloudinary.com/tedxace/image/upload/v1675337279/2023/yash_mathkar_gavyqn.jpg",
     name: "Yash M.",
     position: "Marketing - Video Production",
-    social: ["fa fa-instagram", "http://instagram.com/_yash_pawar17"],
+    social: ["fa fa-instagram", "https://www.instagram.com/_yashmathkar/"],
   },
   {
     image:
       "https://res.cloudinary.com/tedxace/image/upload/v1675339587/2023/Saakshi_ts9lvg.png",
     name: "Saakshi W.",
     position: "Marketing",
-    social: ["fa fa-instagram", "https://instagram.com/aasya2468"],
+    social: ["fa fa-instagram", "https://instagram.com/saakkshhhiiii"],
   },
   {
     image:
       "https://res.cloudinary.com/tedxace/image/upload/v1675337280/2023/Suhaani_Bhansali_rgyii1.jpg",
     name: "Suhaani B.",
     position: "Marketing",
-    social: ["fa fa-instagram", "https://instagram.com/amiitbhatt"],
+    social: ["fa fa-linkedin", "https://www.linkedin.com/in/suhani-bhansali-15902b256"],
   },
   {
     image:
       "https://res.cloudinary.com/tedxace/image/upload/v1675337277/2023/Jamil_Shaikh_xvaomb.png",
     name: "Jamil S.",
     position: "Marketing",
-    social: ["fa fa-instagram", "https://www.instagram.com/khushi__kw009__"],
+    social: ["fa fa-globe", "https://bamjam101.github.io/portfolio/"],
   },
   {
     image:
       "https://res.cloudinary.com/tedxace/image/upload/v1675337276/2023/Photo_Ahezam_Ahewar_Khan_kxqjld.jpg",
     name: "Ahezam",
     position: "Marketing",
-    social: ["fa fa-instagram", "https://www.instagram.com/khushi__kw009__"],
+    social: ["fa fa-github", "https://github.com/Ahezam01"],
   },
 ];
 
@@ -193,56 +193,56 @@ const decor = [
       "https://res.cloudinary.com/tedxace/image/upload/v1675337280/2023/Ashwini_Khambe_m0lugq.jpg",
     name: "Ashwini K.",
     position: "Decor",
-    social: ["fa fa-globe", "https://anjannair.xyz"],
+    social: ["fa fa-instagram", "https://instagram.com/ashu.khambe"],
   },
   {
     image:
       "https://res.cloudinary.com/tedxace/image/upload/v1675337278/2023/Payal_Kheur_wk9jy7.jpg",
     name: "Payal K.",
     position: "Decor",
-    social: ["fa fa-globe", "https://anjannair.xyz"],
+    social: ["fa fa-instagram", "https://instagram.com/payalkheur"],
   },
   {
     image:
       "https://res.cloudinary.com/tedxace/image/upload/v1675337277/2023/Ashvin_Dige_lzjlxe.jpg",
     name: "Ashvin D.",
     position: "Decor",
-    social: ["fa fa-globe", "https://anjannair.xyz"],
+    social: ["fa fa-instagram", "https://instagram.com/ashvin.3.7.3"],
   },
   {
     image:
       "https://res.cloudinary.com/tedxace/image/upload/v1675337277/2023/Ishika_Sanap__zgazx7.jpg",
     name: "Ishika S.",
     position: "Decor",
-    social: ["fa fa-globe", "https://anjannair.xyz"],
+    social: ["fa fa-instagram", "https://instagram.com/ishikaaaa.03"],
   },
   {
     image:
       "https://res.cloudinary.com/tedxace/image/upload/v1675337278/2023/Riya_Shetty_rx2lid.jpg",
     name: "Riya S.",
     position: "Decor",
-    social: ["fa fa-globe", "https://anjannair.xyz"],
+    social: ["fa fa-instagram", "https://instagram.com/aasya2468"],
   },
   {
     image:
       "https://res.cloudinary.com/tedxace/image/upload/v1638080932/2022/khushi.jpg",
     name: "Khushi K.",
     position: "Decor",
-    social: ["fa fa-globe", "https://anjannair.xyz"],
+    social: ["fa fa-instagram", "https://www.instagram.com/khushi__009kw__/"],
   },
   {
     image:
       "https://res.cloudinary.com/tedxace/image/upload/v1675337278/2023/Manasi_Powar_jebjnc.jpg",
     name: "Manasi P.",
     position: "Decor",
-    social: ["fa fa-globe", "https://anjannair.xyz"],
+    social: ["fa fa-instagram", "https://instagram.com/_manasiiiiii_"],
   },
   {
     image:
       "https://res.cloudinary.com/tedxace/image/upload/v1675337279/2023/Neha_Yadav_duwygx.png",
     name: "Neha Y.",
     position: "Decor",
-    social: ["fa fa-globe", "https://anjannair.xyz"],
+    social: ["fa fa-linkedin", "https://www.linkedin.com/in/nehayadav2612"],
   },
 ];
 
@@ -252,7 +252,7 @@ const tech = [
       "https://res.cloudinary.com/tedxace/image/upload/v1637913191/2022/gauravkonde.jpg",
     name: "Gaurav K.",
     position: "Web Developer",
-    social: ["fa fa-instagram", "https://www.instagram.com/codegrammed/"],
+    social: ["fa fa-linkedin", "https://www.linkedin.com/in/gaurav-konde-51aab6193/"],
   },
   {
     image:
@@ -266,28 +266,28 @@ const tech = [
       "https://res.cloudinary.com/tedxace/image/upload/v1675337280/2023/Vedant_urky7n.jpg",
     name: "Vedant D.",
     position: "Web Developer",
-    social: ["fa fa-globe", "https://anjann.dev"],
+    social: ["fa fa-linkedin", "https://www.linkedin.com/in/vedant-dandge-1010/"],
   },
   {
     image:
       "https://res.cloudinary.com/tedxace/image/upload/v1675337277/2023/Jamil_Shaikh_xvaomb.png",
     name: "Jamil S.",
     position: "Web Developer",
-    social: ["fa fa-globe", "https://anjann.dev"],
+    social: ["fa fa-globe", "https://bamjam101.github.io/portfolio/"],
   },
   {
     image:
       "https://res.cloudinary.com/tedxace/image/upload/v1675337278/2023/Om_Kulkarni_vskrp5.png",
     name: "Om K.",
     position: "Web Developer",
-    social: ["fa fa-globe", "https://anjann.dev"],
+    social: ["fa fa-linkedin", "https://in.linkedin.com/in/om-kulkarni-174221256"],
   },
   {
     image:
       "https://res.cloudinary.com/tedxace/image/upload/v1675337280/2023/Suhaani_Bhansali_rgyii1.jpg",
     name: "Suhaani B.",
     position: "Web Developer",
-    social: ["fa fa-globe", "https://anjann.dev"],
+    social: ["fa fa-linkedin", "https://www.linkedin.com/in/suhani-bhansali-15902b256"],
   },
 ];
 
@@ -305,7 +305,7 @@ for (var i = 0; i < curator.length; i++) {
     <div class="team-content">
       <h2>${curator[i].name}</h2>
       <h3>${curator[i].position}</h3>
-      <a href="${curator[i].social[1]}" class="${curator[i].social[0]}"></a>
+      <a href="${curator[i].social[1]}" class="${curator[i].social[0]}" target="_blank"></a>
     </div>
   </div>
   </div>`;
@@ -326,7 +326,7 @@ function writeCurators() {
       <div class="team-content">
         <h2>${curator[i].name}</h2>
         <h3>${curator[i].position}</h3>
-        <a href="${curator[i].social[1]}" class="${curator[i].social[0]}"></a>
+        <a href="${curator[i].social[1]}" class="${curator[i].social[0]}" target="_blank"></a>
       </div>
     </div>
     </div>`;
@@ -348,7 +348,7 @@ function writeSocial() {
       <div class="team-content">
         <h2>${social[i].name}</h2>
         <h3>${social[i].position}</h3>
-        <a href="${social[i].social[1]}" class="${social[i].social[0]}"></a>
+        <a href="${social[i].social[1]}" class="${social[i].social[0]}" target="_blank"></a>
       </div>
     </div>
     </div>`;
@@ -370,7 +370,7 @@ function writeDesign() {
       <div class="team-content">
         <h2>${designer[i].name}</h2>
         <h3>${designer[i].position}</h3>
-        <a href="${designer[i].social[1]}" class="${designer[i].social[0]}"></a>
+        <a href="${designer[i].social[1]}" class="${designer[i].social[0]}" target="_blank"></a>
       </div>
     </div>
     </div>`;
@@ -392,7 +392,7 @@ function writeMarket() {
       <div class="team-content">
         <h2>${market[i].name}</h2>
         <h3>${market[i].position}</h3>
-        <a href="${market[i].social[1]}" class="${market[i].social[0]}"></a>
+        <a href="${market[i].social[1]}" class="${market[i].social[0]}" target="_blank"></a>
       </div>
     </div>
     </div>`;
@@ -414,7 +414,7 @@ function writeDecor() {
       <div class="team-content">
         <h2>${decor[i].name}</h2>
         <h3>${decor[i].position}</h3>
-        <a href="${decor[i].social[1]}" class="${decor[i].social[0]}"></a>
+        <a href="${decor[i].social[1]}" class="${decor[i].social[0]}" target="_blank"></a>
       </div>
     </div>
     </div>`;
@@ -436,7 +436,7 @@ function writeTech() {
       <div class="team-content">
         <h2>${tech[i].name}</h2>
         <h3>${tech[i].position}</h3>
-        <a href="${tech[i].social[1]}" class="${tech[i].social[0]}"></a>
+        <a href="${tech[i].social[1]}" class="${tech[i].social[0]}" target="_blank"></a>
       </div>
     </div>
     </div>`;
