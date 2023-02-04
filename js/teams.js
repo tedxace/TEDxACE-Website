@@ -283,31 +283,37 @@ const tech = [
     social: ["fa fa-linkedin", "https://www.linkedin.com/in/suhani-bhansali-15902b256"],
   },
 ];
-  const Video = [
-    {
-      image:
-        "https://res.cloudinary.com/tedxace/image/upload/v1675337279/2023/Aarnav_Sangekar_qsrf8b.jpg",
-      name: "Aarnav S.",
-      position: "Video Production",
-      social: [
-        "fa fa-linkedin",
-        "https://www.linkedin.com/in/aarnav-sangekar-11228b217/",
-      ],
-    },
-    {
-      image:
-        "https://res.cloudinary.com/tedxace/image/upload/v1675337277/2023/Om_Bhamare_wzvifg.jpg",
-      name: "Om B.",
-      position: "Video Production",
-      social: ["fa fa-instagram", "https://www.instagram.com/ombhamare99/"],
-    },
-    {
-      image:
-        "https://res.cloudinary.com/tedxace/image/upload/v1675337279/2023/yash_mathkar_gavyqn.jpg",
-      name: "Yash M.",
-      position: "Video Production",
-      social: ["fa fa-instagram", "https://www.instagram.com/_yashmathkar/"],
-    },
+const Video = [
+  {
+    image:
+      "https://res.cloudinary.com/tedxace/image/upload/v1675337279/2023/Aarnav_Sangekar_qsrf8b.jpg",
+    name: "Aarnav S.",
+    position: "Video Production",
+    social: [
+      "fa fa-linkedin",
+      "https://www.linkedin.com/in/aarnav-sangekar-11228b217/",
+    ],
+  },
+  {
+    image:
+      "https://res.cloudinary.com/tedxace/image/upload/v1675337277/2023/Om_Bhamare_wzvifg.jpg",
+    name: "Om B.",
+    position: "Video Production",
+    social: ["fa fa-instagram", "https://www.instagram.com/ombhamare99/"],
+  },
+  {
+    image:
+      "https://res.cloudinary.com/tedxace/image/upload/v1675337279/2023/yash_mathkar_gavyqn.jpg",
+    name: "Yash M.",
+    position: "Video Production",
+    social: ["fa fa-instagram", "https://www.instagram.com/_yashmathkar/"],
+  },
+  {
+    image: "https://res.cloudinary.com/tedxace/image/upload/v1675337279/2023/Prathmesh_Walavalkar_tyet9u.jpg",
+    name: "Prathmesh W.",
+    position: "Video Production",
+    social: ["fa fa-globe", "https://linktr.ee/PrathmeshWalavalkar"],
+  }
 ];
 
 var wrapper = document.getElementById("teamWrite");
