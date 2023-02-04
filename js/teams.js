@@ -43,8 +43,8 @@ const curator = [
     name: "Nishit P.",
     position: "Curator",
     social: [
-      "fa fa-linkedin",
-      "https://www.linkedin.com/in/aarnav-sangekar-11228b217/",
+      "fa fa-instagram",
+      "https://instagram.com/nishitposting01",
     ],
   },
   {
