@@ -183,13 +183,6 @@ const decor = [
   },
   {
     image:
-      "https://res.cloudinary.com/tedxace/image/upload/v1675337277/2023/Samyukta_Vasaikar__ioqdgk.jpg",
-    name: "Samyukta V.",
-    position: "Decor",
-    social: ["fa fa-linkedin", "https://www.linkedin.com/in/samyukta-vasaikar/"],
-  },
-  {
-    image:
       "https://res.cloudinary.com/tedxace/image/upload/v1675337280/2023/Ashwini_Khambe_m0lugq.jpg",
     name: "Ashwini K.",
     position: "Decor",
@@ -284,7 +277,7 @@ const tech = [
   },
   {
     image:
-      "https://res.cloudinary.com/tedxace/image/upload/v1675337280/2023/Suhani_Bhansali_rgyii1.jpg",
+      "https://res.cloudinary.com/tedxace/image/upload/v1675337280/2023/Suhaani_Bhansali_rgyii1.jpg",
     name: "Suhani B.",
     position: "Web Developer",
     social: ["fa fa-linkedin", "https://www.linkedin.com/in/suhani-bhansali-15902b256"],
