@@ -53,8 +53,8 @@ const curator = [
     name: "Soham R.",
     position: "Curator",
     social: [
-      "fa fa-instagram",
-      "https://instagram.com/fariha.shk",
+      "fa fa-linkedin",
+      "https://www.linkedin.com/in/soham-rane-150109135",
     ],
   },
   {
@@ -155,7 +155,7 @@ const market = [
       "https://res.cloudinary.com/tedxace/image/upload/v1675337280/2023/Suhaani_Bhansali_rgyii1.jpg",
     name: "Suhaani B.",
     position: "Marketing",
-    social: ["fa fa-instagram", "https://www.linkedin.com/in/suhani-bhansali-15902b256"],
+    social: ["fa fa-linkedin", "https://www.linkedin.com/in/suhani-bhansali-15902b256"],
   },
   {
     image:
@@ -169,7 +169,7 @@ const market = [
       "https://res.cloudinary.com/tedxace/image/upload/v1675337276/2023/Photo_Ahezam_Ahewar_Khan_kxqjld.jpg",
     name: "Ahezam",
     position: "Marketing",
-    social: ["fa fa-instagram", "https://www.instagram.com/khushi__kw009__"],
+    social: ["fa fa-globe", "https://github.com/Ahezam01"],
   },
 ];
 
@@ -193,7 +193,7 @@ const decor = [
       "https://res.cloudinary.com/tedxace/image/upload/v1675337280/2023/Ashwini_Khambe_m0lugq.jpg",
     name: "Ashwini K.",
     position: "Decor",
-    social: ["fa fa-globe", "https://anjannair.xyz"],
+    social: ["fa fa-instagram", "https://instagram.com/ashu.khambe"],
   },
   {
     image:
