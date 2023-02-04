@@ -63,8 +63,8 @@ const curator = [
     name: "Shivam W.",
     position: "Curator",
     social: [
-      "fa fa-instagram",
-      "https://instagram.com/fariha.shk",
+      "fa fa-linkedin",
+      "https://www.linkedin.com/in/shivam-whatkar-699b46199",
     ],
   },
 
