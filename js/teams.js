@@ -169,7 +169,7 @@ const market = [
       "https://res.cloudinary.com/tedxace/image/upload/v1675337276/2023/Photo_Ahezam_Ahewar_Khan_kxqjld.jpg",
     name: "Ahezam",
     position: "Marketing",
-    social: ["fa fa-globe", "https://github.com/Ahezam01"],
+    social: ["fa fa-github", "https://github.com/Ahezam01"],
   },
 ];
 
@@ -305,7 +305,7 @@ for (var i = 0; i < curator.length; i++) {
     <div class="team-content">
       <h2>${curator[i].name}</h2>
       <h3>${curator[i].position}</h3>
-      <a href="${curator[i].social[1]}" class="${curator[i].social[0]}"></a>
+      <a href="${curator[i].social[1]}" class="${curator[i].social[0]}" target="_blank"></a>
     </div>
   </div>
   </div>`;
@@ -326,7 +326,7 @@ function writeCurators() {
       <div class="team-content">
         <h2>${curator[i].name}</h2>
         <h3>${curator[i].position}</h3>
-        <a href="${curator[i].social[1]}" class="${curator[i].social[0]}"></a>
+        <a href="${curator[i].social[1]}" class="${curator[i].social[0]}" target="_blank"></a>
       </div>
     </div>
     </div>`;
@@ -348,7 +348,7 @@ function writeSocial() {
       <div class="team-content">
         <h2>${social[i].name}</h2>
         <h3>${social[i].position}</h3>
-        <a href="${social[i].social[1]}" class="${social[i].social[0]}"></a>
+        <a href="${social[i].social[1]}" class="${social[i].social[0]}" target="_blank"></a>
       </div>
     </div>
     </div>`;
@@ -370,7 +370,7 @@ function writeDesign() {
       <div class="team-content">
         <h2>${designer[i].name}</h2>
         <h3>${designer[i].position}</h3>
-        <a href="${designer[i].social[1]}" class="${designer[i].social[0]}"></a>
+        <a href="${designer[i].social[1]}" class="${designer[i].social[0]}" target="_blank"></a>
       </div>
     </div>
     </div>`;
@@ -392,7 +392,7 @@ function writeMarket() {
       <div class="team-content">
         <h2>${market[i].name}</h2>
         <h3>${market[i].position}</h3>
-        <a href="${market[i].social[1]}" class="${market[i].social[0]}"></a>
+        <a href="${market[i].social[1]}" class="${market[i].social[0]}" target="_blank"></a>
       </div>
     </div>
     </div>`;
@@ -414,7 +414,7 @@ function writeDecor() {
       <div class="team-content">
         <h2>${decor[i].name}</h2>
         <h3>${decor[i].position}</h3>
-        <a href="${decor[i].social[1]}" class="${decor[i].social[0]}"></a>
+        <a href="${decor[i].social[1]}" class="${decor[i].social[0]}" target="_blank"></a>
       </div>
     </div>
     </div>`;
@@ -436,7 +436,7 @@ function writeTech() {
       <div class="team-content">
         <h2>${tech[i].name}</h2>
         <h3>${tech[i].position}</h3>
-        <a href="${tech[i].social[1]}" class="${tech[i].social[0]}"></a>
+        <a href="${tech[i].social[1]}" class="${tech[i].social[0]}" target="_blank"></a>
       </div>
     </div>
     </div>`;
