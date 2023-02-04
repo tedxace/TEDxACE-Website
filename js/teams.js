@@ -31,7 +31,7 @@ const curator = [
     image:
       "https://res.cloudinary.com/tedxace/image/upload/v1675337279/2023/Aarnav_Sangekar_qsrf8b.jpg",
     name: "Aarnav S.",
-    position: "Curator - Video Production",
+    position: "Curator",
     social: [
       "fa fa-linkedin",
       "https://www.linkedin.com/in/aarnav-sangekar-11228b217/",
@@ -109,7 +109,7 @@ const social = [
     image:
       "https://res.cloudinary.com/tedxace/image/upload/v1675337277/2023/Om_Bhamare_wzvifg.jpg",
     name: "Om B.",
-    position: "Social Media - Video Production",
+    position: "Social Media",
     social: ["fa fa-instagram", "https://www.instagram.com/ombhamare99/"],
   },
   {
@@ -133,14 +133,14 @@ const market = [
     image:
       "https://res.cloudinary.com/tedxace/image/upload/v1675337277/2023/Om_Bhamare_wzvifg.jpg",
     name: "Om B.",
-    position: "Marketing - Video Production",
+    position: "Marketing",
     social: ["fa fa-instagram", "https://www.instagram.com/ombhamare99/"],
   },
   {
     image:
       "https://res.cloudinary.com/tedxace/image/upload/v1675337279/2023/yash_mathkar_gavyqn.jpg",
     name: "Yash M.",
-    position: "Marketing - Video Production",
+    position: "Marketing",
     social: ["fa fa-instagram", "https://www.instagram.com/_yashmathkar/"],
   },
   {
@@ -152,8 +152,8 @@ const market = [
   },
   {
     image:
-      "https://res.cloudinary.com/tedxace/image/upload/v1675337280/2023/Suhaani_Bhansali_rgyii1.jpg",
-    name: "Suhaani B.",
+      "https://res.cloudinary.com/tedxace/image/upload/v1675337280/2023/Suhani_Bhansali_rgyii1.jpg",
+    name: "Suhani B.",
     position: "Marketing",
     social: ["fa fa-linkedin", "https://www.linkedin.com/in/suhani-bhansali-15902b256"],
   },
@@ -284,11 +284,37 @@ const tech = [
   },
   {
     image:
-      "https://res.cloudinary.com/tedxace/image/upload/v1675337280/2023/Suhaani_Bhansali_rgyii1.jpg",
-    name: "Suhaani B.",
+      "https://res.cloudinary.com/tedxace/image/upload/v1675337280/2023/Suhani_Bhansali_rgyii1.jpg",
+    name: "Suhani B.",
     position: "Web Developer",
     social: ["fa fa-linkedin", "https://www.linkedin.com/in/suhani-bhansali-15902b256"],
   },
+];
+  const Video = [
+    {
+      image:
+        "https://res.cloudinary.com/tedxace/image/upload/v1675337279/2023/Aarnav_Sangekar_qsrf8b.jpg",
+      name: "Aarnav S.",
+      position: "Video Production",
+      social: [
+        "fa fa-linkedin",
+        "https://www.linkedin.com/in/aarnav-sangekar-11228b217/",
+      ],
+    },
+    {
+      image:
+        "https://res.cloudinary.com/tedxace/image/upload/v1675337277/2023/Om_Bhamare_wzvifg.jpg",
+      name: "Om B.",
+      position: "Video Production",
+      social: ["fa fa-instagram", "https://www.instagram.com/ombhamare99/"],
+    },
+    {
+      image:
+        "https://res.cloudinary.com/tedxace/image/upload/v1675337279/2023/yash_mathkar_gavyqn.jpg",
+      name: "Yash M.",
+      position: "Video Production",
+      social: ["fa fa-instagram", "https://www.instagram.com/_yashmathkar/"],
+    },
 ];
 
 var wrapper = document.getElementById("teamWrite");
@@ -444,3 +470,26 @@ function writeTech() {
 
   wrapper.innerHTML = finalTeam;
 }
+
+function writeVideo() {
+  var finalTeam = "";
+
+  for (var i = 0; i < Video.length; i++) {
+    finalTeam += `
+    <div class="col-lg-3 col-6 p-3">
+    <div class="team">
+      <div class="team-img">
+        <img src="${Video[i].image}" alt="${Video[i].name}">
+      </div>
+      <div class="team-content">
+        <h2>${Video[i].name}</h2>
+        <h3>${Video[i].position}</h3>
+        <a href="${Video[i].social[1]}" class="${Video[i].social[0]}" target="_blank"></a>
+      </div>
+    </div>
+    </div>`;
+  }
+
+  wrapper.innerHTML = finalTeam;
+}
+
