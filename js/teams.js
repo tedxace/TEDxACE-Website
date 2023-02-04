@@ -86,14 +86,14 @@ const designer = [
       "https://res.cloudinary.com/tedxace/image/upload/v1675337280/2023/Agneya_d3azxa.jpg",
     name: "Agneya P.",
     position: "Designer",
-    social: ["fa fa-linkedin", "http://www.linkedin.com/in/vedant-dandge-1010"],
+    social: ["fa fa-globe", "https://linktr.ee/agneyapathare"],
   },
   {
     image:
       "https://res.cloudinary.com/tedxace/image/upload/v1675337277/2023/Dheeraj_Rapelli__lqqhdy.jpg",
     name: "Dheeraj R.",
     position: "Designer",
-    social: ["fa fa-linkedin", "http://www.linkedin.com/in/vedant-dandge-1010"],
+    social: ["fa fa-linkedin", "https://www.linkedin.com/in/dheeraj-rapelli-b9a9b3218"],
   },
 ];
 
@@ -117,14 +117,14 @@ const social = [
       "https://res.cloudinary.com/tedxace/image/upload/v1675337280/2023/Aarya_Jadhav_hncdks.jpg",
     name: "Aarya J.",
     position: "Social Media",
-    social: ["fa fa-instagram", "https://instagram.com/simran_singh1391"],
+    social: ["fa fa-instagram", "https://instagram.com/_aarya.28"],
   },
   {
     image:
       "https://res.cloudinary.com/tedxace/image/upload/v1675337278/2023/Om_Kulkarni_vskrp5.png",
     name: "Om K.",
     position: "Social Media",
-    social: ["fa fa-instagram", "https://instagram.com/simran_singh1391"],
+    social: ["fa fa-instagram", "https://www.instagram.com/omkulkarniii/"],
   },
 ];
 
@@ -141,28 +141,28 @@ const market = [
       "https://res.cloudinary.com/tedxace/image/upload/v1675337279/2023/yash_mathkar_gavyqn.jpg",
     name: "Yash M.",
     position: "Marketing - Video Production",
-    social: ["fa fa-instagram", "http://instagram.com/_yash_pawar17"],
+    social: ["fa fa-instagram", "https://www.instagram.com/_yashmathkar/"],
   },
   {
     image:
       "https://res.cloudinary.com/tedxace/image/upload/v1675339587/2023/Saakshi_ts9lvg.png",
     name: "Saakshi W.",
     position: "Marketing",
-    social: ["fa fa-instagram", "https://instagram.com/aasya2468"],
+    social: ["fa fa-instagram", "https://instagram.com/saakkshhhiiii"],
   },
   {
     image:
       "https://res.cloudinary.com/tedxace/image/upload/v1675337280/2023/Suhaani_Bhansali_rgyii1.jpg",
     name: "Suhaani B.",
     position: "Marketing",
-    social: ["fa fa-instagram", "https://instagram.com/amiitbhatt"],
+    social: ["fa fa-instagram", "https://www.linkedin.com/in/suhani-bhansali-15902b256"],
   },
   {
     image:
       "https://res.cloudinary.com/tedxace/image/upload/v1675337277/2023/Jamil_Shaikh_xvaomb.png",
     name: "Jamil S.",
     position: "Marketing",
-    social: ["fa fa-instagram", "https://www.instagram.com/khushi__kw009__"],
+    social: ["fa fa-globe", "https://bamjam101.github.io/portfolio/"],
   },
   {
     image:
@@ -200,49 +200,49 @@ const decor = [
       "https://res.cloudinary.com/tedxace/image/upload/v1675337278/2023/Payal_Kheur_wk9jy7.jpg",
     name: "Payal K.",
     position: "Decor",
-    social: ["fa fa-globe", "https://anjannair.xyz"],
+    social: ["fa fa-instagram", "https://instagram.com/payalkheur"],
   },
   {
     image:
       "https://res.cloudinary.com/tedxace/image/upload/v1675337277/2023/Ashvin_Dige_lzjlxe.jpg",
     name: "Ashvin D.",
     position: "Decor",
-    social: ["fa fa-globe", "https://anjannair.xyz"],
+    social: ["fa fa-instagram", "https://instagram.com/ashvin.3.7.3"],
   },
   {
     image:
       "https://res.cloudinary.com/tedxace/image/upload/v1675337277/2023/Ishika_Sanap__zgazx7.jpg",
     name: "Ishika S.",
     position: "Decor",
-    social: ["fa fa-globe", "https://anjannair.xyz"],
+    social: ["fa fa-instagram", "https://instagram.com/ishikaaaa.03"],
   },
   {
     image:
       "https://res.cloudinary.com/tedxace/image/upload/v1675337278/2023/Riya_Shetty_rx2lid.jpg",
     name: "Riya S.",
     position: "Decor",
-    social: ["fa fa-globe", "https://anjannair.xyz"],
+    social: ["fa fa-instagram", "https://instagram.com/aasya2468"],
   },
   {
     image:
       "https://res.cloudinary.com/tedxace/image/upload/v1638080932/2022/khushi.jpg",
     name: "Khushi K.",
     position: "Decor",
-    social: ["fa fa-globe", "https://anjannair.xyz"],
+    social: ["fa fa-instagram", "https://www.instagram.com/khushi__009kw__/"],
   },
   {
     image:
       "https://res.cloudinary.com/tedxace/image/upload/v1675337278/2023/Manasi_Powar_jebjnc.jpg",
     name: "Manasi P.",
     position: "Decor",
-    social: ["fa fa-globe", "https://anjannair.xyz"],
+    social: ["fa fa-instagram", "https://instagram.com/_manasiiiiii_"],
   },
   {
     image:
       "https://res.cloudinary.com/tedxace/image/upload/v1675337279/2023/Neha_Yadav_duwygx.png",
     name: "Neha Y.",
     position: "Decor",
-    social: ["fa fa-globe", "https://anjannair.xyz"],
+    social: ["fa fa-linkedin", "https://www.linkedin.com/in/nehayadav2612"],
   },
 ];
 
@@ -252,7 +252,7 @@ const tech = [
       "https://res.cloudinary.com/tedxace/image/upload/v1637913191/2022/gauravkonde.jpg",
     name: "Gaurav K.",
     position: "Web Developer",
-    social: ["fa fa-instagram", "https://www.instagram.com/codegrammed/"],
+    social: ["fa fa-linkedin", "https://www.linkedin.com/in/gaurav-konde-51aab6193/"],
   },
   {
     image:
@@ -266,28 +266,28 @@ const tech = [
       "https://res.cloudinary.com/tedxace/image/upload/v1675337280/2023/Vedant_urky7n.jpg",
     name: "Vedant D.",
     position: "Web Developer",
-    social: ["fa fa-globe", "https://anjann.dev"],
+    social: ["fa fa-linkedin", "https://www.linkedin.com/in/vedant-dandge-1010/"],
   },
   {
     image:
       "https://res.cloudinary.com/tedxace/image/upload/v1675337277/2023/Jamil_Shaikh_xvaomb.png",
     name: "Jamil S.",
     position: "Web Developer",
-    social: ["fa fa-globe", "https://anjann.dev"],
+    social: ["fa fa-globe", "https://bamjam101.github.io/portfolio/"],
   },
   {
     image:
       "https://res.cloudinary.com/tedxace/image/upload/v1675337278/2023/Om_Kulkarni_vskrp5.png",
     name: "Om K.",
     position: "Web Developer",
-    social: ["fa fa-globe", "https://anjann.dev"],
+    social: ["fa fa-linkedin", "https://in.linkedin.com/in/om-kulkarni-174221256"],
   },
   {
     image:
       "https://res.cloudinary.com/tedxace/image/upload/v1675337280/2023/Suhaani_Bhansali_rgyii1.jpg",
     name: "Suhaani B.",
     position: "Web Developer",
-    social: ["fa fa-globe", "https://anjann.dev"],
+    social: ["fa fa-linkedin", "https://www.linkedin.com/in/suhani-bhansali-15902b256"],
   },
 ];
 
