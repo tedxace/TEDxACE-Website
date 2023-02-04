@@ -444,3 +444,26 @@ function writeTech() {
 
   wrapper.innerHTML = finalTeam;
 }
+
+function writeVideo() {
+  var finalTeam = "";
+
+  for (var i = 0; i < tech.length; i++) {
+    finalTeam += `
+    <div class="col-lg-3 col-6 p-3">
+    <div class="team">
+      <div class="team-img">
+        <img src="${tech[i].image}" alt="${tech[i].name}">
+      </div>
+      <div class="team-content">
+        <h2>${tech[i].name}</h2>
+        <h3>${tech[i].position}</h3>
+        <a href="${tech[i].social[1]}" class="${tech[i].social[0]}" target="_blank"></a>
+      </div>
+    </div>
+    </div>`;
+  }
+
+  wrapper.innerHTML = finalTeam;
+}
+
