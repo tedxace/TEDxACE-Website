@@ -152,7 +152,7 @@ const market = [
   },
   {
     image:
-      "https://res.cloudinary.com/tedxace/image/upload/v1675337280/2023/Suhani_Bhansali_rgyii1.jpg",
+      "https://res.cloudinary.com/tedxace/image/upload/v1675337280/2023/Suhaani_Bhansali_rgyii1.jpg",
     name: "Suhani B.",
     position: "Marketing",
     social: ["fa fa-linkedin", "https://www.linkedin.com/in/suhani-bhansali-15902b256"],
