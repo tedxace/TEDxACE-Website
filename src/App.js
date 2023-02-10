@@ -1,18 +1,18 @@
-import logo from "./logo.svg";
-import "./App.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import Navbar from "./components/Navbar";
-import Teams from "./pages/Teams";
+import Team from "./pages/Team";
+import About from "./pages/About";
 
 function App() {
   return (
-    <div className="">
-      <Navbar />
+    <div>
       <Router>
+        <Navbar />
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/teams" element={<Teams />} />
+          <Route path="/team" element={<Team />} />
+          <Route path="/about" element={<About />} />
+          <Route exact path="/" element={<Home />} />
         </Routes>
       </Router>
     </div>
