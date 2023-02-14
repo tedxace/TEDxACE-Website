@@ -308,31 +308,42 @@ export const speakers = [
         name: "Mr. Vedant Harlalka",
         position: "Young Innovator and Change Maker",
         image: "https://res.cloudinary.com/tedxace/image/upload/v1675337277/2023/Jamil_Shaikh_xvaomb.png",
-        href: "./speakers/speakers-2021/vedant-harlalka",
+        text: [`Now a confident leader seeking to use strong communication skills and
+        shrewd business sense to inspire and lead a company through expansion
+        period. He has combined knowledge of business regulations, sales
+        strategies, market trends, and finance to influence advancement of
+        company goals.`, `Now a confident leader seeking to use strong communication skills and
+        shrewd business sense to inspire and lead a company through expansion
+        period.`],
+        list: [`Founder member and HOD at Dynamic classes`, `BOD of Archibindu foundation`]
     },
     {
         name: "Mr. Sadakat Khan",
         position: "The Harmonium Ustad",
         image: "https://res.cloudinary.com/tedxace/image/upload/v1675337277/2023/Jamil_Shaikh_xvaomb.png",
-        href: "./speakers/speakers-2021/sadakat-khan",
+        text: [""],
+        list: [""]
     },
     {
         name: "Ms. Sumedha Chopra",
         position: "Former Indian Air Force Officer",
         image: "https://res.cloudinary.com/tedxace/image/upload/v1675337277/2023/Jamil_Shaikh_xvaomb.png",
-        href: "./speakers/speakers-2021/sumedha-chopra",
+        text: [""],
+        list: [""]
     },
     {
         name: "Mr. Mukesh Pandey",
         position: "Entrepreneur and Visionary Educational Leader",
         image: "https://res.cloudinary.com/tedxace/image/upload/v1675337277/2023/Jamil_Shaikh_xvaomb.png",
-        href: "./speakers/speakers-2021/mukesh-pandey",
+        text: [""],
+        list: [""]
     },
     {
         name: "Mr. Subhajit Mukherjee",
         position: "Founder of Mission Green Mumbai",
         image: "https://res.cloudinary.com/tedxace/image/upload/v1675337277/2023/Jamil_Shaikh_xvaomb.png",
-        href: "./speakers/speakers-2021/subhajit-mukherjee",
+        text: [""],
+        list: [""]
     },
 ];
 
