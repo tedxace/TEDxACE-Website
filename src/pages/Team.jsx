@@ -1,64 +1,126 @@
 import React from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faGlobe } from "@fortawesome/free-solid-svg-icons";
-import {
-  faInstagram,
-  faTwitter,
-  faLinkedin,
-} from "@fortawesome/free-brands-svg-icons";
-
-const team = [
-  {
-    name: "Jamil Shaikh",
-    image: "/jamil-shaikh.png",
-    position: "Marketing and Development member",
-    connect: "https://bamjam101.github.io/portfolio",
-    iconType: faGlobe,
-  },
-  {
-    name: "Suhani Bhansali",
-    image: "/suhani-bhansali.png",
-    position: "Marketing and Development member",
-    connect: "https://instagram.com/suhani_.bh?igshid=NTdlMDg3MTY=",
-    iconType: faInstagram,
-  },
-];
+import Box from "@mui/material/Box";
+import Tab from "@mui/material/Tab";
+import TabContext from "@mui/lab/TabContext";
+import TabList from "@mui/lab/TabList";
+import TabPanel from "@mui/lab/TabPanel";
+import { useTeamData } from "../Context/ContextProvider";
+import TabContent from "../components/TeamContent";
+import { useState } from "react";
+import Loader from "../components/Loader";
+import { Typography } from "@mui/material";
 
 const Teams = () => {
+  const teams = useTeamData();
+  const [value, setValue] = useState("1");
+
+  const [heads] = teams?.map((team) =>
+    team.members?.filter((member) => member.name === "Anjan N.")
+  );
+
+  const handleChange = (event, newValue) => {
+    setValue(newValue);
+  };
   return (
-    <article className="flex flex-col gap-4 my-6 justify-center min-h-screen items-center">
-      <header>
-        <h1 className="text-4xl font-bold text-center">Team of TEDx ACE</h1>
-      </header>
-      <main className="grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
-        {team?.map((member) => {
-          const { name, image, position, connect, iconType } = member;
-          return (
-            <section
-              key={name}
-              className="group flex flex-col justify-center items-center gap-2 gap-y-4 p-4 transition-opacity duration-200 hover:opacity-100 opacity-60 border-transparent border-b-2 hover:border-tedx-white rounded-md"
+    <Box sx={{ width: "100%" }}>
+      <TabContext value={value}>
+        <Box
+          sx={{ borderBottom: 1, borderColor: "divider", position: "relative" }}
+        >
+          <Box
+            sx={{
+              display: "flex",
+              flexDirection: "column",
+              justifyContent: "center",
+              alignItems: "center",
+              marginBottom: "2rem",
+            }}
+          >
+            <Typography
+              variant="h5"
+              component={"h2"}
+              sx={{
+                fontWeight: "bolder",
+                padding: "2rem 0 1rem 0",
+                textTransform: "capitalize",
+              }}
             >
-              <img
-                src={image}
-                alt={name}
-                className="h-[200px] w-[200px] md:w-[300px] md:h-[300px] rounded-md"
-              />
-              <h3 className="transition-transform text-lg font-semibold duration-200 translate-y-2 group-hover:translate-y-0">
-                {name}
-              </h3>
-              <h4 className="invisible group-hover:visible">{position}</h4>
-              <a href={connect} className="relative w-full rounded-full p-4">
-                <FontAwesomeIcon
-                  className="w-6 h-6 absolute right-0 left-0 ml-auto mr-auto duration-200 hover:h-8 hover:w-8"
-                  icon={iconType}
-                />
-              </a>
-            </section>
-          );
-        })}
-      </main>
-      <footer></footer>
-    </article>
+              Our Team
+            </Typography>
+            <TabContent team={heads} />
+          </Box>
+          <TabList
+            onChange={handleChange}
+            aria-label="TEDx Team Members"
+            centered
+            sx={{
+              "& .MuiTabs-root": {},
+              "& .MuiTabs-scroller": {},
+              "& .MuiTabs-flexContainer": {},
+            }}
+          >
+            <Tab
+              label={teams[0].name}
+              value="1"
+              sx={{ color: "common.white" }}
+            />
+            <Tab
+              label={teams[1].name}
+              value="2"
+              sx={{ color: "common.white" }}
+            />
+            <Tab
+              label={teams[2].name}
+              value="3"
+              sx={{ color: "common.white" }}
+            />
+            <Tab
+              label={teams[3].name}
+              value="4"
+              sx={{ color: "common.white" }}
+            />
+            <Tab
+              label={teams[4].name}
+              value="5"
+              sx={{ color: "common.white" }}
+            />
+            <Tab
+              label={teams[5].name}
+              value="6"
+              sx={{ color: "common.white" }}
+            />
+            <Tab
+              label={teams[6].name}
+              value="7"
+              sx={{ color: "common.white" }}
+            />
+          </TabList>
+        </Box>
+        <React.Suspense fallback={<Loader />}>
+          <TabPanel value="1">
+            <TabContent team={teams[0].members} />
+          </TabPanel>
+          <TabPanel value="2">
+            <TabContent team={teams[1].members} />
+          </TabPanel>
+          <TabPanel value="3">
+            <TabContent team={teams[2].members} />
+          </TabPanel>
+          <TabPanel value="4">
+            <TabContent team={teams[3].members} />
+          </TabPanel>
+          <TabPanel value="5">
+            <TabContent team={teams[4].members} />
+          </TabPanel>
+          <TabPanel value="6">
+            <TabContent team={teams[5].members} />
+          </TabPanel>
+          <TabPanel value="7">
+            <TabContent team={teams[6].members} />
+          </TabPanel>
+        </React.Suspense>
+      </TabContext>
+    </Box>
   );
 };
 

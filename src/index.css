@@ -2,9 +2,28 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer utilities {
+
+  .clip-speaker-background {
+
+    clip-path: polygon(0% 15%, 15% 15%, 15% 0%, 85% 0%, 85% 15%, 100% 15%, 100% 85%, 85% 85%, 85% 100%, 15% 100%, 15% 85%, 0% 85%);
+
+  }
+
+}
+
 :root {
   --dark: #1a1a1a;
   --light: #FFFFFF;
+  --blue: #3b82f666;
+  --dark-blue: #3b83f683;
+}
+
+*,
+*::before,
+*::after {
+  scroll-behavior: smooth;
+  box-sizing: border-box;
 }
 
 body {
@@ -15,8 +34,25 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  box-sizing: border-box;
-  scroll-behavior: smooth;
   color: var(--light);
   background-color: var(--dark);
+}
+
+
+::-webkit-scrollbar {
+  width: 0.75em;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 50%;
+  background: var(--dark);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--blue);
+  border-radius: 100vw;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--dark-blue);
 }
