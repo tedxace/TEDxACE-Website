@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Box from "@mui/material/Box";
 import Tab from "@mui/material/Tab";
 import TabContext from "@mui/lab/TabContext";
@@ -12,6 +12,7 @@ import { Typography } from "@mui/material";
 
 const Teams = () => {
   const teams = useTeamData();
+  const [isMobile, setIsMobile] = useState(false);
   const [value, setValue] = useState("1");
 
   const [heads] = teams?.map((team) =>
@@ -21,6 +22,12 @@ const Teams = () => {
   const handleChange = (event, newValue) => {
     setValue(newValue);
   };
+
+  useEffect(() => {
+    if (window.innerWidth < 720) {
+      setIsMobile(true);
+    }
+  }, []);
   return (
     <Box sx={{ width: "100%" }}>
       <TabContext value={value}>
@@ -56,7 +63,12 @@ const Teams = () => {
             sx={{
               "& .MuiTabs-root": {},
               "& .MuiTabs-scroller": {},
-              "& .MuiTabs-flexContainer": {},
+              "& .MuiTabs-flexContainer": {
+                "flex-wrap": "wrap",
+              },
+              "& .MuiTabs-indicator": {
+                height: isMobile ? "0px" : "2px",
+              },
             }}
           >
             <Tab
