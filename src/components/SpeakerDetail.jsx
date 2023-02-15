@@ -10,7 +10,7 @@ const SpeakerDetail = ({ details }) => {
         <img
           src={image}
           alt={name}
-          className="w-[50%] h-auto rounded-md md:w-auto"
+          className="w-[50%] h-auto rounded-md md:w-auto drop-shadow-2xl"
         />
       </div>
       <div className="flex flex-col items-center gap-3 md:gap-6">

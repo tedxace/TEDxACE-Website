@@ -13,11 +13,10 @@ const SpeakerContent = ({ speakers }) => {
   };
   return (
     <section className="relative">
-      <header>
+      <header id="speakers" className="min-h-[10vh]">
         <h2 className="text-4xl font-bold text-center uppercase">Speakers</h2>
       </header>
       <article
-        id="speakers"
         className={`flex flex-wrap justify-center gap-3 items-center py-10`}
       >
         {speakers?.map((speaker) => {

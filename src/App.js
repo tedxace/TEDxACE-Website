@@ -10,7 +10,9 @@ function App() {
   return (
     <div className="overflow-x-hidden">
       <Router>
-        <Navbar />
+        <header className="min-h-[10vh]">
+          <Navbar />
+        </header>
         <React.Suspense fallback={<Loader />}>
           <Routes>
             <Route path="/team" element={<Team />} />

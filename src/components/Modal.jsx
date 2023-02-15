@@ -28,7 +28,7 @@ const dropInAnimate = {
 const Modal = ({ details, handleClose }) => {
   return (
     <motion.section
-      className="absolute top-0 left-0 h-screen z-[999] w-full grid place-items-center bg-tedx-dark/80 overflow-hidden"
+      className="fixed top-0 left-0 h-screen z-[999] w-full grid place-items-center bg-tedx-dark/80 overflow-hidden"
       onClick={handleClose}
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}

@@ -1,8 +1,25 @@
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { faFacebook } from "@fortawesome/free-brands-svg-icons";
+import { faInstagram } from "@fortawesome/free-brands-svg-icons";
 import { faTwitter } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { motion } from "framer-motion";
 import React, { useState } from "react";
+
+const pop = {
+  hidden: {
+    y: "10vh",
+    opacity: 0,
+  },
+  visible: {
+    y: "0",
+    opacity: 1,
+    transition: {
+      duration: 0.1,
+      type: "spring",
+    },
+  },
+};
 
 const Contact = () => {
   const [formButtonText, setFormButtonText] = useState("Subscribe");
@@ -46,42 +63,62 @@ const Contact = () => {
             Social Media
           </h3>
           <div className="flex justify-center items-center">
-            <a
+            <motion.a
               href="https://twitter.com/tedxace"
               className={`relative w-full rounded-full`}
+              whileHover={{ scale: 1.02 }}
+              onTap={{ scale: 0.98 }}
+              variants={pop}
+              initial="hidden"
+              animate="visible"
             >
               <FontAwesomeIcon
-                className="w-8 h-8 absolute right-0 left-0 duration-200 hover:h-10 hover:w-10"
+                className="w-8 h-8 absolute right-0 left-0 duration-200"
                 icon={faTwitter}
               />
-            </a>
-            <a
+            </motion.a>
+            <motion.a
               href="https://www.facebook.com/tedxace2020/"
               className={`relative w-full rounded-full`}
+              whileHover={{ scale: 1.02 }}
+              onTap={{ scale: 0.98 }}
+              variants={pop}
+              initial="hidden"
+              animate="visible"
             >
               <FontAwesomeIcon
-                className="w-8 h-8 absolute right-0 left-0 duration-200 hover:h-10 hover:w-10"
+                className="w-8 h-8 absolute right-0 left-0 duration-200"
                 icon={faFacebook}
               />
-            </a>
-            <a
+            </motion.a>
+            <motion.a
               href="https://www.instagram.com/tedxace/"
               className={`relative w-full rounded-full`}
+              whileHover={{ scale: 1.02 }}
+              onTap={{ scale: 0.98 }}
+              variants={pop}
+              initial="hidden"
+              animate="visible"
             >
               <FontAwesomeIcon
-                className="w-8 h-8 absolute right-0 left-0 duration-200 hover:h-10 hover:w-10"
-                icon={faTwitter}
+                className="w-8 h-8 absolute right-0 left-0 duration-200"
+                icon={faInstagram}
               />
-            </a>
-            <a
+            </motion.a>
+            <motion.a
               href="https://www.linkedin.com/company/tedxace/"
               className={`relative w-full rounded-full`}
+              whileHover={{ scale: 1.02 }}
+              onTap={{ scale: 0.98 }}
+              variants={pop}
+              initial="hidden"
+              animate="visible"
             >
               <FontAwesomeIcon
-                className="w-8 h-8 absolute right-0 left-0 duration-200 hover:h-10 hover:w-10"
+                className="w-8 h-8 absolute right-0 left-0 duration-200"
                 icon={faLinkedin}
               />
-            </a>
+            </motion.a>
           </div>
         </div>
 
