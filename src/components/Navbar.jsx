@@ -3,6 +3,7 @@ import { useLocation } from "react-router-dom";
 import { Link } from "react-router-dom";
 import TEDxLogo from "../assets/TEDxLogo.svg";
 
+
 const Navbar = () => {
   const location = useLocation();
 
@@ -31,9 +32,8 @@ const Navbar = () => {
   }, []);
   return (
     <header
-      className={`grid place-items-center min-h-[6vh] md:min-h-[8vh] grid-cols-3 md:grid-cols-[20%_70%_10%] shadow-md px-3 py-2 md:px-6 md:py-6 w-full z-10 bg-tedx-dark transition-transform duration-500 top-0 fixed ${
-        fixed ? "scale-100" : "scale-105"
-      }`}
+      className={`grid place-items-center min-h-[6vh] md:min-h-[8vh] grid-cols-3 md:grid-cols-[20%_70%_10%] shadow-md px-3 py-2 md:px-6 md:py-6 w-full z-10 bg-tedx-dark transition-transform duration-500 top-0 fixed ${fixed ? "scale-100" : "scale-105"
+        }`}
     >
       {isHomePage ? (
         <a href="#home">
@@ -57,37 +57,35 @@ const Navbar = () => {
             <Link
               to={"/about"}
               className="hover:text-tedx-white duration-100"
-              href="#about"
             >
               About
             </Link>
           </li>
           <li>
-            <a className="hover:text-tedx-white duration-100" href="#speakers">
+            <Link
+              to={"/speakers"} className="hover:text-tedx-white duration-100">
               Speakers
-            </a>
+            </Link>
+
           </li>
           <li>
             <Link
               to={"/team"}
               className="hover:text-tedx-white duration-100"
-              href="#team"
             >
               Team
             </Link>
           </li>
           <li>
-            <a className="hover:text-tedx-white duration-100" href="#contact">
+            <Link to={"/contact"} className="hover:text-tedx-white duration-100">
               Contact
-            </a>
+            </Link>
+
           </li>
           <li>
-            <a
-              className="hover:text-tedx-white duration-100"
-              href="#previous-events"
-            >
+            <Link to={"/previous-events"} className="hover:text-tedx-white duration-100">
               Previous Event
-            </a>
+            </Link>
           </li>
         </ul>
       </nav>
