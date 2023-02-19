@@ -4,14 +4,14 @@ const About = () => {
   return (
     <article className="relative flex flex-col gap-8 w-full min-h-[90vh] justify-center items-center py-16">
       <header>
-        <h1 className="text-4xl font-bold">About TEDx</h1>
+        <h1 className="text-2xl md:text-4xl font-bold">About TEDx</h1>
       </header>
-      <main className="flex flex-col gap-6 px-16">
+      <main className="flex flex-col gap-6 px-12 md:px-36">
         <section className="flex flex-col gap-3">
           <h2 className="text-xl font-semibold">
             About TEDx, x = independently organized event
           </h2>
-          <p className="text-tedx-white/80">
+          <p className="text-tedx-white/80 text-xs md:text-base lg:text-md text-justify">
             In the spirit of ideas worth spreading, TEDx is a program of local,
             self-organized events that bring people together to share a TED-like
             experience. At a TEDx event, TED Talks video and live speakers
@@ -23,8 +23,8 @@ const About = () => {
           </p>
         </section>
         <section className="flex flex-col gap-3">
-          <h2 className="text-xl font-semibold">About TED</h2>
-          <p className="text-tedx-white/80">
+          <h2 className="text-xl md:text-2xl font-semibold">About TED</h2>
+          <p className="text-tedx-white/80 text-justify">
             TED is a nonprofit organization devoted to Ideas Worth Spreading.
             Started as a four-day conference in California 30 years ago, TED has
             grown to support its mission with multiple initiatives. The two
@@ -35,7 +35,7 @@ const About = () => {
             Nilekani, Philippe Starck, Ngozi Okonjo-Iweala, Sal Khan and Daniel
             Kahneman.
           </p>
-          <p className="text-tedx-white/80">
+          <p className="text-tedx-white/80 text-justify">
             The annual TED Conference takes place each spring in Vancouver,
             British Columbia. TED's media initiatives include TED.com, where new
             TED Talks are posted daily; TED Translators, which provides

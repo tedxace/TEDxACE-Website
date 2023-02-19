@@ -1,29 +1,26 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { motion } from "framer-motion";
 import React from "react";
 
 const TeamContent = ({ team }) => {
-  let gridStyle;
-  if (team.length % 2 === 0 && team.length < 2) {
-    gridStyle = "grid-cols-2";
-  } else {
-    gridStyle = "grid-cols-3";
-  }
   return (
     <article
-      className={`grid grid-cols-1 gap-4 sm:grid-cols-2 place-items-center md:${gridStyle}`}
+      className={`grid grid-cols-1 gap-y-4 sm:grid-cols-2 place-items-center md:grid-cols-3`}
     >
       {team?.map((member) => {
         const { name, image, position, social } = member;
         return (
-          <section
+          <motion.section
             key={name}
-            className="group flex flex-col justify-center items-center gap-2 gap-y-2 p-2 transition-opacity duration-200 hover:opacity-100 opacity-100 md:opacity-60 border-transparent border-b-2 hover:border-tedx-white rounded-md"
+            className="group flex flex-col justify-center items-center gap-y-1 p-2 transition-all hover:opacity-100 opacity-100 md:opacity-60 px-6 clip-path-framePolygon duration-700 bg-tedx-blue/10 hover:clip-path-none hover:bg-tedx-pink/20 border-transparent border-b-2 hover:border-tedx-white"
+            whileHover={{ scale: 1.02 }}
+            onTap={{ scale: 0.98 }}
           >
             <img
               loading="lazy"
               src={image}
               alt={name}
-              className="h-[150px] w-[150px] md:w-[200px] md:h-[200px] lg:h-[250px] lg:w-[250px] ease-in-out rounded-full"
+              className="md:h-[150px] md:w-[150px] lg:w-[200px] lg:h-[200px] h-[100px] w-[100px] ease-in-out rounded-full"
             />
             <h3 className="transition-transform text-lg font-semibold duration-200 translate-y-2 group-hover:translate-y-0">
               {name}
@@ -40,7 +37,7 @@ const TeamContent = ({ team }) => {
                 icon={social[0]}
               />
             </a>
-          </section>
+          </motion.section>
         );
       })}
     </article>

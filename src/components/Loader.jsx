@@ -2,7 +2,7 @@ import React from "react";
 
 const Loader = () => {
   return (
-    <section className="absolute h-screen w-screen grid place-items-center">
+    <section className="fixed z-0 h-screen w-screen grid place-items-center">
       <div role="status">
         <svg
           aria-hidden="true"

@@ -7,7 +7,6 @@ import TabPanel from "@mui/lab/TabPanel";
 import { useTeamData } from "../Context/ContextProvider";
 import TabContent from "../components/TeamContent";
 import { useState } from "react";
-import Loader from "../components/Loader";
 import { Typography } from "@mui/material";
 
 const Teams = () => {
@@ -56,81 +55,82 @@ const Teams = () => {
             </Typography>
             <TabContent team={heads} />
           </Box>
-          <TabList
-            onChange={handleChange}
-            aria-label="TEDx Team Members"
-            centered
-            sx={{
-              "& .MuiTabs-root": {},
-              "& .MuiTabs-scroller": {},
-              "& .MuiTabs-flexContainer": {
-                "flex-wrap": "wrap",
-              },
-              "& .MuiTabs-indicator": {
-                height: isMobile ? "0px" : "2px",
-              },
-            }}
-          >
-            <Tab
-              label={teams[0].name}
-              value="1"
-              sx={{ color: "common.white" }}
-            />
-            <Tab
-              label={teams[1].name}
-              value="2"
-              sx={{ color: "common.white" }}
-            />
-            <Tab
-              label={teams[2].name}
-              value="3"
-              sx={{ color: "common.white" }}
-            />
-            <Tab
-              label={teams[3].name}
-              value="4"
-              sx={{ color: "common.white" }}
-            />
-            <Tab
-              label={teams[4].name}
-              value="5"
-              sx={{ color: "common.white" }}
-            />
-            <Tab
-              label={teams[5].name}
-              value="6"
-              sx={{ color: "common.white" }}
-            />
-            <Tab
-              label={teams[6].name}
-              value="7"
-              sx={{ color: "common.white" }}
-            />
-          </TabList>
+          <a href="#list">
+            <TabList
+              id="list"
+              onChange={handleChange}
+              aria-label="TEDx Team Members"
+              centered
+              sx={{
+                "& .MuiTabs-root": {},
+                "& .MuiTabs-scroller": {},
+                "& .MuiTabs-flexContainer": {
+                  "flex-wrap": "wrap",
+                },
+                "& .MuiTabs-indicator": {
+                  height: isMobile ? "0px" : "2px",
+                },
+              }}
+            >
+              <Tab
+                label={teams[0].name}
+                value="1"
+                sx={{ color: "common.white" }}
+              />
+              <Tab
+                label={teams[1].name}
+                value="2"
+                sx={{ color: "common.white" }}
+              />
+              <Tab
+                label={teams[2].name}
+                value="3"
+                sx={{ color: "common.white" }}
+              />
+              <Tab
+                label={teams[3].name}
+                value="4"
+                sx={{ color: "common.white" }}
+              />
+              <Tab
+                label={teams[4].name}
+                value="5"
+                sx={{ color: "common.white" }}
+              />
+              <Tab
+                label={teams[5].name}
+                value="6"
+                sx={{ color: "common.white" }}
+              />
+              <Tab
+                label={teams[6].name}
+                value="7"
+                sx={{ color: "common.white" }}
+              />
+            </TabList>
+          </a>
         </Box>
-        <React.Suspense fallback={<Loader />}>
-          <TabPanel value="1">
-            <TabContent team={teams[0].members} />
-          </TabPanel>
-          <TabPanel value="2">
-            <TabContent team={teams[1].members} />
-          </TabPanel>
-          <TabPanel value="3">
-            <TabContent team={teams[2].members} />
-          </TabPanel>
-          <TabPanel value="4">
-            <TabContent team={teams[3].members} />
-          </TabPanel>
-          <TabPanel value="5">
-            <TabContent team={teams[4].members} />
-          </TabPanel>
-          <TabPanel value="6">
-            <TabContent team={teams[5].members} />
-          </TabPanel>
-          <TabPanel value="7">
-            <TabContent team={teams[6].members} />
-          </TabPanel>
-        </React.Suspense>
+        <TabPanel value="1">
+          <TabContent team={teams[0].members} />
+        </TabPanel>
+        <TabPanel value="2">
+          <TabContent team={teams[1].members} />
+        </TabPanel>
+        <TabPanel value="3">
+          <TabContent team={teams[2].members} />
+        </TabPanel>
+        <TabPanel value="4">
+          <TabContent team={teams[3].members} />
+        </TabPanel>
+        <TabPanel value="5">
+          <TabContent team={teams[4].members} />
+        </TabPanel>
+        <TabPanel value="6">
+          <TabContent team={teams[5].members} />
+        </TabPanel>
+        <TabPanel value="7">
+          <TabContent team={teams[6].members} />
+        </TabPanel>
       </TabContext>
     </Box>
   );
