@@ -178,7 +178,7 @@ const decor = [
     image:
       "https://res.cloudinary.com/tedxace/image/upload/v1675337280/2023/Rajas_Pofalkar_cbi6xe.jpg",
     name: "Rajas P.",
-    position: "Social Media",
+    position: "Decor",
     social: ["fa fa-instagram", "https://www.instagram.com/__rajaass__/"],
   },
   {
