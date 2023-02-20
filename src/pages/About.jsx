@@ -1,16 +1,25 @@
+import { faFacebook } from "@fortawesome/free-brands-svg-icons";
+import { faTwitter } from "@fortawesome/free-brands-svg-icons";
+import { faArrowUpRightFromSquare } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 
 const About = () => {
   return (
     <article className="relative flex flex-col gap-8 w-full min-h-[90vh] justify-center items-center py-16">
-      <header>
-        <h1 className="text-2xl md:text-4xl font-bold">About TEDx</h1>
-      </header>
-      <main className="flex flex-col gap-6 px-12 md:px-36">
+      <main className="flex flex-col gap-6 px-12 md:px-40">
         <section className="flex flex-col gap-3">
-          <h2 className="text-xl font-semibold">
-            About TEDx, x = independently organized event
-          </h2>
+          <header>
+            <h1 className="text-2xl md:text-4xl font-bold bg-gradient-to-r from-tedx-blue to-tedx-pink bg-clip-text">
+              About TEDx, x = independently organized event{" "}
+              <a href="https://www.ted.com/about/programs-initiatives/tedx-program">
+                <FontAwesomeIcon
+                  className="text-lg hover:scale-105"
+                  icon={faArrowUpRightFromSquare}
+                />
+              </a>
+            </h1>
+          </header>
           <p className="text-tedx-white/80 text-xs md:text-base lg:text-md text-justify">
             In the spirit of ideas worth spreading, TEDx is a program of local,
             self-organized events that bring people together to share a TED-like
@@ -22,8 +31,18 @@ const About = () => {
             (Subject to certain rules and regulations.)
           </p>
         </section>
-        <section className="flex flex-col gap-3">
-          <h2 className="text-xl md:text-2xl font-semibold">About TED</h2>
+        <header>
+          <h1 className="text-2xl md:text-4xl font-bold">
+            About TED{" "}
+            <a href="https://www.ted.com/about/our-organization">
+              <FontAwesomeIcon
+                className="text-lg hover:scale-105"
+                icon={faArrowUpRightFromSquare}
+              />
+            </a>
+          </h1>
+        </header>
+        <section className="flex gap-12">
           <p className="text-tedx-white/80 text-justify">
             TED is a nonprofit organization devoted to Ideas Worth Spreading.
             Started as a four-day conference in California 30 years ago, TED has
@@ -52,8 +71,15 @@ const About = () => {
         </section>
         <section>
           <h3 className="text-lg text-center font-semibold py-6 mb-6 md:mb-0">
-            Follow TED on <a href="https://twitter.com/TEDtTalks">twitter</a>{" "}
-            and <a href="https://www.facebook.com/TED">Facebook</a>
+            Follow TED on {"   "}
+            <a href="https://twitter.com/TEDtTalks">
+              <FontAwesomeIcon icon={faTwitter} />
+            </a>
+            {"   "}
+            and {"   "}
+            <a href="https://www.facebook.com/TED">
+              <FontAwesomeIcon icon={faFacebook} />
+            </a>
           </h3>
         </section>
       </main>

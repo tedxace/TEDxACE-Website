@@ -55,9 +55,8 @@ const Teams = () => {
             </Typography>
             <TabContent team={heads} />
           </Box>
-          <a href="#list">
+          <a href="#list" id="list">
             <TabList
-              id="list"
               onChange={handleChange}
               aria-label="TEDx Team Members"
               centered
