@@ -17,7 +17,7 @@ const SpeakerContent = ({ speakers }) => {
         <h2 className="text-4xl font-bold text-center uppercase">Speakers</h2>
       </header>
       <article
-        className={`flex flex-wrap justify-center gap-3 items-center py-10`}
+        className={`flex flex-wrap md:px-24 lg-px-32 justify-center gap-3 items-center py-10`}
       >
         {speakers?.map((speaker) => {
           const { name, image, position } = speaker;
@@ -45,18 +45,6 @@ const SpeakerContent = ({ speakers }) => {
               <h4 className=" visible md:invisible group-hover:visible text-xs sm:text-sm md:text-lg text-center w-[90%] md:w-[60%]">
                 {position}
               </h4>
-              {/* <a
-                href={href}
-                className={`relative w-full rounded-full p-4`}
-                rel="noreferrer"
-                target={"_blank"}
-              >
-              </a> */}
-              {/* <motion.button
-                className="absolute top-0 left-0 w-full h-full outline-none border-none z-10"
-              >
-                Hi
-              </motion.button> */}
             </motion.section>
           );
         })}

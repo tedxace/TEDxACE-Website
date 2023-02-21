@@ -22,9 +22,13 @@ function App() {
             <Route path="/team" element={<Team />} />
             <Route path="/about" element={<About />} />
             <Route exact path="/" element={<Home />} />
-            <Route exact path="/contact" element={<Contact />} />
-            <Route exact path="/speakers" element={<SpeakerContent speakers={speakers} />}
+            <Route exact path="/" element={<Home />} />
+            <Route
+              exact
+              path="/speaker"
+              element={<SpeakerContent speakers={speakers} />}
             />
+            <Route exact path="/contact" element={<Contact />} />
           </Routes>
         </React.Suspense>
       </Router>

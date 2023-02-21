@@ -22,10 +22,10 @@ const SpeakerDetail = ({ details }) => {
             {position}
           </p>
         </div>
-        {text?.map((para) => {
+        {text?.map((para, index) => {
           return (
             <p
-              key={name}
+              key={index}
               className="text-xs sm:text-sm md:text-md py-1 lg:text-lg px-3"
             >
               {para}
@@ -33,8 +33,8 @@ const SpeakerDetail = ({ details }) => {
           );
         })}
         <ul className="list-disc pl-4 md:pl-10 text-xs py-2 sm:text-sm md:text-md lg:text-lg">
-          {list?.map((listItem) => {
-            return <li key={name}>{listItem}</li>;
+          {list?.map((listItem, index) => {
+            return <li key={index}>{listItem}</li>;
           })}
         </ul>
       </div>
