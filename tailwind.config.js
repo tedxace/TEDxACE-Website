@@ -9,14 +9,24 @@ module.exports = {
         "tedx-blue": "#3b82f666",
         "tedx-pink": "#ec489966",
       },
+      animation: {
+        glow: "glow 1s ease-in-out infinite alternate",
+      },
+      keyframes: {
+        glow: {
+          from: { "background-position": "left" },
+          to: { "background-position": "right" },
+        },
+      },
     },
     backgroundSize: {
       auto: "auto",
       cover: "cover",
       contain: "contain",
-      "50%": "50%",
-      16: "4rem",
-      "200%": "200%",
+      50: "50%",
+      150: "150%",
+      200: "200%",
+      300: "300%",
     },
     clipPath: {
       speakerPolygon:

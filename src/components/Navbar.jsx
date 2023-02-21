@@ -123,7 +123,7 @@ const Navbar = () => {
       </nav>
       <ul>
         <li>
-          <button className="border-r-2 text-sm md:text-base lg:text-md transition-all border-l-2 border-b-0 border-tedx-white px-4 py-2 rounded-lg shadow-tedx-white hover:shadow-lg bg-gradient-to-r duration-500 bg-200% from-tedx-blue/40 to-tedx-pink/40 bg-left hover:bg-right">
+          <button className="border-r-2 text-sm md:text-base lg:text-md transition-all border-l-2 border-b-0 border-tedx-white px-4 py-2 rounded-lg shadow-tedx-white hover:shadow-lg bg-gradient-to-r duration-500 bg-300 from-tedx-blue/40 to-tedx-pink/40 bg-left hover:bg-right">
             Join
           </button>
         </li>

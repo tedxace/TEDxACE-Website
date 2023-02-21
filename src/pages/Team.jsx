@@ -5,7 +5,7 @@ import TabContext from "@mui/lab/TabContext";
 import TabList from "@mui/lab/TabList";
 import TabPanel from "@mui/lab/TabPanel";
 import { useTeamData } from "../Context/ContextProvider";
-import TabContent from "../components/TeamContent";
+import TeamContent from "../components/TeamContent";
 import { useState } from "react";
 import { Typography } from "@mui/material";
 
@@ -53,7 +53,7 @@ const Teams = () => {
             >
               Our Team
             </Typography>
-            <TabContent team={heads} />
+            <TeamContent team={heads} />
           </Box>
           <a href="#list" id="list">
             <TabList
@@ -109,27 +109,29 @@ const Teams = () => {
             </TabList>
           </a>
         </Box>
-        <TabPanel value="1">
-          <TabContent team={teams[0].members} />
-        </TabPanel>
-        <TabPanel value="2">
-          <TabContent team={teams[1].members} />
-        </TabPanel>
-        <TabPanel value="3">
-          <TabContent team={teams[2].members} />
-        </TabPanel>
-        <TabPanel value="4">
-          <TabContent team={teams[3].members} />
-        </TabPanel>
-        <TabPanel value="5">
-          <TabContent team={teams[4].members} />
-        </TabPanel>
-        <TabPanel value="6">
-          <TabContent team={teams[5].members} />
-        </TabPanel>
-        <TabPanel value="7">
-          <TabContent team={teams[6].members} />
-        </TabPanel>
+        <Box sx={{ minHeight: "90vh" }}>
+          <TabPanel value="1">
+            <TeamContent team={teams[0].members} />
+          </TabPanel>
+          <TabPanel value="2">
+            <TeamContent team={teams[1].members} />
+          </TabPanel>
+          <TabPanel value="3">
+            <TeamContent team={teams[2].members} />
+          </TabPanel>
+          <TabPanel value="4">
+            <TeamContent team={teams[3].members} />
+          </TabPanel>
+          <TabPanel value="5">
+            <TeamContent team={teams[4].members} />
+          </TabPanel>
+          <TabPanel value="6">
+            <TeamContent team={teams[5].members} />
+          </TabPanel>
+          <TabPanel value="7">
+            <TeamContent team={teams[6].members} />
+          </TabPanel>
+        </Box>
       </TabContext>
     </Box>
   );
