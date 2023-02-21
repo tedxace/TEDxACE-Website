@@ -28,6 +28,7 @@ function App() {
               path="/speaker"
               element={<SpeakerContent speakers={speakers} />}
             />
+            <Route exact path="/contact" element={<Contact />} />
           </Routes>
         </React.Suspense>
       </Router>
