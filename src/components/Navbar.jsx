@@ -4,6 +4,7 @@ import { useLocation } from "react-router-dom";
 import { Link } from "react-router-dom";
 import TEDxLogo from "../assets/TEDxLogo.svg";
 
+
 const Navbar = () => {
   const location = useLocation();
   const navigate = useNavigate();
@@ -79,7 +80,6 @@ const Navbar = () => {
             <Link
               to={"/about"}
               className="hover:text-tedx-white duration-100"
-              href="#about"
             >
               About
             </Link>
@@ -91,13 +91,13 @@ const Navbar = () => {
               onClick={onSpeakerButtonClick}
             >
               Speakers
-            </a>
+            </Link>
+
           </li>
           <li>
             <Link
               to={"/team"}
               className="hover:text-tedx-white duration-100"
-              href="#team"
             >
               Team
             </Link>
@@ -109,7 +109,8 @@ const Navbar = () => {
               onClick={onContactButtonClick}
             >
               Contact
-            </a>
+            </Link>
+
           </li>
           <li>
             <a
@@ -118,7 +119,7 @@ const Navbar = () => {
               onClick={onEventButtonClick}
             >
               Previous Event
-            </a>
+            </Link>
           </li>
         </ul>
       </nav>
