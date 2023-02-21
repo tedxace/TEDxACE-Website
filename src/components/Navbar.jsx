@@ -91,8 +91,7 @@ const Navbar = () => {
               onClick={onSpeakerButtonClick}
             >
               Speakers
-            </Link>
-
+            </a>
           </li>
           <li>
             <Link
@@ -109,8 +108,7 @@ const Navbar = () => {
               onClick={onContactButtonClick}
             >
               Contact
-            </Link>
-
+            </a>
           </li>
           <li>
             <a
@@ -119,7 +117,7 @@ const Navbar = () => {
               onClick={onEventButtonClick}
             >
               Previous Event
-            </Link>
+            </a>
           </li>
         </ul>
       </nav>
