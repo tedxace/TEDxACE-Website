@@ -58,11 +58,11 @@ const Contact = () => {
       </div>
 
       <div className="flex flex-col justify-center relative md:grid md:grid-cols-2 h-[20vh] px-4 md:px-[20vw]">
-        <div className="flex flex-col gap-6 px-10">
-          <h3 className="text-lg hidden md:block md:text-2xl font-semibold">
+        <div className="flex flex-col justify-center gap-6 px-10">
+          <h3 className="text-base sm:text-md hidden md:block md:text-lg lg:text-2xl font-semibold">
             Social Media
           </h3>
-          <div className="flex justify-center items-center">
+          <div className="flex justify-evenly">
             <motion.a
               href="https://twitter.com/tedxace"
               className={`relative w-full rounded-full`}
@@ -122,7 +122,7 @@ const Contact = () => {
           </div>
         </div>
 
-        <div className="flex flex-col gap-6 md:pl-28 px-10 text-center md:text-left">
+        <div className="flex flex-col justify-center items-center gap-6 md:pl-28 px-10 text-center md:text-left">
           <h3 className="text-lg invisible md:visible md:text-2xl font-semibold">
             Email
           </h3>

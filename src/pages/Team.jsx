@@ -10,7 +10,7 @@ import { useState } from "react";
 import { Typography } from "@mui/material";
 
 const Teams = () => {
-  const teams = useTeamData();
+  const { teamState: teams } = useTeamData();
   const [isMobile, setIsMobile] = useState(false);
   const [value, setValue] = useState("1");
 
@@ -64,7 +64,7 @@ const Teams = () => {
                 "& .MuiTabs-root": {},
                 "& .MuiTabs-scroller": {},
                 "& .MuiTabs-flexContainer": {
-                  "flex-wrap": "wrap",
+                  flexWrap: "wrap",
                 },
                 "& .MuiTabs-indicator": {
                   height: isMobile ? "0px" : "2px",

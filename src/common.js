@@ -3,7 +3,7 @@ import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { faGlobe } from "@fortawesome/free-solid-svg-icons";
 
-export const curator = [
+export const curator2023 = [
   {
     image:
       "https://res.cloudinary.com/tedxace/image/upload/v1675337279/2023/Jeenal_Dhuri_hdjccf.jpg",
@@ -47,7 +47,7 @@ export const curator = [
   },
 ];
 
-export const designer = [
+export const designer2023 = [
   {
     image:
       "https://res.cloudinary.com/tedxace/image/upload/v1675337279/2023/Sumeet_Bhimanpally__sgoxrb.jpg",
@@ -77,7 +77,7 @@ export const designer = [
   },
 ];
 
-export const social = [
+export const social2023 = [
   {
     image:
       "https://res.cloudinary.com/tedxace/image/upload/v1675337280/2023/Rajas_Pofalkar_cbi6xe.jpg",
@@ -108,7 +108,7 @@ export const social = [
   },
 ];
 
-export const market = [
+export const market2023 = [
   {
     image:
       "https://res.cloudinary.com/tedxace/image/upload/v1675337277/2023/Om_Bhamare_wzvifg.jpg",
@@ -156,7 +156,7 @@ export const market = [
   },
 ];
 
-export const decor = [
+export const decor2023 = [
   {
     image:
       "https://res.cloudinary.com/tedxace/image/upload/v1675337280/2023/Rajas_Pofalkar_cbi6xe.jpg",
@@ -222,7 +222,7 @@ export const decor = [
   },
 ];
 
-export const tech = [
+export const tech2023 = [
   {
     image:
       "https://res.cloudinary.com/tedxace/image/upload/v1637913191/2022/gauravkonde.jpg",
@@ -269,7 +269,7 @@ export const tech = [
     ],
   },
 ];
-export const video = [
+export const video2023 = [
   {
     image:
       "https://res.cloudinary.com/tedxace/image/upload/v1675337279/2023/Aarnav_Sangekar_qsrf8b.jpg",
@@ -303,7 +303,17 @@ export const video = [
   },
 ];
 
-export const speakers = [
+export const team2023 = [
+  { name: "tech", members: [...tech2023] },
+  { name: "curator", members: [...curator2023] },
+  { name: "designer", members: [...designer2023] },
+  { name: "social", members: [...social2023] },
+  { name: "market", members: [...market2023] },
+  { name: "decor", members: [...decor2023] },
+  { name: "video", members: [...video2023] },
+];
+
+export const speakers2022 = [
   {
     name: "Mr. Vedant Harlalka",
     position: "Young Innovator and Change Maker",
@@ -329,31 +339,69 @@ export const speakers = [
     position: "The Harmonium Ustad",
     image:
       "https://res.cloudinary.com/tedxace/image/upload/v1675337277/2023/Jamil_Shaikh_xvaomb.png",
-    text: [""],
-    list: [""],
+    text: [``],
+    list: [``],
   },
   {
     name: "Ms. Sumedha Chopra",
     position: "Former Indian Air Force Officer",
     image:
       "https://res.cloudinary.com/tedxace/image/upload/v1675337277/2023/Jamil_Shaikh_xvaomb.png",
-    text: [""],
-    list: [""],
+    text: [``],
+    list: [``],
   },
   {
     name: "Mr. Mukesh Pandey",
     position: "Entrepreneur and Visionary Educational Leader",
     image:
       "https://res.cloudinary.com/tedxace/image/upload/v1675337277/2023/Jamil_Shaikh_xvaomb.png",
-    text: [""],
-    list: [""],
+    text: [``],
+    list: [``],
   },
   {
     name: "Mr. Subhajit Mukherjee",
     position: "Founder of Mission Green Mumbai",
     image:
       "https://res.cloudinary.com/tedxace/image/upload/v1675337277/2023/Jamil_Shaikh_xvaomb.png",
-    text: [""],
-    list: [""],
+    text: [``],
+    list: [``],
+  },
+];
+
+export const speakers2023 = [
+  {
+    name: "",
+    position: "",
+    image: "",
+    text: [``, ``],
+    list: [``, ``],
+  },
+  {
+    name: "",
+    position: "",
+    image: "",
+    text: [``],
+    list: [``],
+  },
+  {
+    name: "",
+    position: "",
+    image: "",
+    text: [``],
+    list: [``],
+  },
+  {
+    name: "",
+    position: "",
+    image: "",
+    text: [``],
+    list: [``],
+  },
+  {
+    name: "",
+    position: "",
+    image: "",
+    text: [``],
+    list: [``],
   },
 ];

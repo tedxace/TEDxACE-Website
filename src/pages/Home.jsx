@@ -5,11 +5,12 @@ import SpeakerContent from "../components/SpeakerContent";
 import { useSpeakerData } from "../Context/ContextProvider";
 
 const Home = () => {
-  const speakers = useSpeakerData();
+  const { speakerState } = useSpeakerData();
+  console.log(speakerState);
   return (
     <main className="overflow-x-hidden">
       <HeroSection />
-      <SpeakerContent speakers={speakers} />
+      <SpeakerContent speakers={speakerState} />
       <Contact />
     </main>
   );
