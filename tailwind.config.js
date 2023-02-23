@@ -32,8 +32,7 @@ module.exports = {
       speakerPolygon:
         "polygon(0% 15%, 15% 15%, 15% 0%, 85% 0%, 85% 15%, 100% 15%, 100% 85%, 85% 85%, 85% 100%, 15% 100%, 15% 85%, 0% 85%);",
       circularPolygon: "ellipse(70% 40% at 40% 51%)",
-      framePolygon:
-        "polygon(10% 0, 90% 0, 100% 50%, 90% 100%, 10% 100%, 0% 50%)",
+      framePolygon: "polygon(5% 0, 95% 0, 100% 50%, 95% 100%, 5% 100%, 0% 50%)",
     },
   },
   plugins: [require("tailwind-clip-path"), require("@tailwindcss/line-clamp")],
