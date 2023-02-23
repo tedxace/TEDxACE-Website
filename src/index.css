@@ -40,6 +40,14 @@ body {
   scroll-margin-top: 100px;
 }
 
+#tsparticles {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
 
 ::-webkit-scrollbar {
   width: 0.75em;

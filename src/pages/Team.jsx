@@ -6,22 +6,18 @@ import TabList from "@mui/lab/TabList";
 import TabPanel from "@mui/lab/TabPanel";
 import { useTeamData } from "../Context/ContextProvider";
 import TeamContent from "../components/TeamContent";
+import SpeakerContent from "../components/SpeakerContent";
 import { useState } from "react";
 import { Typography } from "@mui/material";
 
 const Teams = () => {
-  const { teamState: teams } = useTeamData();
+  const { teams, heads } = useTeamData();
   const [isMobile, setIsMobile] = useState(false);
   const [value, setValue] = useState("1");
-
-  const [heads] = teams?.map((team) =>
-    team.members?.filter((member) => member.name === "Anjan N.")
-  );
 
   const handleChange = (event, newValue) => {
     setValue(newValue);
   };
-
   useEffect(() => {
     if (window.innerWidth < 720) {
       setIsMobile(true);
@@ -40,6 +36,7 @@ const Teams = () => {
               justifyContent: "center",
               alignItems: "center",
               marginBottom: "2rem",
+              width: "100%",
             }}
           >
             <Typography
@@ -53,7 +50,7 @@ const Teams = () => {
             >
               Our Team
             </Typography>
-            <TeamContent team={heads} />
+            <SpeakerContent speakers={heads} />
           </Box>
           <a href="#list" id="list">
             <TabList

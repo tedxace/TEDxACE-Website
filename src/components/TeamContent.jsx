@@ -5,7 +5,8 @@ import React from "react";
 const TeamContent = ({ team }) => {
   return (
     <article
-      className={`grid gap-y-4 grid-cols-2 place-items-center md:grid-cols-3 lg:grid-cols-4`}
+      className={`grid gap-y-4 gap-x-2 grid-cols-2 place-items-center md:grid-cols-3 lg:grid-cols-4"
+      `}
     >
       {team?.map((member) => {
         const { name, image, position, social } = member;

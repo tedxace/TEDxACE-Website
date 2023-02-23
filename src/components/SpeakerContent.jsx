@@ -1,9 +1,10 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import Modal from "./Modal";
 
 const SpeakerContent = ({ speakers }) => {
   const [modalOpen, setModalOpen] = useState(false);
+  const [isHeads, setIsHeads] = useState(false);
   const [speakerDetails, setSpeakerDetails] = useState({});
   const close = () => {
     setModalOpen(false);
@@ -11,10 +12,25 @@ const SpeakerContent = ({ speakers }) => {
   const open = () => {
     setModalOpen(true);
   };
+  console.log(speakers?.length);
+  useEffect(() => {
+    if (speakers?.length < 3) {
+      setIsHeads(true);
+    }
+  }, [speakers?.length]);
   return (
     <section className="relative">
-      <header id="speakers" className="min-h-[10vh]">
-        <h2 className="text-4xl font-bold text-center uppercase">Speakers</h2>
+      <header
+        id="speakers"
+        className={` ${isHeads ? "h-auto" : "min-h-[10vh]"}`}
+      >
+        <h2
+          className={`text-center uppercase ${
+            isHeads ? "text-lg" : "text-4xl  font-bold"
+          }`}
+        >
+          {isHeads ? "Heads" : "Speakers"}
+        </h2>
       </header>
       <article
         className={`flex flex-wrap md:px-24 lg-px-32 justify-center gap-3 items-center py-10`}
