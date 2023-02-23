@@ -6,7 +6,7 @@ import { faGlobe } from "@fortawesome/free-solid-svg-icons";
 export const heads2023 = [
   {
     image:
-      "https://res.cloudinary.com/tedxace/image/upload/v1637913191/2022/samyukta.jpg",
+      "https://res.cloudinary.com/dg9hyutsz/image/upload/v1677171180/samyukta_ojqclw.png",
     name: "Samyukta V.",
     position: "Licensee",
     social: [
@@ -18,7 +18,7 @@ export const heads2023 = [
     image:
       "https://res.cloudinary.com/tedxace/image/upload/v1675337277/2023/ANJAN_NAIR_zjrxgr.png",
     name: "Anjan N.",
-    position: "Web Developer",
+    position: "Co-Organizer",
     social: [faGlobe, "https://anjann.dev"],
   },
 ];
@@ -33,7 +33,7 @@ export const curator2023 = [
   },
   {
     image:
-      "https://res.cloudinary.com/tedxace/image/upload/v1637913191/2022/samyukta.jpg",
+      "https://res.cloudinary.com/dg9hyutsz/image/upload/v1677171180/samyukta_ojqclw.png",
     name: "Samyukta V.",
     position: "Curator",
     social: [
@@ -131,7 +131,7 @@ export const social2023 = [
   },
   {
     image:
-      "https://res.cloudinary.com/tedxace/image/upload/v1675337278/2023/Om_Kulkarni_vskrp5.png",
+      "https://res.cloudinary.com/dg9hyutsz/image/upload/v1675839812/Om_Kulkarni_1_yfwonw.png",
     name: "Om K.",
     position: "Social Media",
     social: [faInstagram, "https://www.instagram.com/omkulkarniii/"],
@@ -283,7 +283,7 @@ export const tech2023 = [
   },
   {
     image:
-      "https://res.cloudinary.com/tedxace/image/upload/v1675337278/2023/Om_Kulkarni_vskrp5.png",
+      "https://res.cloudinary.com/dg9hyutsz/image/upload/v1675839812/Om_Kulkarni_1_yfwonw.png",
     name: "Om K.",
     position: "Web Developer",
     social: [faLinkedin, "https://in.linkedin.com/in/om-kulkarni-174221256"],
@@ -401,39 +401,62 @@ export const speakers2022 = [
 // Modification required as per this year's speaker data
 export const speakers2023 = [
   {
-    name: "",
-    position: "",
+    name: "Mr. Aayu Kharbanda",
+    position: "Product Leader",
     image: "",
-    text: [``, ``],
-    list: [``, ``],
+    text: [`Currently, he leads the Product for Business Partnerships at Eros, working with Global Brands such as Apple, Amazon, Google, and Airtel.`],
+
+    list: [`Director of the Harvard Asia Conference`,
+      `Advisor to startups at IIM Udaipur E-cell`],
   },
   {
-    name: "",
-    position: "",
+    name: "Mrs. Sajitha Nair",
+    position: "Environmentalist",
     image: "",
-    text: [``],
-    list: [``],
+    text: [`Presently she is working with
+    Sacred Heart School as Head of the
+    Department for Pedagogy and Innovation.`],
+
+    list: [`Co-founder of Jagruk Nagrik Foundation`,
+      `Postgraduate in Human Resources`,
+      `8 years of experience in
+      the Banking industry`],
   },
   {
-    name: "",
-    position: "",
+    name: " Mr. Shibin Harinadh",
+    position: "Hypontist & Mentalist",
     image: "",
-    text: [``],
-    list: [``],
+    text: [`He is a practicing hypnotist and an
+    experienced mentalist, or as he likes to put it-a wanderer of
+    minds.`,
+    `He believes that every scar is
+    a reminder of who you are today`],
+
+    list: [`A national kickboxing champion`],
   },
   {
-    name: "",
-    position: "",
+    name: "Mr. Gaurav Verma",
+    position: "Entrepreneur",
     image: "",
-    text: [``],
-    list: [``],
+    text: [`A Techie at
+    heart, in his latest role he is solving notification
+    infrastructure for companies.`],
+
+    list: [`Co-Founder of SuprSend`,
+            `Ex-CTO for Aasaanjobs`],
   },
   {
-    name: "",
-    position: "",
+    name: "Dr. Gauri K.",
+    position: "Clinical Psychologist",
     image: "",
-    text: [``],
-    list: [``],
+    text: [`She is a clinical and social psychologist
+    specializing in trauma and currently practicing at Nanavati
+    hospital`],
+    
+    list: [`Master in Clinical Psychology`,
+            `Master in Social Psychology`,
+            `Over 10 years of experience in
+            individual, family and addiction counselling`],
   },
 ];
 
