@@ -584,7 +584,7 @@ export const social2022 = [
       "https://res.cloudinary.com/tedxace/image/upload/v1637913191/2022/gargi.jpg",
     name: "Gargi P.",
     position: "Social Media",
-    social: [faLinkedIn, "https://www.linkedin.com/in/gargi-p-0745131a0"],
+    social: [faLinkedin, "https://www.linkedin.com/in/gargi-p-0745131a0"],
   },
   {
     image:
