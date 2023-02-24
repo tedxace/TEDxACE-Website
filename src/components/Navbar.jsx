@@ -15,6 +15,7 @@ const Navbar = () => {
   const [fixed, setFixed] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
   const [isHomePage, setIsHomePage] = useState(true);
+  const [isPreviousEventPage, setIsPreviousEventPage] = useState(false);
 
   function onWindowScroll() {
     if (window.scrollY > 0) {
@@ -36,10 +37,20 @@ const Navbar = () => {
       setIsOpen(false);
     }
   };
+  const onAboutButtonClick = () => {
+    if (isMobile && isOpen) {
+      setIsOpen(false);
+    }
+  };
   const onSpeakerButtonClick = () => {
     if (!isHomePage) {
       navigate("/#speaker");
     }
+    if (isMobile && isOpen) {
+      setIsOpen(false);
+    }
+  };
+  const onTeamButtonClick = () => {
     if (isMobile && isOpen) {
       setIsOpen(false);
     }
@@ -52,27 +63,27 @@ const Navbar = () => {
       setIsOpen(false);
     }
   };
-  const onEventButtonClick = () => {
+  const onSponsorButtonClick = () => {
     if (!isHomePage) {
-      navigate("/#previous-event");
+      navigate("/#sponsors");
     }
     if (isMobile && isOpen) {
       setIsOpen(false);
     }
   };
-  const onAboutButtonClick = () => {
+  const onEventButtonClick = () => {
+    setIsPreviousEventPage(true);
     if (isMobile && isOpen) {
       setIsOpen(false);
     }
   };
-  const onTeamButtonClick = () => {
-    if (isMobile && isOpen) {
-      setIsOpen(false);
-    }
+  const onBackButtonClick = () => {
+    setIsPreviousEventPage(false);
   };
   useEffect(() => {
     if (location.pathname === "/") {
       setIsHomePage(true);
+      setIsPreviousEventPage(false);
     } else {
       setIsHomePage(false);
     }
@@ -173,11 +184,30 @@ const Navbar = () => {
           <li>
             <a
               className="hover:text-tedx-white duration-100"
-              href="#previous-events"
-              onClick={onEventButtonClick}
+              href="#sponsors"
+              onClick={onSponsorButtonClick}
             >
-              Previous Event
+              Sponsors
             </a>
+          </li>
+          <li>
+            {isPreviousEventPage ? (
+              <Link
+                className="hover:text-tedx-white duration-100"
+                onClick={onBackButtonClick}
+                to={"/"}
+              >
+                Go Back
+              </Link>
+            ) : (
+              <Link
+                className="hover:text-tedx-white duration-100"
+                to="/previous-events"
+                onClick={onEventButtonClick}
+              >
+                Previous Event
+              </Link>
+            )}
           </li>
         </ul>
       </nav>

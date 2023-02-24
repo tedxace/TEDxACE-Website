@@ -13,7 +13,6 @@ const SpeakerContent = ({ speakers }) => {
   const open = () => {
     setModalOpen(true);
   };
-  console.log(speakers?.length);
   useEffect(() => {
     if (speakers?.length < 3) {
       setIsHeads(true);
