@@ -6,7 +6,8 @@ import { Link } from "react-router-dom";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 import TEDxLogo from "../assets/TEDxLogo.svg";
 import { faClose } from "@fortawesome/free-solid-svg-icons";
-import './Navbar.css';
+import "./Navbar.css";
+import { useSpeakerData } from "../Context/ContextProvider";
 
 const Navbar = () => {
   const location = useLocation();
@@ -16,6 +17,7 @@ const Navbar = () => {
   const [isMobile, setIsMobile] = useState(false);
   const [isHomePage, setIsHomePage] = useState(true);
   const [isPreviousEventPage, setIsPreviousEventPage] = useState(false);
+  const { isPreviousEventActive } = useSpeakerData();
 
   function onWindowScroll() {
     if (window.scrollY > 0) {
@@ -100,16 +102,19 @@ const Navbar = () => {
   }, []);
   return (
     <header
-      className={`flex items-center justify-between px-10 md:px-16 transition-all duration-500 fixed top-0 w-full z-[1000] md: py-6 ${fixed ? "scale-100 bg-[#111111] " : "scale-105 bg-tedx-dark"
-        }`}
+      className={`flex items-center justify-between px-10 md:px-16 transition-all duration-500 fixed top-0 w-full z-[1000] md: py-6 ${
+        fixed ? "scale-100 bg-[#111111] " : "scale-105 bg-tedx-dark"
+      }`}
     >
       <section
-        className={`fixed top-[9vh] left-0 w-full transition-all duration-500 ${isOpen ? "h-[35vh] z-[1000]" : "h-0 z-0"
-          } ${fixed ? "bg-[#111111]" : "bg-tedx-dark"}`}
+        className={`fixed top-[9vh] left-0 w-full transition-all duration-500 ${
+          isOpen ? "h-[35vh] z-[1000]" : "h-0 z-0"
+        } ${fixed ? "bg-[#111111]" : "bg-tedx-dark"}`}
       ></section>
       <div
-        className={`flex justify-start items-center w-full md:w-auto h-full${isMobile ? " gap-2" : "gap-0"
-          }`}
+        className={`flex justify-start items-center w-full md:w-auto h-full${
+          isMobile ? " gap-2" : "gap-0"
+        }`}
       >
         {isMobile ? (
           <div className="grid place-items-center" onClick={handleMenuClick}>
@@ -131,10 +136,11 @@ const Navbar = () => {
 
       <nav className="md:place-items-center bg-tedx-dark md:bg-transparent md:grid h-full w-full">
         <ul
-          className={`md:static absolute top-[10vh] left-[7%] list-none flex flex-col md:flex-row justify-center text-sm lg:text-base md:items-center gap-6 bg-clip-text text-transparent z-[2000] font-medium bg-gradient-to-r from-blue-500 to-pink-500 transition-opacity ${isOpen
-            ? "opacity-100 pointer-events-auto delay-75 duration-500"
-            : "opacity-0 pointer-events-none duration-75 delay-150 md:opacity-100 md:pointer-events-auto"
-            }`}
+          className={`md:static absolute top-[10vh] left-[7%] list-none flex flex-col md:flex-row justify-center text-sm lg:text-base md:items-center gap-6 bg-clip-text text-transparent z-[2000] font-medium bg-gradient-to-r from-blue-500 to-pink-500 transition-opacity ${
+            isOpen
+              ? "opacity-100 pointer-events-auto delay-75 duration-500"
+              : "opacity-0 pointer-events-none duration-75 delay-150 md:opacity-100 md:pointer-events-auto"
+          }`}
         >
           <li>
             <a
@@ -190,38 +196,39 @@ const Navbar = () => {
               Sponsors
             </a>
           </li>
-          <li>
-            {isPreviousEventPage ? (
-              <Link
-                className="hover:text-tedx-white duration-100"
-                onClick={onBackButtonClick}
-                to={"/"}
-              >
-                Go Back
-              </Link>
-            ) : (
-              <Link
-                className="hover:text-tedx-white duration-100"
-                to="/previous-events"
-                onClick={onEventButtonClick}
-              >
-                Previous Event
-              </Link>
-            )}
-          </li>
+          {isPreviousEventActive ? (
+            <li>
+              {isPreviousEventPage ? (
+                <Link
+                  className="hover:text-tedx-white duration-100"
+                  onClick={onBackButtonClick}
+                  to={"/"}
+                >
+                  Go Back
+                </Link>
+              ) : (
+                <Link
+                  className="hover:text-tedx-white duration-100"
+                  to="/previous-events"
+                  onClick={onEventButtonClick}
+                >
+                  Previous Event
+                </Link>
+              )}
+            </li>
+          ) : null}
         </ul>
       </nav>
       <ul>
         <li>
           <a href="https://insider.in/tedxace-pieces-of-a-puzzle-mar3-2023/event">
-            <button class="button" >
-              <span class="button_lg">
-                <span class="button_sl"></span>
-                <span class="button_text">Buy Ticket</span>
+            <button className="button">
+              <span className="button_lg">
+                <span className="button_sl"></span>
+                <span className="button_text">Buy Ticket</span>
               </span>
             </button>
           </a>
-
         </li>
       </ul>
     </header>

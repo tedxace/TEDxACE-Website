@@ -5,12 +5,12 @@ const SpeakerDetail = ({ details }) => {
     speaker: { image, name, position, text, list },
   } = details;
   return (
-    <article className="flex flex-col gap-4 md:gap-10 md:grid md:grid-cols-[1fr_1fr]">
+    <article className="flex flex-col gap-4 md:gap-10 w-full h-full md:grid md:grid-cols-[1fr_1fr] overflow-hidden">
       <div className="grid place-items-center">
         <img
           src={image}
           alt={name}
-          className="w-[50%] h-auto rounded-md md:w-auto drop-shadow-2xl"
+          className="w-[50%] object-cover h-full rounded-md md:w-auto drop-shadow-2xl"
         />
       </div>
       <div className="flex flex-col items-center gap-3 md:gap-6">

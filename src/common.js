@@ -4,11 +4,35 @@ import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { faGlobe } from "@fortawesome/free-solid-svg-icons";
 
 // 2023 Event Data
+export const sponsors2023 = [
+  {
+    name: "Excel Overseas",
+    link: "https://www.exceloverseas.net/",
+    image: "/sponsors/excel_logo.png",
+  },
+  {
+    name: "Excel Overseas",
+    link: "https://www.exceloverseas.net/",
+    image: "/sponsors/excel_logo.png",
+  },
+  {
+    name: "Excel Overseas",
+    link: "https://www.exceloverseas.net/",
+    image: "/sponsors/excel_logo.png",
+  },
+  {
+    name: "Excel Overseas",
+    link: "https://www.exceloverseas.net/",
+    image: "/sponsors/excel_logo.png",
+  },
+];
+
 export const speakers2023 = [
   {
     name: "Mr. Aayu Kharbanda",
     position: "Product Leader",
-    image: "",
+    image:
+      "https://res.cloudinary.com/tedxace/image/upload/v1677222539/2023/speaker/IMG-2118_swacvx.png",
     text: [
       `Currently, he leads the Product for Business Partnerships at Eros, working with Global Brands such as Apple, Amazon, Google, and Airtel.`,
     ],
@@ -21,7 +45,8 @@ export const speakers2023 = [
   {
     name: "Mrs. Sajitha Nair",
     position: "Environmentalist",
-    image: "",
+    image:
+      "https://res.cloudinary.com/tedxace/image/upload/v1677222539/2023/speaker/IMG-2116_jznbew.png",
     text: [
       `Presently she is working with
     Sacred Heart School as Head of the
@@ -38,7 +63,8 @@ export const speakers2023 = [
   {
     name: " Mr. Shibin Harinadh",
     position: "Hypontist & Mentalist",
-    image: "",
+    image:
+      "https://res.cloudinary.com/tedxace/image/upload/v1677222539/2023/speaker/IMG-2117_ehor6w.png",
     text: [
       `He is a practicing hypnotist and an
     experienced mentalist, or as he likes to put it-a wanderer of
@@ -52,7 +78,8 @@ export const speakers2023 = [
   {
     name: "Mr. Gaurav Verma",
     position: "Entrepreneur",
-    image: "",
+    image:
+      "https://res.cloudinary.com/tedxace/image/upload/v1677222538/2023/speaker/IMG-2119_aqhkhs.jpg",
     text: [
       `A Techie at
     heart, in his latest role he is solving notification
@@ -62,9 +89,10 @@ export const speakers2023 = [
     list: [`Co-Founder of SuprSend`, `Ex-CTO for Aasaanjobs`],
   },
   {
-    name: "Dr. Gauri K.",
+    name: "Mrs. Gauri K.",
     position: "Clinical Psychologist",
-    image: "",
+    image:
+      "https://res.cloudinary.com/tedxace/image/upload/v1677222539/2023/speaker/IMG-2115_zsanko.png",
     text: [
       `She is a clinical and social psychologist
     specializing in trauma and currently practicing at Nanavati
@@ -376,6 +404,7 @@ export const tech2023 = [
     ],
   },
 ];
+
 export const video2023 = [
   {
     image:
@@ -483,10 +512,7 @@ export const heads2022 = [
       "https://res.cloudinary.com/tedxace/image/upload/v1637913191/2022/prachi.jpg",
     name: "Prachi C.",
     position: "Licensee",
-    social: [
-      faLinkedin,
-      "https://www.linkedin.com/in/prachi-chodankar/",
-    ],
+    social: [faLinkedin, "https://www.linkedin.com/in/prachi-chodankar/"],
   },
   {
     image:
@@ -530,10 +556,7 @@ export const curator2022 = [
       "https://res.cloudinary.com/tedxace/image/upload/v1638080932/2022/fariah.jpg",
     name: "Fariha S.",
     position: "Curator",
-    social: [
-      faInstagram,
-      "https://www.instagram.com/fariha.shk/",
-    ],
+    social: [faInstagram, "https://www.instagram.com/fariha.shk/"],
   },
 ];
 
@@ -553,7 +576,10 @@ export const designer2022 = [
       "https://res.cloudinary.com/tedxace/image/upload/v1675337280/2023/Agneya_d3azxa.jpg",
     name: "Vedant D.",
     position: "Designer",
-    social: [faLinkedin, "https://res.cloudinary.com/tedxace/image/upload/v1637913191/2022/vedant.jpg"],
+    social: [
+      faLinkedin,
+      "https://res.cloudinary.com/tedxace/image/upload/v1637913191/2022/vedant.jpg",
+    ],
   },
 ];
 
@@ -611,7 +637,6 @@ export const tech2022 = [
     social: [faGlobe, "https://anjann.dev"],
   },
 ];
-
 
 export const team2022 = [
   { name: "tech", members: [...tech2022] },

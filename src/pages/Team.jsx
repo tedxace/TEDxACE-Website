@@ -4,14 +4,15 @@ import Tab from "@mui/material/Tab";
 import TabContext from "@mui/lab/TabContext";
 import TabList from "@mui/lab/TabList";
 import TabPanel from "@mui/lab/TabPanel";
-import { useTeamData } from "../Context/ContextProvider";
+import { useHeadData, useTeamData } from "../Context/ContextProvider";
 import TeamContent from "../components/TeamContent";
 import SpeakerContent from "../components/SpeakerContent";
 import { useState } from "react";
 import { Typography } from "@mui/material";
 
 const Teams = () => {
-  const { teams, heads } = useTeamData();
+  const { teams } = useTeamData();
+  const { heads } = useHeadData();
   const [isMobile, setIsMobile] = useState(false);
   const [value, setValue] = useState("1");
 
