@@ -1,5 +1,6 @@
-import React, { lazy } from "react";
+import React, { lazy, Suspense } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Navbar2 from "./components/Navbar2";
 import { useSpeakerData, useSponsorData } from "./Context/ContextProvider";
 
 const Contact = lazy(() => import("./components/Contact"));
@@ -17,10 +18,11 @@ function App() {
   return (
     <div className="overflow-x-hidden">
       <Router>
-        <header className="min-h-[10vh]">
+        <Navbar2 />
+        {/* <header className="min-h-[10vh]">
           <Navbar />
-        </header>
-        <React.Suspense fallback={<Loader />}>
+        </header> */}
+        <Suspense fallback={<Loader />}>
           <Routes>
             <Route path="/team" element={<Team />} />
             <Route path="/about" element={<About />} />
@@ -41,7 +43,7 @@ function App() {
           <footer className="w-full h-auto">
             <Contact />
           </footer>
-        </React.Suspense>
+        </Suspense>
       </Router>
     </div>
   );

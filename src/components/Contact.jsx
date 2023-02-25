@@ -41,7 +41,7 @@ const Contact = () => {
             method="post"
           >
             <input
-              className="absolute top-0 left-0 rounded-full w-full text-sm md:text-base bg-tedx-white/80 text-tedx-dark/80 md:px-4 py-2 drop-shadow-xl shadow-tedx-white"
+              className="absolute top-0 left-0 outline-none focus:outline-none rounded-full w-full text-sm md:text-base bg-tedx-white text-tedx-dark/80 md:px-4 py-2 drop-shadow-xl shadow-tedx-white"
               name="email"
               type="email"
               placeholder="subscribe@tedxace.com"
