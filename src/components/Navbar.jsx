@@ -112,7 +112,7 @@ const Navbar = () => {
         } ${fixed ? "bg-[#111111]" : "bg-tedx-dark"}`}
       ></section>
       <div
-        className={`flex justify-start items-center w-full md:w-auto h-full${
+        className={`flex justify-start flex-grow md:flex-grow-0 items-center w-full md:w-auto h-full${
           isMobile ? " gap-2" : "gap-0"
         }`}
       >
@@ -127,7 +127,7 @@ const Navbar = () => {
         ) : null}
         <Link to="/" className="">
           <img
-            className="lg:h-full lg:w-full md:h-[80%] md:w-[80%] h-[70%] w-[70%]"
+            className="lg:h-full lg:w-full md:h-[80%] md:w-[80%] h-[100%] w-[100%]"
             src={TEDxLogo}
             alt="TEDx Logo"
           />

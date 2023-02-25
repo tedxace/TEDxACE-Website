@@ -10,21 +10,6 @@ export const sponsors2023 = [
     link: "https://www.exceloverseas.net/",
     image: "/sponsors/excel_logo.png",
   },
-  {
-    name: "Excel Overseas",
-    link: "https://www.exceloverseas.net/",
-    image: "/sponsors/excel_logo.png",
-  },
-  {
-    name: "Excel Overseas",
-    link: "https://www.exceloverseas.net/",
-    image: "/sponsors/excel_logo.png",
-  },
-  {
-    name: "Excel Overseas",
-    link: "https://www.exceloverseas.net/",
-    image: "/sponsors/excel_logo.png",
-  },
 ];
 
 export const speakers2023 = [

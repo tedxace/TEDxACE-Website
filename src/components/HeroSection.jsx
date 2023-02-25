@@ -17,7 +17,7 @@ const HeroSection = () => {
   return (
     <section
       id="home"
-      className="relative h-[92vh] w-screen flex flex-col justify-center items-center gap-8 overflow-hidden"
+      className="relative h-[92vh] w-screen flex flex-col py-32 md:py-0 justify-end md:justify-center items-center gap-6 overflow-hidden md:-translate-y-10 -translate-y-0"
     >
       <section className="flex absolute top-0 z-[-100] left-0 w-full h-full translate-y-16">
         <section className="grid grid-cols-3 grid-rows-6 sm:grid-cols-3 sm:grid-rows-5 md:grid-cols-4 md:grid-row-5 clip-path-speakerPolygon overflow-hidden lg:grid-cols-6 lg:grid-rows-6 w-full h-full gap-[2px] md:gap-[3px] bg-gradient-to-r bg-300 from-tedx-blue animate-glow to-tedx-pink scale-95">
@@ -194,6 +194,9 @@ const HeroSection = () => {
           <div className="bg-tedx-dark"></div>
           <div className="bg-tedx-dark"></div>
         </section>
+        <h1 className="text-[4rem] md:text-[5rem] lg:text-[8rem] text-center w-[80%] md:w-[60%] sm:bottom-[80%] md:bottom-[15%] absolute lg:bottom-[5%] font-extrabold left-[0] right-[0] ml-auto mr-auto">
+          <span id="theme">Pieces Of A Puzzle</span>
+        </h1>
         <Particles
           id="tsparticles"
           init={particlesInit}
@@ -202,14 +205,14 @@ const HeroSection = () => {
         />
       </section>
       <img
-        className="w-[50%] sm:w-[40%] md:w-[30%] lg:w-[20%] h-auto drop-shadow-xl z-[100]"
+        className="w-[40%] sm:w-[35%] md:opacity-80 opacity-100 hover:opacity-100 md:w-[25%] lg:w-[25%] h-auto drop-shadow-xl z-[100]"
         src={HeroImage}
         alt="Hero Section"
       />
       <button
         type="button"
         title="play"
-        className="rounded-full bg-tedx-blue/50 p-4 flex items-center justify-center transition-colors duration-200 hover:bg-tedx-pink"
+        className="rounded-full bg-tedx-blue/50 p-4 hover:scale-105 flex items-center justify-center transition-all duration-200 hover:bg-tedx-pink"
       >
         <FontAwesomeIcon className="h-10 w-10" icon={faPlay} />
       </button>

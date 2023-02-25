@@ -6,8 +6,17 @@ import React from "react";
 
 const About = () => {
   return (
-    <article className="relative flex flex-col gap-8 w-full min-h-[90vh] justify-center items-center py-16">
-      <main className="flex flex-col gap-6 px-12 md:px-40">
+    <article className="flex flex-col w-full justify-center items-center">
+      <section className="fixed top-0 left-0 h-[20vh] w-screen -z-[100] bg-tedx-dark"></section>
+      <section className="fixed top-0 left-0 -z-[500] h-screen w-screen opacity-[20%] overflow-hidden">
+        <img
+          loading="lazy"
+          src="/tedx-group.jpg"
+          className="w-full h-full object-cover"
+          alt="TEDX-2023"
+        />
+      </section>
+      <main className="flex flex-col gap-4 px-12 md:px-40 bg-tedx-dark py-[10vh]">
         <section className="flex flex-col gap-3">
           <header>
             <h1 className="text-2xl md:text-4xl font-bold bg-gradient-to-r from-tedx-blue to-tedx-pink bg-clip-text">
@@ -42,8 +51,8 @@ const About = () => {
             </a>
           </h1>
         </header>
-        <section className="flex gap-12">
-          <p className="text-tedx-white/80 text-justify">
+        <section className="flex flex-col sm:flex-row gap-12">
+          <p className="text-tedx-white/80 text-xs md:text-base lg:text-md text-justify">
             TED is a nonprofit organization devoted to Ideas Worth Spreading.
             Started as a four-day conference in California 30 years ago, TED has
             grown to support its mission with multiple initiatives. The two
@@ -54,7 +63,7 @@ const About = () => {
             Nilekani, Philippe Starck, Ngozi Okonjo-Iweala, Sal Khan and Daniel
             Kahneman.
           </p>
-          <p className="text-tedx-white/80 text-justify">
+          <p className="text-tedx-white/80 text-xs md:text-base lg:text-md text-justify">
             The annual TED Conference takes place each spring in Vancouver,
             British Columbia. TED's media initiatives include TED.com, where new
             TED Talks are posted daily; TED Translators, which provides
@@ -83,9 +92,8 @@ const About = () => {
           </h3>
         </section>
       </main>
-      <footer className="absolute bottom-0 left-0 bg-tedx-white text-tedx-dark w-full text-center py-6">
-        This independent TEDx event is operated under license from{" "}
-        <span className="font-bold tracking-wide">TED</span>.
+      <footer className="bg-transparent min-h-[30vh] w-full text-sm text-center md:text-base lg:text-md flex justify-center items-end py-6">
+        This independent TEDx event is operated under license from 𝗧𝗘𝗗.
       </footer>
     </article>
   );

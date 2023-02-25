@@ -4,13 +4,18 @@ const Sponsors = ({ sponsors }) => {
   return (
     <section
       id="sponsors"
-      className="flex flex-col flex-wrap md:px-24 lg-px-32 justify-center gap-3 items-center py-10"
+      className="flex flex-col flex-wrap md:px-24 lg-px-32 w-full justify-center gap-3 items-center py-10"
     >
-      <h2 className="text-3xl md:text-4xl font-bold">Sponsors</h2>
-      <div className="flex flex-wrap gap-6 md:gap-10">
+      <h2 className="text-xl md:text-2xl lg:text-3xl font-bold">Sponsors</h2>
+      <div className="flex items-center justify-center flex-wrap gap-6 md:gap-10">
         {sponsors?.map((sponsor) => {
           return (
-            <a href={sponsor.link} rel="noreferrer" target={"_blank"}>
+            <a
+              key={sponsor.name}
+              href={sponsor.link}
+              rel="noreferrer"
+              target={"_blank"}
+            >
               <img
                 loading="lazy"
                 src={sponsor.image}

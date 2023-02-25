@@ -20,13 +20,12 @@ const SpeakerContent = ({ speakers }) => {
   }, [speakers?.length]);
   return (
     <section className="relative">
-      <header
-        id="speakers"
-        className={` ${isHeads ? "h-auto" : "min-h-[10vh]"}`}
-      >
+      <header id="speakers" className={` ${isHeads ? "h-auto" : ""}`}>
         <h2
-          className={`text-center uppercase ${
-            isHeads ? "text-lg" : "text-4xl  font-bold"
+          className={`text-center uppercase my-0 p-0 ${
+            isHeads
+              ? "text-md md:text-lg"
+              : "text-xl md:text-2xl lg:text-3xl font-bold"
           }`}
         >
           {isHeads ? "Heads" : "Speakers"}

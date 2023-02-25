@@ -1,16 +1,19 @@
 import React, { lazy } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Contact from "./components/Contact";
-import Loader from "./components/Loader";
-import Navbar from "./components/Navbar";
-import SpeakerContent from "./components/SpeakerContent";
-import { useSpeakerData } from "./Context/ContextProvider";
+import { useSpeakerData, useSponsorData } from "./Context/ContextProvider";
+
+const Contact = lazy(() => import("./components/Contact"));
+const Loader = lazy(() => import("./components/Loader"));
+const Navbar = lazy(() => import("./components/Navbar"));
+const SpeakerContent = lazy(() => import("./components/SpeakerContent"));
+const Sponsors = lazy(() => import("./components/Sponsors"));
 const Home = lazy(() => import("./pages/Home"));
 const Team = lazy(() => import("./pages/Team"));
 const About = lazy(() => import("./pages/About"));
 
 function App() {
-  const speakers = useSpeakerData();
+  const { speakers } = useSpeakerData();
+  const { sponsors } = useSponsorData();
   return (
     <div className="overflow-x-hidden">
       <Router>
@@ -28,8 +31,16 @@ function App() {
               element={<SpeakerContent speakers={speakers} />}
             />
             <Route exact path="/contact" element={<Contact />} />
+            <Route
+              exact
+              path="/sponsors"
+              element={<Sponsors sponsors={sponsors} />}
+            />
             <Route exact path="/previous-events" element={<Home />}></Route>
           </Routes>
+          <footer className="w-full h-auto">
+            <Contact />
+          </footer>
         </React.Suspense>
       </Router>
     </div>
