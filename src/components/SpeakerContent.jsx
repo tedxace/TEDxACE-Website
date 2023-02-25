@@ -43,7 +43,7 @@ const SpeakerContent = ({ speakers }) => {
               key={name}
               className={`group flex flex-col justify-center items-center clip md:clip-path-speakerPolygon cursor-pointer bg-tedx-blue/30 bg-clip-border gap-y-2 ${
                 isHeads ? "px-12 py-2" : "p-2"
-              } transition-opacity duration-200 hover:opacity-100 opacity-100 md:opacity-80 border-transparent border-b-2 hover:border-tedx-white rounded-md md:w-[40vh] w-[25vh] h-[25vh] md:h-[40vh] overflow-hidden`}
+              } transition-opacity duration-200 hover:opacity-100 opacity-100 md:opacity-80 border-transparent border-b-2 hover:border-tedx-white rounded-md md:w-[40vh] w-[25vh] h-[25vh] min-w-[300px] min-h-[300px]  md:h-[40vh] overflow-hidden`}
               onClick={(event) => {
                 event.stopPropagation();
                 modalOpen ? close() : open();
@@ -54,11 +54,11 @@ const SpeakerContent = ({ speakers }) => {
                 loading="lazy"
                 src={image}
                 alt={name}
-                className={`h-[125px] w-[125px] md:w-[150px] object-cover md:h-[150px] lg:h-[200px] lg:w-[200px] ease-in-out ${
+                className={`h-full max-h-[220px] w-full md:w-[150px] object-contain md:h-[150px] lg:h-[200px] lg:w-[200px] ease-in-out ${
                   isHeads ? "rounded-full" : "rounded-none"
                 }`}
               />
-              <h3 className="transition-transform text-sm md:text-lg font-semibold duration-200 translate-y-2 group-hover:translate-y-0">
+              <h3 className="transition-transform text-center text-sm md:text-lg font-semibold duration-200 translate-y-2 group-hover:translate-y-0">
                 {name}
               </h3>
               {isHeads ? (
