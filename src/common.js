@@ -62,7 +62,7 @@ export const speakers2023 = [
   },
   {
     name: " Mr. Shibin Harinadh",
-    position: "Hypontist & Mentalist",
+    position: "Hypnotist & Mentalist",
     image:
       "https://res.cloudinary.com/tedxace/image/upload/v1677222539/2023/speaker/IMG-2117_ehor6w.png",
     text: [
