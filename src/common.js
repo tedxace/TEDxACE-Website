@@ -89,7 +89,7 @@ export const speakers2023 = [
     list: [`Co-Founder of SuprSend`, `Ex-CTO for Aasaanjobs`],
   },
   {
-    name: "Mrs. Gauri K.",
+    name: "Ms. Gauri K.",
     position: "Clinical Psychologist",
     image:
       "https://res.cloudinary.com/tedxace/image/upload/v1677222539/2023/speaker/IMG-2115_zsanko.png",
