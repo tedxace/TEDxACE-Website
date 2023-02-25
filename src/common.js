@@ -10,6 +10,16 @@ export const sponsors2023 = [
     link: "https://www.exceloverseas.net/",
     image: "/sponsors/excel_logo.png",
   },
+  {
+    name: "Tempt",
+    link: "https://instagram.com/temptwithlove",
+    image: "/sponsors/tempt.png",
+  },
+  {
+    name: "Brijeel",
+    link: "https://brijeel.com/",
+    image: "/sponsors/brijeel.png",
+  }
 ];
 
 export const speakers2023 = [
@@ -33,9 +43,7 @@ export const speakers2023 = [
     image:
       "https://res.cloudinary.com/tedxace/image/upload/v1677222539/2023/speaker/IMG-2116_jznbew.png",
     text: [
-      `Presently she is working with
-    Sacred Heart School as Head of the
-    Department for Pedagogy and Innovation.`,
+      `Presently she is working with Sacred Heart School as Head of the Department for Pedagogy and Innovation.`,
     ],
 
     list: [
@@ -46,16 +54,11 @@ export const speakers2023 = [
     ],
   },
   {
-    name: " Mr. Shibin Harinadh",
-    position: "Hypnotist & Mentalist",
+    name: "Mr. Shibin Harinadh",
+    position: "Mentalist",
     image:
       "https://res.cloudinary.com/dg9hyutsz/image/upload/v1677341081/shibin_c9iklx.png",
-    text: [
-      `He is a practicing hypnotist and an
-    experienced mentalist, or as he likes to put it-a wanderer of
-    minds.`,
-      `He believes that every scar is
-    a reminder of who you are today`,
+    text: [`He is a practicing hypnotist and an experienced mentalist, or as he likes to put it "A Wanderer of Minds. He believes that every scar is a reminder of who you are today`,
     ],
 
     list: [`A national kickboxing champion`],
@@ -65,10 +68,7 @@ export const speakers2023 = [
     position: "Entrepreneur",
     image:
       "https://res.cloudinary.com/dg9hyutsz/image/upload/v1677336280/Gaurav_verma_bqyujb.png",
-    text: [
-      `A Techie at
-    heart, in his latest role he is solving notification
-    infrastructure for companies.`,
+    text: [`A techie at heart, in his latest role he is solving notification infrastructure for companies.`,
     ],
 
     list: [`Co-Founder of SuprSend`, `Ex-CTO for Aasaanjobs`],
@@ -79,16 +79,13 @@ export const speakers2023 = [
     image:
       "https://res.cloudinary.com/dg9hyutsz/image/upload/v1677343320/gauri_k_durti6.png",
     text: [
-      `She is a clinical and social psychologist
-    specializing in trauma and currently practicing at Nanavati
-    hospital`,
+      `She is a clinical and social psychologist specializing in trauma and currently practicing at Nanavati hospital`,
     ],
 
     list: [
-      `Master in Clinical Psychology`,
-      `Master in Social Psychology`,
-      `Over 10 years of experience in
-            individual, family and addiction counselling`,
+      `Masters in Clinical Psychology`,
+      `Masters in Social Psychology`,
+      `Over 10 years of experience in individual, family and addiction counselling`,
     ],
   },
 ];

@@ -221,7 +221,7 @@ const Navbar = () => {
       </nav>
       <ul>
         <li>
-          <a href="https://insider.in/tedxace-pieces-of-a-puzzle-mar3-2023/event">
+          <a target="_blank" rel="noreferrer noopener" href="https://insider.in/tedxace-pieces-of-a-puzzle-mar3-2023/event">
             <button className="button">
               <span className="button_lg">
                 <span className="button_sl"></span>
