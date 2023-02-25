@@ -32,7 +32,7 @@ export const speakers2023 = [
     name: "Mr. Aayu Kharbanda",
     position: "Product Leader",
     image:
-      "https://res.cloudinary.com/tedxace/image/upload/v1677222539/2023/speaker/IMG-2118_swacvx.png",
+      "https://res.cloudinary.com/dg9hyutsz/image/upload/v1677343103/aayu_kh_iaigle.png",
     text: [
       `Currently, he leads the Product for Business Partnerships at Eros, working with Global Brands such as Apple, Amazon, Google, and Airtel.`,
     ],
@@ -64,7 +64,7 @@ export const speakers2023 = [
     name: " Mr. Shibin Harinadh",
     position: "Hypnotist & Mentalist",
     image:
-      "https://res.cloudinary.com/tedxace/image/upload/v1677222539/2023/speaker/IMG-2117_ehor6w.png",
+      "https://res.cloudinary.com/dg9hyutsz/image/upload/v1677341081/shibin_c9iklx.png",
     text: [
       `He is a practicing hypnotist and an
     experienced mentalist, or as he likes to put it-a wanderer of
@@ -79,7 +79,7 @@ export const speakers2023 = [
     name: "Mr. Gaurav Verma",
     position: "Entrepreneur",
     image:
-      "https://res.cloudinary.com/tedxace/image/upload/v1677222538/2023/speaker/IMG-2119_aqhkhs.jpg",
+      "https://res.cloudinary.com/dg9hyutsz/image/upload/v1677336280/Gaurav_verma_bqyujb.png",
     text: [
       `A Techie at
     heart, in his latest role he is solving notification
@@ -92,7 +92,7 @@ export const speakers2023 = [
     name: "Ms. Gauri K.",
     position: "Clinical Psychologist",
     image:
-      "https://res.cloudinary.com/tedxace/image/upload/v1677222539/2023/speaker/IMG-2115_zsanko.png",
+      "https://res.cloudinary.com/dg9hyutsz/image/upload/v1677343320/gauri_k_durti6.png",
     text: [
       `She is a clinical and social psychologist
     specializing in trauma and currently practicing at Nanavati
