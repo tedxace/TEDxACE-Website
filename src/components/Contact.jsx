@@ -37,11 +37,11 @@ const Contact = () => {
         <div className="w-screen flex justify-center">
           <form
             action="https://send.pageclip.co/VWRbpiEfAP0hzrGU6zYxtwrvxEXHt79l"
-            className="relative h-full md:w-[50%] lg:w-[40%] w-[80%]"
+            className="relative h-full md:w-[50%] lg:w-[40%] w-[80%] flex items-center bg-white rounded-full"
             method="post"
           >
             <input
-              className="absolute top-0 left-0 outline-none focus:outline-none rounded-full w-full text-sm md:text-base bg-tedx-white text-tedx-dark/80 md:px-4 py-2 drop-shadow-xl shadow-tedx-white"
+              className="outline-none focus:outline-none rounded-full w-full text-sm md:text-base bg-tedx-white text-tedx-dark/80 md:px-4 py-2 drop-shadow-xl shadow-tedx-white"
               name="email"
               type="email"
               placeholder="subscribe@tedxace.com"
@@ -49,7 +49,7 @@ const Contact = () => {
             />
 
             <button
-              className="absolute rounded-full bg-tedx-blue transition-colors text-sm md:text-base duration-200 hover:bg-tedx-pink text-tedx-dark capitalize font-semibold  z-10 right-0 top-0 w-[30%] md:w-[20%] py-2"
+              className="rounded-full bg-tedx-blue transition-colors text-sm md:text-base duration-200 hover:bg-tedx-pink text-tedx-dark capitalize font-semibold  z-10 right-0 top-0 w-[30%] md:w-[20%] py-2"
               type="submit"
               onClick={onContactFormButtonClick}
             >
