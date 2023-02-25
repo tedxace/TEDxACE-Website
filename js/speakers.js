@@ -1,33 +1,38 @@
 const speakers = [
   {
-    name: "Mr. Vedant Harlalka",
-    position: "Young Innovator and Change Maker",
-    image: "./img/speakers/speakers-2021/vedant.jpeg",
-    href: "./speakers/speakers-2021/vedant-harlalka",
+    name: "Mr. Aayu Kharbanda",
+    position: "Product Leader",
+    image:
+      "./img/speakers/speakers-2023/aayu.jpg",
+    href: "./speakers/speakers-2023/aayu-kharbanda"
   },
   {
-    name: "Mr. Sadakat Khan",
-    position: "The Harmonium Ustad",
-    image: "./img/speakers/speakers-2021/sadakat.jpg",
-    href: "./speakers/speakers-2021/sadakat-khan",
+    name: "Mrs. Sajitha Nair",
+    position: "Environmentalist",
+    image:
+      "./img/speakers/speakers-2023/sajitha.jpg",
+    href: "./speakers/speakers-2023/sajitha-nair"
   },
   {
-    name: "Ms. Sumedha Chopra",
-    position: "Former Indian Air Force Officer",
-    image: "./img/speakers/speakers-2021/sumedha.jpeg",
-    href: "./speakers/speakers-2021/sumedha-chopra",
+    name: "Mr. Shibin Harinadh",
+    position: "Hypontist & Mentalist",
+    image:
+      "./img/speakers/speakers-2023/shibin.jpg",
+    href: "./speakers/speakers-2023/shibin-harinadh"
   },
   {
-    name: "Mr. Mukesh Pandey",
-    position: "Entrepreneur and Visionary Educational Leader",
-    image: "./img/speakers/speakers-2021/mukesh.jpg",
-    href: "./speakers/speakers-2021/mukesh-pandey",
+    name: "Mr. Gaurav Verma",
+    position: "Entrepreneur",
+    image:
+      "./img/speakers/speakers-2023/gaurav.jpg",
+    href: "./speakers/speakers-2023/gaurav-verma"
   },
   {
-    name: "Mr. Subhajit Mukherjee",
-    position: "Founder of Mission Green Mumbai",
-    image: "./img/speakers/speakers-2021/subhajit.jpg",
-    href: "./speakers/speakers-2021/subhajit-mukherjee",
+    name: "Ms. Gauri Karkhanis",
+    position: "Clinical Psychologist",
+    image:
+      "./img/speakers/speakers-2023/gauri.jpg",
+    href: "./speakers/speakers-2023/gauri-k"
   },
 ];
 
