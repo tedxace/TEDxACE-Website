@@ -209,13 +209,18 @@ const HeroSection = () => {
         src={HeroImage}
         alt="Hero Section"
       />
-      <button
+      {/* <button
         type="button"
         title="play"
+        onClick={
+          function (event) {
+            window.open('https://youtu.be/WBm8TusO8r8', 'popUpWindow', 'height=400,width=600,left=10,top=10,,scrollbars=yes,menubar=no');
+            return false;
+          }}
         className="rounded-full bg-tedx-blue/50 p-4 hover:scale-105 flex items-center justify-center transition-all duration-200 hover:bg-tedx-pink"
       >
         <FontAwesomeIcon className="h-10 w-10" icon={faPlay} />
-      </button>
+      </button> */}
     </section>
   );
 };
