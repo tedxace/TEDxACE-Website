@@ -6,6 +6,8 @@ const TeamContext = createContext(null);
 const SpeakerContext = createContext(null);
 const SponsorContext = createContext(null);
 
+// TODO: Create context for older events
+
 const ContextProvider = ({ children }) => {
   const [heads, setHeads] = useState(heads2023);
   const [teams, setTeams] = useState(team2023);
