@@ -347,42 +347,42 @@ export const tech2023 = [
   {
     image:
       "https://res.cloudinary.com/tedxace/image/upload/v1637913191/2022/gauravkonde.jpg",
-    name: "Gaurav K.",
+    name: "Dhruv bhatad",
     position: "Web Developer",
     social: [faLinkedin, "https://www.linkedin.com/in/gaurav-konde-51aab6193/"],
   },
   {
     image:
       "https://res.cloudinary.com/tedxace/image/upload/v1675337277/2023/ANJAN_NAIR_zjrxgr.png",
-    name: "Anjan N.",
+    name: "Jamil Shaikh",
     position: "Web Developer",
     social: [faGlobe, "https://anjann.dev"],
   },
   {
     image:
       "https://res.cloudinary.com/tedxace/image/upload/v1675337280/2023/Vedant_urky7n.jpg",
-    name: "Vedant D.",
+    name: " Om Kulkarni",
     position: "Web Developer",
     social: [faLinkedin, "https://www.linkedin.com/in/vedant-dandge-1010/"],
   },
   {
     image:
       "https://res.cloudinary.com/tedxace/image/upload/v1675337277/2023/Jamil_Shaikh_xvaomb.png",
-    name: "Jamil S.",
+    name: "Suhani",
     position: "Web Developer",
     social: [faGlobe, "https://bamjam101.github.io/portfolio/"],
   },
   {
     image:
       "https://res.cloudinary.com/dg9hyutsz/image/upload/v1675839812/Om_Kulkarni_1_yfwonw.png",
-    name: "Om K.",
+    name: "Yash surve",
     position: "Web Developer",
     social: [faLinkedin, "https://in.linkedin.com/in/om-kulkarni-174221256"],
   },
   {
     image:
       "https://res.cloudinary.com/tedxace/image/upload/v1675337280/2023/Suhaani_Bhansali_rgyii1.jpg",
-    name: "Suhani B.",
+    name: "Shivam Narkar",
     position: "Web Developer",
     social: [
       faLinkedin,
@@ -395,7 +395,7 @@ export const video2023 = [
   {
     image:
       "https://res.cloudinary.com/tedxace/image/upload/v1675337279/2023/Aarnav_Sangekar_qsrf8b.jpg",
-    name: "Aarnav S.",
+    name: "Prathamesh",
     position: "Video Production",
     social: [
       faLinkedin,
@@ -405,21 +405,28 @@ export const video2023 = [
   {
     image:
       "https://res.cloudinary.com/tedxace/image/upload/v1675337277/2023/Om_Bhamare_wzvifg.jpg",
-    name: "Om B.",
+    name: "Sneha Sawant",
     position: "Video Production",
     social: [faInstagram, "https://www.instagram.com/ombhamare99/"],
   },
   {
     image:
       "https://res.cloudinary.com/tedxace/image/upload/v1675337279/2023/yash_mathkar_gavyqn.jpg",
-    name: "Yash M.",
+    name: "Yash Surve",
     position: "Video Production",
     social: [faInstagram, "https://www.instagram.com/_yashmathkar/"],
   },
   {
     image:
       "https://res.cloudinary.com/tedxace/image/upload/v1675337279/2023/Prathmesh_Walavalkar_tyet9u.jpg",
-    name: "Prathmesh W.",
+    name: "Kundan Thakur",
+    position: "Video Production",
+    social: [faGlobe, "https://linktr.ee/PrathmeshWalavalkar"],
+  },
+  {
+    image:
+      "https://res.cloudinary.com/tedxace/image/upload/v1675337279/2023/Prathmesh_Walavalkar_tyet9u.jpg",
+    name: "Aadarsh Sajikumar",
     position: "Video Production",
     social: [faGlobe, "https://linktr.ee/PrathmeshWalavalkar"],
   },
