@@ -438,12 +438,12 @@ export const video2024 = [
   },
 ];
 
-export const team2023 = [
+export const team2024 = [
   { name: "tech", members: [...tech2024] },
   { name: "curator", members: [...curator2024] },
   { name: "designer", members: [...designer2023] },
   { name: "social", members: [...social2023] },
-  { name: "market", members: [...market2023] },
-  { name: "decor", members: [...decor2023] },
+  { name: "market", members: [...market2024] },
+  { name: "decor", members: [...decor2024] },
   { name: "video", members: [...video2024] },
 ];
