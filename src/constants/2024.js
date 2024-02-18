@@ -220,82 +220,58 @@ export const social2023 = [
   },
 ];
 
-export const market2023 = [
+export const market2024 = [
   {
     image:
       "https://res.cloudinary.com/tedxace/image/upload/v1675337277/2023/Om_Bhamare_wzvifg.jpg",
-    name: "Om B.",
+    name: "Fariha S.",
     position: "Marketing",
-    social: [faInstagram, "https://www.instagram.com/ombhamare99/"],
+    social: [faInstagram, "https://www.instagram.com/fariha.shk/"],
   },
   {
     image:
       "https://res.cloudinary.com/tedxace/image/upload/v1675337279/2023/yash_mathkar_gavyqn.jpg",
-    name: "Yash M.",
+    name: "Shamit S.",
     position: "Marketing",
-    social: [faInstagram, "https://www.instagram.com/_yashmathkar/"],
+    social: [faInstagram, "https://www.instagram.com/xshamit12x"],
   },
   {
     image:
       "https://res.cloudinary.com/tedxace/image/upload/v1675339587/2023/Saakshi_ts9lvg.png",
-    name: "Saakshi W.",
+    name: "Prerna J.",
     position: "Marketing",
-    social: [faInstagram, "https://instagram.com/saakkshhhiiii"],
+    social: [faInstagram, "https://www.instagram.com/prerna_jadhav33/"],
   },
   {
     image:
       "https://res.cloudinary.com/tedxace/image/upload/v1675337280/2023/Suhaani_Bhansali_rgyii1.jpg",
-    name: "Suhani B.",
+    name: "Aayushi T.",
     position: "Marketing",
-    social: [
-      faLinkedin,
-      "https://www.linkedin.com/in/suhani-bhansali-15902b256",
-    ],
+    social: [faInstagram,"https://www.instagram.com/iyyushe/"],
   },
   {
     image:
       "https://res.cloudinary.com/tedxace/image/upload/v1675337277/2023/Jamil_Shaikh_xvaomb.png",
-    name: "Jamil S.",
+    name: "Soham P.",
     position: "Marketing",
-    social: [faGlobe, "https://bamjam101.github.io/portfolio/"],
+    social: [faInstagram, "https://www.instagram.com/soham21__/"],
   },
   {
     image:
       "https://res.cloudinary.com/tedxace/image/upload/v1675337276/2023/Photo_Ahezam_Ahewar_Khan_kxqjld.jpg",
-    name: "Ahezam",
+    name: "Aryan S.",
     position: "Marketing",
-    social: [faGithub, "https://github.com/Ahezam01"],
+    social: [faInstagram, "https://www.instagram.com/shettyaryan01/"],
   },
 ];
 
-export const decor2023 = [
+export const decor2024 = [
   {
     image:
-      "https://res.cloudinary.com/tedxace/image/upload/v1675337280/2023/Rajas_Pofalkar_cbi6xe.jpg",
-    name: "Rajas P.",
-    position: "Social Media",
-    social: [faInstagram, "https://www.instagram.com/__rajaass__/"],
-  },
-  {
-    image:
-      "https://res.cloudinary.com/tedxace/image/upload/v1675337280/2023/Ashwini_Khambe_m0lugq.jpg",
-    name: "Ashwini K.",
+      "https://res.cloudinary.com/tedxace/image/upload/v1675337278/2023/Manasi_Powar_jebjnc.jpg",
+    name: "Manasi P.",
     position: "Decor",
-    social: [faInstagram, "https://instagram.com/ashu.khambe"],
-  },
-  {
-    image:
-      "https://res.cloudinary.com/tedxace/image/upload/v1675337278/2023/Payal_Kheur_wk9jy7.jpg",
-    name: "Payal K.",
-    position: "Decor",
-    social: [faInstagram, "https://instagram.com/payalkheur"],
-  },
-  {
-    image:
-      "https://res.cloudinary.com/tedxace/image/upload/v1675337279/2023/Neha_Yadav_duwygx.png",
-    name: "Neha Y.",
-    position: "Decor",
-    social: [faLinkedin, "https://www.linkedin.com/in/nehayadav2612"],
+    social: [faInstagram, "https://instagram.com/_manasiiiiii_"],
   },
   {
     image:
@@ -306,14 +282,33 @@ export const decor2023 = [
   },
   {
     image:
-      "https://res.cloudinary.com/tedxace/image/upload/v1675337277/2023/Ishika_Sanap__zgazx7.jpg",
-    name: "Ishika S.",
-    position: "Decor",
-    social: [faInstagram, "https://instagram.com/ishikaaaa.03"],
+      "https://res.cloudinary.com/tedxace/image/upload/v1675337280/2023/Rajas_Pofalkar_cbi6xe.jpg",
+    name: "Jaydeep J.",
+    position: "Social Media",
+    social: [faInstagram, "https://www.instagram.com/jd_06_2004/"],
   },
   {
     image:
-      "https://res.cloudinary.com/tedxace/image/upload/v1675337278/2023/Riya_Shetty_rx2lid.jpg",
+      "https://res.cloudinary.com/tedxace/image/upload/v1675337280/2023/Ashwini_Khambe_m0lugq.jpg",
+    name: "Gajanan G.",
+    position: "Decor",
+    social: [faInstagram, "https://www.instagram.com/gajanan__13/"],
+  },
+  {
+    image:
+      "https://res.cloudinary.com/tedxace/image/upload/v1675337278/2023/Payal_Kheur_wk9jy7.jpg",
+    name: "Aadarsh S.",
+    position: "Decor",
+    social: [faInstagram, "https://www.instagram.com/adharsh_494/"],
+  },
+  {
+    image:"https://res.cloudinary.com/tedxace/image/upload/v1675337277/2023/Ishika_Sanap__zgazx7.jpg",
+    name: "Prerna J.",
+    position: "Decor",
+    social: [faInstagram, "https://www.instagram.com/prerna_jadhav33/"],
+  },
+  {
+    image:"https://res.cloudinary.com/tedxace/image/upload/v1675337278/2023/Riya_Shetty_rx2lid.jpg",
     name: "Riya S.",
     position: "Decor",
     social: [faInstagram, "https://instagram.com/aasya2468"],
@@ -326,11 +321,34 @@ export const decor2023 = [
     social: [faInstagram, "https://www.instagram.com/khushi__009kw__/"],
   },
   {
-    image:
-      "https://res.cloudinary.com/tedxace/image/upload/v1675337278/2023/Manasi_Powar_jebjnc.jpg",
-    name: "Manasi P.",
+    image:"https://res.cloudinary.com/tedxace/image/upload/v1675337278/2023/Riya_Shetty_rx2lid.jpg",
+    name: "Sahil L.",
     position: "Decor",
-    social: [faInstagram, "https://instagram.com/_manasiiiiii_"],
+    social: [faInstagram, "https://www.instagram.com/__sahil._.17/"],
+  },
+  {
+    image:"https://res.cloudinary.com/tedxace/image/upload/v1675337278/2023/Riya_Shetty_rx2lid.jpg",
+    name: "Dhara D.",
+    position: "Decor",
+    social: [faInstagram, "https://www.instagram.com/dharaa_xoxo/"],
+  },
+  {
+    image:"https://res.cloudinary.com/tedxace/image/upload/v1675337278/2023/Riya_Shetty_rx2lid.jpg",
+    name: "Shourya M.",
+    position: "Decor",
+    social: [faInstagram, "https://www.instagram.com/__spicy___shorma__/"],
+  },
+  {
+    image:"https://res.cloudinary.com/tedxace/image/upload/v1675337278/2023/Riya_Shetty_rx2lid.jpg",
+    name: "Riya R.",
+    position: "Decor",
+    social: [faInstagram, "https://www.instagram.com/riiyyyaaa___/"],
+  },
+  {
+    image:"https://res.cloudinary.com/tedxace/image/upload/v1675337278/2023/Riya_Shetty_rx2lid.jpg",
+    name: "Kaushal G.",
+    position: "Decor",
+    social: [faInstagram, "https://www.instagram.com/kaushal_1403/"],
   },
 ];
 
