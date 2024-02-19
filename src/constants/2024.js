@@ -159,67 +159,6 @@ export const curator2024 = [
   },
 ];
 
-export const designer2023 = [
-  {
-    image:
-      "https://res.cloudinary.com/tedxace/image/upload/v1675337279/2023/Sumeet_Bhimanpally__sgoxrb.jpg",
-    name: "Sumeet B.",
-    position: "Designer",
-    social: [
-      faLinkedin,
-      "https://www.linkedin.com/in/sumeet-bhimanpally-9220a420a/",
-    ],
-  },
-  {
-    image:
-      "https://res.cloudinary.com/tedxace/image/upload/v1675337280/2023/Agneya_d3azxa.jpg",
-    name: "Agneya P.",
-    position: "Designer",
-    social: [faGlobe, "https://linktr.ee/agneyapathare"],
-  },
-  {
-    image:
-      "https://res.cloudinary.com/tedxace/image/upload/v1675337277/2023/Dheeraj_Rapelli__lqqhdy.jpg",
-    name: "Dheeraj R.",
-    position: "Designer",
-    social: [
-      faLinkedin,
-      "https://www.linkedin.com/in/dheeraj-rapelli-b9a9b3218",
-    ],
-  },
-];
-
-export const social2023 = [
-  {
-    image:
-      "https://res.cloudinary.com/tedxace/image/upload/v1675337280/2023/Rajas_Pofalkar_cbi6xe.jpg",
-    name: "Rajas P.",
-    position: "Social Media",
-    social: [faInstagram, "https://www.instagram.com/__rajaass__/"],
-  },
-  {
-    image:
-      "https://res.cloudinary.com/tedxace/image/upload/v1675337277/2023/Om_Bhamare_wzvifg.jpg",
-    name: "Om B.",
-    position: "Social Media",
-    social: [faInstagram, "https://www.instagram.com/ombhamare99/"],
-  },
-  {
-    image:
-      "https://res.cloudinary.com/tedxace/image/upload/v1675337280/2023/Aarya_Jadhav_hncdks.jpg",
-    name: "Aarya J.",
-    position: "Social Media",
-    social: [faInstagram, "https://instagram.com/_aarya.28"],
-  },
-  {
-    image:
-      "https://res.cloudinary.com/dg9hyutsz/image/upload/v1675839812/Om_Kulkarni_1_yfwonw.png",
-    name: "Om K.",
-    position: "Social Media",
-    social: [faInstagram, "https://www.instagram.com/omkulkarniii/"],
-  },
-];
-
 export const market2024 = [
   {
     image:
