@@ -400,6 +400,84 @@ export const tech2024 = [
   },
 ];
 
+export const designer2024 = [
+  {
+    image:
+      "https://res.cloudinary.com/tedxace/image/upload/v1675337277/2023/Dheeraj_Rapelli__lqqhdy.jpg",
+    name: "Dheeraj R.",
+    position: "Designer",
+    social: [
+      faLinkedin,
+      "https://www.linkedin.com/in/dheeraj-rapelli-b9a9b3218",
+    ],
+  },
+  {
+    image: "https://res.cloudinary.com/tedxace/image/upload/v1675337277/2023/Dheeraj_Rapelli__lqqhdy.jpg",
+    name: "Kundan K.",
+    position: "Designer",
+    social: [
+      faInstagram,
+       "https://www.instagram.com/_kundan_kumavat_"
+      ],
+  },
+  {
+    image: "https://res.cloudinary.com/tedxace/image/upload/v1675337277/2023/Dheeraj_Rapelli__lqqhdy.jpg",
+    name: "Riya R.",
+    position: "Designer",
+    social: [
+      faInstagram,
+       "https://www.instagram.com/riiyyyaaa___/"
+      ],
+  },
+  {
+    image: "https://res.cloudinary.com/tedxace/image/upload/v1675337277/2023/Dheeraj_Rapelli__lqqhdy.jpg",
+    name: "Dhruv B.",
+    position: "Designer",
+    social: [
+      faInstagram,
+       "https://www.instagram.com/bhatadadhruv/"
+      ],
+  },
+
+];
+
+export const social2024 = [
+  {
+    image:
+      "https://res.cloudinary.com/tedxace/image/upload/v1675337280/2023/Aarya_Jadhav_hncdks.jpg",
+    name: "Aarya J.",
+    position: "Social Media",
+    social: [
+      faInstagram, 
+      "https://instagram.com/_aarya.28"
+    ],
+  },
+  {
+    image: "https://res.cloudinary.com/tedxace/image/upload/v1675337280/2023/Aarya_Jadhav_hncdks.jpg",
+    name: "Sneha S.",
+    position: "Social Media",
+    social: [
+      faInstagram,
+      "https://www.instagram.com/sneha_1975_"],
+  },
+  {
+    image: "https://res.cloudinary.com/tedxace/image/upload/v1675337280/2023/Aarya_Jadhav_hncdks.jpg",
+    name: "Kundan T.",
+    position: "Social Media",
+    social: [
+      faInstagram,
+      "https://www.instagram.com/iam_kundan___/"],
+  },
+  {
+    image: "https://res.cloudinary.com/tedxace/image/upload/v1675337280/2023/Aarya_Jadhav_hncdks.jpg",
+    name: "Pratap Aare",
+    position: "Social Media",
+    social: [
+      faInstagram,
+      "https://www.instagram.com/pratap_aare/"],
+  },
+];
+
 export const video2024 = [
   {
     image:
@@ -441,8 +519,8 @@ export const video2024 = [
 export const team2024 = [
   { name: "tech", members: [...tech2024] },
   { name: "curator", members: [...curator2024] },
-  { name: "designer", members: [...designer2023] },
-  { name: "social", members: [...social2023] },
+  { name: "designer", members: [...designer2024] },
+  { name: "social", members: [...social2024] },
   { name: "market", members: [...market2024] },
   { name: "decor", members: [...decor2024] },
   { name: "video", members: [...video2024] },
