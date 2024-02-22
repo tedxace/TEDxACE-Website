@@ -8,6 +8,11 @@ module.exports = {
         "tedx-white": "#FFFFFF",
         "tedx-blue": "#3b82f6",
         "tedx-pink": "#ec4899",
+        "tedx-red": "#650000",
+        "tedx-red-medium": "#490000",
+        "tedx-dark-brown": "#2F0000",
+        "tedx-brown": "#200B0B",
+        "tedx-heading": "#F19F00",
       },
       animation: {
         glow: "glow 1s ease-in-out infinite alternate",
