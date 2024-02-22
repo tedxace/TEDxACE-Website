@@ -220,12 +220,14 @@ const Navbar = () => {
       </nav>
       <ul>
         <li>
-          <button class="button group relative py-2 px-4 uppercase font-bold text-xs transition duration-150 whitespace-nowrap">
-            <span class="button_lg bg-blue-900 text-white py-2 px-4 rounded overflow-hidden shadow-inner">
-              <span class="button_sl block absolute top-0 bottom-0 left-0 w-8 bg-red-500 transform -skew-x-15 transition-all duration-200 group-hover:w-16 group-hover:bg-red-700"></span>
-              <span class="button_text">Buy Ticket</span>
-            </span>
-          </button>
+          <span>
+            <button class="button group relative overflow-hidden w-[124px] h-[46px] p-2 bg-[#0f1923]">
+              <span class="button_text relative uppercase text-sm font-bold text-white z-10">
+                Book Tickets
+              </span>
+              <span class="absolute inset-0 bg-rose-500 group-hover:inline  hidden animate-skew"></span>
+            </button>
+          </span>
         </li>
       </ul>
     </header>

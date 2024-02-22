@@ -11,6 +11,8 @@ module.exports = {
       },
       animation: {
         glow: "glow 1s ease-in-out infinite alternate",
+        skew: "skewAnimation 0.5s ease-in",
+        skewout: "skewOutAnimation 0.5s ease-out",
       },
       keyframes: {
         glow: {
