@@ -7,6 +7,7 @@ import { faBars } from "@fortawesome/free-solid-svg-icons";
 import TEDxLogo from "../assets/TEDxLogo.svg";
 import { faClose } from "@fortawesome/free-solid-svg-icons";
 import { useSpeakerData } from "../Context/ContextProvider";
+import { cn } from "../lib/utils";
 
 const Navbar = () => {
   const location = useLocation();
@@ -101,19 +102,23 @@ const Navbar = () => {
   }, []);
   return (
     <header
-      className={`flex items-center justify-between px-10 md:px-16 transition-all duration-500 fixed top-0 w-full z-[1000] md: py-6 ${
-        fixed ? "scale-100 bg-[#111111] " : "scale-105 bg-tedx-dark"
-      }`}
+      className={cn(
+        "flex items-center justify-between px-10 md:px-16 transition-all duration-500  top-0 w-full z-[1000] md: py-6 ",
+        fixed ? " fixed scale-100 bg-[#111111] " : "scale-105 bg-tedx-dark"
+      )}
     >
       <section
-        className={`fixed top-[9vh] left-0 w-full transition-all duration-500 ${
-          isOpen ? "h-[35vh] z-[1000]" : "h-0 z-0"
-        } ${fixed ? "bg-[#111111]" : "bg-tedx-dark"}`}
+        className={cn(
+          "fixed top-[9vh] left-0 w-full transition-all duration-500 ",
+          isOpen ? "h-[35vh] z-[1000]" : "h-0 z-0",
+          fixed ? "bg-[#111111]" : "bg-tedx-dark"
+        )}
       ></section>
       <div
-        className={`flex justify-start flex-grow md:flex-grow-0 items-center w-full md:w-auto h-full${
+        className={cn(
+          "flex justify-start flex-grow md:flex-grow-0 items-center w-full md:w-auto h-full",
           isMobile ? " gap-2" : "gap-0"
-        }`}
+        )}
       >
         {isMobile ? (
           <div className="grid place-items-center" onClick={handleMenuClick}>
@@ -135,11 +140,12 @@ const Navbar = () => {
 
       <nav className="md:place-items-center bg-tedx-dark md:bg-transparent md:grid h-full w-full">
         <ul
-          className={`md:static absolute top-[10vh] left-[7%] list-none flex flex-col md:flex-row justify-center text-sm lg:text-base md:items-center gap-6 bg-clip-text text-transparent z-[2000] font-medium bg-gradient-to-r from-blue-500 to-pink-500 transition-opacity ${
+          className={cn(
+            "md:static absolute top-[10vh] left-[7%] list-none flex flex-col md:flex-row justify-center text-sm lg:text-base md:items-center gap-6 bg-clip-text text-transparent z-[2000] font-medium bg-gradient-to-r from-blue-500 to-pink-500 transition-opacity ",
             isOpen
               ? "opacity-100 pointer-events-auto delay-75 duration-500"
               : "opacity-0 pointer-events-none duration-75 delay-150 md:opacity-100 md:pointer-events-auto"
-          }`}
+          )}
         >
           <li>
             <a

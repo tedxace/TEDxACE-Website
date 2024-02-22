@@ -4,10 +4,10 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        "tedx-dark": "#1a1a1a",
+        "tedx-dark": "#0f0606",
         "tedx-white": "#FFFFFF",
-        "tedx-blue": "#3b82f666",
-        "tedx-pink": "#ec489966",
+        "tedx-blue": "#3b82f6",
+        "tedx-pink": "#ec4899",
       },
       animation: {
         glow: "glow 1s ease-in-out infinite alternate",
