@@ -1,8 +1,8 @@
 import React, { lazy, Suspense } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Navbar2 from "./components/Navbar2";
 import { useSpeakerData, useSponsorData } from "./Context/ContextProvider";
 
+import Navbar from "./components/Navbar";
 const Contact = lazy(() => import("./components/Contact"));
 const Loader = lazy(() => import("./components/Loader"));
 const SpeakerContent = lazy(() =>
@@ -19,10 +19,7 @@ function App() {
   return (
     <div className="overflow-x-hidden">
       <Router>
-        <Navbar2 />
-        {/* <header className="min-h-[10vh]">
-          <Navbar />
-        </header> */}
+        <Navbar />
         <Suspense fallback={<Loader />}>
           <Routes>
             <Route path="/team" element={<Team />} />

@@ -6,7 +6,6 @@ import { Link } from "react-router-dom";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 import TEDxLogo from "../assets/TEDxLogo.svg";
 import { faClose } from "@fortawesome/free-solid-svg-icons";
-import "./Navbar.css";
 import { useSpeakerData } from "../Context/ContextProvider";
 
 const Navbar = () => {
@@ -221,14 +220,12 @@ const Navbar = () => {
       </nav>
       <ul>
         <li>
-          <a target="_blank" rel="noreferrer noopener" href="https://insider.in/tedxace-pieces-of-a-puzzle-mar3-2023/event">
-            <button className="button">
-              <span className="button_lg">
-                <span className="button_sl"></span>
-                <span className="button_text">Buy Ticket</span>
-              </span>
-            </button>
-          </a>
+          <button class="button group relative py-2 px-4 uppercase font-bold text-xs transition duration-150 whitespace-nowrap">
+            <span class="button_lg bg-blue-900 text-white py-2 px-4 rounded overflow-hidden shadow-inner">
+              <span class="button_sl block absolute top-0 bottom-0 left-0 w-8 bg-red-500 transform -skew-x-15 transition-all duration-200 group-hover:w-16 group-hover:bg-red-700"></span>
+              <span class="button_text">Buy Ticket</span>
+            </span>
+          </button>
         </li>
       </ul>
     </header>
