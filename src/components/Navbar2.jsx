@@ -8,6 +8,7 @@ import TEDxLogo from "../assets/TEDxLogo.svg";
 import { faClose } from "@fortawesome/free-solid-svg-icons";
 import "./Navbar.css";
 import { useSpeakerData } from "../Context/ContextProvider";
+import { cn } from "../lib/utils";
 
 const Navbar2 = () => {
   const location = useLocation();
@@ -99,11 +100,12 @@ const Navbar2 = () => {
 
   return (
     <>
-    <div className="h-28 " />
+      <div className="h-28 " />
       <header
-        className={`h-28 px-10 md:px-16 transition-all duration-500 fixed top-0 w-full z-[1000] ${
+        className={cn(
+          "h-28 px-10 md:px-16 transition-all duration-500 fixed top-0 w-full z-[1000] ",
           fixed ? "scale-100 bg-[#111111] " : "scale-105 bg-tedx-dark"
-        }`}
+        )}
       >
         <div className="h-full w-full flex items-center justify-between">
           <div className="flex items-center gap-2">
@@ -218,10 +220,10 @@ const Navbar2 = () => {
                 rel="noreferrer noopener"
                 href="https://insider.in/tedxace-pieces-of-a-puzzle-mar3-2023/event"
               >
-                <button className="button">
-                  <span className="button_lg">
-                    <span className="button_sl"></span>
-                    <span className="button_text">Buy Ticket</span>
+                <button class="button">
+                  <span class="button_lg">
+                    <span class="button_sl"></span>
+                    <span class="button_text">Buy Ticket</span>
                   </span>
                 </button>
               </a>
@@ -230,13 +232,11 @@ const Navbar2 = () => {
         </div>
       </header>
       <div
-        className={`
-        transition-all duration-500
-        ${
-          fixed ? "bg-[#111111]" : "bg-tedx-dark"
-        } 
-        ${isOpen ? "h-fit top-28" : "z-0 h-fit -top-[100%]"}
-        fixed z-[900] pb-8 inset-0 w-full px-11 overflow-hidden `}
+        className={cn(
+          "transition-all duration-500 fixed z-[900] pb-8 inset-0 w-full px-11 overflow-hidden ",
+          fixed ? "bg-[#111111]" : "bg-tedx-dark",
+          isOpen ? "h-fit top-28" : "z-0 h-fit -top-[100%]"
+        )}
       >
         <ul
           className={`flex flex-col gap-6  w-fit bg-clip-text text-transparent font-medium bg-gradient-to-r from-blue-500 to-pink-500 transition-opacity `}

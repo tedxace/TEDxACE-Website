@@ -5,9 +5,10 @@ import { useSpeakerData, useSponsorData } from "./Context/ContextProvider";
 
 const Contact = lazy(() => import("./components/Contact"));
 const Loader = lazy(() => import("./components/Loader"));
-const Navbar = lazy(() => import("./components/Navbar"));
-const SpeakerContent = lazy(() => import("./components/SpeakerContent"));
-const Sponsors = lazy(() => import("./components/Sponsors"));
+const SpeakerContent = lazy(() =>
+  import("./components/speakers/SpeakerContent")
+);
+const Sponsors = lazy(() => import("./components/home/Sponsors"));
 const Home = lazy(() => import("./pages/Home"));
 const Team = lazy(() => import("./pages/Team"));
 const About = lazy(() => import("./pages/About"));

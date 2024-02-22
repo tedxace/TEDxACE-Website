@@ -2,7 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faClose } from "@fortawesome/free-solid-svg-icons";
-import SpeakerDetail from "./SpeakerDetail";
+import SpeakerDetail from "./speakers/SpeakerDetail";
 
 const dropInAnimate = {
   hidden: {

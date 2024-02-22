@@ -1,7 +1,7 @@
 import React from "react";
-import HeroSection from "../components/HeroSection";
-import SpeakerContent from "../components/SpeakerContent";
-import Sponsors from "../components/Sponsors";
+import HeroSection from "../components/home/HeroSection";
+import SpeakerContent from "../components/speakers/SpeakerContent";
+import Sponsors from "../components/home/Sponsors";
 import { useSpeakerData, useSponsorData } from "../Context/ContextProvider";
 
 const Home = () => {
