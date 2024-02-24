@@ -115,13 +115,13 @@ const Navbar = () => {
       ></section>
       <div
         className={cn(
-          "flex justify-start md:gap-0 gap-2 flex-grow md:flex-grow-0 items-center w-full md:w-auto h-full"
+          "flex justify-start lg:gap-0 gap-2 flex-grow md:flex-grow-0 items-center w-full md:w-auto h-full"
           // isMobile ? " gap-2" : "gap-0"
         )}
       >
         {/* {isMobile ? ( */}
         <div
-          className="md:hidden grid place-items-center"
+          className="lg:hidden grid place-items-center"
           onClick={handleMenuClick}
         >
           {isOpen ? (
@@ -140,13 +140,13 @@ const Navbar = () => {
         </Link>
       </div>
 
-      <nav className="md:place-items-center  md:grid h-full w-full">
+      <nav className="lg:place-items-center  lg:grid h-full w-full">
         <ul
           className={cn(
-            "md:static absolute top-[10vh] left-[7%] list-none flex flex-col md:flex-row justify-center text-sm lg:text-base md:items-center gap-6 bg-clip-text text-tedx-heading uppercase z-[2000] font-bold  transition-opacity ",
+            "lg:static absolute top-[10vh] left-[7%] list-none flex flex-col  lg:flex-row justify-center text-sm lg:text-base md:items-center gap-6 bg-clip-text text-tedx-heading uppercase z-[2000] font-bold  transition-opacity ",
             isOpen
-              ? "opacity-100 pointer-events-auto delay-75 duration-500"
-              : "opacity-0 pointer-events-none duration-75 delay-150 md:opacity-100 md:pointer-events-auto"
+              ? "opacity-100 pointer-events-auto delay-75 duration-500 py-5"
+              : "opacity-0 pointer-events-none duration-75 delay-150 lg:opacity-100  lg:pointer-events-auto"
           )}
         >
           <li>

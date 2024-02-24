@@ -5,10 +5,11 @@
 @tailwind utilities;
 
 :root {
-  --dark: #1a1a1a;
+  --dark: #0f0606;
   --light: #FFFFFF;
   --blue: #3b82f666;
   --dark-blue: #3b83f683;
+  --red: #650000;
 }
 
 *,
@@ -67,7 +68,7 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: var(--blue);
+  background: var(--red);
   border-radius: 100vw;
 }
 

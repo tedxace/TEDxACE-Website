@@ -38,7 +38,13 @@ function App() {
             />
             <Route exact path="/previous-events" element={<Home />}></Route>
           </Routes>
-          <footer className="w-full h-auto">
+          <footer
+            className="w-full bg-tedx-dark  h-[100vh] flex items-center justify-center  relative px-10  md:px-24  bg-cover "
+            style={{
+              backgroundImage: `url(${require("./assets/footer.png")})`,
+            }}
+          >
+            <div className="absolute bg-gradient-to-b to-transparent h-full w-full via-tedx-bg/40 -z-1 from-tedx-bg/100 "></div>
             <Contact />
           </footer>
         </Suspense>

@@ -27,12 +27,16 @@ const HeroSection = () => {
             className=" w-[200px] md:w-96 relative top-[10%]  "
             alt="tedxlogo"
           />
-          <img src={require("../../assets/hero.png")} alt="Hero" />
+          <img
+            src={require("../../assets/hero.png")}
+            alt="Hero"
+            className="px-10"
+          />
         </div>
       </div>
       <div
         className={cn(
-          ` absolute bg-gradient-to-b from-transparent h-full w-full via-transparent to-tedx-bg/100 `
+          ` absolute bg-gradient-to-b from-transparent h-full w-full via-transparent to-tedx-bg `
         )}
       ></div>
     </section>
