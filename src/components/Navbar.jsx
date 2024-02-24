@@ -8,7 +8,6 @@ import TEDxLogo from "../assets/TEDLogo.svg";
 import { faClose } from "@fortawesome/free-solid-svg-icons";
 import { useSpeakerData } from "../Context/ContextProvider";
 import { cn } from "../lib/utils";
-import { AnimatePresence } from "framer-motion";
 
 const Navbar = () => {
   const location = useLocation();
@@ -21,7 +20,7 @@ const Navbar = () => {
   const { isPreviousEventActive } = useSpeakerData();
 
   function onWindowScroll() {
-    if (window.scrollY > 1 && !fixed) {
+    if (window.scrollY > 0 && !fixed) {
       setFixed(true);
     } else {
       setFixed(false);
@@ -94,7 +93,7 @@ const Navbar = () => {
 
   useEffect(() => {
     window.addEventListener("scroll", onWindowScroll);
-    if (window.innerWidth < 768) {
+    if (window.innerWidth < 1000) {
       setIsMobile(true);
     } else {
       setIsMobile(false);
@@ -104,8 +103,8 @@ const Navbar = () => {
   return (
     <header
       className={cn(
-        "flex items-center justify-between px-10 md:px-16 transition-all duration-500  top-0 w-full z-[1000] md: py-6 bg-tedx-brown",
-        fixed ? " fixed scale-100" : "scale-105 "
+        "flex items-center justify-between px-10 fixed md:relative md:px-16 transition-all duration-500  top-0 w-full z-[1000] md: py-6 bg-tedx-brown",
+        fixed ? " md:fixed scale-100" : "scale-105 relative "
       )}
     >
       <section
@@ -116,22 +115,25 @@ const Navbar = () => {
       ></section>
       <div
         className={cn(
-          "flex justify-start flex-grow md:flex-grow-0 items-center w-full md:w-auto h-full",
-          isMobile ? " gap-2" : "gap-0"
+          "flex justify-start md:gap-0 gap-2 flex-grow md:flex-grow-0 items-center w-full md:w-auto h-full"
+          // isMobile ? " gap-2" : "gap-0"
         )}
       >
-        {isMobile ? (
-          <div className="grid place-items-center" onClick={handleMenuClick}>
-            {isOpen ? (
-              <FontAwesomeIcon className="text-white w-5 h-5" icon={faClose} />
-            ) : (
-              <FontAwesomeIcon className="text-white w-5 h-5" icon={faBars} />
-            )}
-          </div>
-        ) : null}
+        {/* {isMobile ? ( */}
+        <div
+          className="md:hidden grid place-items-center"
+          onClick={handleMenuClick}
+        >
+          {isOpen ? (
+            <FontAwesomeIcon className="text-white w-5 h-5" icon={faClose} />
+          ) : (
+            <FontAwesomeIcon className="text-white w-5 h-5" icon={faBars} />
+          )}
+        </div>
+        {/* ) : null} */}
         <Link to="/" className="">
           <img
-            className="lg:h-full lg:w-full md:h-[80%] md:w-[80%] h-[100%] w-[100%]"
+            className="lg:h-full lg:w-full md:h-[80%] sm:w-[80%] h-[100%] w-full sm:scale-100 scale-125 mx-2"
             src={TEDxLogo}
             alt="TEDx Logo"
           />
@@ -227,8 +229,8 @@ const Navbar = () => {
       <ul>
         <li>
           <span>
-            <button className="button group relative overflow-hidden transform skew-x-0  w-[144px] h-[56px] border-[#650000] bg-tedx-red-medium border border-spacing-3 p-2 border-collapse  py-2 px-3 rounded-md ">
-              <span className="button_text relative uppercase text-sm font-black tracking-tighter group-hover:text-tedx-brown transition text-tedx-heading z-10 ">
+            <button className="button group relative flex items-center justify-center overflow-hidden text-center transform skew-x-0 w-[100px] h-[40px]   md:w-[144px] md:h-[56px] border-[#650000] bg-tedx-red-medium border border-spacing-3 md:mx-3 border-collapse  py-2 px-3 rounded-md ">
+              <span className="button_text relative uppercase md:text-sm text-[10px] font-black tracking-tighter group-hover:text-tedx-brown transition text-tedx-heading z-10 ">
                 Book Tickets
               </span>
               <span className="absolute inset-0 bg-tedx-heading group-hover:w-full w-0 transition-all group-hover:animate-skew animate-skewOut"></span>

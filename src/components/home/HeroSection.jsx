@@ -6,25 +6,25 @@ import Tedxlogo from "../../assets/TEDLogo.svg";
 
 import { cn } from "../../lib/utils";
 const HeroSection = () => {
-  const particlesInit = useCallback(async (engine) => {
-    await loadFull(engine);
-  }, []);
+  // const particlesInit = useCallback(async (engine) => {
+  //   await loadFull(engine);
+  // }, []);
 
-  const particlesLoaded = useCallback(async (container) => {
-    await loadFull(container);
-  }, []);
+  // const particlesLoaded = useCallback(async (container) => {
+  //   await loadFull(container);
+  // }, []);
   return (
     <section
       id="home"
       className={`relative h-[92vh]  w-screen flex flex-col py-0 justify-center md:bg-left-top bg-center   md:justify-center bg-cover items-center gap-6 overflow-hidden  md:-translate-y-10 -translate-y-0 `}
       style={{ backgroundImage: `url(${require("../../assets/bg.jpeg")})` }}
     >
-      <div className="flex flex-col  w-full h-full  items-center justify-between   md:px-24 lg:px-32">
+      <div className="flex flex-col  w-full h-full  items-center justify-center lg:justify-between   md:px-24 lg:px-32">
         <div>..</div>
-        <div className="flex flex-col items-center justify-end ">
+        <div className="flex flex-col items-center md:justify-end ">
           <img
             src={Tedxlogo}
-            className=" w-96 relative top-24  "
+            className=" w-[200px] md:w-96 relative top-[10%]  "
             alt="tedxlogo"
           />
           <img src={require("../../assets/hero.png")} alt="Hero" />
@@ -41,4 +41,4 @@ const HeroSection = () => {
 
 export default HeroSection;
 
-// 
+//
