@@ -228,7 +228,7 @@ const Navbar = () => {
         <li>
           <span>
             <button className="button group relative overflow-hidden transform skew-x-0  w-[144px] h-[56px] border-[#650000] bg-tedx-red-medium border border-spacing-3 p-2 border-collapse  py-2 px-3 rounded-md ">
-              <span className="button_text relative uppercase text-sm font-bold group-hover:text-tedx-brown transition text-tedx-heading z-10 ">
+              <span className="button_text relative uppercase text-sm font-black tracking-tighter group-hover:text-tedx-brown transition text-tedx-heading z-10 ">
                 Book Tickets
               </span>
               <span className="absolute inset-0 bg-tedx-heading group-hover:w-full w-0 transition-all group-hover:animate-skew animate-skewOut"></span>

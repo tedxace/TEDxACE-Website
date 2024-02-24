@@ -89,15 +89,17 @@ body {
     width:20%;
   }
   100% {
-    width: 100%;
-    transform: skewX(0deg);
+    width: 120%;
+    left:-8px;
+    transform: skewX(-15deg);
   }
 }
 
 @keyframes skewOutAnimation {
   0% {
-    transform: skewX(0deg);
+    transform: skewX(-15deg);
     width:100%;
+    left: -8px;
   }
   100% {
     width: 0%;
