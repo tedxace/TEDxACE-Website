@@ -4,10 +4,11 @@ import { useNavigate } from "react-router-dom";
 import { useLocation } from "react-router-dom";
 import { Link } from "react-router-dom";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
-import TEDxLogo from "../assets/TEDxLogo.svg";
+import TEDxLogo from "../assets/TEDLogo.svg";
 import { faClose } from "@fortawesome/free-solid-svg-icons";
 import { useSpeakerData } from "../Context/ContextProvider";
 import { cn } from "../lib/utils";
+import { AnimatePresence } from "framer-motion";
 
 const Navbar = () => {
   const location = useLocation();
@@ -226,14 +227,15 @@ const Navbar = () => {
       <ul>
         <li>
           <span>
-            <button className="button group relative overflow-hidden w-[144px] h-[56px] border-[#650000] bg-tedx-red-medium border border-spacing-3 p-2 border-collapse  py-2 px-3 rounded-md ">
-              <span className="button_text relative uppercase text-sm font-bold group-hover:text-tedx-brown text-tedx-heading z-10 ">
+            <button className="button group relative overflow-hidden transform skew-x-0  w-[144px] h-[56px] border-[#650000] bg-tedx-red-medium border border-spacing-3 p-2 border-collapse  py-2 px-3 rounded-md ">
+              <span className="button_text relative uppercase text-sm font-bold group-hover:text-tedx-brown transition text-tedx-heading z-10 ">
                 Book Tickets
               </span>
-              <span className="absolute inset-0 bg-tedx-heading group-hover:inline  hidden animate-skew"></span>
+              <span className="absolute inset-0 bg-tedx-heading group-hover:w-full w-0 transition-all group-hover:animate-skew animate-skewOut"></span>
             </button>
           </span>
         </li>
+        <li></li>
       </ul>
     </header>
   );

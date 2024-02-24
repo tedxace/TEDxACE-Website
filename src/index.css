@@ -94,6 +94,19 @@ body {
   }
 }
 
+@keyframes skewOutAnimation {
+  0% {
+    transform: skewX(0deg);
+    width:100%;
+  }
+  100% {
+    width: 0%;
+    left:-8px;
+
+    transform: skewX(-15deg);
+  }
+}
+
 
 @keyframes borderAnimation {
   0% {
