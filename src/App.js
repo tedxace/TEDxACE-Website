@@ -41,7 +41,7 @@ function App() {
           <footer
             className="w-full bg-tedx-dark  h-[100vh] flex items-center justify-center  relative px-10  md:px-24  bg-cover "
             style={{
-              backgroundImage: `url(${require("./assets/footer.png")})`,
+              backgroundImage: `url(${require("./assets/Background.png")})`,
             }}
           >
             <div className="absolute bg-gradient-to-b to-transparent h-full w-full via-tedx-bg/40 -z-1 from-tedx-bg/100 "></div>

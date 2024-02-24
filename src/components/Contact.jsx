@@ -64,7 +64,7 @@ const Contact = () => {
           </h1>
           <div className=" flex items-center h-full w-full md:w-[80%] relative">
             <TextField className="p-4 my-3 w-full border-none focus:border-none focus:outline-0 focus-visible:border-0  relative rounded-xl bg-white" />
-            <button className="p-4 my-1 uppercase   absolute right-0 text-black hover:bg-tedx-dark hover:text-white transition-all rounded-xl font-bold  ">
+            <button className="p-4 my-1 uppercase   absolute -right-1 text-black hover:bg-tedx-dark hover:text-white transition-all rounded-xl font-bold  ">
               Subscribe
             </button>
           </div>
