@@ -5,6 +5,7 @@ module.exports = {
     extend: {
       colors: {
         "tedx-dark": "#0f0606",
+        "tedx-bg": "#0D0505",
         "tedx-white": "#FFFFFF",
         "tedx-blue": "#3b82f6",
         "tedx-pink": "#ec4899",
@@ -16,8 +17,7 @@ module.exports = {
       },
       animation: {
         glow: "glow 1s ease-in-out infinite alternate",
-        skew: "skewAnimation 0.5s ease-in",
-        skewout: "skewOutAnimation 0.5s ease-out",
+        skew: "skewAnimation 0.4s ease-in",
       },
       keyframes: {
         glow: {

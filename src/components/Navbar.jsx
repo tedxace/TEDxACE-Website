@@ -20,7 +20,7 @@ const Navbar = () => {
   const { isPreviousEventActive } = useSpeakerData();
 
   function onWindowScroll() {
-    if (window.scrollY > 0) {
+    if (window.scrollY > 1 && !fixed) {
       setFixed(true);
     } else {
       setFixed(false);
@@ -103,15 +103,14 @@ const Navbar = () => {
   return (
     <header
       className={cn(
-        "flex items-center justify-between px-10 md:px-16 transition-all duration-500  top-0 w-full z-[1000] md: py-6 ",
-        fixed ? " fixed scale-100 bg-[#111111] " : "scale-105 bg-tedx-dark"
+        "flex items-center justify-between px-10 md:px-16 transition-all duration-500  top-0 w-full z-[1000] md: py-6 bg-tedx-brown",
+        fixed ? " fixed scale-100" : "scale-105 "
       )}
     >
       <section
         className={cn(
-          "fixed top-[9vh] left-0 w-full transition-all duration-500 ",
-          isOpen ? "h-[35vh] z-[1000]" : "h-0 z-0",
-          fixed ? "bg-[#111111]" : "bg-tedx-dark"
+          "fixed top-[9vh] left-0 w-full transition-all duration-500 bg-tedx-brown",
+          isOpen ? "h-[35vh] z-[1000]" : "h-0 z-0"
         )}
       ></section>
       <div
@@ -138,10 +137,10 @@ const Navbar = () => {
         </Link>
       </div>
 
-      <nav className="md:place-items-center bg-tedx-dark md:bg-transparent md:grid h-full w-full">
+      <nav className="md:place-items-center  md:grid h-full w-full">
         <ul
           className={cn(
-            "md:static absolute top-[10vh] left-[7%] list-none flex flex-col md:flex-row justify-center text-sm lg:text-base md:items-center gap-6 bg-clip-text text-transparent z-[2000] font-medium bg-gradient-to-r from-blue-500 to-pink-500 transition-opacity ",
+            "md:static absolute top-[10vh] left-[7%] list-none flex flex-col md:flex-row justify-center text-sm lg:text-base md:items-center gap-6 bg-clip-text text-tedx-heading uppercase z-[2000] font-bold  transition-opacity ",
             isOpen
               ? "opacity-100 pointer-events-auto delay-75 duration-500"
               : "opacity-0 pointer-events-none duration-75 delay-150 md:opacity-100 md:pointer-events-auto"
@@ -227,11 +226,11 @@ const Navbar = () => {
       <ul>
         <li>
           <span>
-            <button class="button group relative overflow-hidden w-[124px] h-[46px] p-2 bg-[#0f1923]">
-              <span class="button_text relative uppercase text-sm font-bold text-white z-10">
+            <button className="button group relative overflow-hidden w-[144px] h-[56px] border-[#650000] bg-tedx-red-medium border border-spacing-3 p-2 border-collapse  py-2 px-3 rounded-md ">
+              <span className="button_text relative uppercase text-sm font-bold group-hover:text-tedx-brown text-tedx-heading z-10 ">
                 Book Tickets
               </span>
-              <span class="absolute inset-0 bg-rose-500 group-hover:inline  hidden animate-skew"></span>
+              <span className="absolute inset-0 bg-tedx-heading group-hover:inline  hidden animate-skew"></span>
             </button>
           </span>
         </li>

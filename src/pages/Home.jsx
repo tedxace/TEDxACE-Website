@@ -8,7 +8,7 @@ const Home = () => {
   const { speakers } = useSpeakerData();
   const { sponsors } = useSponsorData();
   return (
-    <main className="overflow-x-hidden">
+    <main className="overflow-x-hidden bg-tedx-bg">
       <HeroSection />
       <SpeakerContent speakers={speakers} />
       <Sponsors sponsors={sponsors} />
