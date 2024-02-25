@@ -5,7 +5,8 @@ import redscroll from "../../assets/redscroll.png"
 export default function Reasons() {
     return (
         <>
-            <section className={`relative h-[92vh] bg-cover bg-top bg-no-repeat flex flex-col items-center justify-center p-0 `} style={{ backgroundImage: `url(${require("../../assets/reasonsbg.png")})` }}>
+            <section className={`relative h-[92vh]  w-screen flex flex-col py-0 justify-center md:bg-left-top bg-center   md:justify-center bg-cover items-center gap-6 overflow-hidden  md:-translate-y-10 -translate-y-0 `}
+                    style={{ backgroundImage: `url(${require("../../assets/reasonsbg.png")})` }}>
                 <div className='relative flex items-center justify-center mt-0 mb-7 pt-0'>
                     <img src={redscroll} alt="error" className='w-2/5 mt-0 pt-0'></img>
                     <h1 className={` absolute z-40 top-16 font-bold text-tedx-heading cursor-default text-2xl mb-10 mt-0 drop-shadow-lg `}>WHY SHOULD YOU ATTEND ?</h1>
