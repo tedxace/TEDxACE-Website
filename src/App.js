@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { useSpeakerData, useSponsorData } from "./Context/ContextProvider";
 
 import Navbar from "./components/Navbar";
-const Contact = lazy(() => import("./components/Contact"));
+const Contact = lazy(() => import("./components/footer/Contact"));
 const Loader = lazy(() => import("./components/Loader"));
 const SpeakerContent = lazy(() =>
   import("./components/speakers/SpeakerContent")

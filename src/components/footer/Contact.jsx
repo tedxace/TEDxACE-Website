@@ -1,10 +1,5 @@
-import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
-import { faFacebook } from "@fortawesome/free-brands-svg-icons";
-import { faInstagram } from "@fortawesome/free-brands-svg-icons";
-import { faTwitter } from "@fortawesome/free-brands-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { motion } from "framer-motion";
-import TedXlogo from "../assets/TEDxLogo.svg";
+import TedXlogo from "../../assets/TEDxLogo.svg";
 import React, { useState } from "react";
 import { TextField } from "@mui/material";
 
