@@ -42,7 +42,7 @@ const ParallaxSection = () => {
           whileInView={{ opacity: 1 }}
           exit={{ opacity: 0 }}
           src={`${require("../../assets/footer.png")}`}
-          className="w-[500px] absolute bottom-[50%] rounded-lg right-10"
+          className="w-[300px] md:w-[500px] absolute md:bottom-[50%] rounded-lg right-10"
           style={{ y: backgroundY }}
           alt=""
         />

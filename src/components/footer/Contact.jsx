@@ -28,7 +28,7 @@ const Contact = () => {
       id="contact"
       className="flex justify-evenly pt-72 items-center flex-col  relative w-full h-full "
     >
-      <div className="grid md:grid-cols-2 grid-rows-2 w-full  ">
+      <div className="grid md:grid-cols-2 grid-rows-2 w-full place-content-center md:place-content-between md:place-items-stretch  place-items-center">
         <div className="">
           <img src={TedXlogo} alt={"tedxlogo"} className="w-[200px] " />
           <div className="flex uppercase font-bold  space-x-8 ">
@@ -54,7 +54,7 @@ const Contact = () => {
           </div>
         </div>
         <div className=" p-4 flex flex-col justify-center ">
-          <h1 className="font-bold text-xl">
+          <h1 className="font-bold text-xl p-4">
             GET LATEST UPDATE on <span className="text-red-500">TEDx</span>ACE
           </h1>
           <div className=" flex items-center h-full w-full md:w-[80%] relative">
