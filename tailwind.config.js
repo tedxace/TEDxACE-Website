@@ -14,6 +14,7 @@ module.exports = {
         "tedx-dark-brown": "#2F0000",
         "tedx-brown": "#200B0B",
         "tedx-heading": "#F19F00",
+        "tedx-preasons": "#C7C7C7",
       },
       animation: {
         glow: "glow 1s ease-in-out infinite alternate",
