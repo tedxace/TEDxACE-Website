@@ -1,18 +1,8 @@
-import React, { useCallback } from "react";
-import Particles from "react-tsparticles";
-import { loadFull } from "tsparticles";
-import { config } from "../../common";
+import React from "react";
 import Tedxlogo from "../../assets/TEDLogo.svg";
 
 import { cn } from "../../lib/utils";
 const HeroSection = () => {
-  const particlesInit = useCallback(async (engine) => {
-    await loadFull(engine);
-  }, []);
-
-  const particlesLoaded = useCallback(async (container) => {
-    await loadFull(container);
-  }, []);
   return (
     <section
       id="home"
