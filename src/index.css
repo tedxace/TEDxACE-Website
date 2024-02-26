@@ -8,8 +8,9 @@
   --dark: #0f0606;
   --light: #FFFFFF;
   --blue: #3b82f666;
-  --dark-blue: #3b83f683;
+  --dark-red: #490000;
   --red: #650000;
+  
 }
 
 *,
@@ -73,7 +74,7 @@ body {
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: var(--dark-blue);
+  background: var(--dark-red);
 }
 
 @media screen and (prefers-reduced-motion: reduce) {

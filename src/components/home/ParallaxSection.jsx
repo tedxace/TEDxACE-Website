@@ -34,9 +34,9 @@ export default function ParallaxSection() {
 
   const { height } = dimension;
 
-  const y = useTransform(scrollYProgress, [0, 1], [height, height * -1.1]);
+  const y = useTransform(scrollYProgress, [0, 1], [height, height * -0.6]);
   const y2 = useTransform(scrollYProgress, [0, 1], [0, height]);
-  const y3 = useTransform(scrollYProgress, [0, 1], [height, height * -1.1]);
+  const y3 = useTransform(scrollYProgress, [0, 1], [height, height * -0.6]);
   // const y4 = useTransform(scrollYProgress, [0, 1], [0, height * 1]);
 
   useEffect(() => {
@@ -61,7 +61,10 @@ export default function ParallaxSection() {
         <div className="absolute -top-[12.5vh] h-200vh flex justify-center items-center gap-4vw p-2vw">
           <Column images={[images[0], images[1], images[2]]} y={y} />
           <Column images={[images[3], images[4], images[5]]} y={y2} />
-          <Column images={[images[6], images[7], images[8]]} y={y3} />
+
+          {window.innerWidth > 768 && (
+            <Column images={[images[6], images[7], images[8]]} y={y3} />
+          )}
           {/* <Column images={[images[9], images[10], images[11]]} y={y4} /> */}
         </div>
         <div className=" h-[120vh] flex  justify-center items-center  ">
@@ -75,14 +78,14 @@ export default function ParallaxSection() {
   );
 }
 
-const Column = ({ images, y }) => {
+const Column = ({ images, y, className }) => {
   return (
     <motion.div
-      className="w-1/2 min-w-450px flex  flex-col gap-2vw whitespace-nowrap"
+      className="w-1/2 min-w-450px   flex-col gap-2vw whitespace-nowrap"
       style={{ y }}
     >
       {images.map((src, i) => (
-        <div key={i} className="relative h-full last:top-0">
+        <div key={i} className={cn("relative h-full last:top-0", className)}>
           <img
             src={require(`../../assets/${src}`)}
             alt="parallax"
