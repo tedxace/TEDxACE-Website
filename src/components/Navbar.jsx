@@ -34,6 +34,7 @@ const Navbar = () => {
   const onHomeButtonClick = () => {
     if (!isHomePage) {
       navigate("/#home");
+      window.scrollTo(0, 0);
     }
     if (isMobile && isOpen) {
       setIsOpen(false);
@@ -103,14 +104,14 @@ const Navbar = () => {
   return (
     <header
       className={cn(
-        "flex items-center justify-between px-10 fixed md:relative  md:px-16 transition-all duration-500  top-0 w-full z-[1000] md:py-6 bg-tedx-brown",
+        "flex items-center justify-between px-10 fixed md:relative  md:px-16 transition-all duration-500  top-0 w-full z-[1000] py-6 bg-tedx-brown",
         fixed ? " md:fixed scale-100" : "scale-105 relative "
       )}
     >
       <section
         className={cn(
           "fixed top-[9vh] left-0 w-full transition-all duration-500 bg-tedx-brown",
-          isOpen ? "h-[35vh] z-[1000]" : "h-0 z-0"
+          isOpen ? "h-[36vh] z-[1000]" : "h-0 z-0"
         )}
       ></section>
       <div

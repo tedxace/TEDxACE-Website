@@ -60,14 +60,16 @@ export default function ParallaxSection() {
       >
         <div className="absolute -top-[12.5vh] h-200vh flex justify-center items-center gap-4vw p-2vw">
           <Column images={[images[0], images[1], images[2]]} y={y} />
-          <Column images={[images[3], images[4], images[5]]} y={y2} />
+          {window.innerWidth > 450 && (
+            <Column images={[images[3], images[4], images[5]]} y={y2} />
+          )}
 
           {window.innerWidth > 768 && (
             <Column images={[images[6], images[7], images[8]]} y={y3} />
           )}
           {/* <Column images={[images[9], images[10], images[11]]} y={y4} /> */}
         </div>
-        <div className=" h-[120vh] flex  justify-center items-center  ">
+        <div className=" h-screen sm:h-[120vh] flex  justify-center items-center  ">
           <div className="p-4 sticky text-5xl bg-black w-1/2 h-1/4 flex items-center justify-center text-center font-bold ">
             Hello
           </div>
@@ -81,7 +83,7 @@ export default function ParallaxSection() {
 const Column = ({ images, y, className }) => {
   return (
     <motion.div
-      className="w-1/2 min-w-450px   flex-col gap-2vw whitespace-nowrap"
+      className="sm:w-1/2 w-full min-w-450px   flex-col gap-2vw whitespace-nowrap"
       style={{ y }}
     >
       {images.map((src, i) => (
@@ -91,7 +93,7 @@ const Column = ({ images, y, className }) => {
             alt="parallax"
             className={cn(
               "object-cover w-full h-[450px] ",
-              i % 2 === 0 ? "top-20 p-4" : "top-0"
+              i % 2 === 0 ? " p-4" : "p-2"
             )}
           />
         </div>
