@@ -23,13 +23,13 @@ function App() {
       requestAnimationFrame(raf);
     }
 
-    requestAnimationFrame(raf);
+    window.innerWidth > 768 && requestAnimationFrame(raf);
   }, []);
 
   const { speakers } = useSpeakerData();
   const { sponsors } = useSponsorData();
   return (
-    <div className="overflow-x-hidden overflow-hidden transition-all">
+    <div className="overflow-x-hidden overflow-hidden transition">
       <Router>
         <Navbar />
         <Suspense fallback={<Loader />}>

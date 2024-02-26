@@ -73,7 +73,7 @@ export default function ParallaxSection() {
           <div className="p-4 sticky text-5xl bg-black w-1/2 h-1/4 flex items-center justify-center text-center font-bold ">
             Hello
           </div>
-          <div className="absolute h-full w-full bg-gradient-to-t from-black/30 via-transparent to-black/60"></div>
+          {/* <div className="absolute h-full w-full bg-gradient-to-t from-black/30 via-transparent to-black/60"></div> */}
         </div>
       </div>
     </main>
