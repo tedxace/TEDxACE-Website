@@ -1,6 +1,6 @@
 import React, { lazy, Suspense, useEffect } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import { useSpeakerData, useSponsorData } from "./context/ContextProvider";
+import { useSpeakerData, useSponsorData } from "./Context/ContextProvider";
 
 import Navbar from "./components/Navbar";
 import Lenis from "@studio-freight/lenis";

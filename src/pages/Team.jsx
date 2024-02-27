@@ -4,7 +4,7 @@ import Tab from "@mui/material/Tab";
 import TabContext from "@mui/lab/TabContext";
 import TabList from "@mui/lab/TabList";
 import TabPanel from "@mui/lab/TabPanel";
-import { useHeadData, useTeamData } from "../context/ContextProvider";
+import { useHeadData, useTeamData } from "../Context/ContextProvider";
 import TeamContent from "../components/teams/TeamContent";
 import SpeakerContent from "../components/speakers/SpeakerContent";
 import { useState } from "react";
