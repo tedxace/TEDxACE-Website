@@ -29,7 +29,7 @@ function App() {
   const { speakers } = useSpeakerData();
   const { sponsors } = useSponsorData();
   return (
-    <div className="overflow-x-hidden overflow-hidden transition">
+    <div className=" overflow-x-clip transition">
       <Router>
         <Navbar />
         <Suspense fallback={<Loader />}>
