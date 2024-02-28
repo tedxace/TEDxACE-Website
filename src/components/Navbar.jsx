@@ -105,7 +105,7 @@ const Navbar = () => {
     <header
       className={cn(
         "flex items-center justify-between px-10 fixed md:relative  md:px-16 transition-all duration-500  top-0 w-full z-[1000] py-6 bg-tedx-brown",
-        fixed ? " fixed scale-100" : "scale-105 static"
+        fixed ? " fixed scale-100" : "scale-105 "
       )}
     >
       <section
