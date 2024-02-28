@@ -35,7 +35,7 @@ export default function ParallaxSection() {
   const { height } = dimension;
 
   const y = useTransform(scrollYProgress, [0, 1], [0, height * -0.3]);
-  const y2 = useTransform(scrollYProgress, [0, 1], [0, height / 2]);
+  const y2 = useTransform(scrollYProgress, [0, 1], [0, height * 2]);
   // const y3 = useTransform(scrollYProgress, [0, 1], [height, height * -0.6]);
   // const y4 = useTransform(scrollYProgress, [0, 1], [0, height * 1]);
 
@@ -69,8 +69,8 @@ export default function ParallaxSection() {
           )} */}
           {/* <Column images={[images[9], images[10], images[11]]} y={y4} /> */}
         </div>
-        <div className=" h-screen sm:h-[120vh] flex  justify-center items-center  ">
-          <div className="p-4 sticky text-5xl bg-black w-1/2 h-1/4 flex items-center justify-center text-center font-bold ">
+        <div className=" h-screen sm:h-[120vh] flex  justify-center  items-center  ">
+          <div className="p-4 sticky text-5xl bg-gradient-to-tr from-black/10 to-black/50  w-full h-full flex items-center justify-center text-center font-bold ">
             Hello
           </div>
           {/* <div className="absolute h-full w-full bg-gradient-to-t from-black/30 via-transparent to-black/60"></div> */}

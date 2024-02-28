@@ -14,7 +14,6 @@ const Team = lazy(() => import("./pages/Team"));
 const About = lazy(() => import("./pages/About"));
 
 function App() {
-
   const { speakers } = useSpeakerData();
   const { sponsors } = useSponsorData();
   return (
