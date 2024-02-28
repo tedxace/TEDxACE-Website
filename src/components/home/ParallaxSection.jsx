@@ -34,9 +34,9 @@ export default function ParallaxSection() {
 
   const { height } = dimension;
 
-  const y = useTransform(scrollYProgress, [0, 1], [height, height * -0.6]);
-  const y2 = useTransform(scrollYProgress, [0, 1], [0, height]);
-  const y3 = useTransform(scrollYProgress, [0, 1], [height, height * -0.6]);
+  const y = useTransform(scrollYProgress, [0, 1], [0, height * -0.3]);
+  const y2 = useTransform(scrollYProgress, [0, 1], [0, height / 2]);
+  // const y3 = useTransform(scrollYProgress, [0, 1], [height, height * -0.6]);
   // const y4 = useTransform(scrollYProgress, [0, 1], [0, height * 1]);
 
   useEffect(() => {
@@ -58,15 +58,15 @@ export default function ParallaxSection() {
         className="h-105vh relative overflow-hidden bg-cover bg-fixed bg-gradient-to-t from-tedx-bg/100 to-transparent"
         ref={ref}
       >
-        <div className="absolute -top-[12.5vh] h-200vh flex justify-center items-center gap-4vw p-2vw">
+        <div className="absolute -top-[12.5vh] w-full h-200vh flex justify-center items-center gap-4vw p-2vw">
           <Column images={[images[0], images[1], images[2]]} y={y} />
           {window.innerWidth > 450 && (
             <Column images={[images[3], images[4], images[5]]} y={y2} />
           )}
 
-          {window.innerWidth > 768 && (
+          {/* {window.innerWidth > 768 && (
             <Column images={[images[6], images[7], images[8]]} y={y3} />
-          )}
+          )} */}
           {/* <Column images={[images[9], images[10], images[11]]} y={y4} /> */}
         </div>
         <div className=" h-screen sm:h-[120vh] flex  justify-center items-center  ">
