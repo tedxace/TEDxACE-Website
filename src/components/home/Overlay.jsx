@@ -5,7 +5,7 @@ const Overlay = () => {
   return (
     <div className=" h-screen sm:h-[100vh] flex  justify-center  items-center  ">
       <div className="p-5 sticky text-5xl bg-gradient-to-b from-tedx-dark via-black/10 to-tedx-dark/80  w-full h-full flex items-center justify-center text-center font-bold ">
-        <div className="h-auto flex hover:scale-105 transition-all ease-in-out items-center justify-center flex-col bg-tedx-dark px-10 py-5">
+        <div className="h-auto flex hover:scale-105 transition-all ease-in-out items-center rounded-lg shadow shadow-black/50 border border-tedx-red justify-center flex-col bg-tedx-dark px-10 py-5">
           <p className="flex text-3xl items-center">
             <img src={TEDXLogo} className="p-3" alt="tedx-logo" /> '24
           </p>
