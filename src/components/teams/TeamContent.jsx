@@ -22,7 +22,7 @@ const TeamContent = ({ team }) => {
               loading="lazy"
               src={image}
               alt={name}
-              className="md:h-[150px] md:w-[150px] lg:w-[160px] lg:h-[160px] h-[100px] w-[100px] ease-in-out rounded-full m-auto"
+              className="md:h-[150px] md:w-[150px] lg:w-[160px] lg:h-[160px] h-[100px] w-[100px] ease-in-out rounded-full m-auto ring-2 ring-tedx-heading ring-offset-4 ring-offset-tedx-heading bg-white"
             />
             <h3 className="transition-transform text-xs sm:text-sm md:text-base lg:text-md font-semibold duration-200 my-2 m-auto">
               {name}

@@ -58,7 +58,7 @@ const SpeakerContent = ({ speakers }) => {
                 src={image}
                 alt={name}
                 className={cn(
-                  "md:h-[150px] md:w-[150px] lg:w-[180px] lg:h-[180px] h-[100px] w-[100px] ease-in-out rounded-full ml-20 mr-20 mt-6 ",
+                  "md:h-[150px] md:w-[150px] lg:w-[180px] lg:h-[180px] h-[100px] w-[100px] ease-in-out rounded-full ml-20 mr-20 mt-6 ring-2 ring-tedx-heading ring-offset-4 ring-offset-tedx-heading ",
                   isHeads ? "rounded-full" : "rounded-none"
                 )}
               />
