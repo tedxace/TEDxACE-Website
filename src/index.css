@@ -19,6 +19,9 @@
   box-sizing: border-box;
 }
 
+.MuiButtonBase-root{
+  color: "#F19F00";
+}
 
 body {
   margin: 0;

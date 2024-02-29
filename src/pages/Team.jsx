@@ -65,14 +65,19 @@ const Teams = () => {
               aria-label="TEDx Team Members"
               centered
               sx={{
-                "& .MuiTabs-root": {},
+                "& .css-wlpw4n-MuiButtonBase-root-MuiTab-root.Mui-selected ":{color: "#F19F00"},
+                "& .MuiTabs-root": { color: "#F19F00"},
                 "& .MuiTabs-scroller": {},
                 "& .MuiTabs-flexContainer": {
                   flexWrap: "wrap",
                 },
                 "& .MuiTabs-indicator": {
                   height: isMobile ? "0px" : "2px",
+                  color: "#F19F00",
+                  background: "#F19F00"
                 },
+                "& .Mui-selected":{ color: "#F19F00"},
+                "& .css-1aquho2-MuiTabs-indicator":{background: "#F19F00"},
               }}
             >
               <Tab
