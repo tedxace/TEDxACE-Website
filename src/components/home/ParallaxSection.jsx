@@ -81,10 +81,19 @@ export default function ParallaxSection() {
 }
 
 const Column = ({ images, y, className }) => {
+  const ref = useRef(null);
+  const { scrollYProgress } = useScroll({
+    target: ref,
+
+    offset: ["start end", "end start"],
+  });
   return (
     <motion.div
-      className="sm:w-1/2 w-full min-w-450px   flex-col gap-2vw whitespace-nowrap"
+      ref={ref}
+      className="sm:w-1/2 duration-300 w-full ease-in min-w-450px   flex-col gap-2vw whitespace-nowrap"
       style={{ y }}
+      initial={{ opacity: 0 }}
+      whileInView={{ opacity: 100 }}
     >
       {images.map((src, i) => (
         <div key={i} className={cn("relative h-full last:top-0", className)}>
@@ -92,8 +101,8 @@ const Column = ({ images, y, className }) => {
             src={require(`../../assets/${src}`)}
             alt="parallax"
             className={cn(
-              "object-cover w-full h-[450px] ",
-              i % 2 === 0 ? " p-4" : "p-2"
+              "object-cover  w-full h-[450px] relative left-30 ",
+              i % 2 === 0 ? " p-10 " : "p-20"
             )}
           />
         </div>
