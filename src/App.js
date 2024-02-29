@@ -1,6 +1,6 @@
 import React, { lazy, Suspense } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import { useSpeakerData, useSponsorData } from "./Context/ContextProvider";
+import { useSpeakerData, useSponsorData } from "./context/ContextProvider";
 
 import Navbar from "./components/Navbar";
 const Contact = lazy(() => import("./components/footer/Contact"));

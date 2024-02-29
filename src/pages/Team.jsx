@@ -4,7 +4,7 @@ import Tab from "@mui/material/Tab";
 import TabContext from "@mui/lab/TabContext";
 import TabList from "@mui/lab/TabList";
 import TabPanel from "@mui/lab/TabPanel";
-import { useHeadData, useTeamData } from "../Context/ContextProvider";
+import { useHeadData, useTeamData } from "../context/ContextProvider";
 import TeamContent from "../components/teams/TeamContent";
 import SpeakerContent from "../components/speakers/SpeakerContent";
 import { useState } from "react";
@@ -25,7 +25,13 @@ const Teams = () => {
     }
   }, []);
   return (
-    <Box sx={{ width: "100%" }} className={`relative h-fit bg-center bg-cover bg-no-repeat`} style={{ backgroundImage: `url(${require("../assets/teamsectionbg.png")})` }}>
+    <Box
+      sx={{ width: "100%" }}
+      className={`relative h-fit bg-center bg-cover bg-no-repeat`}
+      style={{
+        backgroundImage: `url(${require("../assets/teamsectionbg.png")})`,
+      }}
+    >
       <TabContext value={value}>
         <Box
           sx={{ borderBottom: 1, borderColor: "divider", position: "relative" }}
@@ -72,27 +78,27 @@ const Teams = () => {
               <Tab
                 label={teams[0].name}
                 value="1"
-                sx={{ color: "#C7C7C7" , fontWeight: "bold" }}
+                sx={{ color: "#C7C7C7", fontWeight: "bold" }}
               />
               <Tab
                 label={teams[1].name}
                 value="2"
-                sx={{ color: "#C7C7C7" , fontWeight: "bold"}}
+                sx={{ color: "#C7C7C7", fontWeight: "bold" }}
               />
               <Tab
                 label={teams[2].name}
                 value="3"
-                sx={{ color: "#C7C7C7" ,fontWeight: "bold" }}
+                sx={{ color: "#C7C7C7", fontWeight: "bold" }}
               />
               <Tab
                 label={teams[3].name}
                 value="4"
-                sx={{ color: "#C7C7C7", fontWeight: "bold"}}
+                sx={{ color: "#C7C7C7", fontWeight: "bold" }}
               />
               <Tab
                 label={teams[4].name}
                 value="5"
-                sx={{ color: "#C7C7C7", fontWeight: "bold"}}
+                sx={{ color: "#C7C7C7", fontWeight: "bold" }}
               />
               <Tab
                 label={teams[5].name}
@@ -102,7 +108,7 @@ const Teams = () => {
               <Tab
                 label={teams[6].name}
                 value="7"
-                sx={{ color: "#C7C7C7", fontWeight: "bold"}}
+                sx={{ color: "#C7C7C7", fontWeight: "bold" }}
               />
             </TabList>
           </a>
