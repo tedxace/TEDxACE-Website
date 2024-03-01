@@ -13,10 +13,12 @@ const TeamContent = ({ team }) => {
         return (
           <motion.section
             key={name}
-            className="group flex flex-col justify-center items-center w-full pl-2 pt-20 pb-20 opacity-80 hover:opacity-100 cursor-pointer"
+            className="group flex flex-col justify-center items-center w-full pl-2 pt-20 pb-20 opacity-80 hover:opacity-100 bg-center cursor-pointer"
             whileHover={{ scale: 1.02 }}
             onTap={{ scale: 0.98 }}
-            style={{ backgroundImage: `url(${require("../../assets/teamscroll.png")})` }}
+            style={{
+              backgroundImage: `url(${require("../../assets/teamscroll.png")})`,
+            }}
           >
             <img
               loading="lazy"
