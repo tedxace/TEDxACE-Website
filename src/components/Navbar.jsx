@@ -54,6 +54,7 @@ const Navbar = () => {
     }
   };
   const onTeamButtonClick = () => {
+    window.scrollTo(0, 0);
     if (isMobile && isOpen) {
       setIsOpen(false);
     }

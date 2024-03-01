@@ -20,7 +20,7 @@ const SpeakerContent = ({ speakers }) => {
     }
   }, [speakers?.length]);
   return (
-    <section className="relative">
+    <section className="relative p-20">
       <header id="speakers" className={cn(isHeads ? "h-auto" : "")}>
         <h2
           className={cn(
@@ -44,9 +44,11 @@ const SpeakerContent = ({ speakers }) => {
               onTap={{ scale: 0.98 }}
               key={name}
               className={cn(
-                "group flex flex-col justify-center items-center bg-cover px-20 py-20 cursor-pointer opacity-80 hover:opacity-100 ",
-                
-              )} style={{ backgroundImage: `url(${require("../../assets/teamscroll.png")})` }}
+                "group flex flex-col justify-center items-center bg-cover px-20 py-20 cursor-pointer opacity-80 hover:opacity-100 "
+              )}
+              style={{
+                backgroundImage: `url(${require("../../assets/teamscroll.png")})`,
+              }}
               onClick={(event) => {
                 event.stopPropagation();
                 modalOpen ? close() : open();

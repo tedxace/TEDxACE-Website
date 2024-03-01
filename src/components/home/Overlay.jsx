@@ -17,7 +17,7 @@ const Overlay = () => {
             alt="parallax-body"
             className="w-[200px] md:w-[20vw] md:h-[20vw] object-cover"
           />
-          <button className="button group relative flex items-center justify-center overflow-hidden text-center transform skew-x-0 w-[100px] h-[40px]   md:w-[144px] md:h-[56px] border-[#650000] bg-tedx-red-medium border border-spacing-3 md:mx-3 border-collapse mt-5 mb-2 py-2 px-3 rounded-md ">
+          <button className="button group relative flex items-center justify-center overflow-hidden text-center transform skew-x-0 w-[100px] h-[40px]   md:w-[144px] md:h-[56px] border-[#650000] bg-tedx-red-medium border border-spacing-3 md:mx-3 border-collapse mt-5 mb-2 py-2 px-3 rounded-md font-['Inter'] ">
             <span className="button_text relative uppercase md:text-sm text-[10px] font-black tracking-tighter group-hover:text-tedx-brown transition text-tedx-heading z-10 ">
               Buy Tickets
             </span>
