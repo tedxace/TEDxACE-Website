@@ -30,12 +30,40 @@ const About = () => {
             </div>
 
         </div>
-        <div class="social_blades">
-          <p>Follow TED on and</p>
-          <div class="social_container">
-            <FontAwesomeIcon icon={faYoutube} />
-            <FontAwesomeIcon icon={faInstagram} />
-            <FontAwesomeIcon icon={faLinkedin} />
+          <div class="social_blades">
+            <p>Follow TED on</p>
+            <div class="social_container">
+              <a href="https://www.youtube.com/@TEDx" target="_blank">
+                <FontAwesomeIcon icon={faYoutube} />
+              </a>
+
+              <a href="https://www.instagram.com/tedxace/" target="_blank">
+                <FontAwesomeIcon icon={faInstagram} />
+              </a>
+
+              <a href="https://www.linkedin.com/company/tedxace/" target="_blank">
+                <FontAwesomeIcon icon={faLinkedin} />
+              </a>
+            </div>
+          </div>
+      </div>
+      <div className="yt_container">
+        <p className="yt_title">Some Glimpses of our Past Events</p>
+        <div className="wrapper">
+          <div className="yt_video">
+            <iframe width="420" height="315"src="https://www.youtube.com/embed/KeQRirsphKo?si=aodHOLrkcxn-qwXN">
+            </iframe>
+            <p className="yt_video_title" >2023</p>
+          </div>
+          <div className="yt_video">
+          <iframe width="420" height="315"src="https://www.youtube.com/embed/tgbNymZ7vqY">
+            </iframe>
+            <p className="yt_video_title" >2022</p>
+          </div>
+          <div className="yt_video">
+            <iframe width="420" height="315"src="https://www.youtube.com/embed/TLlDOCexrN0?si=Kd1lncXo-nY0l41r">
+            </iframe>
+            <p className="yt_video_title" >2021</p>
           </div>
         </div>
       </div>
