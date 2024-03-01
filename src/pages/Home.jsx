@@ -7,6 +7,7 @@ import ParallaxSection from "../components/home/ParallaxSection";
 import { AnimatePresence } from "framer-motion";
 import Reasons from "../components/home/Reasons";
 import PastSpeakers from "../components/home/PastSpeakers";
+import Ticket from "../components/home/Ticket";
 
 const Home = () => {
   const { speakers } = useSpeakerData();
@@ -18,6 +19,7 @@ const Home = () => {
 
         <ParallaxSection />
         <SpeakerContent speakers={speakers} />
+        <Ticket />
         <Reasons />
         <PastSpeakers />
         <Sponsors sponsors={sponsors} />

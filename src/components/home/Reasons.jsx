@@ -6,7 +6,7 @@ export default function Reasons() {
   return (
     <>
       <section
-        className={`relative md:h-[92vh]  w-screen flex flex-col py-0 justify-center md:bg-left-top bg-center md:justify-center bg-cover items-center gap-6 overflow-hidden  md:-translate-y-10 -translate-y-0 `}
+        className={`relative md:h-[92vh]  w-screen flex flex-col py-0  justify-center md:bg-left-top bg-center md:justify-center bg-cover items-center gap-6 overflow-hidden  md:-translate-y-10 -translate-y-0 `}
         style={{
           backgroundImage: `url(${require("../../assets/Reason-BG.png")})`,
         }}
