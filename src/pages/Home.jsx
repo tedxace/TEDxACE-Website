@@ -8,6 +8,7 @@ import { AnimatePresence } from "framer-motion";
 import Reasons from "../components/home/Reasons";
 import PastSpeakers from "../components/home/PastSpeakers";
 import Ticket from "../components/home/Ticket";
+import Location from "../components/home/Location";
 
 const Home = () => {
   const { speakers } = useSpeakerData();
@@ -23,6 +24,7 @@ const Home = () => {
         <Reasons />
         <PastSpeakers />
         <Sponsors sponsors={sponsors} />
+        <Location />
       </AnimatePresence>
     </main>
   );
