@@ -18,14 +18,14 @@ const About = () => {
           backgroundImage: `url(${require("../assets/about_page_bg.png")})`,
         }}
       >
-        <div class="text-center text-custom-yellow text-2xl md:text-4xl lgtext-6xl pt-28 font-bold">
+        <div class="text-center text-tedx-heading text-2xl md:text-4xl lgtext-6xl pt-16 font-bold">
           <p>ABOUT</p>
         </div>
         <div class="text-custom-gray px-5 pt-6 leading-snug">
           <p class="text-lg md:text-2xl lg:text-4xl font-bold">
             About TEDx, x = independently organized event
           </p>
-          <p class="text-sm md:text-md lg:text-xl font-semibold">
+          <p class="text-sm md:text-md lg:text-base font-semibold text-tedx-preasons">
             In the spirit of ideas worth spreading, TEDx is a program of local,
             self-organized events that bring people together to share a TED-like
             experience. At a TEDx event, TED Talks video and live speakers
@@ -40,7 +40,7 @@ const About = () => {
           <p class="text-xl md:text-2xl lg:text-4xl font-bold">About TED</p>
           <div class="flex flex-col md:flex-row gap-y-4 md:gap-x-4 justify-between">
             <div class="md:w-1/2">
-              <p class="text-sm lg:text-base font-semibold">
+              <p class="text-sm lg:text-base font-semibold text-tedx-preasons">
                 TED is a nonprofit organization devoted to Ideas Worth
                 Spreading. Started as a four-day conference in California 30
                 years ago, TED has grown to support its mission with multiple
@@ -53,7 +53,7 @@ const About = () => {
               </p>
             </div>
             <div class="md:w-1/2">
-              <p class="text-sm lg:text-base font-semibold">
+              <p class="text-sm lg:text-base font-semibold text-tedx-preasons">
                 The annual TED Conference takes place each spring in Vancouver,
                 British Columbia. TED's media initiatives include TED.com, where
                 new TED Talks are posted daily; TED Translators, which provides
@@ -70,29 +70,29 @@ const About = () => {
             </div>
           </div>
         </div>
-        <div class="flex flex-col items-center py-8">
+        <div class="flex flex-col items-center py-8 mt-10">
           <p className="text-tedx-heading font-bold text-xl md:text-2xl lg:text-4xl">
-            Follow TED on
+            FOLLOW TED ON
           </p>
           <div class="flex items-center justify-around w-1/4 pt-4">
-            <a href="https://www.youtube.com/@TEDx" target="_blank">
+            <a className="text-2xl hover:text-tedx-heading" href="https://www.youtube.com/@TEDx" target="_blank">
               <FontAwesomeIcon icon={faYoutube} />
             </a>
 
-            <a href="https://www.instagram.com/tedxace/" target="_blank">
+            <a className="text-2xl hover:text-tedx-heading" href="https://www.instagram.com/tedxace/" target="_blank">
               <FontAwesomeIcon icon={faInstagram} />
             </a>
 
-            <a href="https://www.linkedin.com/company/tedxace/" target="_blank">
+            <a className="text-2xl hover:text-tedx-heading" href="https://www.linkedin.com/company/tedxace/" target="_blank">
               <FontAwesomeIcon icon={faLinkedin} />
             </a>
           </div>
         </div>
       </div>
 
-      <div className="flex flex-col items-center my-10">
-        <p className="text-3xl text-tedx-preasons max-sm:px-6 font-bold my-5 text-center">
-          Some Glimpses of our Past Events
+      <div className="flex flex-col items-center mt-10">
+        <p className="text-3xl text-tedx-heading max-sm:px-6 font-bold mt-5 text-center">
+          SOME GLIMPSES OF OUR PAST EVENTS
         </p>
         <div className="wrapper flex flex-wrap justify-center gap-5">
           <div className="flex flex-col items-center">
@@ -108,7 +108,7 @@ const About = () => {
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen
             ></iframe>
-            <p className="text-xl text-custom-yellow font-semibold mt-2">
+            <p className="text-2xl text-tedx-heading font-semibold mt-5 cursor-pointer hover:text-white hover:underline underline-offset-8 ">
               2023
             </p>
           </div>
@@ -125,7 +125,7 @@ const About = () => {
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen
             ></iframe>
-            <p className="text-xl text-custom-yellow font-semibold mt-2">
+            <p className="text-2xl text-tedx-heading font-semibold mt-5 cursor-pointer hover:text-white hover:underline underline-offset-8">
               2022
             </p>
           </div>
@@ -142,7 +142,7 @@ const About = () => {
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen
             ></iframe>
-            <p className="text-xl text-custom-yellow font-semibold mt-2">
+            <p className="text-2xl text-tedx-heading font-semibold mt-5 cursor-pointer hover:text-white hover:underline underline-offset-8">
               2021
             </p>
           </div>
