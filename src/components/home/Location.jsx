@@ -10,18 +10,18 @@ const Location = () => {
         backgroundImage: `url('${require("../../assets/LocationBG.png")}')`,
       }}
     >
-      <h1 className=" flex justify-center text-4xl md:text-xl lg:text-4xl font-bold text-tedx-heading">
+      <h1 className=" flex justify-center text-4xl md:text-xl lg:text-4xl font-bold text-tedx-heading mb-10">
           LOCATION
         </h1>
       <div
-        className="bg-cover mx-10 pt-2 rounded-lg lg:min-h-[40svh] bg-center bg-tedx-dark flex  justify-center"
+        className="bg-cover mx-10 pt-2 rounded-lg h-[300px] md:h-[350px] lg:h-[350px] bg-center bg-tedx-dark flex  justify-center"
         style={{
           backgroundImage: `url(${require("../../assets/Location.png")})`,
         }}
       >
       </div>
       <div className="p-10">
-        <h1 className="text-md md:text-2xllg:text-4xl font-['Eczar'] font-bold ">
+        <h1 className="text-2xl md:text-2xllg:text-4xl font-['Eczar'] font-bold ">
           AUDITORIUM , PHASE THREE, ATHARVA COLLEGE OF ENGINEERING , MALAD{" "}
         </h1>
         <p className="py-3 font-['Inika'] ">
