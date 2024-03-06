@@ -32,6 +32,7 @@ function App() {
   return (
     <div className=" overflow-x-clip transition">
       <Router>
+        {/* <Router basename="/TEDxACE-WESITE"> */}
         <Navbar />
         <Suspense fallback={<Loader />}>
           <Routes>
