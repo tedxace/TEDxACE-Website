@@ -116,7 +116,7 @@
     width: max-content;
     flex-wrap: nowrap;
     animation:
-        scroll var(--_animation-duration, 60s) var(--_animation-direction, forwards) linear infinite;
+        scroll var(--_animation-duration, 30s) var(--_animation-direction, forwards) linear infinite;
     animation-direction: forwards;
 
 }

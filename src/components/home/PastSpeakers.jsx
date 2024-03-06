@@ -26,7 +26,7 @@ const PastSpeakers = () => {
     }
   }, []);
   return (
-    <div class="back">
+    <div class="back pb-12">
       <header id="header">
         <h1 className="heading">PAST SPEAKERS</h1>
       </header>

@@ -29,8 +29,8 @@ const Contact = () => {
       className="flex justify-evenly pt-72 items-center flex-col  relative w-full h-full "
     >
       <div className="grid md:grid-cols-2 grid-rows-2 w-full place-content-center md:place-content-between md:place-items-stretch  place-items-center">
-        <div className="">
-          <img src={TedXlogo} alt={"tedxlogo"} className="w-[200px] " />
+        <div className="grid grid-cols-2 w-full">
+          <img src={TedXlogo} alt={"tedxlogo"} className="w-[200px] pb-12 -translate-y-10" />
           <div className="flex uppercase font-bold  space-x-8 ">
             <div className=" py-4 space-y-4 flex flex-col ">
               <a href="#" className="hover:text-tedx-heading transition">
