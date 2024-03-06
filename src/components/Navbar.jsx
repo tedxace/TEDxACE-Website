@@ -112,21 +112,18 @@ const Navbar = () => {
             "flex justify-start lg:gap-0 gap-2 flex-grow md:flex-grow-0 items-center w-full md:w-auto h-full"
           )}
         >
-          {isMobile ? (
-            <div
-              className="lg:hidden grid place-items-center"
-              onClick={handleMenuClick}
-            >
-              {isOpen ? (
-                <FontAwesomeIcon
-                  className="text-white w-4 h-4"
-                  icon={faClose}
-                />
-              ) : (
-                <FontAwesomeIcon className="text-white w-4 h-4" icon={faBars} />
-              )}
-            </div>
-          ) : null}
+          {/* {isMobile ? ( */}
+          <div
+            className="lg:hidden grid place-items-center"
+            onClick={handleMenuClick}
+          >
+            {isOpen ? (
+              <FontAwesomeIcon className="text-white w-4 h-4" icon={faClose} />
+            ) : (
+              <FontAwesomeIcon className="text-white w-4 h-4" icon={faBars} />
+            )}
+          </div>
+          {/* ) : null} */}
           <Link to="/" className="">
             <img
               className="h-full min-w-[100px] object-contain"
