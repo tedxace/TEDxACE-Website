@@ -5,6 +5,7 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
+import aboutimg from "../assets/aboutimg.png"
 import "./about.css";
 import useMediaQuery from "../hooks/useMediaQuery";
 
@@ -18,26 +19,35 @@ const About = () => {
           backgroundImage: `url(${require("../assets/about_page_bg.png")})`,
         }}
       >
-        <div class="text-center text-tedx-heading text-2xl md:text-4xl lgtext-6xl pt-16 font-bold">
+        <div class="text-center text-tedx-heading text-2xl md:text-4xl pt-32 md:pt-20 lg:pt-16 lgtext-6xl font-bold">
           <p>ABOUT</p>
         </div>
-        <div class="text-custom-gray px-5 pt-6 leading-snug">
-          <p class="text-lg md:text-2xl lg:text-4xl font-bold">
-            About TEDx, x = independently organized event
-          </p>
-          <p class="text-sm md:text-md lg:text-base font-semibold text-tedx-preasons">
-            In the spirit of ideas worth spreading, TEDx is a program of local,
-            self-organized events that bring people together to share a TED-like
-            experience. At a TEDx event, TED Talks video and live speakers
-            combine to spark deep discussion and connection. These local,
-            self-organized events are branded TEDx, where x = independently
-            organized TED event. The TED Conference provides general guidance
-            for the TEDx program, but individual TEDx events are self-organized.
-            (Subject to certain rules and regulations.)
-          </p>
+
+        <div className="flex flex-wrap justify-between items-center mt-2 ">
+          <div class=" flex flex-wrap text-custom-gray px-5 pt-6 leading-snug">
+              <div className="md:w-2/4 mb-5" >
+                  <p class="text-lg  md:text-2xl lg:text-4xl font-bold text-tedx-preasons">
+                  About TEDx, x = independently organized event
+                  </p>
+                  <p class="text-sm md:text-md lg:text-base font-semibold text-tedx-preasons">
+                  In the spirit of ideas worth spreading, TEDx is a program of local,
+                  self-organized events that bring people together to share a TED-like
+                  experience. At a TEDx event, TED Talks video and live speakers
+                  combine to spark deep discussion and connection. These local,
+                  self-organized events are branded TEDx, where x = independently
+                  organized TED event. The TED Conference provides general guidance
+                  for the TEDx program, but individual TEDx events are self-organized.
+                  (Subject to certain rules and regulations.)
+                  </p>
+              </div>
+              <div className="m-auto">
+                <img className="w-[400px] md:w-[350px]"src={aboutimg} alt="error loading image" />
+              </div>
+          </div >
         </div>
+        
         <div class="text-custom-gray px-5 pt-12">
-          <p class="text-xl md:text-2xl lg:text-4xl font-bold">About TED</p>
+          <p class="text-xl md:text-2xl lg:text-4xl font-bold text-tedx-preasons">About TED</p>
           <div class="flex flex-col md:flex-row gap-y-4 md:gap-x-4 justify-between">
             <div class="md:w-1/2">
               <p class="text-sm lg:text-base font-semibold text-tedx-preasons">
