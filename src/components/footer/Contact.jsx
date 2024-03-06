@@ -28,9 +28,13 @@ const Contact = () => {
       id="contact"
       className="flex justify-evenly pt-72 items-center flex-col  relative w-full h-full "
     >
-      <img src={TedXlogo} alt={"tedxlogo"} className="w-[200px] " />
+      <img
+        src={TedXlogo}
+        alt={"tedxlogo"}
+        className="w-[200px] md:self-start "
+      />
       <div className="grid md:grid-cols-2 grid-rows-2 w-full place-content-center md:place-content-between md:place-items-stretch  place-items-center">
-        <div className="grid grid-cols-2 w-full">
+        <div className="grid grid-cols-2  grid-rows-1 gap-10 w-fit  ">
           <div className="uppercase font-bold py-4 space-y-4 flex flex-col">
             <a href="#" className="hover:text-tedx-heading transition">
               About
@@ -51,11 +55,11 @@ const Contact = () => {
             </a>
           </div>
         </div>
-        <div className="flex flex-col justify-center ">
+        <div className="flex flex-col justify-center m-3">
           <h1 className="font-bold text-xl">
             GET LATEST UPDATE on <span className="text-red-500">TEDx</span>ACE
           </h1>
-          <div className=" flex items-center h-full w-full md:w-[80%] relative">
+          <div className=" flex items-center my-5  h-full w-full md:w-[80%] relative">
             <TextField className="p-4 my-3 w-full border-none focus:border-none focus:outline-0 focus-visible:border-0 relative rounded-xl bg-tedx-white" />
             <button className="p-4 my-1 uppercase absolute -right-1 bg-tedx-dark text-tedx-white hover:bg-tedx-white hover:text-tedx-dark transition-all rounded-r-xl font-bold  ">
               Subscribe

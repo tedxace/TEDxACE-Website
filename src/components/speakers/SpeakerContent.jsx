@@ -20,7 +20,7 @@ const SpeakerContent = ({ speakers }) => {
     }
   }, [speakers?.length]);
   return (
-    <section className="relative p-20">
+    <section className="relative p-20   bg-fixed  h-full w-full">
       <header id="speakers" className={cn(isHeads ? "h-auto" : "")}>
         <h2
           className={cn(

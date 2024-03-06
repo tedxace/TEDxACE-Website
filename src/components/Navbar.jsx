@@ -97,7 +97,7 @@ const Navbar = () => {
       ></div>
       <header
         className={cn(
-          "flex items-center justify-between px-10 fixed md:relative md:px-16 transition-all duration-500 top-0 w-full z-[1000] py-4 md:py-6 bg-tedx-brown",
+          "flex items-center justify-between px-10 fixed md:relative md:px-24 transition-all duration-500 top-0 w-full z-[1000] py-4 md:py-6 bg-tedx-brown",
           fixed ? "md:fixed scale-100" : "scale-105"
         )}
       >
@@ -109,7 +109,7 @@ const Navbar = () => {
         ></section>
         <div
           className={cn(
-            "flex justify-start lg:gap-0 gap-2 flex-grow md:flex-grow-0 items-center w-full md:w-auto h-full"
+            "flex justify-start lg:gap-1 gap-2 flex-grow md:flex-grow-0 items-center w-full md:w-auto h-full"
           )}
         >
           {/* {isMobile ? ( */}
