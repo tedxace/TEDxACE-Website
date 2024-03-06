@@ -4,6 +4,7 @@ import { useSpeakerData, useSponsorData } from "./context/ContextProvider";
 
 import Navbar from "./components/Navbar";
 import Lenis from "@studio-freight/lenis";
+import ErrorPageNotFound from "./pages/404";
 const Contact = lazy(() => import("./components/footer/Contact"));
 const Loader = lazy(() => import("./components/Loader"));
 const SpeakerContent = lazy(() =>
@@ -48,7 +49,7 @@ function App() {
               path="/sponsors"
               element={<Sponsors sponsors={sponsors} />}
             />
-            <Route exact path="/previous-events" element={<Home />}></Route>
+            <Route path="*" element={<ErrorPageNotFound />} />
           </Routes>
           <footer
             className="w-full bg-tedx-dark  h-[100vh] flex items-center justify-center  relative px-10  md:px-24  bg-cover "
