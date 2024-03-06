@@ -10,15 +10,15 @@ const Location = () => {
         backgroundImage: `url('${require("../../assets/LocationBG.png")}')`,
       }}
     >
+      <h1 className=" flex justify-center text-4xl md:text-xl lg:text-4xl font-bold text-tedx-heading">
+          LOCATION
+        </h1>
       <div
         className="bg-cover mx-10 pt-2 rounded-lg lg:min-h-[40svh] bg-center bg-tedx-dark flex  justify-center"
         style={{
           backgroundImage: `url(${require("../../assets/Location.png")})`,
         }}
       >
-        <h1 className="p-20 text-2xl md:text-4xl lg:text-8xl font-['Eczar'] font-bold text-tedx-heading uppercase">
-          Location
-        </h1>
       </div>
       <div className="p-10">
         <h1 className="text-md md:text-2xllg:text-4xl font-['Eczar'] font-bold ">
