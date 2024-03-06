@@ -41,13 +41,14 @@ const SpeakerContent = ({ speakers }) => {
           return (
             <motion.section
               whileHover={{ scale: 1.02 }}
-              onTap={{ scale: 0.98 }}
               key={name}
               className={cn(
-                "group flex flex-col justify-center items-center bg-cover px-20 py-20 cursor-pointer opacity-80 hover:opacity-100 "
+                "group flex flex-col justify-center items-center bg-cover px-20 h-full py-28 cursor-pointer opacity-80 hover:opacity-100"
               )}
               style={{
                 backgroundImage: `url(${require("../../assets/teamscroll.png")})`,
+                backgroundRepeat: "no-repeat",
+                backgroundSize: "cover",
               }}
               onClick={(event) => {
                 event.stopPropagation();
@@ -60,7 +61,7 @@ const SpeakerContent = ({ speakers }) => {
                 src={image}
                 alt={name}
                 className={cn(
-                  "md:h-[150px] md:w-[150px] lg:w-[180px] lg:h-[180px] h-[100px] w-[100px] ease-in-out rounded-full ml-20 mr-20 mt-6 ring-2 ring-tedx-heading ring-offset-4 ring-offset-tedx-heading ",
+                  "max-w-[100px] md:max-w-[140px] aspect-square lg:max-w-[180px] ease-in-out rounded-full ml-20 mr-20 mt-6 ring-2 ring-tedx-heading ring-offset-4 ring-offset-tedx-heading ",
                   isHeads ? "rounded-full" : "rounded-none"
                 )}
               />

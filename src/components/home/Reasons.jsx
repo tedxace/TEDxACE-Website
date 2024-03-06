@@ -6,7 +6,7 @@ export default function Reasons() {
   return (
     <>
       <section
-        className={`relative md:h-[92vh]  w-screen flex flex-col py-0  justify-center md:bg-left-top bg-center md:justify-center bg-cover items-center gap-6 overflow-hidden  md:-translate-y-10 -translate-y-0 `}
+        className={`relative md:h-screen w-screen flex flex-col py-0  justify-center md:bg-left-top bg-center md:justify-center bg-cover items-center gap-6 overflow-hidden  md:-translate-y-10 -translate-y-0 `}
         style={{
           backgroundImage: `url(${require("../../assets/Reason-BG.png")})`,
         }}
@@ -31,7 +31,7 @@ export default function Reasons() {
                 <h1 className="mb-5 text-xl font-semibold text-tedx-heading  decoration-amber-400 px-1 ">
                   Learn From The Best
                 </h1>
-                <p className="text-tedx-preasons">
+                <p className="text-tedx-preasons line-clamp-4">
                   Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                   Nihil, libero repudiandae. Veniam fuga necessitatibus
                   cupiditate autem. Exercitationem inventore voluptas quaerat!
@@ -48,7 +48,7 @@ export default function Reasons() {
                 <h1 className="mb-5 text-xl font-semibold text-tedx-heading  decoration-amber-300 px-1  ">
                   Be The Part Of Community
                 </h1>
-                <p className="text-tedx-preasons">
+                <p className="text-tedx-preasons line-clamp-4">
                   Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                   Nihil, libero repudiandae. Veniam fuga necessitatibus
                   cupiditate autem. Exercitationem inventore voluptas quaerat!
@@ -65,7 +65,7 @@ export default function Reasons() {
                 <h1 className="mb-5 text-xl font-semibold text-tedx-heading  decoration-amber-300 px-1  ">
                   Discovery Sessions
                 </h1>
-                <p className="text-tedx-preasons">
+                <p className="text-tedx-preasons line-clamp-4">
                   Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                   Nihil, libero repudiandae. Veniam fuga necessitatibus
                   cupiditate autem. Exercitationem inventore voluptas quaerat!
@@ -82,7 +82,7 @@ export default function Reasons() {
                 <h1 className="mb-5 text-xl font-semibold text-tedx-heading  decoration-amber-300 px-1  ">
                   Find The Magic
                 </h1>
-                <p className="text-tedx-preasons">
+                <p className="text-tedx-preasons line-clamp-4">
                   Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                   Nihil, libero repudiandae. Veniam fuga necessitatibus
                   cupiditate autem. Exercitationem inventore voluptas quaerat!
@@ -99,7 +99,7 @@ export default function Reasons() {
                 <h1 className="mb-5 text-xl font-semibold text-tedx-heading  decoration-amber-300 px-1  ">
                   Build Life Long Connections
                 </h1>
-                <p className="text-tedx-preasons">
+                <p className="text-tedx-preasons line-clamp-4">
                   Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                   Nihil, libero repudiandae. Veniam fuga necessitatibus
                   cupiditate autem. Exercitationem inventore voluptas quaerat!
@@ -116,7 +116,7 @@ export default function Reasons() {
                 <h1 className="mb-5 text-xl font-semibold text-tedx-heading  decoration-amber-300 px-1  ">
                   Join Movement
                 </h1>
-                <p className="text-tedx-preasons">
+                <p className="text-tedx-preasons line-clamp-4">
                   Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                   Nihil, libero repudiandae. Veniam fuga necessitatibus
                   cupiditate autem. Exercitationem inventore voluptas quaerat!

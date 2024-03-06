@@ -1,21 +1,18 @@
 import React from "react";
 
-import "../../sponsor.css";
-
 const Sponsors = ({ sponsors }) => {
-  console.log(sponsors);
   return (
-    <section id="sponsors" className="image">
+    <section id="sponsors" className="image pt-3">
       <header id="header">
         <h2 className="heading">Sponsors</h2>
       </header>
       <div className="image-overlay">
-        <div className="container">
-          <div className="row">
+        <div className="container grid place-content-center">
+          <div className="h-auto w-full flex justify-between max-w-2xl gap-5">
             {sponsors?.map((sponsor) => {
               return (
                 <a
-                  className="card"
+                  className="grid place-items-center rounded-full border-2 border-dashed border-tedx-white"
                   key={sponsor.name}
                   href={sponsor.link}
                   rel="noreferrer"
@@ -25,7 +22,7 @@ const Sponsors = ({ sponsors }) => {
                     loading="lazy"
                     src={sponsor.image}
                     alt={sponsor.name}
-                    className={``}
+                    className="object-contain aspect-square h-[60px] md:h-[100px]"
                   />
                 </a>
               );

@@ -1,11 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import { useScroll, useTransform, motion } from "framer-motion";
-import { cn } from "../../lib/utils";
 import Overlay from "./Overlay";
-// import Image from "next/image";
-
-//unsplash random images
-//https://source.unsplash.com/random/800x600
 
 const images = [
   "bg.jpeg",
@@ -36,9 +31,6 @@ export default function ParallaxSection() {
   const { height } = dimension;
 
   const y = useTransform(scrollYProgress, [0, 1], [0, height * -1.3]);
-  const y2 = useTransform(scrollYProgress, [0, 1], [0, height / 20]);
-  // const y3 = useTransform(scrollYProgress, [0, 1], [height, height * -0.6]);
-  // const y4 = useTransform(scrollYProgress, [0, 1], [0, height * 1]);
 
   useEffect(() => {
     const resize = () => {
@@ -64,13 +56,6 @@ export default function ParallaxSection() {
       >
         <div className="absolute w-full h-[200vh] top-0 flex justify-center items-center gap-[4vw] p-[2vw]">
           <Column images={images} y={y} className={"p-10 space-x-6"} />
-          {/* {window.innerWidth > 768 && ( */}
-
-          {/* )} */}
-          {/* {window.innerWidth > 768 && (
-            <Column images={[images[6], images[7], images[8]]} y={y3} />
-          )} */}
-          {/* <Column images={[images[9], images[10], images[11]]} y={y4} /> */}
         </div>
         <Overlay />
       </div>
@@ -79,24 +64,11 @@ export default function ParallaxSection() {
 }
 
 const Column = ({ images, y, className }) => {
-  console.log(images);
   return (
     <motion.div
       className=" relative w-full md:w-full min-w-450px   flex-col gap-[2vw] whitespace-nowrap"
       style={{ y }}
     >
-      {/* {images.map((src, i) => (
-        <div key={i} className={cn("relative h-full last:top-0", className)}>
-          <img
-            src={require(`../../assets/${src}`)}
-            alt="parallax"
-            className={cn(
-              "object-cover w-full h-[450px] ",
-              i % 2 === 0 ? " p-4" : "p-2"
-            )}
-          />
-        </div>
-      ))} */}
       <div className=" top-10 w-full h-full">
         <img
           src={require(`../../assets/${images[0]}`)}
@@ -129,16 +101,6 @@ const Column = ({ images, y, className }) => {
           class="absolute top-[35vh] right-[45vw] scale-95 object-cover h-[40vh] w-[60vh] z-20"
           alt="parallax"
         />
-        {/* {images.map((src, i) => (
-          <img
-            key={i}
-            src={require(`../../assets/${src}`)}
-            className={`absolute inset-0 object-cover h-[50vh] w-[40vw] z-10 -top-[30vh] left-[${
-              Math.random() * 100
-            }vw] -top-[${Math.random() * 100}vh]`}
-            alt="parallax"
-          />
-        ))} */}
       </div>
     </motion.div>
   );

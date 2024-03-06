@@ -1,10 +1,9 @@
 /* Sponsers Section*/
 .image-overlay {
     width: 97%;
-    height: 50vh;
+    padding: 5svh;
     background-position: center;
     background-size: cover;
-    /* background-image: url('./sponsors/Rectangle_68.png'); */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -23,11 +22,11 @@
 .heading {
     color: #f19f00;
     font-weight: bold;
+    font-size: 2rem;
 }
 
 .image {
     width: 100%;
-    height: 55.5vh;
     background: linear-gradient(180deg, rgba(32, 11, 11, 0.82) 12.28%, rgba(0, 0, 0, 0) 100%),
         linear-gradient(0deg, #200B0B, #200B0B);
 }
@@ -70,9 +69,7 @@
 
 /* Speakers Section*/
 .back {
-    /* background-image: url('./sponsors/Rectangle_75.png'); */
     width: 100%;
-    height: 110vh;
     text-align: center;
 }
 
