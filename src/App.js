@@ -31,8 +31,7 @@ function App() {
   const { sponsors } = useSponsorData();
   return (
     <div className=" overflow-x-clip transition">
-      <Router>
-        {/* <Router basename="/TEDxACE-WESITE"> */}
+      <Router basename="/">
         <Navbar />
         <Suspense fallback={<Loader />}>
           <Routes>
