@@ -26,12 +26,12 @@ const PastSpeakers = () => {
     }
   }, []);
   return (
-    <div class="back">
+    <div className="back flex flex-col justify-center mt-20 h-[600px] w-[100vw]">
       <header id="header">
-        <h1 className="heading">PAST SPEAKERS</h1>
+        <h1 className="heading text-4xl ">PAST SPEAKERS</h1>
       </header>
 
-      <div class="scroller" data-direction="left" data-speed="fast">
+      <div class="scroller" data-direction="left" data-speed="slow">
         <ul class="tag-list scroller_inner">
           <li>
             <img

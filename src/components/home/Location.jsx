@@ -5,7 +5,7 @@ import image from "../../assets/Auditorium.jpg";
 const Location = () => {
   return (
     <div
-      className="w-full bg-fixed bg-150 pt-10 md:pt-20 bg-center bg-tedx-dark"
+      className="w-full  bg-150 pt-10 md:pt-20 bg-center bg-tedx-dark"
       style={{
         backgroundImage: `url('${require("../../assets/LocationBG.png")}')`,
       }}

@@ -6,7 +6,7 @@ export default function Reasons() {
   return (
     <>
       <section
-        className={`relative md:h-screen w-screen flex flex-col py-0  justify-center md:bg-left-top bg-center md:justify-center bg-cover items-center gap-6 overflow-hidden  md:-translate-y-10 -translate-y-0 `}
+        className={`relative bg-fixed md:h-screen w-screen flex flex-col py-0   justify-center md:bg-left-top bg-center md:justify-center bg-cover items-center pb-5 `}
         style={{
           backgroundImage: `url(${require("../../assets/Reason-BG.png")})`,
         }}
@@ -25,7 +25,7 @@ export default function Reasons() {
               <img
                 src={hehe}
                 alt="error"
-                className="md:w-36 w-28  mx-7 mb-5 rounded-full object-cover shadow-md shadow-yellow-500 hover:scale-105 duration-300 ease-in-out"
+                className="md:w-36 w-28 mx-7 mb-5 rounded-full object-cover shadow-md shadow-yellow-500 hover:scale-105 duration-300 ease-in-out"
               ></img>
               <div className="flex flex-col">
                 <h1 className="mb-5 text-xl font-semibold text-tedx-heading  decoration-amber-400 px-1 ">
