@@ -4,7 +4,7 @@ const Sponsors = ({ sponsors }) => {
   return (
     <section id="sponsors" className="image pt-3 flex flex-col flex-wrap items-center h-[800px]">
       <header id="header">
-        <h2 className="heading text-4xl mt-10">SPONSORS</h2>
+        <h2 className="heading text-4xl mt-10 font-eczar">SPONSORS</h2>
       </header>
       <div className="image-overlay">
         <div className=" ">
