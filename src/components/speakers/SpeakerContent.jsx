@@ -27,7 +27,7 @@ const SpeakerContent = ({ speakers }) => {
             "text-center uppercase my-0 p-0 ",
             isHeads
               ? "text-md md:text-lg"
-              : "text-4xl md:text-4xl lg:text-4xl font-bold text-tedx-heading"
+              : "text-4xl md:text-4xl font-eczar lg:text-4xl font-bold text-tedx-heading"
           )}
         >
           {isHeads ? "LICENSEE & CO-ORGANIZER" : "SPEAKERS"}
