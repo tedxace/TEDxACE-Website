@@ -35,7 +35,7 @@ const Modal = ({ details, handleClose }) => {
       exit={{ opacity: 0 }}
     >
       <motion.article
-        className="bg-tedx-bg w-[90%] relative h-[70%] sm:h-[80%] p-2 md:p-4 md:w-[80%] md:h-[70%] grid place-items-center rounded-lg"
+        className="bg-tedx-red-medium w-[90%] relative h-[70%] sm:h-[80%] p-2 md:p-4 md:w-[80%] md:h-[70%] grid place-items-center rounded-lg"
         onClick={(e) => e.stopPropagation()}
         variants={dropInAnimate}
         initial="hidden"

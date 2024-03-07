@@ -15,7 +15,7 @@ const SpeakerDetail = ({ details }) => {
       </div>
       <div className="flex flex-col items-center gap-3 p-10 md:gap-6">
         <div>
-          <h2 className="text-lg font-['Eczar'] sm:text-xl md:text-2xl lg:text-4xl text-tedx-heading/90 font-bold text-center">
+          <h2 className="text-lg font-['Eczar'] sm:text-xl md:text-2xl lg:text-4xl text-tedx-heading font-bold text-center">
             {name}
           </h2>
           <p className="text-base text-md md:text-lg lg:text-xl text-tedx-white/50 font-semibold text-center">

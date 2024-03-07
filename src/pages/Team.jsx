@@ -51,7 +51,7 @@ const Teams = () => {
                 textTransform: "capitalize",
               }}
             >
-              <h3 className={`text-3xl text-tedx-heading`}>OUR TEAM</h3>
+              <h3 className={`text-3xl pt-24 lg:pt-0 text-tedx-heading`}>OUR TEAM</h3>
             </Typography>
             <SpeakerContent speakers={heads} />
           </Box>
