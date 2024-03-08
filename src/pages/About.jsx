@@ -41,7 +41,7 @@ const About = () => {
                   </p>
               </div>
               <div className="m-auto">
-                <img className="w-[400px] md:w-[350px]"src={aboutimg} alt="error loading image" />
+                <img className="w-[400px] md:w-[350px]"src={aboutimg} alt="error" />
               </div>
           </div >
         </div>
@@ -118,9 +118,9 @@ const About = () => {
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen
             ></iframe>
-            <p className="text-2xl text-tedx-heading font-semibold mt-5 cursor-pointer hover:text-white hover:underline underline-offset-8 ">
+            <a href= "https://2023.tedxace.com/" target="_blank" ><p className="text-2xl text-tedx-heading font-semibold mt-5 cursor-pointer hover:text-white hover:underline underline-offset-8 ">
               2023
-            </p>
+            </p></a>
           </div>
           <div className="flex flex-col items-center">
             <iframe
@@ -135,9 +135,9 @@ const About = () => {
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen
             ></iframe>
-            <p className="text-2xl text-tedx-heading font-semibold mt-5 cursor-pointer hover:text-white hover:underline underline-offset-8">
+            <a href= "https://past.tedxace.com/" target="_blank" ><p className="text-2xl text-tedx-heading font-semibold mt-5 cursor-pointer hover:text-white hover:underline underline-offset-8">
               2022
-            </p>
+            </p></a>
           </div>
           <div className="flex flex-col items-center">
             <iframe

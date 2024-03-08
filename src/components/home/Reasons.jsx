@@ -14,7 +14,7 @@ export default function Reasons() {
         <div className="relative flex items-center justify-center mt-0 mb-7 pt-0">
           
           <h1
-            className={` font-eczar font-bold text-tedx-heading cursor-default text-4xl sm:text-lg lg:text-4xl mb-10 mt-0 drop-shadow-lg `}
+            className={`text-center font-eczar font-bold text-tedx-heading cursor-default text-4xl sm:text-lg lg:text-4xl mb-10 mt-0 drop-shadow-lg `}
           >
             WHY SHOULD YOU ATTEND ?
           </h1>
