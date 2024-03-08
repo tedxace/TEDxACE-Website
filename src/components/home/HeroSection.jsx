@@ -13,7 +13,7 @@ const HeroSection = () => {
       
       style={{ backgroundImage: `url(${require("../../assets/bg.jpeg")})` }}
     >
-      <div className="flex flex-col  w-full h-full  items-center justify-center lg:justify-between   md:px-24 lg:px-32">
+      <div className="flex flex-col  w-full h-full  items-center justify-center lg:justify-evenly   md:px-24 lg:px-32">
         <div></div>
         <div className="flex flex-col items-center md:justify-end ">
           <img

@@ -48,7 +48,7 @@ export default function ParallaxSection() {
   return (
     <main className="font-sans">
       <div
-        className="h-[100vh] relative overflow-hidden bg-cover bg-fixed bg-gradient-to-t from-tedx-bg/100 to-transparent"
+        className="h-full w-full relative overflow-hidden bg-cover bg-fixed bg-gradient-to-t from-tedx-bg/100 to-transparent"
         style={{
           backgroundImage: `url(${require(`../../assets/Parallax-bg.png`)})`,
         }}

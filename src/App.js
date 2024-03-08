@@ -1,9 +1,8 @@
-import React, { lazy, Suspense, useEffect } from "react";
+import React, { lazy, Suspense} from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { useSpeakerData, useSponsorData } from "./context/ContextProvider";
 
 import Navbar from "./components/Navbar";
-import Lenis from "@studio-freight/lenis";
 import ErrorPageNotFound from "./pages/404";
 const Contact = lazy(() => import("./components/footer/Contact"));
 const Loader = lazy(() => import("./components/Loader"));
@@ -16,16 +15,6 @@ const Team = lazy(() => import("./pages/Team"));
 const About = lazy(() => import("./pages/About"));
 
 function App() {
-  useEffect(() => {
-    const lenis = new Lenis();
-
-    function raf(time) {
-      lenis.raf(time);
-      requestAnimationFrame(raf);
-    }
-
-    requestAnimationFrame(raf);
-  }, []);
 
   const { speakers } = useSpeakerData();
   const { sponsors } = useSponsorData();
