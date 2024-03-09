@@ -6,12 +6,12 @@ export default function Reasons() {
   return (
     <>
       <section
-        className={`relative bg-fixed md:h-screen w-screen flex flex-col py-0   justify-center md:bg-left-top bg-center md:justify-center bg-cover items-center pb-5 `}
+        className={`relative bg-fixed md:h-screen w-screen flex flex-col py-0 px-6 md:px-10 lg:px-12   justify-center md:bg-left-top bg-center md:justify-center bg-cover items-center pb-5 `}
         style={{
           backgroundImage: `url(${require("../../assets/Reason-BG.png")})`,
         }}
       >
-        <div className="relative flex items-center justify-center mt-0 mb-7 pt-0">
+        <div className="relative flex items-center justify-center mt-0 mb-7 pt-0 ">
           
           <h1
             className={`text-center font-eczar font-bold text-tedx-heading cursor-default text-4xl sm:text-lg lg:text-4xl mb-10 mt-0 drop-shadow-lg `}
