@@ -11,7 +11,7 @@ const Overlay = () => {
             <img src={TEDXLogo} className="p-3" alt="tedx-logo" /> '24
           </p>
           <p className="text-4xl font-['Eczar'] text-tedx-heading ">
-            15 March 2023
+            15 March 2024
           </p>
           <img
             src={require(`../../assets/Parallax-Body.png`)}
