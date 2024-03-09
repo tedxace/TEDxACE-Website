@@ -6,7 +6,7 @@ export default function Reasons() {
   return (
     <>
       <section
-        className={`relative bg-fixed md:h-screen w-screen flex flex-col py-0 px-6 md:px-10 lg:px-12   justify-center md:bg-left-top bg-center md:justify-center bg-cover items-center pb-5 `}
+        className={`relative bg-fixed h-full md:h-full w-screen flex flex-col py-0 px-2 md:px-5 lg:px-7 pt-10  justify-center md:bg-left-top bg-center md:justify-center bg-cover items-center pb-5 `}
         style={{
           backgroundImage: `url(${require("../../assets/Reason-BG.png")})`,
         }}
@@ -14,13 +14,13 @@ export default function Reasons() {
         <div className="relative flex items-center justify-center mt-0 mb-7 pt-0 ">
           
           <h1
-            className={`text-center font-eczar font-bold text-tedx-heading cursor-default text-4xl sm:text-lg lg:text-4xl mb-10 mt-0 drop-shadow-lg `}
+            className={`text-center font-eczar font-bold text-tedx-heading cursor-default text-2xl lg:p-10 lg:text-4xl drop-shadow-lg `}
           >
             WHY SHOULD YOU ATTEND ?
           </h1>
         </div>
         <div className="flex flex-wrap">
-          <div className={` grid grid-cols-1 md:grid-cols-2 gap-3 mx-10`}>
+          <div className={` grid grid-cols-1 md:grid-cols-2 gap-3`}>
             <div className="flex md:flex-row flex-col items-center justify-center w-full text-center">
               <img
                 src={hehe}

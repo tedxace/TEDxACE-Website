@@ -15,7 +15,7 @@ const Home = () => {
   const { speakers } = useSpeakerData();
   const { sponsors } = useSponsorData();
   return (
-    <main className=" bg-tedx-bg">
+    <main className="">
       <AnimatePresence>
         <HeroSection />
 

@@ -3,9 +3,9 @@ import TicketImg from "../../assets/Ticket.png";
 import Button from "./Button";
 const Ticket = () => {
   return (
-    <div className="h-full md:h-screen flex w-full items-center p-10 bg-tedx-dark justify-between">
+    <div className="h-full md:h-screen px-10 flex items-center  justify-between ">
       <div
-        className="w-full h-full bg-cover bg-center p-10 lg:flex-row flex-col bg-tedx-brown flex items-center mb-10 justify-center"
+        className="w-full h-full bg-cover bg-center lg:flex-row flex-col  flex items-center justify-center"
         style={{
           backgroundImage: `url(${require("../../assets/TicketBG.png")})`,
         }}
