@@ -1,11 +1,10 @@
 import React from "react";
 import Button from "./Button";
-// import LocationImg from "../../assets/Location.png";
 import image from "../../assets/Auditorium.jpg";
 const Location = () => {
   return (
     <div
-      className="w-[95vw] m-auto bg-cover pt-20 md:pt-20 bg-center px-6 md:px-10 lg:px-12"
+      className="w-[100vw] m-auto bg-cover pt-20 px-10 bg-center"
       style={{
         backgroundImage: `url('${require("../../assets/LocationBG.png")}')`,
         backgroundSize: "cover",
