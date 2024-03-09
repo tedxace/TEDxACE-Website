@@ -4,20 +4,14 @@ import Overlay from "./Overlay";
 import debounce from "lodash/debounce";
 
 const images = [
-  "Img1.jpeg",
-  "Img.jpeg",
-  "Img2.jpeg",
-  "Img3.jpeg",
-  "Img1.jpeg",
-  "Img.jpeg",
-  "Img2.jpeg",
-   "Img1.jpeg",
-  "Img.jpeg",
-  "Img2.jpeg",
-  "Img3.jpeg",
-  "Img1.jpeg",
-  "Img.jpeg",
-  "Img2.jpeg",                  
+  "Gauri.png",
+  "Sajitha.png",
+  "Aayu.png",
+  "Shibin.png",
+  "Gaurav.png",
+  "Aayu.png",
+  "Gaurav.png",
+                    
 ];
 
 export default function ParallaxSection() {
@@ -89,17 +83,19 @@ const getStyle = (index) => {
   // Adjust these styles as per your layout requirements
   switch (index) {
     case 0:
-      return "inset-0 object-cover h-[50vh] w-[40vw] z-10 -top-[30vh]";
+      return "inset-0 object-cover  w-[23vw] z-10 left-[15vw] -top-[3vh]";
     case 1:
-      return "-top-[5vh] left-[55vw] scale-95 object-cover h-[40vh] w-[60vh]";
+      return "-top-[5vh] left-[60vw] object-cover w-[20vw]";
     case 2:
-      return "bottom-[40vh] left-[27.5vw] object-cover h-[25vh] w-[25vh]";
+      return "bottom-[8vh] left-[5.5vw] object-cover  w-[25vw]";
     case 3:
-      return "bottom-[13vh] right-[.5vw] object-cover h-[25vh] w-[50vh]";
+      return "bottom-[8vh] right-[4.5vw] object-cover w-[25vw]";
     case 4:
-      return "-bottom-[90vh] right-[17.5vw] object-cover h-[25vh] w-[25vh]";
+      return "bottom-[12vh] right-[35vw] object-cover w-[25vw]";
     case 5:
-      return "top-[35vh] right-[45vw] scale-95 object-cover h-[40vh] w-[60vh]";
+      return "top-[35vh] right-[3vw] object-cover w-[25vw]";
+    case 6:
+      return "top-[35vh] left-[3vw] object-cover w-[25vw]";
     default:
       return "";
   }

@@ -4,7 +4,6 @@ import { useSpeakerData, useSponsorData } from "./context/ContextProvider";
 
 import Navbar from "./components/Navbar";
 import ErrorPageNotFound from "./pages/404";
-import Lenis from "@studio-freight/lenis";
 const Contact = lazy(() => import("./components/footer/Contact"));
 const Loader = lazy(() => import("./components/Loader"));
 const SpeakerContent = lazy(() =>
