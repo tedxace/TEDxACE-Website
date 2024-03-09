@@ -8,8 +8,11 @@ import Reasons from "../components/home/Reasons";
 import PastSpeakers from "../components/home/PastSpeakers";
 import Ticket from "../components/home/Ticket";
 import Location from "../components/home/Location";
+import SpeakerContent from "../components/speakers/SpeakerContent"
+
 
 const Home = () => {
+  const { speakers } = useSpeakerData();
   const { sponsors } = useSponsorData();
   return (
     <main className=" bg-tedx-bg">
@@ -17,6 +20,7 @@ const Home = () => {
         <HeroSection />
 
         <ParallaxSection />
+        <SpeakerContent speakers={speakers}/>
         <Ticket />
         <Reasons />
         <PastSpeakers />
