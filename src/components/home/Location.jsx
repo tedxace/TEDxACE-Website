@@ -5,9 +5,11 @@ import image from "../../assets/Auditorium.jpg";
 const Location = () => {
   return (
     <div
-      className="w-[95vw] m-auto bg-150 pt-10 md:pt-20 bg-center bg-tedx-dark px-6 md:px-10 lg:px-12"
+      className="w-[95vw] m-auto bg-cover pt-20 md:pt-20 bg-center px-6 md:px-10 lg:px-12"
       style={{
         backgroundImage: `url('${require("../../assets/LocationBG.png")}')`,
+        backgroundSize: "cover",
+        backgroundRepeat: "no-repeat",
       }}
     >
       <h1 className=" flex font-eczar justify-center text-4xl md:text-4xl lg:text-4xl font-bold text-tedx-heading mb-10">

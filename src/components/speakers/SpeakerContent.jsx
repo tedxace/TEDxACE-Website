@@ -20,7 +20,16 @@ const SpeakerContent = ({ speakers }) => {
     }
   }, [speakers?.length]);
   return (
-    <section className="relative p-20   bg-fixed  h-full w-full">
+    <section className="relative p-20   bg-fixed  h-full w-full"
+       style={
+              {
+      
+                backgroundImage: isHeads ? `` : ` url(${require("../../assets/about_rectangle.png")})`,
+                backgroundRepeat: "no-repeat",
+                backgroundSize: "cover",
+                // backgroundAttachment: "fixed",
+              }}
+      >
       <header id="speakers" className={cn(isHeads ? "h-auto" : "")}>
         <h2
           className={cn(
