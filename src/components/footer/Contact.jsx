@@ -19,13 +19,12 @@ const pop = {
 };
 
 const Contact = () => {
-  
-  function clickedme(e){
+  function clickedme(e) {
     e.preventDefault();
-    document.getElementById("btnsub").innerHTML="SUBSCRIBED";
+    document.getElementById("btnsub").innerHTML = "SUBSCRIBED";
 
     setTimeout(() => {
-      document.getElementById("btnsub").innerHTML="SUBSCRIBE";
+      document.getElementById("btnsub").innerHTML = "SUBSCRIBE";
     }, 1500);
   }
   return (
@@ -60,20 +59,26 @@ const Contact = () => {
             </a>
           </div>
         </div>
-        <div className="flex flex-col justify-center m-3">
+        <div className="flex flex-col md:justify-center  m-3">
           <h1 className="font-bold text-xl">
             GET LATEST UPDATE on <span className="text-red-500">TEDx</span>ACE
           </h1>
-          <div className=" flex items-center justify-left m-auto my-5  h-full w-full  relative mr-5">
-             
-              <form onSubmit={clickedme}>    
-                <TextField type="email" className=" w-36 md:w-48 lg:w-max border-none focus:border-none focus:outline-0 focus-visible:border-0 relative rounded-l-lg bg-tedx-white " required placeholder="Enter Email.." />
-                <button type="submit" id="btnsub" className="p-4 my-1 uppercase absolute bottom-[-4px] bg-red-700 text-tedx-white transition-all rounded-r-xl font-bold ">
+          <div className=" flex items-center  md:justify-left m-auto my-5  h-full w-full  relative mr-5">
+            <form onSubmit={clickedme}>
+              <TextField
+                type="email"
+                className=" w-36 md:w-48 lg:w-max border-none focus:border-none focus:outline-0 focus-visible:border-0 relative rounded-l-lg bg-tedx-white "
+                required
+                placeholder="Enter Email.."
+              />
+              <button
+                type="submit"
+                id="btnsub"
+                className="p-4 my-1 uppercase absolute bottom-[-4px] bg-red-700 text-tedx-white transition-all rounded-r-xl font-bold "
+              >
                 Subscribe
               </button>
-              </form>
-              
-              
+            </form>
           </div>
         </div>
       </div>
