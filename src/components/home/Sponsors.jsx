@@ -2,7 +2,7 @@ import React from "react";
 
 const Sponsors = ({ sponsors }) => {
   return (
-    <section id="sponsors" className="image pt-3 flex flex-col flex-wrap items-center h-[800px]">
+    <section id="sponsors" className="image pt-24 pb-24 flex flex-col flex-wrap items-center h-full">
       <header id="header">
         <h2 className="heading text-4xl mt-10 font-eczar">SPONSORS</h2>
       </header>
@@ -12,7 +12,7 @@ const Sponsors = ({ sponsors }) => {
             {sponsors?.map((sponsor) => {
               return (
                 <a
-                  className="rounded-full border-2 border-dashed border-tedx-white m-5"
+                  className="rounded-full border-2 border-tedx-white m-5"
                   key={sponsor.name}
                   href={sponsor.link}
                   rel="noreferrer"

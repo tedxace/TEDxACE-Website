@@ -8,7 +8,7 @@ const Overlay = () => {
     <div className=" h-screen sm:h-[100vh] flex  justify-center  items-center  ">
       <div className="p-5 sticky text-5xl bg-gradient-to-b from-tedx-dark via-black/10 to-tedx-dark/80  w-full h-full flex items-center justify-center text-center font-bold ">
         <div
-          className="h-auto flex hover:scale-105 transition-all ease-in-out bg-cover items-center rounded-lg shadow shadow-black/50 border border-tedx-red justify-center flex-col md:px-10 px-3 py-5"
+          className=" h-auto lg:h-[700px]  flex hover:scale-105 transition-all ease-in-out bg-cover items-center rounded-lg shadow shadow-black/50 border border-tedx-red justify-center flex-col md:px-10 px-3 py-5"
           style={{
             backgroundImage: `url(${require("../../assets/TicketBG.png")})`,
           }}

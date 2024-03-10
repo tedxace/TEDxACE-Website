@@ -18,7 +18,7 @@ const HeroSection = () => {
         <div className="flex flex-col items-center md:justify-end ">
           <img
             src={logo}
-            className=" w-[200px] md:w-[280px] relative top-[10%]  "
+            className="w-[130px] lg:w-[280px] md:w-[280px] relative top-[10%]  "
             alt="tedxlogo"
           />
           <img

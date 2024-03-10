@@ -10,7 +10,7 @@ const dropInAnimate = {
     opacity: 0,
   },
   visible: {
-    y: "0",
+    y: "2vh",
     opacity: 1,
     transition: {
       duration: 0.1,
@@ -35,7 +35,13 @@ const Modal = ({ details, handleClose }) => {
       exit={{ opacity: 0 }}
     >
       <motion.article
-        className="bg-tedx-red-medium w-[90%] relative h-[70%] sm:h-[80%] p-2 md:p-4 md:w-[80%] md:h-[70%] grid place-items-center rounded-lg"
+        className=" w-[90%] relative h-[70%] sm:h-[80%] p-2 md:p-4 md:w-[80%] md:h-[70%] grid place-items-center rounded-lg"
+        style={{
+          backgroundImage: `url(${require("../assets/TicketBG.png")})`,
+          backgroundRepeat: "no-repeat",
+          backgroundPosition: "center",
+          backgroundSize: "cover",
+        }}
         onClick={(e) => e.stopPropagation()}
         variants={dropInAnimate}
         initial="hidden"

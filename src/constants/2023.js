@@ -32,13 +32,15 @@ export const speakers2023 = [
 
     list: [
       `YouTuber`,
+      `Content Creator`,
+      `Media Company Owner`,
     ],
   },
   {
     name: "Mrs. Sajitha Nair",
     position: "Environmentalist",
     image:
-      "https://res.cloudinary.com/tedxace/image/upload/v1677222539/2023/speaker/IMG-2116_jznbew.png",
+      "https://res.cloudinary.com/djyqufw6g/image/upload/v1710063343/powertrainfinal_yv9bf8.png",
     text: [
       `Presently she is working with Sacred Heart School as Head of the Department for Pedagogy and Innovation.`,
     ],
