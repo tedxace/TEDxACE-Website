@@ -26,7 +26,7 @@ const SpeakerDetail = ({ details }) => {
           return (
             <p
               key={index}
-              className="text-xs sm:text-sm md:text-md font-['Inika'] py-1 lg:text-lg px-3"
+              className="text-xs text-center sm:text-sm md:text-md font-['Inika'] py-1 lg:text-lg px-3"
             >
               {para}
             </p>

@@ -4,14 +4,14 @@ import Overlay from "./Overlay";
 import debounce from "lodash/debounce";
 
 const images = [
-  "Gauri.png",
+  "powertrainguy.png",
   "Sajitha.png",
   "Aayu.png",
+  "Gaurav.png",
   "Shibin.png",
-  "Gaurav.png",
   "Aayu.png",
-  "Gaurav.png",
-                    
+  "Gauri.png", 
+                  
 ];
 
 export default function ParallaxSection() {

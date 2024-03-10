@@ -1,4 +1,4 @@
-import { faInstagram, faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { faInstagram, faLinkedin , faYoutube } from "@fortawesome/free-brands-svg-icons";
 import { faGlobe } from "@fortawesome/free-solid-svg-icons";
 
 // 2023 Event Data
@@ -22,17 +22,16 @@ export const sponsors2023 = [
 
 export const speakers2023 = [
   {
-    name: "Mr. Aayu Kharbanda",
-    position: "Product Leader",
+    name: "Mr. Aakash Bhavsar",
+    position: "Digital Creator",
     image:
-      "https://res.cloudinary.com/dg9hyutsz/image/upload/v1677343103/aayu_kh_iaigle.png",
+      "https://res.cloudinary.com/djyqufw6g/image/upload/v1710063343/powertrainfinal_yv9bf8.png",
     text: [
-      `Currently, he leads the Product for Business Partnerships at Eros, working with Global Brands such as Apple, Amazon, Google, and Airtel.`,
+      `Aka Powertrain, his mission is to brings out nitty gritty of infrastructure to all, making it a mainstream discussion and not just left for experts. `,
     ],
 
     list: [
-      `Director of the Harvard Asia Conference`,
-      `Advisor to startups at IIM Udaipur E-cell`,
+      `YouTuber`,
     ],
   },
   {
@@ -50,6 +49,7 @@ export const speakers2023 = [
       `8 years of experience in
         the Banking industry`,
     ],
+    
   },
   {
     name: "Mr. Shibin Harinadh",
@@ -61,6 +61,7 @@ export const speakers2023 = [
     ],
 
     list: [`A national kickboxing champion`],
+    
   },
   {
     name: "Mr. Gaurav Verma",
@@ -72,6 +73,7 @@ export const speakers2023 = [
     ],
 
     list: [`Co-Founder of SuprSend`, `Ex-CTO for Aasaanjobs`],
+    
   },
   {
     name: "Ms. Gauri K.",
