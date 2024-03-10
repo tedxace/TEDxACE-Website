@@ -29,7 +29,7 @@ export const speakers2023 = [
     name: "Mr. Aayu Kharbanda",
     position: "Product Leader",
     image:
-      "https://res.cloudinary.com/dg9hyutsz/image/upload/v1677343103/aayu_kh_iaigle.png",
+      "https://res.cloudinary.com/djyqufw6g/image/upload/v1710062426/powertrainfinal_a8xldx.png",
     text: [
       `Currently, he leads the Product for Business Partnerships at Eros, working with Global Brands such as Apple, Amazon, Google, and Airtel.`,
     ],
