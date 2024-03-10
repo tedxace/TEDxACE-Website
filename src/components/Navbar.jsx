@@ -8,6 +8,7 @@ import TEDxLogo from "../assets/TEDLogo.svg";
 import { faClose } from "@fortawesome/free-solid-svg-icons";
 import { cn } from "../lib/utils";
 import useMediaQuery from "../hooks/useMediaQuery";
+import Button from "./home/Button";
 
 const Navbar = () => {
   const location = useLocation();
@@ -201,12 +202,7 @@ const Navbar = () => {
         <ul>
           <li>
             <span>
-              <button className="button group relative flex items-center justify-center overflow-hidden text-center transform skew-x-0 h-full w-full border-[#650000] bg-tedx-red-medium border border-spacing-3 md:mx-3 border-collapse  py-2 px-3 rounded-md ">
-                <span className="button_text relative uppercase md:text-sm text-[10px] flex items-center justify-center font-black min-w-[70px] md:min-w-[120px] md:min-h-[30px] group-hover:text-tedx-brown transition text-tedx-heading z-10">
-                  Buy Tickets
-                </span>
-                <span className="absolute inset-0 bg-tedx-heading group-hover:w-full w-0 transition-all group-hover:animate-skew animate-skewOut"></span>
-              </button>
+              <Button />
             </span>
           </li>
           <li></li>

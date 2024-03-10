@@ -1,26 +1,29 @@
 import React from "react";
 import Button from "./Button";
-import image from "../../assets/Auditorium.jpg";
+import image1 from "../../assets/Audi1.png";
+import image2 from "../../assets/Audi2.png";
+import image3 from "../../assets/Audi3.png";
+import image4 from "../../assets/Audi4.png";
 const Location = () => {
   return (
     <div
       className="w-[100vw] m-auto bg-cover pt-20 px-10 bg-center"
       style={{
-        backgroundImage: `url('${require("../../assets/LocationBG.png")}')`,
+        backgroundImage: `linear-gradient(rgba(0,0,0,0),#0D0505),url('${require("../../assets/LocationBG.png")}')`,
         backgroundSize: "cover",
+        // background: "",
         backgroundRepeat: "no-repeat",
       }}
     >
       <h1 className=" flex font-eczar justify-center text-4xl md:text-4xl lg:text-4xl font-bold text-tedx-heading mb-10">
-          LOCATION
-        </h1>
+        LOCATION
+      </h1>
       <div
         className="bg-cover mx-10 pt-2 rounded-lg h-[300px] md:h-[350px] lg:h-[350px] bg-center bg-tedx-dark flex  justify-center"
         style={{
           backgroundImage: `url(${require("../../assets/Location.png")})`,
         }}
-      >
-      </div>
+      ></div>
       <div className="p-10">
         <h1 className="text-2xl md:text-2xllg:text-4xl font-['Eczar'] font-bold ">
           AUDITORIUM , PHASE THREE, ATHARVA COLLEGE OF ENGINEERING , MALAD{" "}
@@ -52,28 +55,28 @@ const Location = () => {
               </p>
               <Button text={"Get Directions"} className={"scale-110"} />
             </div>
-            <div className="grid grid-cols-2 gap-[2vw]  ">
+            <div className="sm:grid grid-cols-2 space-y-10 sm:gap-[2vw]  ">
               <div className="space-y-10 translate-y-[10%]">
                 <img
-                  src={image}
-                  className="w-[200px] h-[200px] object-cover  rounded-lg "
+                  src={image1}
+                  className="w-[200px] h-[200px] object-fill   rounded-lg "
                   alt=""
                 />
                 <img
-                  src={image}
-                  className="w-[200px] h-[200px] object-cover rounded-lg"
+                  src={image2}
+                  className="sm:w-[200px] h-[200px] object-fill  rounded-lg"
                   alt=""
                 />
               </div>
-              <div className="space-y-10 -translate-y-[10%]">
+              <div className="space-y-10 translate-y-5 sm:-translate-y-[10%]">
                 <img
-                  src={image}
-                  className="w-[200px] h-[200px] object-cover rounded-lg"
+                  src={image3}
+                  className="w-[200px] h-[200px]  object-fill rounded-lg"
                   alt=""
                 />
                 <img
-                  src={image}
-                  className="w-[200px] h-[200px] object-cover rounded-lg"
+                  src={image4}
+                  className="w-[200px] h-[200px] object-fill rounded-lg"
                   alt=""
                 />
               </div>

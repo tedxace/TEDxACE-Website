@@ -7,7 +7,7 @@ const Button = ({ text, link, className }) => {
     <Link to={link ? link : "#"}>
       <button
         className={cn(
-          "button group relative flex items-center justify-center overflow-hidden text-center transform skew-x-0 w-[120px] h-[40px] md:w-[144px] md:h-[56px] border-[#650000] bg-tedx-red-medium border border-spacing-3 border-collapse mt-5 mb-2 py-2 px-3 rounded-md font-['Inter'] ",
+          "button group relative flex items-center justify-center overflow-hidden text-center transform skew-x-0 w-[120px] h-[40px] md:w-[144px] md:h-[56px] border-tedx-heading bg-tedx-bg border border-spacing-3 border-collapse mt-5 mb-2 py-2 px-3 rounded-md font-['Inter'] ",
           className
         )}
       >
