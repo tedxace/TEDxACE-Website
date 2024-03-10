@@ -26,9 +26,9 @@ const PastSpeakers = () => {
     }
   }, []);
   return (
-    <div className="back flex flex-col justify-center mt-20 h-[600px] w-[100vw]">
+    <div className="back rounded-lg bg-transparent pt-24 pb-24 flex flex-col justify-center h-[100vh] w-[100vw]">
       <header id="header">
-        <h1 className="heading text-4xl font-eczar ">PAST SPEAKERS</h1>
+        <h1 className="heading text-4xl mb-16 font-eczar ">PAST SPEAKERS</h1>
       </header>
 
       <div class="scroller" data-direction="left" data-speed="slow">

@@ -20,7 +20,7 @@ const SpeakerContent = ({ speakers }) => {
     }
   }, [speakers?.length]);
   return (
-    <section className="relative p-20   bg-fixed  h-full w-full"
+    <section className="relative pt-24 pb-24   bg-fixed  h-full w-100"
        style={
               {
       
@@ -52,7 +52,7 @@ const SpeakerContent = ({ speakers }) => {
               whileHover={{ scale: 1.02 }}
               key={name}
               className={cn(
-                "group flex flex-col justify-center items-center m-auto bg-cover my-5 px-10 w-[300px] h-[300px] lg:px-0 lg:w-[400px] lg:h-[400px] cursor-pointer opacity-80 hover:opacity-100"
+                "group flex flex-col justify-center items-center m-auto bg-cover my-5 px-10  w-[220px] h-[220px] lg:px-0 lg:w-[400px] lg:h-[400px] cursor-pointer opacity-80 hover:opacity-100"
               )}
               style={{
                 backgroundImage: `url(${require("../../assets/whitescroll.png")})`,
@@ -70,11 +70,17 @@ const SpeakerContent = ({ speakers }) => {
                 src={image}
                 alt={name}
                 className={cn(
-                  "max-w-[100px] md:max-w-[140px] aspect-square lg:max-w-[180px] ease-in-out rounded-full ml-20 mr-20 mt-6 ring-2 ring-tedx-heading ring-offset-4 ring-offset-tedx-heading ",
+                  "w-[80px] md:w-[140px] lg:w-[180px] ease-in-out rounded-full ml-10 mr-10 mt-6 ring-2 ring-tedx-heading ring-offset-4 ring-offset-tedx-heading ",
                   isHeads ? "rounded-full" : "rounded-full"
                 )}
+                style={{
+                  backgroundImage: `url(${require("../../assets/bggg.jpg")})`,
+                  backgroundRepeat: "no-repeat",
+                  backgroundSize: "cover",
+      
+                }}
               />
-              <h3 className="transition-transform text-center text-black font-eczar my-3 text-sm md:text-lg font-semibold duration-200 translate-y-2 group-hover:translate-y-0">
+              <h3 className="transition-transform text-center text-black font-eczar my-3 text-[12px] md:text-lg font-semibold duration-200 translate-y-2 group-hover:translate-y-0">
                 {name}
               </h3>
               {isHeads ? (

@@ -7,19 +7,18 @@ import image4 from "../../assets/Audi4.png";
 const Location = () => {
   return (
     <div
-      className="w-[100vw] m-auto bg-cover pt-20 px-10 bg-center"
+      className="w-[100vw]  pt-24 pb-24 px-10 bg-center"
       style={{
         backgroundImage: `linear-gradient(rgba(0,0,0,0),#0D0505),url('${require("../../assets/LocationBG.png")}')`,
         backgroundSize: "cover",
-        // background: "",
         backgroundRepeat: "no-repeat",
       }}
     >
-      <h1 className=" flex font-eczar justify-center text-4xl md:text-4xl lg:text-4xl font-bold text-tedx-heading mb-10">
+      <h1 className=" flex font-eczar justify-center text-4xl md:text-4xl lg:text-4xl font-bold text-tedx-heading pb-16">
         LOCATION
       </h1>
       <div
-        className="bg-cover mx-10 pt-2 rounded-lg h-[300px] md:h-[350px] lg:h-[350px] bg-center bg-tedx-dark flex  justify-center"
+        className="bg-cover mx-10 pt-2 rounded-lg h-[300px] md:h-[350px] lg:h-[350px] bg-center flex  justify-center"
         style={{
           backgroundImage: `url(${require("../../assets/Location.png")})`,
         }}

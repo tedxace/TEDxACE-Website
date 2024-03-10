@@ -3,11 +3,13 @@ import TicketImg from "../../assets/Ticket.png";
 import Button from "./Button";
 const Ticket = () => {
   return (
-    <div className="h-full md:h-screen px-10 flex items-center  justify-between ">
+    <div className=" px-10 h-full lg:h-[620px] flex items-center  justify-between ">
       <div
-        className="w-full h-full bg-cover bg-center lg:flex-row flex-col  flex items-center justify-center"
+        className="w-full h-full rounded-lg  bg-cover bg-center p-5 lg:flex-row flex-col  flex items-center justify-center"
         style={{
           backgroundImage: `url(${require("../../assets/TicketBG.png")})`,
+          backgroundSize: "cover",
+          backgroundRepeat: "no-repeat",
         }}
       >
         <div className="lg:w-[20vw] h-1/2 flex flex-col justify-center items-start">
