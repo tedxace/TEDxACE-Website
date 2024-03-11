@@ -31,33 +31,34 @@ export const speakers2023 = [
     ],
 
     list: [
+      `Media Company Owner`,
       `YouTuber`,
       `Content Creator`,
-      `Media Company Owner`,
+      
     ],
   },
   {
-    name: "Mrs. Sajitha Nair",
-    position: "Environmentalist",
+    name: "Mr. Saurabh Bhosale",
+    position: "Humourist",
     image:
-      "https://res.cloudinary.com/djyqufw6g/image/upload/v1710063343/powertrainfinal_yv9bf8.png",
+      "https://res.cloudinary.com/djyqufw6g/image/upload/v1710168808/sbfinal_jkexcu.png",
     text: [
-      `Presently she is working with Sacred Heart School as Head of the Department for Pedagogy and Innovation.`,
+      `Either he'll make you laugh or he'll make you think. He is famous for his story telling skills with his exceptional taste in sense of humour.`,
     ],
 
     list: [
-      `Co-founder of Jagruk Nagrik Foundation`,
-      `Postgraduate in Human Resources`,
-      `8 years of experience in
-        the Banking industry`,
+      `Founder of Project Visioncy & Company Of Content`,
+      `Storyteller`,
+      `Humourist`,
+      
     ],
     
   },
   {
-    name: "Mr. Shibin Harinadh",
+    name: "Mr. Sharif Bapu",
     position: "Mentalist",
     image:
-      "https://res.cloudinary.com/dg9hyutsz/image/upload/v1677341081/shibin_c9iklx.png",
+      "https://res.cloudinary.com/djyqufw6g/image/upload/v1710170651/mmafinal_pexedv.png",
     text: [
       `He is a practicing hypnotist and an experienced mentalist, or as he likes to put it "A Wanderer of Minds. He believes that every scar is a reminder of who you are today`,
     ],
