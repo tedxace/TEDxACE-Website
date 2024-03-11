@@ -1,4 +1,3 @@
-import React, { useEffect } from "react";
 import Box from "@mui/material/Box";
 import Tab from "@mui/material/Tab";
 import TabContext from "@mui/lab/TabContext";
@@ -10,20 +9,17 @@ import SpeakerContent from "../components/speakers/SpeakerContent";
 import { useState } from "react";
 import { Typography } from "@mui/material";
 
+import useMediaQuery from "../hooks/useMediaQuery";
+
 const Teams = () => {
   const { teams } = useTeamData();
   const { heads } = useHeadData();
-  const [isMobile, setIsMobile] = useState(false);
+  const { isMobile } = useMediaQuery();
   const [value, setValue] = useState("1");
 
   const handleChange = (event, newValue) => {
     setValue(newValue);
   };
-  useEffect(() => {
-    if (window.innerWidth < 720) {
-      setIsMobile(true);
-    }
-  }, []);
   return (
     <Box
       sx={{ width: "100%" }}
@@ -55,7 +51,7 @@ const Teams = () => {
                 textTransform: "capitalize",
               }}
             >
-              <h3 className={`text-3xl text-tedx-heading`}>OUR TEAM</h3>
+              <h3 className={`text-3xl pt-24 lg:pt-0 text-tedx-heading`}>OUR TEAM</h3>
             </Typography>
             <SpeakerContent speakers={heads} />
           </Box>
@@ -65,8 +61,10 @@ const Teams = () => {
               aria-label="TEDx Team Members"
               centered
               sx={{
-                "& .css-wlpw4n-MuiButtonBase-root-MuiTab-root.Mui-selected ":{color: "#F19F00"},
-                "& .MuiTabs-root": { color: "#F19F00"},
+                "& .css-wlpw4n-MuiButtonBase-root-MuiTab-root.Mui-selected ": {
+                  color: "#F19F00",
+                },
+                "& .MuiTabs-root": { color: "#F19F00" },
                 "& .MuiTabs-scroller": {},
                 "& .MuiTabs-flexContainer": {
                   flexWrap: "wrap",
@@ -74,10 +72,10 @@ const Teams = () => {
                 "& .MuiTabs-indicator": {
                   height: isMobile ? "0px" : "2px",
                   color: "#F19F00",
-                  background: "#F19F00"
+                  background: "#F19F00",
                 },
-                "& .Mui-selected":{ color: "#F19F00"},
-                "& .css-1aquho2-MuiTabs-indicator":{background: "#F19F00"},
+                "& .Mui-selected": { color: "#F19F00" },
+                "& .css-1aquho2-MuiTabs-indicator": { background: "#F19F00" },
               }}
             >
               <Tab

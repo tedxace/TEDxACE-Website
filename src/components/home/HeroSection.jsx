@@ -1,5 +1,5 @@
 import React from "react";
-import Tedxlogo from "../../assets/TEDLogo.svg";
+import logo from "../../assets/logo.png";
 
 import { cn } from "../../lib/utils";
 const HeroSection = () => {
@@ -13,16 +13,16 @@ const HeroSection = () => {
       
       style={{ backgroundImage: `url(${require("../../assets/bg.jpeg")})` }}
     >
-      <div className="flex flex-col  w-full h-full  items-center justify-center lg:justify-between   md:px-24 lg:px-32">
+      <div className="flex flex-col  w-full h-full  items-center justify-center lg:justify-evenly   md:px-24 lg:px-32">
         <div></div>
         <div className="flex flex-col items-center md:justify-end ">
           <img
-            src={Tedxlogo}
-            className=" w-[200px] md:w-96 relative top-[10%]  "
+            src={logo}
+            className="w-[130px] lg:w-[280px] md:w-[280px] relative top-[10%]  "
             alt="tedxlogo"
           />
           <img
-            src={require("../../assets/hero.png")}
+            src={require("../../assets/tedxtheme.png")}
             alt="Hero"
             className="px-10"
           />
@@ -30,7 +30,7 @@ const HeroSection = () => {
       </div>
       <div
         className={cn(
-          ` absolute bg-gradient-to-b from-transparent h-full w-full via-transparent to-tedx-bg `
+          ` absolute bg-gradient-to-b from-transparent h-full w-full via-tedx-bg/20 to-tedx-bg `
         )}
       ></div>
     </section>

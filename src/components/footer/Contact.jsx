@@ -19,18 +19,27 @@ const pop = {
 };
 
 const Contact = () => {
-  const [formButtonText, setFormButtonText] = useState("Subscribe");
-  const onContactFormButtonClick = () => {
-    setFormButtonText("Thank you for subscribing!");
-  };
+  function clickedme(e) {
+    e.preventDefault();
+    document.getElementById("btnsub").innerHTML = "SUBSCRIBED";
+
+    setTimeout(() => {
+      document.getElementById("btnsub").innerHTML = "SUBSCRIBE";
+    }, 1500);
+  }
   return (
     <section
       id="contact"
       className="flex justify-evenly pt-72 items-center flex-col  relative w-full h-full "
     >
+      <img
+        src={TedXlogo}
+        alt={"tedxlogo"}
+        className="w-[200px] md:self-start "
+      />
       <div className="grid md:grid-cols-2 grid-rows-2 w-full place-content-center md:place-content-between md:place-items-stretch  place-items-center">
-        <div className="">
-          <img src={TedXlogo} alt={"tedxlogo"} className="w-[200px] " />
+        <div className="grid grid-cols-2 w-full">
+          <img src={TedXlogo} alt={"tedxlogo"} className="w-[200px] pb-12 -translate-y-10" />
           <div className="flex uppercase font-bold  space-x-8 ">
             <div className=" py-4 space-y-4 flex flex-col ">
               <a href="#" className="hover:text-tedx-heading transition">
@@ -53,21 +62,32 @@ const Contact = () => {
             </div>
           </div>
         </div>
-        <div className=" p-4 flex flex-col justify-center ">
-          <h1 className="font-bold text-xl p-4">
+        <div className="flex flex-col md:justify-center  m-3">
+          <h1 className="font-bold text-xl">
             GET LATEST UPDATE on <span className="text-red-500">TEDx</span>ACE
           </h1>
-          <div className=" flex items-center h-full w-full md:w-[80%] relative">
-            <TextField className="p-4 my-3 w-full border-none focus:border-none focus:outline-0 focus-visible:border-0  relative rounded-xl bg-white" />
-            <button className="p-4 my-1 uppercase   absolute -right-1 text-black hover:bg-tedx-dark hover:text-white transition-all rounded-xl font-bold  ">
-              Subscribe
-            </button>
+          <div className=" flex items-center  md:justify-left m-auto my-5  h-full w-full  relative mr-5">
+            <form onSubmit={clickedme}>
+              <TextField
+                type="email"
+                className=" w-36 md:w-48 lg:w-max border-none focus:border-none focus:outline-0 focus-visible:border-0 relative rounded-l-lg bg-tedx-white "
+                required
+                placeholder="Enter Email.."
+              />
+              <button
+                type="submit"
+                id="btnsub"
+                className="p-4 my-1 uppercase absolute bottom-[-4px] bg-red-700 text-tedx-white transition-all rounded-r-xl font-bold "
+              >
+                Subscribe
+              </button>
+            </form>
           </div>
         </div>
       </div>
       <div>
-        <hr className="w-full m-3 border-2" />
-        <h1 className="text-right w-full font-bold">
+        <hr className="w-full mb-5 border-2" />
+        <h1 className="text-right text-sm lg:text-base w-full font-bold pb-10">
           COPYRIGHTS @ 2024 TEDXACE
         </h1>
       </div>

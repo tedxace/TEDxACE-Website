@@ -1,34 +1,23 @@
-import { useEffect, useRef, useState } from "react";
+import React, { useEffect, useRef, useState, useMemo } from "react";
 import { useScroll, useTransform, motion } from "framer-motion";
-import { cn } from "../../lib/utils";
 import Overlay from "./Overlay";
-// import Image from "next/image";
-
-//unsplash random images
-//https://source.unsplash.com/random/800x600
+import debounce from "lodash/debounce";
 
 const images = [
-  "bg.jpeg",
-  "hehe.jpg",
-  "bg.jpeg",
-  "bg.jpeg",
-  "bg.jpeg",
-  "bg.jpeg",
-  "bg.jpeg",
-  "bg.jpeg",
-  "bg.jpeg",
-  "bg.jpeg",
-  "bg.jpeg",
-  "bg.jpeg",
-  "bg.jpeg",
-  "bg.jpeg",
+  "powertrainguy.png",
+  "Sajitha.png",
+  "Aayu.png",
+  "Gaurav.png",
+  "Shibin.png",
+  "Aayu.png",
+  "Gauri.png", 
+                  
 ];
 
 export default function ParallaxSection() {
   const ref = useRef(null);
   const { scrollYProgress } = useScroll({
     target: ref,
-
     offset: ["start end", "end start"],
   });
   const [dimension, setDimension] = useState({ width: 0, height: 0 });
@@ -36,14 +25,11 @@ export default function ParallaxSection() {
   const { height } = dimension;
 
   const y = useTransform(scrollYProgress, [0, 1], [0, height * -1.3]);
-  const y2 = useTransform(scrollYProgress, [0, 1], [0, height / 20]);
-  // const y3 = useTransform(scrollYProgress, [0, 1], [height, height * -0.6]);
-  // const y4 = useTransform(scrollYProgress, [0, 1], [0, height * 1]);
 
   useEffect(() => {
-    const resize = () => {
+    const resize = debounce(() => {
       setDimension({ width: window.innerWidth, height: window.innerHeight });
-    };
+    }, 100); // Adjust the debounce delay as needed
     window.addEventListener("resize", resize);
 
     resize();
@@ -52,25 +38,19 @@ export default function ParallaxSection() {
       window.removeEventListener("resize", resize);
     };
   }, []);
+  const MemoizedColumn = useMemo(() => React.memo(Column), []);
 
   return (
     <main className="font-sans">
       <div
-        className="h-[100vh] relative overflow-hidden bg-cover bg-fixed bg-gradient-to-t from-tedx-bg/100 to-transparent"
+        className="h-full w-full relative overflow-hidden bg-cover bg-fixed bg-gradient-to-t from-tedx-bg/100 to-transparent"
         style={{
           backgroundImage: `url(${require(`../../assets/Parallax-bg.png`)})`,
         }}
         ref={ref}
       >
         <div className="absolute w-full h-[200vh] top-0 flex justify-center items-center gap-[4vw] p-[2vw]">
-          <Column images={images} y={y} className={"p-10 space-x-6"} />
-          {/* {window.innerWidth > 768 && ( */}
-
-          {/* )} */}
-          {/* {window.innerWidth > 768 && (
-            <Column images={[images[6], images[7], images[8]]} y={y3} />
-          )} */}
-          {/* <Column images={[images[9], images[10], images[11]]} y={y4} /> */}
+          <MemoizedColumn images={images} y={y} className={"p-10 space-x-6"} />
         </div>
         <Overlay />
       </div>
@@ -79,67 +59,44 @@ export default function ParallaxSection() {
 }
 
 const Column = ({ images, y, className }) => {
-  console.log(images);
   return (
     <motion.div
-      className=" relative w-full md:w-full min-w-450px   flex-col gap-[2vw] whitespace-nowrap"
+      className={`relative w-full md:w-full min-w-450px flex-col gap-[2vw] whitespace-nowrap ${className}`}
       style={{ y }}
     >
-      {/* {images.map((src, i) => (
-        <div key={i} className={cn("relative h-full last:top-0", className)}>
-          <img
-            src={require(`../../assets/${src}`)}
-            alt="parallax"
-            className={cn(
-              "object-cover w-full h-[450px] ",
-              i % 2 === 0 ? " p-4" : "p-2"
-            )}
-          />
-        </div>
-      ))} */}
       <div className=" top-10 w-full h-full">
-        <img
-          src={require(`../../assets/${images[0]}`)}
-          className="absolute inset-0 object-cover h-[50vh] w-[40vw] z-10 -top-[30vh]"
-          alt="parallax"
-        />
-        <img
-          src={require(`../../assets/${images[1]}`)}
-          className="absolute -top-[5vh] left-[55vw] scale-95 object-cover h-[40vh] w-[60vh] z-20"
-          style={{ y }}
-          alt="parallax"
-        />
-        <img
-          src={require(`../../assets/${images[2]}`)}
-          className="absolute bottom-[40vh] left-[27.5vw] object-cover h-[25vh] w-[25vh] z-30"
-          alt="parallax"
-        />
-        <img
-          src={require(`../../assets/${images[3]}`)}
-          className="absolute bottom-[13vh] right-[.5vw] object-cover h-[25vh] w-[50vh] z-30"
-          alt="parallax"
-        />
-        <img
-          src={require(`../../assets/${images[4]}`)}
-          class="absolute -bottom-[90vh] right-[17.5vw] object-cover h-[25vh] w-[25vh] z-30"
-          alt="parallax"
-        />
-        <img
-          src={require(`../../assets/${images[5]}`)}
-          class="absolute top-[35vh] right-[45vw] scale-95 object-cover h-[40vh] w-[60vh] z-20"
-          alt="parallax"
-        />
-        {/* {images.map((src, i) => (
+        {images.map((image, index) => (
           <img
-            key={i}
-            src={require(`../../assets/${src}`)}
-            className={`absolute inset-0 object-cover h-[50vh] w-[40vw] z-10 -top-[30vh] left-[${
-              Math.random() * 100
-            }vw] -top-[${Math.random() * 100}vh]`}
+            key={index}
+            src={require(`../../assets/${image}`)}
+            className={`absolute ${getStyle(index)} z-${30 - index}`}
             alt="parallax"
           />
-        ))} */}
+        ))}
       </div>
     </motion.div>
   );
+};
+
+const getStyle = (index) => {
+  // Define position styles for each image based on the index
+  // Adjust these styles as per your layout requirements
+  switch (index) {
+    case 0:
+      return "inset-0 object-cover  w-[23vw] z-10 left-[15vw] -top-[3vh]";
+    case 1:
+      return "-top-[5vh] left-[60vw] object-cover w-[20vw]";
+    case 2:
+      return "bottom-[8vh] left-[5.5vw] object-cover  w-[25vw]";
+    case 3:
+      return "bottom-[8vh] right-[4.5vw] object-cover w-[25vw]";
+    case 4:
+      return "bottom-[12vh] right-[35vw] object-cover w-[25vw]";
+    case 5:
+      return "top-[35vh] right-[3vw] object-cover w-[25vw]";
+    case 6:
+      return "top-[35vh] left-[3vw] object-cover w-[25vw]";
+    default:
+      return "";
+  }
 };

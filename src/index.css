@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Eczar:wght@400..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inika:wght@400;700&display=swap');
 
 
 @tailwind base;
@@ -35,6 +36,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   color: var(--light);
   background-color: var(--dark);
+  scroll-behavior: smooth;
 }
 
 #home,
@@ -62,7 +64,7 @@ body {
 
 
 ::-webkit-scrollbar {
-  width: 0.75em;
+  width: 0.5em;
 }
 
 ::-webkit-scrollbar-track {

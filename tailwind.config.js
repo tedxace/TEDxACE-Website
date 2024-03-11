@@ -3,6 +3,9 @@ module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     extend: {
+      fontFamily: {
+        eczar: ["Eczar", "sans-serif"],
+      },
       colors: {
         "tedx-dark": "#0f0606",
         "tedx-bg": "#0D0505",
