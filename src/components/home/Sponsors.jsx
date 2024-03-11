@@ -2,13 +2,13 @@ import React from "react";
 
 const Sponsors = ({ sponsors }) => {
   return (
-    <section id="sponsors" className="image pt-3 pb-6">
+    <section id="sponsors" className="image pt-24 pb-32 ">
       <header id="header">
         <h2 className="heading text-4xl mt-10 font-eczar">SPONSORS</h2>
       </header>
       <div className="image-overlay">
         <div className="grid place-content-center w-full">
-          <div className="h-auto w-full flex justify-between  gap-5 md:gap-10 ">
+          <div className="h-auto w-full flex justify-between  gap-5 mb-10 md:gap-10 ">
             {sponsors?.map((sponsor) => {
               return (
                 <a
@@ -22,7 +22,7 @@ const Sponsors = ({ sponsors }) => {
                     loading="lazy"
                     src={sponsor.image}
                     alt={sponsor.name}
-                    className="object-contain aspect-square h-[60px] md:h-[100px]"
+                    className="object-contain aspect-square w-[150px]"
                   />
                 </a>
               );
