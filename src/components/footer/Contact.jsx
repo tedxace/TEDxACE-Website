@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 import TedXlogo from "../../assets/TEDxLogo.svg";
 import React, { useState } from "react";
 import { TextField } from "@mui/material";
+import { Link } from "react-router-dom";
 
 const pop = {
   hidden: {
@@ -32,19 +33,20 @@ const Contact = () => {
       id="contact"
       className="flex justify-evenly pt-72 items-center flex-col  relative w-full h-full "
     >
-      <img
-        src={TedXlogo}
-        alt={"tedxlogo"}
-        className="w-[200px] md:self-start "
-      />
+      <Link to="/" className="md:self-start">
+        <img
+          src={TedXlogo}
+          alt={"tedxlogo"}
+          className="w-[200px] md:self-start "
+        />
+      </Link>
       <div className="grid md:grid-cols-2 grid-rows-2 w-full place-content-center md:place-content-between md:place-items-stretch  place-items-center">
         <div className="grid grid-cols-2 w-full">
-          <img src={TedXlogo} alt={"tedxlogo"} className="w-[200px] pb-12 -translate-y-10" />
           <div className="flex uppercase font-bold  space-x-8 ">
             <div className=" py-4 space-y-4 flex flex-col ">
-              <a href="#" className="hover:text-tedx-heading transition">
+              <Link to="/about" className="hover:text-tedx-heading transition">
                 About
-              </a>
+              </Link>
               <a href="#" className="hover:text-tedx-heading transition">
                 Sponsor
               </a>

@@ -8,11 +8,11 @@ const Sponsors = ({ sponsors }) => {
       </header>
       <div className="image-overlay">
         <div className="grid place-content-center w-full">
-          <div className="h-auto w-full flex justify-between  gap-5 mb-10 md:gap-10 ">
+          <div className="h-auto w-full flex md:flex-row flex-col justify-between  gap-5 mb-10 md:gap-10 ">
             {sponsors?.map((sponsor) => {
               return (
                 <a
-                  className="grid place-items-center rounded-full border-2 border-dashed bg-slate-200 border-tedx-white p-2"
+                  className="grid place-items-center rounded-full border-2 border-dashed bg-tedx-dark border-tedx-white p-2"
                   key={sponsor.name}
                   href={sponsor.link}
                   rel="noreferrer"
