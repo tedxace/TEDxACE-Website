@@ -5,10 +5,11 @@ import debounce from "lodash/debounce";
 
 const images = [
   "powertrainguy.png",
-  "Sajitha.png",
+  "Kanikafinal.png",
   "mmafinal_pexedv.png",
-  "Shibin.png",
+  "Roy.png",
   "sbfinal_jkexcu.png",
+  "mmafinal_pexedv.png",
 ];
 
 export default function ParallaxSection() {
@@ -78,15 +79,17 @@ const Column = ({ images, y, className }) => {
 const getStyle = (index) => {
   switch (index) {
     case 0:
-      return "inset-0 object-cover w-[23vw] z-10 left-[15vw] -top-[3vh]";
+      return "inset-0 object-cover w-[23vw] z-10 left-[13vw] -top-[3vh]";
     case 1:
-      return "-top-[5vh] left-[60vw] object-cover w-[20vw]";
+      return "-top-[4vh] left-[60vw] z-20 object-cover w-[25vw]";
     case 2:
       return "bottom-[8vh] left-[5.5vw] object-cover  w-[25vw]";
     case 3:
-      return "top-[35vh] right-[3vw] object-cover w-[25vw]";
+      return "top-[40vh] right-[3vw] z-30 object-cover w-[17vw]";
     case 4:
       return "top-[35vh] left-[3vw] object-cover w-[25vw]";
+    case 5:
+      return " object-cover w-[23vw] right-[6vw] -top-[42vh]";
     default:
       return "";
   }

@@ -105,7 +105,7 @@ const Navbar = () => {
         <section
           className={cn(
             "fixed top-[8vh] left-0 w-full transition-all duration-500 bg-tedx-brown",
-            isOpen ? "h-[50vh] z-[1000] mt-5 pr-5" : "h-0 z-0"
+            isOpen ? "h-[36vh] z-[1000] mt-5 pr-5" : "h-0 z-0"
           )}
         ></section>
         <div
