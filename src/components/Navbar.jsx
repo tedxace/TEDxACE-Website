@@ -202,7 +202,11 @@ const Navbar = () => {
         <ul>
           <li>
             <span>
-              <Button />
+              <Button
+                link={
+                  "https://insider.in/tedxace-uncharted-archives-mar15-2024/event"
+                }
+              />
             </span>
           </li>
           <li></li>

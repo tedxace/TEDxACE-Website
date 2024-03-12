@@ -12,7 +12,7 @@ const Sponsors = ({ sponsors }) => {
             {sponsors?.map((sponsor) => {
               return (
                 <a
-                  className="grid place-items-center rounded-full border-2 border-dashed bg-tedx-dark border-tedx-white p-2"
+                  className="grid place-items-center rounded-full border-2 bg-tedx-dark border-tedx-white p-2"
                   key={sponsor.name}
                   href={sponsor.link}
                   rel="noreferrer"

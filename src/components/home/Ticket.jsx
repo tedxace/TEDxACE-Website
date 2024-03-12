@@ -16,7 +16,11 @@ const Ticket = () => {
           <h1 className="text-4xl font-['Eczar'] font-bold text-tedx-heading">
             Get Your <br className="hidden md:block" /> Passes Today
           </h1>
-          <Button />
+          <Button
+            link={
+              "https://insider.in/tedxace-uncharted-archives-mar15-2024/event"
+            }
+          />
         </div>
         <div
           id="image"

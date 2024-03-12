@@ -6,12 +6,9 @@ import debounce from "lodash/debounce";
 const images = [
   "powertrainguy.png",
   "Sajitha.png",
-  "Aayu.png",
-  "Gaurav.png",
+  "mmafinal_pexedv.png",
   "Shibin.png",
-  "Aayu.png",
-  "Gauri.png", 
-                  
+  "sbfinal_jkexcu.png",
 ];
 
 export default function ParallaxSection() {
@@ -79,22 +76,16 @@ const Column = ({ images, y, className }) => {
 };
 
 const getStyle = (index) => {
-  // Define position styles for each image based on the index
-  // Adjust these styles as per your layout requirements
   switch (index) {
     case 0:
-      return "inset-0 object-cover  w-[23vw] z-10 left-[15vw] -top-[3vh]";
+      return "inset-0 object-cover w-[23vw] z-10 left-[15vw] -top-[3vh]";
     case 1:
       return "-top-[5vh] left-[60vw] object-cover w-[20vw]";
     case 2:
       return "bottom-[8vh] left-[5.5vw] object-cover  w-[25vw]";
     case 3:
-      return "bottom-[8vh] right-[4.5vw] object-cover w-[25vw]";
-    case 4:
-      return "bottom-[12vh] right-[35vw] object-cover w-[25vw]";
-    case 5:
       return "top-[35vh] right-[3vw] object-cover w-[25vw]";
-    case 6:
+    case 4:
       return "top-[35vh] left-[3vw] object-cover w-[25vw]";
     default:
       return "";

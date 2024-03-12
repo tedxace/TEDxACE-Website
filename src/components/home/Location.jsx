@@ -52,7 +52,13 @@ const Location = () => {
                 <b>ADDRESS</b> - Malad Marve Road, Shri Sevantilal Khandwala
                 Marg, Charkop Naka, Malad West, Mumbai, Maharashtra 400095
               </p>
-              <Button text={"Get Directions"} className={"scale-110"} />
+              <Button
+                link={
+                  "https://www.google.com/maps/dir/19.1979625,72.8272295/google+maps+atharva+college+of+engineering/@19.1978226,72.8248659,17z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x3be7b7c24db49add:0x973ee0458244da44!2m2!1d72.8272574!2d19.1977247?entry=ttu"
+                }
+                text={"Get Directions"}
+                className={"scale-110"}
+              />
             </div>
             <div className="sm:grid grid-cols-2 space-y-10 sm:gap-[2vw]  ">
               <div className="space-y-10 translate-y-[10%]">

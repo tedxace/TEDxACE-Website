@@ -1,10 +1,10 @@
 import React, { createContext, useContext, useState } from "react";
 import {
-  heads2023,
-  speakers2023,
-  sponsors2023,
-  team2023,
-} from "../constants/2023";
+  heads2024,
+  speakers2024,
+  sponsors2024,
+  team2024,
+} from "../constants/2024";
 
 const HeadContext = createContext(null);
 const TeamContext = createContext(null);
@@ -12,10 +12,10 @@ const SpeakerContext = createContext(null);
 const SponsorContext = createContext(null);
 
 const ContextProvider = ({ children }) => {
-  const [heads, setHeads] = useState(heads2023);
-  const [teams, setTeams] = useState(team2023);
-  const [speakers, setSpeakers] = useState(speakers2023);
-  const [sponsors, setSponsors] = useState(sponsors2023);
+  const [heads, setHeads] = useState(heads2024);
+  const [teams, setTeams] = useState(team2024);
+  const [speakers, setSpeakers] = useState(speakers2024);
+  const [sponsors, setSponsors] = useState(sponsors2024);
   return (
     <TeamContext.Provider value={{ teams, setTeams }}>
       <HeadContext.Provider value={{ heads, setHeads }}>

@@ -32,7 +32,7 @@ const Overlay = () => {
               <h1 className="text-xl md:text-2xl font-['Eczar'] text-tedx-heading ">
                 15TH MAR, 2024
               </h1>
-              <p className="text-sm">11 PM ONWARDS</p>
+              <p className="text-sm">10:30 AM ONWARDS</p>
             </div>
             <p className="text-base md:text-xl font-['Eczar'] text-tedx-heading ">
               @ATHARVACOE,
@@ -40,7 +40,11 @@ const Overlay = () => {
             </p>
           </div>
 
-          <Button text={"Reserve a Seat"} className={"scale-105"} />
+          <Button
+            link="https://insider.in/tedxace-uncharted-archives-mar15-2024/event"
+            text={"Reserve a Seat"}
+            className={"scale-105"}
+          />
         </div>
       </div>
       {/* <div className="absolute h-full w-full bg-gradient-to-t from-black/30 via-transparent to-black/60"></div> */}
