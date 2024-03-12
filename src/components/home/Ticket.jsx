@@ -3,9 +3,9 @@ import TicketImg from "../../assets/Ticket.png";
 import Button from "./Button";
 const Ticket = () => {
   return (
-    <div className=" px-10 h-full lg:h-[620px] flex items-center  justify-between ">
+    <div className="w-full px-10 h-full lg:h-[620px] flex items-center  justify-between ">
       <div
-        className="w-full h-full rounded-lg  bg-cover bg-center p-5 lg:flex-row flex-col  flex items-center justify-center"
+        className=" w-full h-full rounded-lg  bg-cover bg-center p-5 lg:flex-row flex-col  flex items-center justify-center"
         style={{
           backgroundImage: `url(${require("../../assets/TicketBG.png")})`,
           backgroundSize: "cover",
@@ -29,12 +29,12 @@ const Ticket = () => {
           <img
             src={TicketImg}
             alt="Purchase Ticket"
-            className="object-cover relative group-hover:translate-y-10 group-hover:translate-x-2 md:group-hover:translate-y-24 md:group-hover:translate-x-10 group-hover:rotate-12 transition-all ease-in-out duration-300 w-full h-full"
+            className="object-cover relative group-hover:translate-y-10 group-hover:translate-x-2 md:group-hover:translate-y-24 md:group-hover:translate-x-10 group-hover:rotate-12 transition-all ease-in-out duration-300 w-[800px]"
           />
           <img
             src={TicketImg}
             alt="Purchase Ticket Replica"
-            className="object-cover absolute transition-all ease-in-out duration-300 w-full h-full cursor-pointer"
+            className="object-cover absolute transition-all ease-in-out duration-300 w-[800px] cursor-pointer"
           />
         </div>
       </div>

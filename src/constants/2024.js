@@ -10,8 +10,8 @@ export const sponsors2024 = [
   },
   {
     name: "Tempt",
-    link: "https://instagram.com/temptwithlove",
-    image: "/sponsors/tempt.png",
+    link: "https://wearemandys.com",
+    image: "/sponsors/mandys.png",
   },
   {
     name: "Brijeel",
@@ -27,7 +27,7 @@ export const speakers2024 = [
     image:
       "https://res.cloudinary.com/djyqufw6g/image/upload/v1710063343/powertrainfinal_yv9bf8.png",
     text: [
-      `Aka Powertrain, his mission is to brings out nitty gritty of infrastructure to all, making it a mainstream discussion and not just left for experts. `,
+      `Aka Powertrain, he endeavours to bring out the nitty-gritty of infrastructure to all, making it a mainstream of discussion and not just the topic left for experts. `,
     ],
 
     list: [`Media Company Owner`, `YouTuber`, `Content Creator`],
@@ -43,6 +43,7 @@ export const speakers2024 = [
 
     list: [
       `Founder of Project Visioncy & Company Of Content`,
+      "Represented India  at World Youth Summit",
       `Storyteller`,
       `Humourist`,
     ],
@@ -53,46 +54,41 @@ export const speakers2024 = [
     image:
       "https://res.cloudinary.com/djyqufw6g/image/upload/v1710170651/mmafinal_pexedv.png",
     text: [
-      `He is the estemmeed President of MMA India, and runs the academy of self defence with life long passion for martial arts empowering women for self-defense training, leaving a lasting impact nationally and internationally`,
+      `He is the esteemed President of MMA India, and runs the academy of self defence with life long passion for martial arts empowering women for self-defense training, leaving his lasting impact nationally and internationally.`,
     ],
 
     list: [
       `Director of Sports MMA India`,
-      "President of MMA India",
       "Chairman of International MMA Federation",
+      "President of MMA India",
     ],
   },
   {
-    name: "Kanika Rajput",
-    position: "Dynamic Leader & Social Entrepreneur",
-    image: "",
+    name: "Ms.Kanika Rajput",
+    position: "Leader & Entrepreneur",
+    image: "https://res.cloudinary.com/djyqufw6g/image/upload/v1710269041/Kanikafinal_juuljd.png",
     text: [
-      "Meet Kanika, a dynamic leader closely collaborating with the Government of India on transformative initiatives. At just 24, she pioneered the establishment of the National Land Monetization Company, contributing significantly to India's development. As a key member of the Asset Monetization Initiative, she played a pivotal role in generating $22 Billion for the nation. Beyond her professional achievements, Kanika passionately advocates for women's empowerment and girl education, founding the not-for-profit Nav-Tarang. Recognized by the World Economic Forum, Kanika is shaping an inclusive and sustainable ecosystem while inspiring over 2,300 young girls to dream big and work towards a better future.",
+      "She is a dynamic leader closely collaborating with the Government of India on transformative initiatives. At just 24, she pioneered the establishment of the National Land Monetization Company.",
     ],
     list: [
-      "Led the Asset Monetization Initiative core team, generating $22 Billion for the Government of India.",
-      "Established the National Land Monetization Company, becoming one of India's youngest leaders at the age of 24.",
-      "Currently spearheading the development of India’s largest green transition credit fund in collaboration with the Governments of India and the United States.",
-      "Founded Nav-Tarang, a not-for-profit, to advocate for women's empowerment and girl education.",
-      "Conducts story-telling sessions to inspire young girls in underserved communities with relatable examples of accomplished women.",
-      "Organizes development workshops to help over 2,300 girls envision their ideal future and set goals.",
-      "Establishes mentorship programs, pairing young girls with well-educated working women to boost self-confidence.",
-      "Recognized by the World Economic Forum for her contributions to shaping an inclusive and sustainable ecosystem.",
+      "Founder of Nav-Tarang",
+      "Pioneered National Land Monetization Company",
+      "One of the Youngest Leaders of India",
     ],
   },
   {
-    name: "Ms. Gauri K.",
-    position: "Clinical Psychologist",
+    name: "Dr. Roy Kshemendra",
+    position: "Marketing Expert",
     image:
-      "https://res.cloudinary.com/dg9hyutsz/image/upload/v1677343320/gauri_k_durti6.png",
+      "https://res.cloudinary.com/djyqufw6g/image/upload/v1710271216/Roy_i9mg00.png",
     text: [
-      `She is a clinical and social psychologist specializing in trauma and currently practicing at Nanavati hospital`,
+      `He is a seasoned professional in marketing and brand management. His expertise lies in communications, behavioral science, and reputation management. `,
     ],
 
     list: [
-      `Masters in Clinical Psychology`,
-      `Masters in Social Psychology`,
-      `Over 10 years of experience in individual, family and addiction counselling`,
+      `Head of Communications & Customer Centricity Agency Business at Tata AIA.`,
+      `Head Centre for Behaviroal Science at IIMA`,
+      `Marketing Head at TATA Sons Limited`,
     ],
   },
 ];
@@ -107,7 +103,7 @@ export const heads2024 = [
   },
   {
     image:
-      "https://res.cloudinary.com/tedxace/image/upload/v1675337277/2024/Om_Bhamare_wzvifg.jpg",
+      "https://res.cloudinary.com/tedxace/image/upload/v1675337277/2023/Om_Bhamare_wzvifg.jpg",
     name: "Om B.",
     position: "Co-Organizer",
     social: [faLinkedin, "https://in.linkedin.com/in/om-bhamare-1042251b6"],
@@ -117,7 +113,7 @@ export const heads2024 = [
 export const curator2024 = [
   {
     image:
-      "https://res.cloudinary.com/tedxace/image/upload/v1675337279/2024/Aarnav_Sangekar_qsrf8b.jpg",
+      "https://res.cloudinary.com/tedxace/image/upload/v1675337279/2023/Aarnav_Sangekar_qsrf8b.jpg",
     name: "Arnav S.",
     position: "Curator",
     social: [faLinkedin, "https://in.linkedin.com/in/aarnav-sangekar"],
@@ -138,21 +134,21 @@ export const curator2024 = [
   },
   {
     image:
-      "https://res.cloudinary.com/tedxace/image/upload/v1675337280/2024/Nishit_Prabhu__msumbo.jpg",
+      "https://res.cloudinary.com/tedxace/image/upload/v1675337280/2023/Nishit_Prabhu__msumbo.jpg",
     name: "Nishit P.",
     position: "Curator",
     social: [faLinkedin, "https://www.linkedin.com/in/nishit-prabhu/"],
   },
   {
     image:
-      "https://res.cloudinary.com/tedxace/image/upload/v1675337278/2024/Soham_Rane_vr7fmc.jpg",
+      "https://res.cloudinary.com/tedxace/image/upload/v1675337278/2023/Soham_Rane_vr7fmc.jpg",
     name: "Soham R.",
     position: "Curator",
     social: [faLinkedin, "https://in.linkedin.com/in/soham-rane-150109135"],
   },
   {
     image:
-      "https://res.cloudinary.com/tedxace/image/upload/v1675337278/2024/Shivam_ylypox.jpg",
+      "https://res.cloudinary.com/tedxace/image/upload/v1675337278/2023/Shivam_ylypox.jpg",
     name: "Shivam W.",
     position: "Curator",
     social: [
@@ -259,13 +255,6 @@ export const decor2024 = [
   },
   {
     image:
-      "https://res.cloudinary.com/djyqufw6g/image/upload/v1709240048/Khushi_Kashyap_rnz2jr.jpg",
-    name: "Khushi K.",
-    position: "Decor",
-    social: [faInstagram, "https://www.instagram.com/khushi__009kw/"],
-  },
-  {
-    image:
       "https://res.cloudinary.com/djyqufw6g/image/upload/v1709240276/Sahil_Ligam_ELEC_TE_mpoqn5.jpg",
     name: "Sahil L.",
     position: "Decor",
@@ -304,7 +293,7 @@ export const decor2024 = [
 export const tech2024 = [
   {
     image:
-      "https://res.cloudinary.com/tedxace/image/upload/v1675337277/2024/Jamil_Shaikh_xvaomb.png",
+      "https://res.cloudinary.com/tedxace/image/upload/v1675337277/2023/Jamil_Shaikh_xvaomb.png",
     name: "Jamil S.",
     position: "Web Developer",
     social: [faLinkedin, "https://in.linkedin.com/in/shaikhjamil"],
@@ -396,7 +385,7 @@ export const designer2024 = [
 export const social2024 = [
   {
     image:
-      "https://res.cloudinary.com/tedxace/image/upload/v1675337280/2024/Aarya_Jadhav_hncdks.jpg",
+      "https://res.cloudinary.com/tedxace/image/upload/v1675337280/2023/Aarya_Jadhav_hncdks.jpg",
     name: "Aarya J.",
     position: "Social Media",
     social: [faInstagram, "https://instagram.com/_aarya.28"],
@@ -427,7 +416,7 @@ export const social2024 = [
 export const video2024 = [
   {
     image:
-      "https://res.cloudinary.com/tedxace/image/upload/v1675337279/2024/Prathmesh_Walavalkar_tyet9u.jpg",
+      "https://res.cloudinary.com/tedxace/image/upload/v1675337279/2023/Prathmesh_Walavalkar_tyet9u.jpg",
     name: "Prathmesh W.",
     position: "Video Production",
     social: [faGlobe, "https://linktr.ee/PrathmeshWalavalkar"],
