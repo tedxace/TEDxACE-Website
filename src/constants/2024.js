@@ -14,9 +14,9 @@ export const sponsors2024 = [
     image: "/sponsors/mandys.png",
   },
   {
-    name: "Brijeel",
-    link: "https://brijeel.com/",
-    image: "/sponsors/brijeel.png",
+    name: "Taiyo",
+    link: "#",
+    image: "/sponsors/taiyo.jpg",
   },
 ];
 
@@ -66,7 +66,8 @@ export const speakers2024 = [
   {
     name: "Ms.Kanika Rajput",
     position: "Leader & Entrepreneur",
-    image: "https://res.cloudinary.com/djyqufw6g/image/upload/v1710269041/Kanikafinal_juuljd.png",
+    image:
+      "https://res.cloudinary.com/djyqufw6g/image/upload/v1710269041/Kanikafinal_juuljd.png",
     text: [
       "She is a dynamic leader closely collaborating with the Government of India on transformative initiatives. At just 24, she pioneered the establishment of the National Land Monetization Company.",
     ],
