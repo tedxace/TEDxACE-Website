@@ -1,6 +1,6 @@
 import { faInstagram, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { faGlobe } from "@fortawesome/free-solid-svg-icons";
-
+import RituMam from "../assets/RituMam.jpeg";
 // 2024 Event Data
 export const sponsors2024 = [
   {
@@ -95,6 +95,13 @@ export const speakers2024 = [
 ];
 
 export const heads2024 = [
+  {
+    image: RituMam,
+    name: "Ritu S.",
+    position: "Faculty Coordinator",
+    social: [faLinkedin, "https://in.linkedin.com/in/yash-mathkar-b91441237"],
+  },
+
   {
     image:
       "https://res.cloudinary.com/djyqufw6g/image/upload/v1709159105/Yash_Mahtkar_gtasuv.png",

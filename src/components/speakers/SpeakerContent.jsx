@@ -15,21 +15,22 @@ const SpeakerContent = ({ speakers }) => {
     setModalOpen(true);
   };
   useEffect(() => {
-    if (speakers?.length < 3) {
+    if (speakers?.length < 4) {
       setIsHeads(true);
     }
   }, [speakers?.length]);
   return (
-    <section className="relative pt-24 pb-24   bg-fixed  h-full w-100"
-       style={
-              {
-      
-                backgroundImage: isHeads ? `` : ` url(${require("../../assets/about_rectangle.png")})`,
-                backgroundRepeat: "no-repeat",
-                backgroundSize: "cover",
-                // backgroundAttachment: "fixed",
-              }}
-      >
+    <section
+      className="relative pt-24 pb-24   bg-fixed  h-full w-100"
+      style={{
+        backgroundImage: isHeads
+          ? ``
+          : ` url(${require("../../assets/about_rectangle.png")})`,
+        backgroundRepeat: "no-repeat",
+        backgroundSize: "cover",
+        // backgroundAttachment: "fixed",
+      }}
+    >
       <header id="speakers" className={cn(isHeads ? "h-auto" : "")}>
         <h2
           className={cn(
@@ -39,7 +40,7 @@ const SpeakerContent = ({ speakers }) => {
               : "text-4xl md:text-4xl font-eczar text-center m-auto lg:text-4xl font-bold text-tedx-heading"
           )}
         >
-          {isHeads ? "LICENSEE & CO-ORGANIZER" : "SPEAKERS"}
+          {isHeads ? "FACULTY , LICENSEE & CO-ORGANIZER" : "SPEAKERS"}
         </h2>
       </header>
       <article
@@ -70,14 +71,13 @@ const SpeakerContent = ({ speakers }) => {
                 src={image}
                 alt={name}
                 className={cn(
-                  "w-[80px] md:w-[140px] lg:w-[180px] ease-in-out rounded-full ml-10 mr-10 mt-6 ring-2 ring-tedx-heading ring-offset-4 ring-offset-tedx-heading ",
+                  "w-[80px] md:w-[140px] lg:w-[180px] lg:h-[180px] object-cover object-center ease-in-out rounded-full ml-10 mr-10 mt-6 ring-2 ring-tedx-heading ring-offset-4 ring-offset-tedx-heading ",
                   isHeads ? "rounded-full" : "rounded-full"
                 )}
                 style={{
                   backgroundImage: `url(${require("../../assets/bggg.jpg")})`,
                   backgroundRepeat: "no-repeat",
                   backgroundSize: "cover",
-      
                 }}
               />
               <h3 className="transition-transform text-center text-black font-eczar my-3 text-[12px] md:text-lg font-semibold duration-200 translate-y-2 group-hover:translate-y-0">
