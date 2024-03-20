@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.aeba415d.css",
-    "main.js": "/static/js/main.20d210ec.js",
+    "main.css": "/static/css/main.25699838.css",
+    "main.js": "/static/js/main.a292f5f7.js",
     "static/js/477.087fc7df.chunk.js": "/static/js/477.087fc7df.chunk.js",
     "static/js/321.9a6ea94b.chunk.js": "/static/js/321.9a6ea94b.chunk.js",
-    "static/js/737.6498e7e0.chunk.js": "/static/js/737.6498e7e0.chunk.js",
+    "static/js/737.7409d309.chunk.js": "/static/js/737.7409d309.chunk.js",
     "static/js/973.e72e5c05.chunk.js": "/static/js/973.e72e5c05.chunk.js",
     "static/css/62.b367049c.chunk.css": "/static/css/62.b367049c.chunk.css",
-    "static/js/62.cebe6526.chunk.js": "/static/js/62.cebe6526.chunk.js",
-    "static/js/455.ab831eeb.chunk.js": "/static/js/455.ab831eeb.chunk.js",
+    "static/js/62.47623077.chunk.js": "/static/js/62.47623077.chunk.js",
+    "static/js/455.3478c11c.chunk.js": "/static/js/455.3478c11c.chunk.js",
     "static/css/265.75286f06.chunk.css": "/static/css/265.75286f06.chunk.css",
     "static/js/265.417ae300.chunk.js": "/static/js/265.417ae300.chunk.js",
     "static/js/335.59c10cfe.chunk.js": "/static/js/335.59c10cfe.chunk.js",
@@ -32,6 +32,7 @@
     "static/media/Teams.png": "/static/media/Teams.54164571ee5e9ce04412.png",
     "static/media/teamsectionbg.png": "/static/media/teamsectionbg.d804ad313e504d7ce5f1.png",
     "static/media/Rectangle 79.png": "/static/media/Rectangle 79.620c95c050c3f718b3e9.png",
+    "static/media/ritu.png": "/static/media/ritu.965c8ad5fd8b014c5dd6.png",
     "static/media/about_page_bg.png": "/static/media/about_page_bg.d8952b12a6abfe70ca02.png",
     "static/media/Sajitha.png": "/static/media/Sajitha.55f6e270ab7d75847340.png",
     "static/media/Roy.png": "/static/media/Roy.59f4064f7c5e2fc0bf48.png",
@@ -54,6 +55,7 @@
     "static/media/magic.jpg": "/static/media/magic.c8173861405381dabc6d.jpg",
     "static/media/bggg.jpg": "/static/media/bggg.99c705f67dc1d5803c52.jpg",
     "static/media/discovery.jpg": "/static/media/discovery.cb10a9877014eb3e6bc1.jpg",
+    "static/media/RituMam.jpeg": "/static/media/RituMam.950e1c58929f03e4171e.jpeg",
     "static/media/sbfinal_jkexcu.png": "/static/media/sbfinal_jkexcu.698cc5a1ebcea60fdf38.png",
     "static/media/Audi2.png": "/static/media/Audi2.e994cca522aefaecf7b6.png",
     "static/media/hehe.jpg": "/static/media/hehe.795781d4dc3443623665.jpg",
@@ -69,15 +71,15 @@
     "static/media/TEDLogo.svg": "/static/media/TEDLogo.c3bb590cff1c0ceead33544c0f4e70e0.svg",
     "static/media/TEDxLogo.svg": "/static/media/TEDxLogo.40dacf430e0b06d97686ed34a1999d1e.svg",
     "index.html": "/index.html",
-    "main.aeba415d.css.map": "/static/css/main.aeba415d.css.map",
-    "main.20d210ec.js.map": "/static/js/main.20d210ec.js.map",
+    "main.25699838.css.map": "/static/css/main.25699838.css.map",
+    "main.a292f5f7.js.map": "/static/js/main.a292f5f7.js.map",
     "477.087fc7df.chunk.js.map": "/static/js/477.087fc7df.chunk.js.map",
     "321.9a6ea94b.chunk.js.map": "/static/js/321.9a6ea94b.chunk.js.map",
-    "737.6498e7e0.chunk.js.map": "/static/js/737.6498e7e0.chunk.js.map",
+    "737.7409d309.chunk.js.map": "/static/js/737.7409d309.chunk.js.map",
     "973.e72e5c05.chunk.js.map": "/static/js/973.e72e5c05.chunk.js.map",
     "62.b367049c.chunk.css.map": "/static/css/62.b367049c.chunk.css.map",
-    "62.cebe6526.chunk.js.map": "/static/js/62.cebe6526.chunk.js.map",
-    "455.ab831eeb.chunk.js.map": "/static/js/455.ab831eeb.chunk.js.map",
+    "62.47623077.chunk.js.map": "/static/js/62.47623077.chunk.js.map",
+    "455.3478c11c.chunk.js.map": "/static/js/455.3478c11c.chunk.js.map",
     "265.75286f06.chunk.css.map": "/static/css/265.75286f06.chunk.css.map",
     "265.417ae300.chunk.js.map": "/static/js/265.417ae300.chunk.js.map",
     "335.59c10cfe.chunk.js.map": "/static/js/335.59c10cfe.chunk.js.map",
@@ -87,7 +89,7 @@
     "920.e25f72e1.chunk.js.map": "/static/js/920.e25f72e1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.aeba415d.css",
-    "static/js/main.20d210ec.js"
+    "static/css/main.25699838.css",
+    "static/js/main.a292f5f7.js"
   ]
 }
