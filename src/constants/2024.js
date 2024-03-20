@@ -99,7 +99,10 @@ export const heads2024 = [
     image: RituMam,
     name: "Ritu S.",
     position: "Faculty Coordinator",
-    social: [faLinkedin, "https://in.linkedin.com/in/yash-mathkar-b91441237"],
+    social: [
+      faLinkedin,
+      "https://www.linkedin.com/in/dr-ritu-sharma-b87a1544/?originalSubdomain=in",
+    ],
   },
 
   {
