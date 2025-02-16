@@ -2,31 +2,31 @@ import { motion } from "framer-motion"
 
 export default function LandingPage() {
     return (
-        <main className="min-h-screen  text-white w-full overflow-hidden  bg-[url('./logo.jpeg')] bg-cover bg-center ">
+        <main className="max-h-screen  text-white w-full overflow-hidden  bg-[url('./bg.jpeg')] bg-cover bg-center ">
 
             {/* Main Content */}
-            <div className="  w-[100%] px-4 pt-20 pb-20 flex flex-col items-center justify-center  ">
+            <div className="  w-[100%] px-4 pt-20 pb-20 flex flex-col items-center h-[100%] justify-center  ">
 
                 {/* TEDx subtitle */}
-                <motion.div
+                {/* <motion.div
                     initial={{ opacity: 0, y: 20 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.5 }}
                     className="text-center mt-20 z-10"
                 >
-                    <h2 className="text-red-500 text-xl md:text-2xl font-bold mb-1">TEDxACE</h2>
-                    <p className="text-gray-300">IDEAS WORTH SPREADING</p>
-                </motion.div>
+                    <h2 className="text-red-500 text-xl md:text-2xl font-bold mb-1">TEDx<span className="text-white">ACE</span></h2>
+                    <p className="text-gray-300 text-sm">IDEAS WORTH SPREADING</p>
+                </motion.div> */}
 
                 {/* Main Title */}
                 <motion.div
                     initial={{ opacity: 0, scale: 0.9 }}
                     animate={{ opacity: 1, scale: 1 }}
                     transition={{ duration: 0.7, delay: 0.2 }}
-                    className="w-full max-w-3xl -mt-10 mb-12 z-10"
+                    className="w-full max-w-3xl mt-10 mb-12 z-10"
                 >
                     <img
-                        src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-QpM8GBzBcoE0NN4vgIahbBuu0awnJU.png"
+                        src="/assets/Logo.png"
                         alt="Alchemy of Ideas"
                         width={800}
                         height={300}
@@ -64,12 +64,13 @@ export default function LandingPage() {
                     </button>
                 </motion.div>
                 <div
-                className={
-                    `absolute bg-gradient-to-b  h-full bottom-0 w-full from-black/40 via-black/70 to-[black] z-0`
-                }
-            ></div>
+                    className={
+                        `absolute top-0 left-0 w-full h-full bg-gradient-to-b from-black/40 via-black/95 to-black bg-opacity-50 z-0`
+                    }
+                ></div>
+                
             </div>
-            
+
         </main>
     )
 }

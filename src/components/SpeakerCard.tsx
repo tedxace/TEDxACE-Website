@@ -3,8 +3,8 @@ import React from "react";
 
 const SpeakerCard = ({ image, name, role, description }:{image:any,name:any,role:any,description:any}) => {
   return (
-    <section className="w-[337px] h-[504px]">
-    <div className="relative w-[337px] h-[470.39px] rounded-[66px] overflow-hidden shadow-md group">
+    <section className="md:w-[337px] md:h-[504px] flex flex-col items-center justify-center ">
+    <div className="relative   w-[200px] h-[300px] md:w-[337px] md:h-[470.39px] rounded-[66px]  overflow-hidden shadow-md group">
       {/* Speaker Image */}
       <img
         src={image}
@@ -25,7 +25,7 @@ const SpeakerCard = ({ image, name, role, description }:{image:any,name:any,role
         </p>
 
         {/* Description (Visible on hover) */}
-        <div className="opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+        <div className="opacity-0 group-hover:opacity-100  transition-opacity duration-300">
           <p className="mt-4 text-sm text-gray-400">{description}</p>
         </div>
 
@@ -33,7 +33,7 @@ const SpeakerCard = ({ image, name, role, description }:{image:any,name:any,role
       </div>
          {/* Menoheaven Image */}
          <img
-        src={"./venue2.png"}
+        src={"./Menohaven.png"}
         alt="Menoheaven"
         className="relative left-[10px] bottom-[23px] w-[310px] h-[82px] z-30"
       />

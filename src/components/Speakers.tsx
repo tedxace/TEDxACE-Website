@@ -97,32 +97,32 @@ const Speakers = () => {
     <div className="bg-black w-full min-h-screen p-16 relative ">
 
       {/* Background Bottle Image */}
-      <div className="absolute top-0 left-[478px] opacity-40 transform -translate-x-1/2 w-full h-[1600px] overflow-visible z-0">
+      {/* <div className="absolute top-0 left-[478px] opacity-40 transform -translate-x-1/2 w-full h-[1600px] overflow-visible z-0">
         <img
           src={"./venue1.png"}
           alt="Background"
           className="w-[1088px] h-[1600px] object-cover"
         />
-      </div>
+      </div> */}
 
       {/* Speaker Text */}
       <div className="relative z-10">
         <h1 className="text-center font-semibold text-[40px] text-white mt-[160px] mb-12">
-          Speakerssss
+          Speakers
         </h1>
       </div>
 
       {/* Speaker Cards */}
       <div className="relative z-10">
         {/* First row of 3 speakers */}
-        <div className="flex justify-center gap-[80px] mb-16">
+        <div className="flex md:flex-row flex-col md:items-baseline items-center justify-center gap-[80px] mb-16">
           {speakers.slice(0, 3).map((speaker) => (
             <SpeakerCard key={speaker.id} {...speaker} />
           ))}
         </div>
 
         {/* Second row of 2 speakers */}
-        <div className="flex justify-center gap-[80px]">
+        <div className="flex md:flex-row flex-col md:items-baseline items-center justify-center gap-[80px]">
           {speakers.slice(3).map((speaker) => (
             <SpeakerCard key={speaker.id} {...speaker} />
           ))}
