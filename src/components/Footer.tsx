@@ -16,18 +16,13 @@ const Footer = () => {
             <Link to="/about" className="block hover:text-gray-300">
               ABOUT US
             </Link>
-            <Link to="/speakers" className="block hover:text-gray-300">
-              SPEAKERS
-            </Link>
-            <Link to="/sponsors" className="block hover:text-gray-300">
-              SPONSORS
-            </Link>
+           
             <Link to="/teams" className="block hover:text-gray-300">
               TEAMS
             </Link>
-            <Link to="/tickets" className="block hover:text-gray-300">
+            {/* <Link to="#" className="block hover:text-gray-300">
               TICKETS
-            </Link>
+            </Link> */}
           </nav>
         </div>
         <div className="space-y-4">

@@ -1,6 +1,6 @@
 "use client"
 
-import { useEffect, useRef } from 'react'
+import { useEffect, useRef, useState } from 'react'
 // import { Button } from "@/components/ui/button"
 import LandingPage from './LandingPage'
 import Speakers from './Speakers'
@@ -12,6 +12,7 @@ import Sponsors from './Sponsors'
 
 
 const Home = () => {
+  const [loading,setLoading] = useState(true);
   const lenisRef = useRef<Lenis>(null);
   useEffect(() => {
     const lenis = new Lenis({
@@ -33,6 +34,23 @@ const Home = () => {
     }
   }, []);
 
+  useEffect(()=>{
+    setTimeout(()=>{
+      setLoading(false);
+    },4000)
+
+    
+  },[])
+
+  
+
+  if(loading){
+    return (
+      <div className='absolute h-screen w-full bg-black text-white flex flex-col items-center justify-center'>
+      <p>Loading</p>
+      </div>
+    )
+  }
   return (
     <>
       <LandingPage />
