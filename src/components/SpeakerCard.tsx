@@ -44,9 +44,9 @@ const SpeakerCard = ({ image, name, role, description }: { image: any, name: any
       </section>
       {modal && (
         <div className="fixed w-full h-full  flex items-center justify-center top-0 left-0 border bg-transparent backdrop-blur-3xl text-white z-50" onClick={()=>setModal(false)}>
-          <div className="bg-black m-4 md:h-[500px] md:w-[800px] border flex items-center justify-evenly flex-row">
+          <div className="bg-black m-4 md:h-[500px] md:w-[800px] border rounded-xl flex items-center justify-evenly md:flex-row flex-col">
             
-            <div className="bg-[#9F9F9F] md:h-[400px] md:w-[300px] rounded-2xl">
+            <div className="bg-[#9F9F9F] h-[400px] w-[300px] rounded-2xl my-6 md:my-0">
             <img  src={"./Menohaven.png"} className="relative top-[370px] left-[5pxpx] w-[310px]"></img>
             </div>
             <div className="p-4 grid gap-14 align-text-top w-[400px] items-center ">
