@@ -6,9 +6,15 @@ import ContextProvider from './context/ContextProvider'
 import Team from './components/Team'
 import Footer from './components/Footer'
 import { useEffect, useState } from 'react'
+import DecryptedText from './components/animations/DecryptedText'
+import BlurText from './components/animations/BlurText'
 
 function App() {
   const [loading,setLoading] = useState(true);
+  const handleAnimationComplete = () => {
+    console.log('Animation completed!');
+  };
+  
   useEffect(()=>{
     setTimeout(()=>{
       setLoading(false);
@@ -20,7 +26,15 @@ function App() {
   if(loading){
     return (
       <div className='absolute h-screen w-full bg-black text-white flex flex-col items-center justify-center'>
-      <p>Loading</p>
+   
+<BlurText
+  text="Ready for the magic ✨?!"
+  delay={150}
+  animateBy="words"
+  direction="top"
+  onAnimationComplete={handleAnimationComplete}
+  className="text-4xl mb-8 font-bold"
+/>
       </div>
     )
   }

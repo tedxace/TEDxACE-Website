@@ -43,8 +43,8 @@ const SpeakerCard = ({ image, name, position, text }: { image: any, name: any, p
 
       </section>
       {modal && (
-        <div className="fixed w-full h-full  flex items-center justify-center top-0 left-0 border bg-transparent backdrop-blur-3xl text-white z-50" onClick={()=>setModal(false)}>
-          <div className="bg-black m-4 md:h-[500px] md:w-[800px] border rounded-xl flex items-center justify-evenly md:flex-row flex-col">
+        <div className="fixed w-full h-full  flex items-center justify-center top-0 left-0 border bg-transparent backdrop-blur-3xl text-white z-40" onClick={()=>setModal(false)}>
+          <div className="bg-black m-4 md:h-[500px] md:w-[800px] border rounded-xl flex items-center justify-evenly md:flex-row flex-col z-50">
             
             <div className="bg-[#9F9F9F] h-[400px] w-[300px] rounded-2xl my-6 md:my-0">
             <img  src={"./Menohaven.png"} className="relative top-[370px] left-[5pxpx] w-[310px]"></img>
@@ -52,11 +52,11 @@ const SpeakerCard = ({ image, name, position, text }: { image: any, name: any, p
             <div className="p-4 grid gap-14 align-text-top w-[400px] items-center ">
               <div>
                 <h1 className="text-4xl font-bold text-[#9C6EDD]">{name}</h1>
-                <h2 className="text-xl italic text-[18px] text-[#B890F0]">{role}</h2>
-                <p className="text-wrap text-base pt-4 text-[#808588]">{description}</p>
+                <h2 className="text-xl italic text-[18px] text-[#B890F0]">{position}</h2>
+                <p className="text-wrap text-base pt-4 text-[#808588]">{text[0]}</p>
               </div>
               <div className="flex justify-center ">
-                <button className="bg-[#9B0BAE] p-2.5 rounded-xl hover:bg-[#7c098b]">BUY TICKETS</button>
+                <a href="https://forms.gle/rD8xDgdUmwZDeFen6" target="_blank" className="bg-[#9B0BAE] p-2.5 rounded-xl hover:bg-[#7c098b]" >BUY TICKETS</a>
               </div>
             </div>
 

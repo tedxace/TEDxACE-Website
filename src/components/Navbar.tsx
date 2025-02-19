@@ -56,12 +56,13 @@ export default function NavBar() {
               TEAM
             </Link>
           </div>
-          <Link
-            to="/tickets"
+          <a
+            href="https://forms.gle/rD8xDgdUmwZDeFen6"
+            target="_blank"
             className="border-2 border-purple-600 text-purple-600 px-6 py-2 rounded-lg hover:bg-purple-600 hover:text-white transition-colors"
           >
             BUY TICKETS
-          </Link>
+          </a>
         </div>
 
         <AnimatePresence>
@@ -114,13 +115,14 @@ export default function NavBar() {
                   >
                     TEAM
                   </Link>
-                  <Link
-                    to="/tickets"
+                  <a
+                    href="https://forms.gle/rD8xDgdUmwZDeFen6"
+                    target="_blank"
                     onClick={()=>setIsMenuOpen(!isMenuOpen)}
                     className="border-2 border-purple-600 text-purple-600 px-6 py-2 rounded-lg hover:bg-purple-600 hover:text-white transition-colors text-center mt-10"
                   >
                     BUY TICKETS
-                  </Link>
+                  </a>
                 </div>
               </motion.div>
             </>

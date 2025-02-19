@@ -2,6 +2,7 @@ import { ArrowRight } from "lucide-react";
 import { motion } from "framer-motion";
 
 const Video = () => {
+    
     const Video1 = () => {
         return (
             <motion.div
@@ -14,7 +15,7 @@ const Video = () => {
                 <div className="flex flex-col  items-center gap-4">
                     <p>Join us for the ride</p>
                     <h1 className="text-4xl font-bold">To Unleash The Magic Within Ideas</h1>
-                    <button className="bg-violet-800 px-8 flex py-4 rounded-xl">Buy Tickets <ArrowRight /></button>
+                    <a href="https://forms.gle/rD8xDgdUmwZDeFen6" target="_blank"  className="bg-violet-800 px-8 flex py-4 rounded-xl">Buy Tickets <ArrowRight /></a>
                 </div>
                 <div className="flex items-center flex-col">
                     <video className="w-3/4 md:w-1/2 rounded-xl ease-in" autoPlay muted controls={false} loop src="./assets/speakers.mp4">
@@ -40,7 +41,7 @@ const Video = () => {
                 <div className="flex items-center flex-col relative flex-1 ">
                     <video className="w-3/4 md:w-[500px] rounded-xl " autoPlay muted loop src="./assets/sponsor.mp4">
                     </video>
-                    <button className="bg-violet-800 px-8 flex absolute bottom-5  py-4 rounded-xl z-10 gap-2">Buy Tickets <ArrowRight /></button>
+                    {/* <button className="bg-violet-800 px-8 flex absolute bottom-5  py-4 rounded-xl z-10 gap-2">Buy Tickets <ArrowRight /></button> */}
 
                 </div>
                 <div className="flex flex-col bg-[#0D0D0D] border border-gray-600 py-8 px-10 rounded-xl text-wrap w-[300px] mt-32 gap-10">
@@ -71,7 +72,7 @@ const Video = () => {
                 <div className="flex items-center flex-col relative flex-1 ">
                     <video className="w-3/4  md:w-[500px] rounded-xl  object-cover opacity-85 " autoPlay muted loop src="./assets/speakers.mp4">
                     </video>
-                    <button className="bg-violet-800 px-8 flex absolute bottom-5  py-4 rounded-xl z-10 gap-2">Buy Tickets <ArrowRight /></button>
+                    {/* <button className="bg-violet-800 px-8 flex absolute bottom-5  py-4 rounded-xl z-10 gap-2">Buy Tickets <ArrowRight /></button> */}
 
                 </div>
                 <div className="flex flex-col bg-[#0D0D0D] border border-gray-600 py-8 px-10 rounded-xl text-wrap w-[300px] mt-32 gap-10">
@@ -106,7 +107,7 @@ const Video = () => {
                 <div className="flex items-center flex-col relative flex-1 ">
                     <video className="w-3/4  md:w-[500px] rounded-xl md:h-[700px] object-cover opacity-85 " autoPlay muted loop src="./assets/team.mp4">
                     </video>
-                    <button className="bg-violet-800 px-8 flex absolute bottom-5  py-4 rounded-xl z-10 gap-2">Buy Tickets <ArrowRight /></button>
+                    {/* <button className="bg-violet-800 px-8 flex absolute bottom-5  py-4 rounded-xl z-10 gap-2">Buy Tickets <ArrowRight /></button> */}
 
                 </div>
                 <div className="flex flex-col bg-[#0D0D0D] border border-gray-600 py-8 px-10 rounded-xl text-wrap w-[300px] mt-32 gap-10">
