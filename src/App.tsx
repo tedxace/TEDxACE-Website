@@ -6,7 +6,6 @@ import ContextProvider from './context/ContextProvider'
 import Team from './components/Team'
 import Footer from './components/Footer'
 import { useEffect, useState } from 'react'
-import DecryptedText from './components/animations/DecryptedText'
 import BlurText from './components/animations/BlurText'
 
 function App() {

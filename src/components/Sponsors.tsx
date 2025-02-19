@@ -1,5 +1,3 @@
-import DecryptedText from "./animations/DecryptedText"
-
 const Sponsors = () => {
   return (
     <div className="h-screen gap-4 w-full flex flex-col items-center justify-center bg-[#000000] text-white"> 

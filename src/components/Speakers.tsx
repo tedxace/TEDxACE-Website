@@ -49,14 +49,13 @@
 
 // export default Speakers
 
-import React, { useState } from "react";
 import SpeakerCard from "./SpeakerCard";
 import { useSpeakerData } from "@/context/ContextProvider";
 // import Image from "../assets/bottle.png";
 
 const Speakers = () => {
 
-  const {speakers} = useSpeakerData();
+  const {speakers}:any = useSpeakerData();
   
   // const speakers = [
   //   {

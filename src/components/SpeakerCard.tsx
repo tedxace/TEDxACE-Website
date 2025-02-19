@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import  { useState } from "react";
 // import Menoheaven from "../assets/Menoheaven.png";
 
 const SpeakerCard = ({ image, name, position, text }: { image: any, name: any, position: any, text: any }) => {
