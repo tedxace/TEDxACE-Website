@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 // import Menoheaven from "../assets/Menoheaven.png";
 
-const SpeakerCard = ({ image, name, role, description }: { image: any, name: any, role: any, description: any }) => {
+const SpeakerCard = ({ image, name, position, text }: { image: any, name: any, position: any, text: any }) => {
   const [modal, setModal] = useState(false)
 
   return (
@@ -12,24 +12,24 @@ const SpeakerCard = ({ image, name, role, description }: { image: any, name: any
           <img
             src={image}
             alt={name}
-            className="w-full h-full object-cover group-hover:brightness-[0.05] transition-all duration-300"
+            className="w-full h-full object-cover bg-gray-400 group-hover:brightness-[0.05] transition-all duration-300"
           />
 
           {/* Text Container */}
           <div className="absolute bottom-0 left-0 w-full text-center text-white p-4 ">
             {/* Name */}
-            <p className="text-[27px] font-semibold group-hover:translate-y-[-50%] transition-transform duration-300">
+            <p className="text-[27px] font-semibold group-hover:translate-y-[-50%] transition-transform duration-300 ">
               {name}
             </p>
 
             {/* Role */}
             <p className="text-[18px] text-gray-300 group-hover:translate-y-[-50%] transition-transform duration-300">
-              {role}
+              {position}
             </p>
 
             {/* Description (Visible on hover) */}
-            <div className="opacity-0 group-hover:opacity-100  transition-opacity duration-300">
-              <p className="mt-4 text-sm text-gray-400">{description}</p>
+            <div className="hidden group-hover:inline group-hover:opacity-100  transition-opacity duration-300">
+              <p className="mt-4 text-sm text-gray-400">{text[0]}</p>
             </div>
 
           </div>
@@ -47,7 +47,8 @@ const SpeakerCard = ({ image, name, role, description }: { image: any, name: any
           <div className="bg-black m-4 md:h-[400px] md:w-[400px] border flex items-center justify-center flex-col">
             
             <h1>{name}</h1>
-            <p className="text-wrap">{description}</p>
+            <p>{position}</p>
+            <p className="text-wrap">{text[0]}</p>
           </div>
         </div>
       )}
