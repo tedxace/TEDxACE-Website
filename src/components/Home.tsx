@@ -7,7 +7,6 @@ import Speakers from './Speakers'
 import Venue from './Venue'
 import VideoElement from './VideoElement'
 import Lenis from 'lenis'
-import { LocomotiveScrollProvider } from 'react-locomotive-scroll'
 import Sponsors from './Sponsors'
 
 
