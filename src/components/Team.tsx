@@ -122,7 +122,7 @@ const Teams = () => {
           transition={{ staggerChildren: 0.2 }}
         >
           <Box sx={{ minHeight: "90vh" }}>
-            {teams.map((team, index) => (
+            {teams.map((team:any, index:number) => (
               <TabPanel
                 key={index}
                 value={(index + 1).toString()}

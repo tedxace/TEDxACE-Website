@@ -22,77 +22,62 @@ export const sponsors2024 = [
 
 export const speakers2024 = [
   {
-    name: "Mr. Aakash Bhavsar",
-    position: "Digital Creator",
+    name: "Mr. Tarannum Sheikh",
+    position: "Dubai based entrepreneur ",
     image:
       "https://res.cloudinary.com/djyqufw6g/image/upload/v1710063343/powertrainfinal_yv9bf8.png",
     text: [
-      `Aka Powertrain, he endeavours to bring out the nitty-gritty of infrastructure to all, making it a mainstream of discussion and not just the topic left for experts. `,
+      `Dubai based entrepreneur | Founder: Active Kids I Author | Communication & Soft Skills Trainer | Podcast Host: GEN Z | Toastmaster`,
     ],
-
-    list: ['Media Company Owner', 'YouTuber', 'Content', 'Creator'],
+    list: ['Media Company Owner', 'YouTuber', 'Content Creator'],
   },
   {
-    name: "Mr. Saurabh Bhosale",
-    position: "Humourist",
+    name: "Dr. Mansi Choudhary",
+    position: "Renowned Nutritionist",
     image:
       "https://res.cloudinary.com/djyqufw6g/image/upload/v1710168808/sbfinal_jkexcu.png",
     text: [
-      "Either he'll make you laugh or he'll make you think. He is famous for his story telling skills with his exceptional taste in sense of humour.,"
+      "Renowned Nutritionist I Certified Diabetes Educator I 2 X Tedx Speaker I Holistic Cancer Coach I Corporate Menu Planner & Nutrition consultant I Wellness Columnist"
     ],
-
     list: [
       "Founder of Project Visioncy & Company Of Content",
-      "Represented India  at World Youth Summit",
+      "Represented India at World Youth Summit",
       "Storyteller",
       "Humourist",
     ],
   },
   {
-    name: "Mr. Sharif Bapu",
-    position: "President of MMA India",
+    name: "Ms. Deepti Agarwal",
+    position: "Worked at UN Women Singapore ",
     image:
-      "https://res.cloudinary.com/djyqufw6g/image/upload/v1710170651/mmafinal_pexedv.png",
+      "https://res.cloudinary.com/djyqufw6g/image/upload/v1710269041/Kanikafinal_juuljd.png", // Placeholder image, update if needed
     text: [
-      "He is the esteemed President of MMA India, and runs the academy of self defence with life long passion for martial arts empowering women for self-defense training, leaving his lasting impact nationally and internationally."
+      "Worked at UN Women Singapore | Orchestrator of Deals in Dunzo and Google | Director, Indian Market Advisory | Consultant || Harvard & Wharton (FinTech), FMS (MBA Finance), SRCC (Economics)"
     ],
-
     list: [
-      "Director of Sports MMA India",
-      "Chairman of International MMA Federation",
-      "President of MMA India",
+      "Harvard & Wharton (FinTech)",
+      "FMS (MBA Finance)",
+      "SRCC (Economics)",
+      "Advisor to Indian Market",
     ],
   },
   {
-    name: "Ms.Kanika Rajput",
-    position: "Leader & Entrepreneur",
+    name: "Mr. Pravin Tulpule",
+    position: "Ex Navy Officer turned Medical Clown",
     image:
-      "https://res.cloudinary.com/djyqufw6g/image/upload/v1710269041/Kanikafinal_juuljd.png",
+      "https://res.cloudinary.com/djyqufw6g/image/upload/v1710170651/mmafinal_pexedv.png", // Placeholder image, update if needed
     text: [
-      "She is a dynamic leader closely collaborating with the Government of India on transformative initiatives. At just 24, she pioneered the establishment of the National Land Monetization Company.",
+      "Ex Navy Officer turned Medical Clown, Naval Veteran, Storyteller, Medical Clown, Santa Claus, Keynote speaker, Magician, Giver of joy to patients and the elderly"
     ],
     list: [
-      "Founder of Nav-Tarang",
-      "Pioneered National Land Monetization Company",
-      "One of the Youngest Leaders of India",
-    ],
-  },
-  {
-    name: "Dr. Roy Kshemendra",
-    position: "Marketing Expert",
-    image:
-      "https://res.cloudinary.com/djyqufw6g/image/upload/v1710271216/Roy_i9mg00.png",
-    text: [
-      `He is a seasoned professional in marketing and brand management. His expertise lies in communications, behavioral science, and reputation management. `,
-    ],
-
-    list: [
-      "Head of Communications & Customer Centricity Agency Business at Tata AIA.",
-      "Head Centre for Behaviroal Science at IIMA",
-      "Marketing Head at TATA Sons Limited",
+      "Naval Veteran",
+      "Medical Clown",
+      "Keynote Speaker",
+      "Magician",
     ],
   },
 ];
+
 
 export const heads2024 = [
   {

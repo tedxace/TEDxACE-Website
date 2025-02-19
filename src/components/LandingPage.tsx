@@ -2,10 +2,10 @@ import { motion } from "framer-motion"
 
 export default function LandingPage() {
     return (
-        <main className="max-h-screen  text-white w-full overflow-hidden  bg-[url('./bg.jpeg')] bg-cover bg-center ">
+        <main className="min-h-screen  text-white w-full overflow-hidden  bg-[url('./bg.jpeg')] bg-cover bg-center ">
 
             {/* Main Content */}
-            <div className="  w-[100%] px-4 pt-20 pb-20 flex flex-col items-center h-[100%] justify-center  ">
+            <div className="  w-[100%] h-full px-4 pt-20 pb-20 flex flex-col items-center h-[100%] justify-center  ">
 
                 {/* TEDx subtitle */}
                 {/* <motion.div
@@ -63,14 +63,14 @@ export default function LandingPage() {
                         RESERVE A SEAT
                     </button>
                 </motion.div>
-                <div
-                    className={
-                        `absolute top-0 left-0 w-full h-full bg-gradient-to-b from-black/40 via-black/95 to-black bg-opacity-50 z-0`
-                    }
-                ></div>
+                
                 
             </div>
-
+            <div
+                    className={
+                        `absolute top-0 left-0 w-full h-[140%]  bg-gradient-to-b from-black/40 via-black/98 to-black bg-opacity-50 z-0`
+                    }
+                ></div>
         </main>
     )
 }
