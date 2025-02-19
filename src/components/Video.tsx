@@ -9,7 +9,7 @@ const Video = () => {
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5 }}
                 viewport={{ once: true }}
-                className="flex flex-col items-center h-full font-[Ysabeau] pt-20 p-10 gap-10 "
+                className="flex flex-col items-center h-full md:h-full font-[Ysabeau] pt-20 p-10 gap-10 "
             >
                 <div className="flex flex-col  items-center gap-4">
                     <p>Join us for the ride</p>
@@ -31,7 +31,7 @@ const Video = () => {
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5 }}
                 viewport={{ once: true }}
-                className="flex md:flex-row flex-col items-center justify-center md:h-screen  gap-32  ease-in pt-20 md:items-start"
+                className="flex lg:flex-row flex-col items-center justify-center md:h-full  gap-32  ease-in pt-20 md:items-start"
             >
                 <div className="flex flex-col  bg-[#0D0D0D] border border-gray-600 py-8 px-10 rounded-xl text-wrap w-auto m-4 md:w-[320px] gap-10">
                     <h1 className="text-3xl w-auto font-semibold font-[Ysabeau]">These Ideas Are Worth Spreading</h1>
@@ -52,12 +52,12 @@ const Video = () => {
 
     const Video3 = () => {
         return (
-            <motion.div
+        <motion.div
                 initial={{ opacity: 0, y: 50 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5 }}
                 viewport={{ once: true }}
-                className="flex md:flex-row flex-col items-center md:h-screen  justify-center  gap-32  ease-in pt-20 md:items-start"
+                className="flex lg:flex-row flex-col items-center h-full md:h-full  justify-center  gap-32  ease-in pt-20 md:items-start"
             >
                 <div className="flex flex-col gap-10 ">
                     {/* <div className="flex flex-col bg-[#0D0D0D] border border-gray-600 py-8 px-10 rounded-xl text-wrap w-[320px] gap-10">
@@ -69,7 +69,7 @@ const Video = () => {
                     </div>
                 </div>
                 <div className="flex items-center flex-col relative flex-1 ">
-                    <video className="w-3/4  md:w-[500px] rounded-xl md:h-[700px] object-cover opacity-85 " autoPlay muted loop src="./assets/speakers.mp4">
+                    <video className="w-3/4  md:w-[500px] rounded-xl  object-cover opacity-85 " autoPlay muted loop src="./assets/speakers.mp4">
                     </video>
                     <button className="bg-violet-800 px-8 flex absolute bottom-5  py-4 rounded-xl z-10 gap-2">Buy Tickets <ArrowRight /></button>
 
@@ -88,7 +88,7 @@ const Video = () => {
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5 }}
                 viewport={{ once: true }}
-                className="flex md:flex-row flex-col items-center justify-center  gap-32  ease-in pt-20 md:items-start"
+                className="flex lg:flex-row flex-col items-center h-full md:h-full justify-center  gap-32  ease-in pt-20 md:items-start"
 
             >
                 <div className="flex flex-col gap-10 ">
@@ -117,7 +117,7 @@ const Video = () => {
     };
 
     return (
-        <div className="flex flex-col items-center justify-center bg-[#000000] text-white"> 
+        <div className="flex flex-col items-center h-full justify-center bg-[#000000] text-white"> 
             <Video1 />
             <Video2/>
             <Video3/>

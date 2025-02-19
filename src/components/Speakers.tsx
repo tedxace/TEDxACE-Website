@@ -114,14 +114,14 @@ const Speakers = () => {
       {/* Speaker Cards */}
       <div className=" z-10">
         {/* First row of 3 speakers */}
-        <div className="flex md:flex-row flex-col md:items-baseline items-center justify-center gap-[80px] mb-16">
+        <div className="flex lg:flex-row flex-col md:items-baseline items-center justify-center gap-[80px] mb-16">
           {speakers.slice(0, 3).map((speaker) => (
             <SpeakerCard key={speaker.id} {...speaker} />
           ))}
         </div>
 
         {/* Second row of 2 speakers */}
-        <div className="flex md:flex-row flex-col md:items-baseline items-center justify-center gap-[80px]">
+        <div className="flex lg:flex-row flex-col md:items-baseline items-center justify-center gap-[80px]">
           {speakers.slice(3).map((speaker) => (
             <SpeakerCard key={speaker.id} {...speaker} />
           ))}
