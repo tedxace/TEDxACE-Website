@@ -65,7 +65,7 @@ const Teams = () => {
                   textTransform: "capitalize",
                 }}
               >
-                <span className={`text-3xl pt-24 lg:pt-20 text-tedx-heading`}>
+                <span className={`text-3xl pt-24 l text-tedx-heading`}>
                   OUR TEAM
                 </span>
               </Typography>

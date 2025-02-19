@@ -69,7 +69,7 @@ const Video = () => {
                     </div>
                 </div>
                 <div className="flex items-center flex-col relative flex-1 ">
-                    <video className="w-3/4  md:w-[500px] rounded-xl h-[700px] object-cover opacity-85 " autoPlay muted loop src="./assets/speakers.mp4">
+                    <video className="w-3/4  md:w-[500px] rounded-xl md:h-[700px] object-cover opacity-85 " autoPlay muted loop src="./assets/speakers.mp4">
                     </video>
                     <button className="bg-violet-800 px-8 flex absolute bottom-5  py-4 rounded-xl z-10 gap-2">Buy Tickets <ArrowRight /></button>
 

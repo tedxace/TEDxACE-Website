@@ -34,23 +34,23 @@ const Home = () => {
     }
   }, []);
 
-  useEffect(()=>{
-    setTimeout(()=>{
-      setLoading(false);
-    },4000)
+  // useEffect(()=>{
+  //   setTimeout(()=>{
+  //     setLoading(false);
+  //   },4000)
 
     
-  },[])
+  // },[])
 
   
 
-  if(loading){
-    return (
-      <div className='absolute h-screen w-full bg-black text-white flex flex-col items-center justify-center'>
-      <p>Loading</p>
-      </div>
-    )
-  }
+  // if(loading){
+  //   return (
+  //     <div className='absolute h-screen w-full bg-black text-white flex flex-col items-center justify-center'>
+  //     <p>Loading</p>
+  //     </div>
+  //   )
+  // }
   return (
     <>
       <LandingPage />

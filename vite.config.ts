@@ -10,7 +10,7 @@ export default defineConfig({
   ],
   server:{
     allowedHosts:[
-      "2244-103-174-159-25.ngrok-free.app"
+      "9c4d-103-58-155-190.ngrok-free.app"
     ]
   },
   resolve: {

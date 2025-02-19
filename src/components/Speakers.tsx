@@ -49,7 +49,7 @@
 
 // export default Speakers
 
-import React from "react";
+import React, { useState } from "react";
 import SpeakerCard from "./SpeakerCard";
 // import Image from "../assets/bottle.png";
 
@@ -92,9 +92,8 @@ const Speakers = () => {
       description: "Michael is a travel photographer with global acclaim.",
     },
   ];
-
   return (
-    <div className="bg-black w-full min-h-screen p-16 relative ">
+    <div className="bg-black w-full min-h-screen border   p-16 relative ">
 
       {/* Background Bottle Image */}
       {/* <div className="absolute top-0 left-[478px] opacity-40 transform -translate-x-1/2 w-full h-[1600px] overflow-visible z-0">
@@ -113,7 +112,7 @@ const Speakers = () => {
       </div>
 
       {/* Speaker Cards */}
-      <div className="relative z-10">
+      <div className=" z-10">
         {/* First row of 3 speakers */}
         <div className="flex md:flex-row flex-col md:items-baseline items-center justify-center gap-[80px] mb-16">
           {speakers.slice(0, 3).map((speaker) => (
@@ -128,6 +127,7 @@ const Speakers = () => {
           ))}
         </div>
       </div>
+     
     </div>
   );
 };
