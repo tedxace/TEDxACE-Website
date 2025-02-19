@@ -44,11 +44,22 @@ const SpeakerCard = ({ image, name, position, text }: { image: any, name: any, p
       </section>
       {modal && (
         <div className="fixed w-full h-full  flex items-center justify-center top-0 left-0 border bg-transparent backdrop-blur-3xl text-white z-50" onClick={()=>setModal(false)}>
-          <div className="bg-black m-4 md:h-[400px] md:w-[400px] border flex items-center justify-center flex-col">
+          <div className="bg-black m-4 md:h-[500px] md:w-[800px] border rounded-xl flex items-center justify-evenly md:flex-row flex-col">
             
-            <h1>{name}</h1>
-            <p>{position}</p>
-            <p className="text-wrap">{text[0]}</p>
+            <div className="bg-[#9F9F9F] h-[400px] w-[300px] rounded-2xl my-6 md:my-0">
+            <img  src={"./Menohaven.png"} className="relative top-[370px] left-[5pxpx] w-[310px]"></img>
+            </div>
+            <div className="p-4 grid gap-14 align-text-top w-[400px] items-center ">
+              <div>
+                <h1 className="text-4xl font-bold text-[#9C6EDD]">{name}</h1>
+                <h2 className="text-xl italic text-[18px] text-[#B890F0]">{role}</h2>
+                <p className="text-wrap text-base pt-4 text-[#808588]">{description}</p>
+              </div>
+              <div className="flex justify-center ">
+                <button className="bg-[#9B0BAE] p-2.5 rounded-xl hover:bg-[#7c098b]">BUY TICKETS</button>
+              </div>
+            </div>
+
           </div>
         </div>
       )}

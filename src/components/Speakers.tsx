@@ -55,6 +55,7 @@ import { useSpeakerData } from "@/context/ContextProvider";
 // import Image from "../assets/bottle.png";
 
 const Speakers = () => {
+
   const {speakers} = useSpeakerData();
   
   // const speakers = [
