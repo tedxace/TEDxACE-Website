@@ -92,7 +92,7 @@ const Teams = () => {
                   },
                   "& .Mui-selected": {
                     background:"#8940B2",
-                    borderRadius:""
+                    borderRadius:"50px"
                   },
                   
                   "& .css-1aquho2-MuiTabs-indicator": { background: "#000",color: "#fff" },
