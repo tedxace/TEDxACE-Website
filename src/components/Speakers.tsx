@@ -89,7 +89,7 @@ const Speakers = () => {
       image: "https://www.tutorialmonsters.com/wp-content/uploads/2011/02/html.jpg",
       name: "Michael Brown",
       role: "Photographer",
-      description: "Michael is a travel photographer with global acclaim.",
+      description: "Michael is a travel photographer with global acclaim. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, , comes from a line in section 1.10.32.",
     },
   ];
   return (
