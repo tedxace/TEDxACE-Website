@@ -8,7 +8,7 @@ const Venue = () => {
                         <div className="md:text-left  py-10">
                             <h1 className="text-2xl text-gray-400">Venue : <p className="text-5xl text-white font-bold text-wrap w-2/3 leading-20">Atharva College of Engineering</p></h1>
                         </div>
-                        <div className="w-[200px] h-[300px] md:w-[400px] md:h-[600px]  rounded-2xl bg-[url('./venue1.png')] bg-cover bg-center relative">
+                        <div className="w-[200px] h-[300px] md:w-[400px] md:h-[600px]  rounded-2xl bg-[url('https://res.cloudinary.com/dlsaawg9j/image/upload/v1740032521/venue1_jltdsi.png')] bg-cover bg-center relative">
                             <div className="md:absolute bottom-10 right-0 md:-mr-30 bg-[#111]  text-white px-10 py-5 md:w-[300px] h-auto md:flex hidden text-xl flex-col rounded-xl gap-2">
                                 <h1 className="text-gray-300 font-bold text-lg">Venue: </h1>
                                 <p className="capitalize">Phase Three ground floor lobby</p>
@@ -25,7 +25,7 @@ const Venue = () => {
                         <div className="text-left py-10">
                             <h1 className="text-2xl">Explore new ideas at astoundingly beautiful venues. Attend Tech Startup Conferences and meet new brilliant minds from all over the world.</h1>
                         </div>
-                        <div className="w-[200px]  h-[300px] lg:w-[400px] lg:h-[600px]  rounded-2xl bg-[url('./venue2.png')] bg-cover bg-center relative">
+                        <div className="w-[200px]  h-[300px] lg:w-[400px] lg:h-[600px]  rounded-2xl bg-[url('https://res.cloudinary.com/dlsaawg9j/image/upload/v1740032518/venue2_cyivtk.png')] bg-cover bg-center relative">
                             <div className="sm:absolute bottom-10 right-0 lg:-mr-30 bg-[#111]  text-white px-10 py-5 lg:w-[300px] h-auto lg:flex hidden text-xl flex-col rounded-xl gap-2">
                                 <h1 className="text-gray-300 font-bold text-lg">Venue: </h1>
                                 <p className="capitalize">Seminar Hall Phase Three 4th floor</p>

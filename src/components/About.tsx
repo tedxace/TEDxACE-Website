@@ -1,10 +1,10 @@
 import { Link } from "react-router"
 import { Facebook, Twitter, Instagram } from "lucide-react"
-import Footer from "./Footer"
 
 export default function About() {
   return (
     <div className="min-h-screen bg-black text-white">
+      {/* Lets goo */}
       {/* Header */}
   
       {/* Main Content */}

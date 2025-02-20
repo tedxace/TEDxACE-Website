@@ -32,7 +32,7 @@ function App() {
   animateBy="words"
   direction="top"
   onAnimationComplete={handleAnimationComplete}
-  className="text-4xl mb-8 font-bold tracking-tighter"
+  className="text-2xl md:text-4xl mb-8 font-bold tracking-tighter"
 />
       </div>
     )

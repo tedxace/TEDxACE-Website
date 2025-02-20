@@ -1,12 +1,11 @@
-import React from 'react'
 import { Link } from 'react-router'
 
 const Footer = () => {
   return (
-    <footer className="bg-black  text-white border-t border-gray-800">
+    <footer className="bg-black  text-white border-t mx-auto border-gray-800">
     <div className="container mx-auto px-4 py-12">
-      <div className="grid md:grid-cols-2 gap-8">
-        <div className="grid grid-cols-2 gap-8">
+      <div className="flex justify-around md:flex-row flex-col">
+        <div className="flex md:w-1/2 justify-around md:justify-between items-center ">
           <Link to="/" className="flex items-center space-x-1">
             <span className="text-red-600 font-bold text-2xl">TED</span>
             <span className="text-xl">x</span>
@@ -25,10 +24,10 @@ const Footer = () => {
             </Link> */}
           </nav>
         </div>
-        <div className="space-y-4">
-          <h3 className="font-semibold">GET LATEST UPDATE ON TEDxACE</h3>
+        <div className="space-y-4 w-[80%] mt-12 md:mt-0 mx-auto md:mx-0 md:w-auto">
+          <h3 className="font-semibold w-[100%]">GET LATEST UPDATE ON TEDxACE</h3>
           <div className="flex space-x-2 md:flex-row flex-col gap-4">
-            <input type="email" placeholder="ENTER YOUR EMAIL" className="bg-transparent border-gray-700 p-3" />
+            <input type="email" placeholder="ENTER YOUR EMAIL" className="bg-transparent border border-gray-700 p-3" />
             <button className="bg-purple-600 hover:bg-purple-700 p-4 rounded">SUBSCRIBE</button>
           </div>
         </div>

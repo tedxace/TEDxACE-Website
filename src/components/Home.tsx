@@ -1,6 +1,6 @@
-"use client"
+// @ts-nocheck
 
-import { useEffect, useRef, useState } from 'react'
+import { useEffect, useRef } from 'react'
 // import { Button } from "@/components/ui/button"
 import LandingPage from './LandingPage'
 import Speakers from './Speakers'
@@ -11,7 +11,6 @@ import Sponsors from './Sponsors'
 
 
 const Home = () => {
-  const [loading,setLoading] = useState(true);
   const lenisRef = useRef<Lenis>(null);
   useEffect(() => {
     const lenis = new Lenis({
