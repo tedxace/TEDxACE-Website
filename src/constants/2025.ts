@@ -25,7 +25,7 @@ export const speakers2024 = [
     name: "Mr. Tarannum Sheikh",
     position: "Dubai based entrepreneur ",
     image:
-      "https://res.cloudinary.com/djyqufw6g/image/upload/v1710063343/powertrainfinal_yv9bf8.png",
+      "https://res.cloudinary.com/dlsaawg9j/image/upload/v1740026164/Tarannum_Sheikh_bpfkf1.jpg",
     text: [
       `Dubai based entrepreneur | Founder: Active Kids I Author | Communication & Soft Skills Trainer | Podcast Host: GEN Z | Toastmaster`,
     ],
@@ -35,7 +35,7 @@ export const speakers2024 = [
     name: "Dr. Mansi Choudhary",
     position: "Renowned Nutritionist",
     image:
-      "https://res.cloudinary.com/djyqufw6g/image/upload/v1710168808/sbfinal_jkexcu.png",
+      "https://res.cloudinary.com/dlsaawg9j/image/upload/v1740026165/Mansi_Chaudhary_svoecr.jpg",
     text: [
       "Renowned Nutritionist I Certified Diabetes Educator I 2 X Tedx Speaker I Holistic Cancer Coach I Corporate Menu Planner & Nutrition consultant I Wellness Columnist"
     ],
@@ -50,7 +50,7 @@ export const speakers2024 = [
     name: "Ms. Deepti Agarwal",
     position: "Worked at UN Women Singapore ",
     image:
-      "https://res.cloudinary.com/djyqufw6g/image/upload/v1710269041/Kanikafinal_juuljd.png", // Placeholder image, update if needed
+      "https://res.cloudinary.com/dlsaawg9j/image/upload/v1740026166/Deepti_Agarwal_oyz4sf.png", // Placeholder image, update if needed
     text: [
       "Worked at UN Women Singapore | Orchestrator of Deals in Dunzo and Google | Director, Indian Market Advisory | Consultant || Harvard & Wharton (FinTech), FMS (MBA Finance), SRCC (Economics)"
     ],
@@ -65,7 +65,22 @@ export const speakers2024 = [
     name: "Mr. Pravin Tulpule",
     position: "Ex Navy Officer turned Medical Clown",
     image:
-      "https://res.cloudinary.com/djyqufw6g/image/upload/v1710170651/mmafinal_pexedv.png", // Placeholder image, update if needed
+      "https://res.cloudinary.com/dlsaawg9j/image/upload/v1740026164/Pravin_Tulpule_cvpf0j.jpg", // Placeholder image, update if needed
+    text: [
+      "Ex Navy Officer turned Medical Clown, Naval Veteran, Storyteller, Medical Clown, Santa Claus, Keynote speaker, Magician, Giver of joy to patients and the elderly"
+    ],
+    list: [
+      "Naval Veteran",
+      "Medical Clown",
+      "Keynote Speaker",
+      "Magician",
+    ],
+  },
+  {
+    name: "Myster Speaker !",
+    position: "Guess who ?",
+    image:
+      "https://imgs.search.brave.com/bamMwg33kkMsrDFzeURNsYWBvo-y6l_6LXxsmDuWPi0/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMubmludGVuZG9s/aWZlLmNvbS9kZGQy/NTJkMjJkZDBkL3Bv/a2Vtb24tc2Nhcmxl/dC1hbmQtdmlvbGV0/LWZ1bGwtbGlzdC1v/Zi1teXN0ZXJ5LWdp/ZnQtY29kZXMtMS45/MDB4LmpwZw", // Placeholder image, update if needed
     text: [
       "Ex Navy Officer turned Medical Clown, Naval Veteran, Storyteller, Medical Clown, Santa Claus, Keynote speaker, Magician, Giver of joy to patients and the elderly"
     ],
@@ -92,239 +107,254 @@ export const heads2024 = [
 
   {
     image:
-      "https://res.cloudinary.com/djyqufw6g/image/upload/v1709159105/Yash_Mahtkar_gtasuv.png",
+      "https://res.cloudinary.com/dlsaawg9j/image/upload/v1739948629/Aryan_Shetty_h0h5vh.png",
     name: "Aryan S.",
     position: "Licensee",
-    social: [faLinkedin, "https://in.linkedin.com/in/yash-mathkar-b91441237"],
+    social: [faInstagram, "https://www.instagram.com/shettyaryan01?igsh=MTE2bXZobTQ5ajZucA=="],
   },
   {
     image:
-      "https://res.cloudinary.com/tedxace/image/upload/v1675337277/2023/Om_Bhamare_wzvifg.jpg",
+      "https://res.cloudinary.com/djyqufw6g/image/upload/v1709058354/Ashvin_dige_qwvh8z.jpg",
     name: "Ashvin D.",
     position: "Co-Organizer",
-    social: [faLinkedin, "https://in.linkedin.com/in/om-bhamare-1042251b6"],
+    social: [faInstagram, "Designsbyashvin.framer.website"],
   },
 ];
 
 export const curator2024 = [
   {
     image:
-      "https://res.cloudinary.com/tedxace/image/upload/v1675337279/2023/Aarnav_Sangekar_qsrf8b.jpg",
+      "https://res.cloudinary.com/dlsaawg9j/image/upload/t_Profile/v1739991709/Shamit_Shetty_dh5hzu.png",
     name: "Shamit S.",
     position: "Lead",
-    social: [faLinkedin, "https://in.linkedin.com/in/aarnav-sangekar"],
+    social: [faInstagram,"https://www.instagram.com/xshamit12x?igsh=MXpjbmNvYTk4cWtm"],
   },
   {
     image:
-      "https://res.cloudinary.com/tedxace/image/upload/v1675337279/2023/Aarnav_Sangekar_qsrf8b.jpg",
+      "https://res.cloudinary.com/dlsaawg9j/image/upload/t_Profile/v1739948622/Sannidhi_Shetty_ngotxl.jpg",
     name: "Sannidhi S.",
     position: "Curator",
-    social: [faLinkedin, "https://in.linkedin.com/in/aarnav-sangekar"],
+    social: [faInstagram, "https://www.instagram.com/sannidhi_shetty_xo?igsh=MXY4aXI0YndmNHpsbw=="],
   },
   {
     image:
-      "https://res.cloudinary.com/djyqufw6g/image/upload/v1709234816/Shamit_Shetty_dwpy4a.jpg",
+      "https://res.cloudinary.com/dlsaawg9j/image/upload/t_Profile/v1739948621/Sayali_Hedau_twceiu.jpg",
     name: "Sayali H.",
     position: "Curator",
-    social: [faLinkedin, "https://www.linkedin.com/in/shamit-shetty/"],
+    social: [faInstagram, "https://www.instagram.com/_sayalihedau?igsh=MWczaGFocnM2dTFtdQ=="],
   },
   {
     image:
-      "https://res.cloudinary.com/djyqufw6g/image/upload/v1709235036/Aayushi_Tandale_nr3ama.jpg",
+      "https://res.cloudinary.com/dlsaawg9j/image/upload/t_Profile/v1739948620/Saloni_Sorap_uwf82g.jpg",
     name: "Saloni S.",
     position: "Curator",
-    social: [faInstagram, "https://www.instagram.com/iyyushe/"],
+    social: [faInstagram, "https://www.instagram.com/sorapsaloni?utm_source=qr&igsh=MWp1ZGN6czNvcDE3Mw=="],
   },
   {
     image:
-      "https://res.cloudinary.com/tedxace/image/upload/v1675337280/2023/Nishit_Prabhu__msumbo.jpg",
+      "https://res.cloudinary.com/dlsaawg9j/image/upload/t_Profile/v1739980898/Manali_panchal_opqa29_a_90_tuzg2x.jpg",
     name: "Manali P.",
     position: "Curator",
-    social: [faLinkedin, "https://www.linkedin.com/in/nishit-prabhu/"],
+    social: [faInstagram, "https://www.instagram.com/_manaliiiii_0110?igsh=eDN6YTB5Mmp2ODh3"],
   },
   {
     image:
-      "https://res.cloudinary.com/tedxace/image/upload/v1675337278/2023/Soham_Rane_vr7fmc.jpg",
+      "https://res.cloudinary.com/dlsaawg9j/image/upload/t_Profile/v1739948621/Vidhi_Raut_raplc0.jpg",
     name: "Vidhi R.",
     position: "Curator",
-    social: [faLinkedin, "https://in.linkedin.com/in/soham-rane-150109135"],
+    social: [faInstagram, "https://www.instagram.com/vidhiraut_10?igsh=MTE4dXR5M2JhczUyMw=="],
   },
   {
     image:
-      "https://res.cloudinary.com/tedxace/image/upload/v1675337278/2023/Shivam_ylypox.jpg",
+      "https://res.cloudinary.com/dlsaawg9j/image/upload/t_Profile/v1739992901/dummy-profile-pic-300x300_cl36tx.webp",
     name: "Krishna K.",
     position: "Curator",
     social: [
-      faLinkedin,
-      "https://www.linkedin.com/in/shivam-whatkar-699b46199",
-    ],
+      faInstagram, "https://www.instagram.com/krishna_karale.10?igsh=eGtpOWU0N3dkdnY3"],
   },
   {
     image:
-      "https://res.cloudinary.com/tedxace/image/upload/v1675337278/2023/Shivam_ylypox.jpg",
+      "https://res.cloudinary.com/dlsaawg9j/image/upload/t_Profile/v1739948629/IMG-20240810-WA0004_oexyww.jpg",
     name: "Maansi R.",
     position: "Curator",
-    social: [
-      faLinkedin,
-      "https://www.linkedin.com/in/shivam-whatkar-699b46199",
-    ],
+    social: [ faInstagram, "https://www.instagram.com/seizmoment?igsh=YTBlb3ppcmF2dGpm"],
   },
 ];
 
 export const market2024 = [
   {
     image:
-      "https://res.cloudinary.com/djyqufw6g/image/upload/v1709237574/Screenshot_20240229_211616_LinkedIn_bn7wnt.jpg",
+      "https://res.cloudinary.com/dlsaawg9j/image/upload/t_Profile/v1739991709/Shamit_Shetty_dh5hzu.png",
     name: "Shamit S.",
     position: "Lead",
-    social: [faInstagram, "https://www.instagram.com/fariha.shk/"],
+    social: [faInstagram, "https://www.instagram.com/xshamit12x?igsh=MXpjbmNvYTk4cWtm"],
   },
   {
     image:
-      "https://res.cloudinary.com/djyqufw6g/image/upload/v1709237574/Screenshot_20240229_211616_LinkedIn_bn7wnt.jpg",
+      "https://res.cloudinary.com/dlsaawg9j/image/upload/v1739948629/Aryan_Shetty_h0h5vh.png",
     name: "Aryan S.",
     position: "Lead",
-    social: [faInstagram, "https://www.instagram.com/fariha.shk/"],
+    social: [faInstagram, "https://www.instagram.com/shettyaryan01?igsh=MTE2bXZobTQ5ajZucA=="],
   },
   {
     image:
-      "https://res.cloudinary.com/djyqufw6g/image/upload/v1709237574/Screenshot_20240229_211616_LinkedIn_bn7wnt.jpg",
+      "https://res.cloudinary.com/dlsaawg9j/image/upload/t_Profile/v1739948622/Sannidhi_Shetty_ngotxl.jpg",
     name: "Sannidhi S.",
     position: "Marketing",
-    social: [faInstagram, "https://www.instagram.com/fariha.shk/"],
+    social: [faInstagram, "https://www.instagram.com/sannidhi_shetty_xo?igsh=MXY4aXI0YndmNHpsbw=="],
   },
   {
     image:
-      "https://res.cloudinary.com/djyqufw6g/image/upload/v1709234816/Shamit_Shetty_dwpy4a.jpg",
+      "https://res.cloudinary.com/dlsaawg9j/image/upload/t_Profile/v1739948620/Saloni_Sorap_uwf82g.jpg",
     name: "Saloni S.",
     position: "Marketing",
-    social: [faLinkedin, "https://www.linkedin.com/in/shamit-shetty/"],
+    social: [faInstagram, "https://www.instagram.com/sorapsaloni?utm_source=qr&igsh=MWp1ZGN6czNvcDE3Mw=="],
   },
   {
     image:
-      "https://res.cloudinary.com/djyqufw6g/image/upload/v1709237790/Prerna_dq0e7p.jpg",
+      "https://res.cloudinary.com/dlsaawg9j/image/upload/t_Profile/v1739980898/Manali_panchal_opqa29_a_90_tuzg2x.jpg",
     name: "Manali P.",
     position: "Marketing",
-    social: [faInstagram, "https://www.instagram.com/prerna_jadhav33/"],
+    social: [faInstagram, "https://www.instagram.com/_manaliiiii_0110?igsh=eDN6YTB5Mmp2ODh3"],
   },
   {
     image:
-      "https://res.cloudinary.com/djyqufw6g/image/upload/v1709235036/Aayushi_Tandale_nr3ama.jpg",
+      "https://res.cloudinary.com/dlsaawg9j/image/upload/t_Profile/v1739948626/Shivam_Wadkar_ur7tal.jpg",
     name: "Shivam W.",
     position: "Marketing",
-    social: [faInstagram, "https://www.instagram.com/iyyushe/"],
+    social: [faInstagram, "https://www.instagram.com/.shivam.wadkar.?igsh=bjBnaTNhZGxicTYy"],
   },
   {
     image:
-      "https://res.cloudinary.com/djyqufw6g/image/upload/v1709238077/Soham_Pujari_vpgu2o.jpg",
+      "https://res.cloudinary.com/dlsaawg9j/image/upload/t_Profile/v1739992890/Saachi_Koli_chi6co.jpg",
     name: "Saachi K.",
     position: "Marketing",
-    social: [faInstagram, "https://www.instagram.com/soham21__/"],
+    social: [faInstagram, "https://www.instagram.com/saachikoli?igsh=MXc3Z3JrbmxobTFjMw=="],
   },
   {
     image:
-      "https://res.cloudinary.com/djyqufw6g/image/upload/v1709238235/Aryan_Shetty_ledtqm.jpg",
+      "https://res.cloudinary.com/dlsaawg9j/image/upload/t_Profile/v1739948627/Abhiruchi_Kunte_uuoowl.jpg",
     name: "Abhiruchi K.",
     position: "Marketing",
-    social: [faInstagram, "https://www.instagram.com/shettyaryan01/"],
+    social: [faInstagram, "https://www.instagram.com/.abhiruchiii?igsh=MTYzZ2dwY3E4ZmxpOA=="],
   },
   {
     image:
-      "https://res.cloudinary.com/djyqufw6g/image/upload/v1709238235/Aryan_Shetty_ledtqm.jpg",
+      "https://res.cloudinary.com/dlsaawg9j/image/upload/t_Profile/v1739948628/Aditya_Garkal_widucz.jpg",
     name: "Aditya G.",
     position: "Marketing",
-    social: [faInstagram, "https://www.instagram.com/shettyaryan01/"],
+    social: [faInstagram, "https://www.instagram.com/aditya_garkal?igsh=MWJpMnhlb3lvdXVzeg=="],
+  },
+  {
+    image:
+      "https://res.cloudinary.com/dlsaawg9j/image/upload/t_Profile/v1739948624/Nishank_Jain_rwrfvd.jpg",
+    name: "Nishank J.",
+    position: "Marketing",
+    social: [faInstagram, "https://www.instagram.com/nishank_jain_204?igsh=NXRyMDNoNHV2YTA="],
+  },
+  {
+    image:
+      "https://res.cloudinary.com/dlsaawg9j/image/upload/t_Profile/v1739948627/Vedant_Reddy_ecejwz.jpg",
+    name: "Vedant R.",
+    position: "Marketing",
+    social: [faInstagram, "https://www.instagram.com/vedant17644?igsh=MWVqcmJ5YzNud3hvZA=="],
   },
 ];
 
 export const decor2024 = [
   {
     image:
-      "https://res.cloudinary.com/djyqufw6g/image/upload/v1709237574/Screenshot_20240229_211616_LinkedIn_bn7wnt.jpg",
+      "https://res.cloudinary.com/dlsaawg9j/image/upload/t_Profile/v1739948624/Prerna_ecrxa5.jpg",
     name: "Prerna J.",
     position: "Lead",
-    social: [faInstagram, "https://www.instagram.com/fariha.shk/"],
+    social: [faInstagram, "https://www.instagram.com/prerna_jadhav33?igsh=ZXNyamdwcWdmMnlz"],
   },
   {
     image:
-      "https://res.cloudinary.com/djyqufw6g/image/upload/v1709237574/Screenshot_20240229_211616_LinkedIn_bn7wnt.jpg",
-    name: "Shourya M.",
+      "https://res.cloudinary.com/dlsaawg9j/image/upload/t_Profile/v1739948634/Shourya_V_um70mc.png",
+    name: "Shourya M.", 
     position: "Lead",
-    social: [faInstagram, "https://www.instagram.com/fariha.shk/"],
+    social: [faInstagram, "https://www.instagram.com/_spicy_shorma_?igsh=MTh4ODcweDJrODFn"],
   },
   {
     image:
-      "https://res.cloudinary.com/djyqufw6g/image/upload/v1709239002/Manasi_powar_wxd0wl_cmygot.jpg",
+      "https://res.cloudinary.com/dlsaawg9j/image/upload/t_Profile/v1739948635/Tushar_Dhanavade_zzq587.jpg",
     name: "Tushar D.",
     position: "Decor",
-    social: [faInstagram, "https://instagram.com/manasiiiiii"],
+    social: [faInstagram, "https://www.instagram.com/tushaar.08?igsh=MXE0ZjE4NGZ1eWljcQ==_"],
   },
   {
     image:
-      "https://res.cloudinary.com/djyqufw6g/image/upload/v1709058354/Ashvin_dige_qwvh8z.jpg",
+      "https://res.cloudinary.com/dlsaawg9j/image/upload/t_Profile/v1739948633/Sanika_Utekar_gad4kh.png",
     name: "Sanika U.",
     position: "Decor",
-    social: [faLinkedin, "https://www.linkedin.com/in/ashvin-dige-b00700251/"],
+    social: [faInstagram, "https://www.instagram.com/sanika_2484?igsh=MXJlZ3B6ZmRjcGN3bQ=="],
   },
   {
     image:
-      "https://res.cloudinary.com/djyqufw6g/image/upload/v1709239208/Jaydeep_ysdisl.jpg",
+      "https://res.cloudinary.com/dlsaawg9j/image/upload/t_Profile/v1739948633/Suraj_Krishna_Bhimra_kdhut3.png",
     name: "Suraj B.",
     position: "Decor",
-    social: [faInstagram, "https://www.instagram.com/jd_06_2004/"],
+    social: [faInstagram, "https://www.instagram.com/s_k_bhimra?igsh=MXE2MTR0czQwZmZqMQ=="],
   },
 ];
 
 export const tech2024 = [
   {
     image:
-      "https://res.cloudinary.com/tedxace/image/upload/v1675337277/2023/Jamil_Shaikh_xvaomb.png",
+      "https://res.cloudinary.com/dlsaawg9j/image/upload/t_Profile/v1739948618/Shivam-Narkar_xcssqs.jpg",
     name: "Shivam N.",
     position: "Lead",
-    social: [faLinkedin, "https://in.linkedin.com/in/shaikhjamil"],
+    social: [faInstagram, "https://www.instagram.com/shivam_narkar_47_?igsh=aWhsYjNoemU1bmps&utm_source=qr"],
   },
   {
     image:
-      "https://res.cloudinary.com/tedxace/image/upload/v1675337277/2023/Jamil_Shaikh_xvaomb.png",
+      "https://res.cloudinary.com/dlsaawg9j/image/upload/t_Profile/v1739948619/Om_Kulkarni_rs3v4b.jpg",
     name: "Om K.",
     position: "Lead",
-    social: [faLinkedin, "https://in.linkedin.com/in/shaikhjamil"],
+    social: [faInstagram, "https://www.instagram.com/omkulkarniii?igsh=d3V0aGwydzd2Nm5n"],
   },
   {
     image:
-      "https://res.cloudinary.com/tedxace/image/upload/v1675337277/2023/Jamil_Shaikh_xvaomb.png",
+      "https://res.cloudinary.com/dlsaawg9j/image/upload/t_Profile/v1739948618/Sahil_Vichare_inhlhx.jpg",
     name: "Sahil V.",
     position: "Web Developer",
-    social: [faLinkedin, "https://in.linkedin.com/in/shaikhjamil"],
+    social: [faInstagram, "https://www.instagram.com/sahillllll.05?igsh=MWh4eXZreHo4Y3Ezcw=="],
   },
   {
     image:
-      "https://res.cloudinary.com/djyqufw6g/image/upload/v1709162995/Yash_Surve_nlcd0m.jpg",
+      "https://res.cloudinary.com/dlsaawg9j/image/upload/t_Profile/v1739948617/Yash_Surve_tfv0hx.png",
     name: "Yash S.",
     position: "Web Developer",
-    social: [faLinkedin, "http://www.linkedin.com/in/yash-surve-244414255"],
+    social: [faInstagram, "https://www.instagram.com/yash.ioi.7?igsh=ZmJnNmIwcWc5b2cy"],
   },
   {
     image:
-      "https://res.cloudinary.com/djyqufw6g/image/upload/v1709240902/Suhani_Bhansali_e3h5ux.jpg",
+      "https://res.cloudinary.com/dlsaawg9j/image/upload/t_Profile/v1739992901/dummy-profile-pic-300x300_cl36tx.webp",
+    name: "Hetal J.",
+    position: "Web Developer",
+    social: 
+     [faInstagram,"https://www.instagram.com/hetal_jain_1405?igsh=MXNxbnA0Z3BycjB1dw==" ],
+  },
+  {
+    image:
+      "https://res.cloudinary.com/dlsaawg9j/image/upload/t_Profile/v1739948616/Sujal_Lamkhade_dnho8x.jpg",
     name: "Sujal L.",
     position: "Web Developer",
-    social: [
-      faLinkedin,
-      "https://www.linkedin.com/in/suhani-bhansali-15902b256",
-    ],
+    social: 
+     [faInstagram,"https://www.instagram.com/sujalamkhade/" ],
   },
 ];
 
 export const designer2024 = [
   {
     image:
-      "https://res.cloudinary.com/djyqufw6g/image/upload/v1709236091/Dheeraj_Rapelli_xz8cnm.jpg",
+      "https://res.cloudinary.com/dlsaawg9j/image/upload/t_Profile/v1739994632/Dhruv-998c6415211a_qvrktp.jpg",
     name: "Dhruv B.",
     position: "Lead",
     social: [
-      faLinkedin,
-      "https://www.linkedin.com/in/dheeraj-rapelli-b9a9b3218/",
+      faInstagram,
+      "https://www.instagram.com/bhatadadhruv/"
     ],
   },
   {
@@ -333,35 +363,52 @@ export const designer2024 = [
     name: "Dheeraj R.",
     position: "Lead",
     social: [
-      faLinkedin,
-      "https://www.linkedin.com/in/dheeraj-rapelli-b9a9b3218/",
+      faInstagram,
+      "hhttps://res.cloudinary.com/djyqufw6g/image/upload/v1709236091/Dheeraj_Rapelli_xz8cnm.jpg",
     ],
   },
   {
     image:
-      "https://res.cloudinary.com/djyqufw6g/image/upload/v1709236091/Dheeraj_Rapelli_xz8cnm.jpg",
+      "https://res.cloudinary.com/dlsaawg9j/image/upload/t_Profile/v1739948631/Gauri_p5turq.png",
     name: "Gauri P.",
     position: "Designer",
-    social: [
-      faLinkedin,
-      "https://www.linkedin.com/in/dheeraj-rapelli-b9a9b3218/",
-    ],
+    social: [faInstagram,"https://www.instagram.com/gauriporwall?igsh=MWkzcng1eTBhOTVtbA=="],
   },
   {
     image:
-      "https://res.cloudinary.com/djyqufw6g/image/upload/v1709058354/Ashvin_dige_qwvh8z.jpg",
-    name: " Parnashree G.",
+      "https://res.cloudinary.com/dlsaawg9j/image/upload/t_Profile/v1739948633/Parnashree_Gurav_a2uuc7.jpg",
+    name: "Parnashree G.",
     position: "Designer",
-    social: [faLinkedin, "https://www.linkedin.com/in/ashvin-dige-b00700251/"],
+    social: [faInstagram, "https://www.instagram.com/parnashree_24?igsh=cjJ1NnVzcGdvM2lh&utm_source=qr"],
   },
   {
     image:
-      "https://res.cloudinary.com/djyqufw6g/image/upload/v1708594734/kundan_kumavat_cxvop2.jpg",
+      "https://res.cloudinary.com/dlsaawg9j/image/upload/t_Profile/v1739948629/Samiya_dgrq7g.jpg",
     name: "Samiya K.",
     position: "Designer",
     social: [
-      faLinkedin,
-      "https://www.linkedin.com/in/kundan-kumavat-547b83206/",
+      faInstagram,
+      "https://www.instagram.com/saaamiiieee._?igsh=aTY0eTVwdHp2ams0&utm_source=qr",
+    ],
+  },
+  {
+    image:
+      "https://res.cloudinary.com/dlsaawg9j/image/upload/t_Profile/v1739992901/dummy-profile-pic-300x300_cl36tx.webp",
+    name: "Urvashi Y.",
+    position: "Designer",
+    social: [
+      faInstagram,
+      "https://www.instagram.com/celeste_skyy_?igsh=MjQwcGt6OHZhY29l",
+    ],
+  },
+  {
+    image:
+      "https://res.cloudinary.com/dlsaawg9j/image/upload/t_Profile/v1739992901/dummy-profile-pic-300x300_cl36tx.webp",
+    name: "Saksham Y.",
+    position: "Designer",
+    social: [
+      faInstagram,
+      "https://www.instagram.com/saksham_s210204?igsh=eXh4dDBlM3NudDcz",
     ],
   },
  ];
@@ -369,50 +416,78 @@ export const designer2024 = [
 export const social2024 = [
   {
     image:
-      "https://res.cloudinary.com/tedxace/image/upload/v1675337280/2023/Aarya_Jadhav_hncdks.jpg",
+      "https://res.cloudinary.com/dlsaawg9j/image/upload/t_Profile/v1739948617/Ayush_ge3oqe.jpg",
     name: "Ayush S.",
     position: "Lead",
-    social: [faInstagram, "https://instagram.com/_aarya.28"],
-  },
-  {
-    image:
-      "https://res.cloudinary.com/tedxace/image/upload/v1675337280/2023/Aarya_Jadhav_hncdks.jpg",
-    name: "Sneha S.",
-    position: "Lead",
-    social: [faInstagram, "https://instagram.com/_aarya.28"],
+    social: [faInstagram, "https://www.instagram.com/whyayussh?igsh=MW80a2VmcXg0ZjI4ZA=="],
   },
   {
     image:
       "https://res.cloudinary.com/djyqufw6g/image/upload/v1709236751/Sneha_sawant_zlvyu2.jpg",
+    name: "Sneha S.",
+    position: "Lead",
+    social: [faInstagram, "https://www.instagram.com/sneha_1975_?igsh=bjB0cWh0MWswOWx5"],
+  },
+  {
+    image:
+      "https://res.cloudinary.com/dlsaawg9j/image/upload/t_Profile/v1739948621/Sayali_Hedau_twceiu.jpg",
     name: "Sayli H.",
     position: "Social Media",
-    social: [faLinkedin, "https://in.linkedin.com/in/sneha-sawant-a1572b262"],
+    social: [faInstagram, "https://www.instagram.com/_sayalihedau?igsh=MWczaGFocnM2dTFtdQ=="],
   },
 ];
 
 export const video2024 = [
   {
     image:
-      "https://res.cloudinary.com/tedxace/image/upload/v1675337280/2023/Aarya_Jadhav_hncdks.jpg",
+      "https://res.cloudinary.com/dlsaawg9j/image/upload/t_Profile/v1739948617/Ayush_ge3oqe.jpg",
     name: "Ayush S.",
     position: "Lead",
-    social: [faInstagram, "https://instagram.com/_aarya.28"],
-  },
-  {
-    image:
-      "https://res.cloudinary.com/tedxace/image/upload/v1675337280/2023/Aarya_Jadhav_hncdks.jpg",
-    name: "Sneha S.",
-    position: "Lead",
-    social: [faInstagram, "https://instagram.com/_aarya.28"],
+    social: [faInstagram, "https://www.instagram.com/whyayussh?igsh=MW80a2VmcXg0ZjI4ZA=="],
   },
   {
     image:
       "https://res.cloudinary.com/djyqufw6g/image/upload/v1709236751/Sneha_sawant_zlvyu2.jpg",
+    name: "Sneha S.",
+    position: "Lead",
+    social: [faInstagram, "https://www.instagram.com/sneha_1975_?igsh=bjB0cWh0MWswOWx5"],
+  },
+  {
+    image:
+      "https://res.cloudinary.com/dlsaawg9j/image/upload/t_Profile/v1739948621/Sayali_Hedau_twceiu.jpg",
     name: "Sayli H.",
     position: "Video Production",
-    social: [faLinkedin, "https://in.linkedin.com/in/sneha-sawant-a1572b262"],
+    social: [faInstagram,"https://www.instagram.com/_sayalihedau?igsh=MWczaGFocnM2dTFtdQ=="],
   },
-];
+  {
+    image:
+      "https://res.cloudinary.com/dlsaawg9j/image/upload/t_Profile/v1739992901/dummy-profile-pic-300x300_cl36tx.webp",
+    name: "Atharva S.",
+    position: "Video Production",
+    social: [faInstagram,"https://www.instagram.com/attu__15?igsh=M2U0ZmQ5MnRiaTNy"],
+  },
+  {
+    image:
+      "https://res.cloudinary.com/dlsaawg9j/image/upload/t_Profile/v1739994632/Dhruv-998c6415211a_qvrktp.jpg",
+    name: "Dakshal P.",
+    position: "Video Production",
+    social: [faInstagram,"https://www.instagram.com/dakshal_14_56?igsh=MXJ0ejlna2ozMHl0dA=="],
+  },
+  {
+    image:
+      "https://res.cloudinary.com/dlsaawg9j/image/upload/t_Profile/v1739992901/dummy-profile-pic-300x300_cl36tx.webp",
+    name: "Suyog Pawar.",
+    position: "Video Production",
+    social: [faInstagram,"https://www.instagram.com/suyogg.pawar?igsh=M2czazhlM3Rva2tk"],
+  },
+  {
+    image:
+      "https://res.cloudinary.com/dlsaawg9j/image/upload/t_Profile/v1739992901/dummy-profile-pic-300x300_cl36tx.webp",
+    name: "Namarata S.",
+    position: "Video Production",
+    social: [faInstagram,"https://www.instagram.com/namrata_shirsath__?igsh=MXVhbzI5NDUzdWRleA=="],
+  },
+  ];
 
 export const team2024 = [
   { name: "tech", members: [...tech2024] },

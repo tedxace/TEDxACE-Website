@@ -6,13 +6,13 @@ const SpeakerCard = ({ image, name, position, text }: { image: any, name: any, p
 
   return (
     <>
-      <section className="md:w-[337px] md:h-[504px] flex flex-col items-center justify-center " onClick={()=>setModal(!modal)}>
-        <div className="relative   w-[200px] h-[300px] md:w-[337px] md:h-[470.39px] rounded-[66px]  overflow-hidden shadow-md group">
+      <section className="md:w-[337px] relative md:h-[504px] flex flex-col items-center justify-center " onClick={()=>setModal(!modal)}>
+        <div className="relative   w-[200px] h-[300px] md:w-[337px] md:h-[470.39px] rounded-[66px] overflow-hidden shadow-md group">
           {/* Speaker Image */}
           <img
             src={image}
             alt={name}
-            className="w-full h-full object-cover bg-gray-400 group-hover:brightness-[0.05] transition-all duration-300"
+            className="w-full h-full object-cover bg-gray-400 group-hover:brightness-[0.05] transition-all duration-300 "
           />
 
           {/* Text Container */}
@@ -35,6 +35,7 @@ const SpeakerCard = ({ image, name, position, text }: { image: any, name: any, p
           </div>
         </div>
         {/* Menoheaven Image */}
+        {/* <div className="absolute top-0 left-0 w-full h-[140%]  bg-gradient-to-b from-black/40 via-black/98 to-black bg-opacity-50"></div> */}
         <img
           src={"./Menohaven.png"}
           alt="Menoheaven"
