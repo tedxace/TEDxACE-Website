@@ -6,7 +6,7 @@ const SpeakerCard = ({ image, name, position, text }: { image: any, name: any, p
 
   return (
     <>
-      <section className="md:w-[337px] relative md:h-[504px] flex flex-col items-center justify-center " onClick={()=>setModal(!modal)}>
+      <section className="md:w-[337px] hover:cursor-pointer relative md:h-[504px] flex flex-col items-center justify-center " onClick={()=>setModal(!modal)}>
         <div className="relative   w-[200px] h-[300px] md:w-[337px] md:h-[470.39px] rounded-[66px] overflow-hidden shadow-md group">
           {/* Speaker Image */}
           <img
@@ -44,16 +44,21 @@ const SpeakerCard = ({ image, name, position, text }: { image: any, name: any, p
 
       </section>
       {modal && (
-        <div className="fixed w-full h-full  flex items-center justify-center top-0 left-0 border bg-transparent backdrop-blur-3xl text-white z-40" onClick={()=>setModal(false)}>
-          <div className="bg-black m-4 md:h-[500px] md:w-[800px] border rounded-xl flex items-center justify-evenly md:flex-row flex-col z-50">
-            
-            <div className="bg-[#9F9F9F] h-[400px] w-[300px] rounded-2xl my-6 md:my-0">
-            <img  src={"./Menohaven.png"} className="relative top-[370px] left-[5pxpx] w-[310px]"></img>
+        <div className="hidden fixed w-[80%] h-[70%] md:w-full md:h-full  items-center justify-center my-auto top-[20%] md:top-0 md:left-0 border bg-transparent backdrop-blur-3xl text-white z-40" onClick={()=>setModal(false)}>
+          <div className="bg-black md:m-4 h-full w-[100%] md:h-[500px] md:w-[800px] border rounded-xl flex items-center justify-evenly md:flex-row flex-col z-50">
+            <div className="hidden md:block">
+              <div className="bg-[#9F9F9F] mx-4 h-[80%] md:h-[400px] md:w-[300px] rounded-2xl my-6 md:my-0">
+              <img  src={"./Menohaven.png"} className="md:relative md:top-[370px] md:left-[5px] w-[310px]"></img>
+            </div>  
             </div>
-            <div className="p-4 grid gap-14 align-text-top w-[400px] items-center ">
+            <div className="block md:hidden">
+              <img src={image} className="w-auto h-1/3 mx-auto" alt="" />  
+              <img src={"./Menohaven.png"} className=" w-[310px]"></img>
+            </div>
+            <div className="p-4 grid gap-14 align-text-top md:w-[400px] items-center ">
               <div>
-                <h1 className="text-4xl font-bold text-[#9C6EDD]">{name}</h1>
-                <h2 className="text-xl italic text-[18px] text-[#B890F0]">{position}</h2>
+                <h1 className="text-xl md:text-4xl font-bold text-[#9C6EDD]">{name}</h1>
+                <h2 className="text-md md:text-xl italic text-[18px] text-[#B890F0]">{position}</h2>
                 <p className="text-wrap text-base pt-4 text-[#808588]">{text[0]}</p>
               </div>
               <div className="flex justify-center ">

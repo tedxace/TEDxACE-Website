@@ -5,7 +5,7 @@ export default function LandingPage() {
         <main className="min-h-screen  text-white w-full overflow-hidden  bg-[url('./bg.jpeg')] bg-cover bg-center ">
 
             {/* Main Content */}
-            <div className="  w-[100%] h-full px-4 pt-20 pb-20 flex flex-col items-center h-[100%] justify-center  ">
+            <div className="  w-[100%] h-full px-4 pt-20 pb-20 flex flex-col items-center justify-center  ">
 
                 {/* TEDx subtitle */}
                 {/* <motion.div
