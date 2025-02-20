@@ -82,8 +82,7 @@ export const speakers2024 = [
     image:
       "https://imgs.search.brave.com/bamMwg33kkMsrDFzeURNsYWBvo-y6l_6LXxsmDuWPi0/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMubmludGVuZG9s/aWZlLmNvbS9kZGQy/NTJkMjJkZDBkL3Bv/a2Vtb24tc2Nhcmxl/dC1hbmQtdmlvbGV0/LWZ1bGwtbGlzdC1v/Zi1teXN0ZXJ5LWdp/ZnQtY29kZXMtMS45/MDB4LmpwZw", // Placeholder image, update if needed
     text: [
-      "Ex Navy Officer turned Medical Clown, Naval Veteran, Storyteller, Medical Clown, Santa Claus, Keynote speaker, Magician, Giver of joy to patients and the elderly"
-    ],
+"Released to soon"    ],
     list: [
       "Naval Veteran",
       "Medical Clown",

@@ -7,7 +7,7 @@ const SpeakerCard = ({ image, name, position, text }: { image: any, name: any, p
   return (
     <>
       <section className="md:w-[337px] hover:cursor-pointer relative md:h-[504px] flex flex-col items-center justify-center " onClick={()=>setModal(!modal)}>
-        <div className="relative   w-[200px] h-[300px] md:w-[337px] md:h-[470.39px] rounded-[66px] overflow-hidden shadow-md group">
+        <div className="relative   w-[300px] h-[300px] md:w-[337px] md:h-[470.39px] rounded-[30px] overflow-hidden shadow-md group">
           {/* Speaker Image */}
           <img
             src={image}
@@ -16,19 +16,19 @@ const SpeakerCard = ({ image, name, position, text }: { image: any, name: any, p
           />
 
           {/* Text Container */}
-          <div className="absolute bottom-0 left-0 w-full text-center text-white p-4 ">
+          <div className="absolute bottom-0 left-0 w-full text-center text-white p-4 bg-black/60  backdrop-blur-2xl">
             {/* Name */}
-            <p className="text-[27px] font-semibold group-hover:translate-y-[-50%] transition-transform duration-300 ">
+            <p className="md:text-[27px] font-semibold group-hover:translate-y-[-50%] transition-transform duration-300 ">
               {name}
             </p>
 
             {/* Role */}
-            <p className="text-[18px] text-gray-300 group-hover:translate-y-[-50%] transition-transform duration-300">
+            <p className="md:text-[18px] text-gray-300 group-hover:translate-y-[-50%] transition-transform duration-300">
               {position}
             </p>
 
             {/* Description (Visible on hover) */}
-            <div className="hidden group-hover:inline group-hover:opacity-100  transition-opacity duration-300">
+            <div className="hidden group-hover:inline group-focus:opacity-100 group-hover:opacity-100  transition-opacity duration-300">
               <p className="mt-4 text-sm text-gray-400">{text[0]}</p>
             </div>
 
