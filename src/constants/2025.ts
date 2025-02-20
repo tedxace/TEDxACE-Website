@@ -113,7 +113,7 @@ export const heads2024 = [
   },
   {
     image:
-      "https://res.cloudinary.com/djyqufw6g/image/upload/v1709058354/Ashvin_dige_qwvh8z.jpg",
+      "https://res.cloudinary.com/dlsaawg9j/image/upload/t_Profile/v1740076871/image_1_1_qzvelm.png",
     name: "Ashvin D.",
     position: "Co-Organizer",
     social: [faInstagram, "Designsbyashvin.framer.website"],
@@ -348,7 +348,7 @@ export const tech2024 = [
 export const designer2024 = [
   {
     image:
-      "https://res.cloudinary.com/dlsaawg9j/image/upload/t_Profile/v1739994632/Dhruv-998c6415211a_qvrktp.jpg",
+      "https://res.cloudinary.com/dlsaawg9j/image/upload/v1740075359/WhatsApp_Image_2025-02-19_at_9.42.07_PM_amycij.jpg",
     name: "Dhruv B.",
     position: "Lead",
     social: [

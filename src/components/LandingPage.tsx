@@ -42,7 +42,7 @@ export default function LandingPage() {
                     className="text-center mb-12 z-10"
                 >
                     <div className="flex flex-col md:flex-row items-center justify-center gap-4 text-xl">
-                        <h3 className="font-bold text-amber-500">13TH MAR, 2024</h3>
+                        <h3 className="font-bold text-amber-500">21st MARCH, 2024</h3>
                         <span className="hidden md:block text-gray-400">|</span>
                         <div className="flex items-center gap-2">
                             <span className="text-amber-500">@ATHARVACOE,</span>
@@ -59,9 +59,9 @@ export default function LandingPage() {
                     transition={{ duration: 0.5, delay: 0.6 }}
                     className="z-20"
                 >
-                    <button className="bg-purple-600 hover:bg-purple-700  text-white text-lg px-8 py-6 rounded-md border border-purple-400">
+                    <a href="https://forms.gle/rD8xDgdUmwZDeFen6" className="bg-purple-600 hover:bg-purple-700  text-white text-lg px-8 py-6 rounded-md border border-purple-400">
                         RESERVE A SEAT
-                    </button>
+                    </a>
                 </motion.div>
                 
                 
