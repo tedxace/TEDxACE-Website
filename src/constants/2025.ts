@@ -467,7 +467,7 @@ export const video2024 = [
   },
   {
     image:
-      "https://res.cloudinary.com/dlsaawg9j/image/upload/t_Profile/v1739994632/Dhruv-998c6415211a_qvrktp.jpg",
+      "https://res.cloudinary.com/dlsaawg9j/image/upload/t_Profile/v1739992901/dummy-profile-pic-300x300_cl36tx.webp",
     name: "Dakshal P.",
     position: "Video Production",
     social: [faInstagram,"https://www.instagram.com/dakshal_14_56?igsh=MXJ0ejlna2ozMHl0dA=="],
