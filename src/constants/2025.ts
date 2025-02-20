@@ -493,7 +493,7 @@ export const team2024 = [
   { name: "curator", members: [...curator2024] },
   { name: "designer", members: [...designer2024] },
   { name: "social", members: [...social2024] },
-  { name: "market", members: [...market2024] },
+  { name: "marketing", members: [...market2024] },
   { name: "decor", members: [...decor2024] },
   { name: "video", members: [...video2024] },
 ];
