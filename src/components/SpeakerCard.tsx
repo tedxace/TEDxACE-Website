@@ -18,7 +18,7 @@ const SpeakerCard = ({ image, name, position, text }: { image: any, name: any, p
           {/* Text Container */}
           <div className="absolute bottom-0 left-0 w-full text-center text-white p-4 bg-black/60  backdrop-blur-2xl">
             {/* Name */}
-            <p className="md:text-[27px] font-semibold group-hover:translate-y-[-50%] transition-transform duration-300 ">
+            <p className="text-xl md:text-[27px] font-semibold group-hover:translate-y-[-50%] transition-transform duration-300 ">
               {name}
             </p>
 
