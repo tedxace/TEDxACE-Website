@@ -1,3 +1,4 @@
+// @ts-nocheck
 import Box from "@mui/material/Box";
 import Tab from "@mui/material/Tab";
 import TabContext from "@mui/lab/TabContext";

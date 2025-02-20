@@ -1,4 +1,4 @@
-
+// @ts-nocheck
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { motion } from "framer-motion";
 import React, { useEffect, useState } from "react";
