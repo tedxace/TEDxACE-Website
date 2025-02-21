@@ -22,7 +22,7 @@ export const sponsors2024 = [
 
 export const speakers2024 = [
   {
-    name: "Mr. Tarannum Sheikh",
+    name: "Ms. Tarannum Sheikh",
     position: "Dubai based entrepreneur ",
     image:
       "https://res.cloudinary.com/dlsaawg9j/image/upload/v1740026164/Tarannum_Sheikh_bpfkf1.jpg",
