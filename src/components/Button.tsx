@@ -1,4 +1,3 @@
-import React from 'react'
 
 const Button = ({text,onClickfunc,className}:{text:string,onClickfunc?:()=>void,className?:any}) => {
     return (
