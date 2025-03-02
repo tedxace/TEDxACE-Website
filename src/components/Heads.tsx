@@ -34,8 +34,9 @@ const Heads = ({ speakers }) => {
           FACULTY , LICENSEE & CO-ORGANIZER
         </h2>
       </header>
+      <div>
       <div
-        className={`flex flex-col md:flex-row w-full  px-10  md:px-24 lg:px-32 justify-center gap-3 items-center py-10 `}
+        className={`flex flex-col md:flex-row w-full  px-10   justify-center  items-center py-10 `}
       >
         {speakers?.map((speaker) => {
           const { name, image, position, social } = speaker;
@@ -44,31 +45,23 @@ const Heads = ({ speakers }) => {
               whileHover={{ scale: 1.02 }}
               key={name}
               className={(
-                "group flex flex-col justify-center text-white items-center md:m-auto bg-cover my-5 md:px-10    w-[320px] h-[320px] lg:px-0 lg:w-[400px] lg:h-[400px] cursor-pointer opacity-80 hover:opacity-100"
+                "group flex flex-col justify-center text-white items-center bg-cover  md:px-10    w-[320px] h-[320px]  lg:w-[400px] lg:h-[400px] cursor-pointer opacity-80 hover:opacity-100"
               )}
               style={{
                 backgroundImage: `url(${("../../assets/whitescroll.png")})`,
                 backgroundRepeat: "no-repeat",
                 backgroundSize: "cover",
               }}
-              onClick={(event) => {
-                event.stopPropagation();
-                modalOpen ? close() : open();
-                setSpeakerDetails({ speaker });
-              }}
+              
             >
               <img
                 loading="lazy"
                 src={image}
                 alt={name}
                 className={
-                  "w-[120px] md:w-[140px] lg:w-[180px] lg:h-[180px] object-cover object-center ease-in-out rounded-full ml-10 mr-10 mt-6 ring-2 ring-tedx-heading ring-offset-4 ring-offset-tedx-heading rounded-full"                
+                  "w-[120px] h-[120px] sm:w-[140px] sm:h-[140px] lg:w-[160px] lg:h-[160px] object-cover object-center scale-110 ease-in-out rounded-full ml-10 mr-10 mt-6 ring-2 ring-tedx-heading ring-offset-4 ring-offset-tedx-heading "                
                 }
-                style={{
-                  backgroundImage: `url(${("../../assets/bggg.jpg")})`,
-                  backgroundRepeat: "no-repeat",
-                  backgroundSize: "cover",
-                }}
+              
               />
               <h3 className="transition-transform text-center text-white font-eczar my-3 text-md md:text-lg font-semibold duration-200 translate-y-2 group-hover:translate-y-0">
                 {name}
@@ -89,7 +82,7 @@ const Heads = ({ speakers }) => {
               ) : null}
               <h4
                 className={
-                  "visible md:invisible text-white font-eczar group-hover:visible text-xs sm:text-sm md:text-lg text-center w-[90%] md:w-80%"
+                  "visible  text-white font-eczar  text-xs sm:text-sm md:text-lg text-center w-[90%] md:w-80%"
                 }
               >
                 {position}
@@ -97,6 +90,7 @@ const Heads = ({ speakers }) => {
             </motion.section>
           );
         })}
+      </div>
       </div>
       {/* <footer>
         {isHeads ? null : (

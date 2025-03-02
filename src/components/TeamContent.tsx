@@ -34,17 +34,18 @@ const TeamContent = ({ team }:{team:any}) => {
               loading="lazy"
               src={image}
               alt={name}
-              className="md:h-[150px] md:w-[150px] lg:w-[160px] lg:h-[160px] h-[100px] w-[100px] ease-in-out rounded-full m-auto ring-2 ring-tedx-heading ring-offset-4 ring-offset-tedx-heading bg-white"
+              className="md:h-[150px] md:w-[150px] lg:w-[160px] lg:h-[160px] h-[100px] w-[100px] ease-in-out rounded-full m-auto ring-2 ring-tedx-heading ring-offset-4 ring-offset-tedx-heading bg-white object-cover object-top"
             />
-            <h3 className="transition-transform text-xs sm:text-sm md:text-base lg:text-md font-semibold duration-200 my-2 m-auto">
+            <h3 className="transition-transform text-sm pt-2 sm:text-sm md:text-base lg:text-md font-semibold duration-200 my-2 m-auto">
               {name}
             </h3>
             <motion.a
               href={social[1]}
-              className={` `}
+              className={`text-xs md:text-sm lg:text-md font-semibold text-violet-400 duration-200`}
               rel="noreferrer"
               target={"_blank"}
               whileHover={{ scale: 1.02 }}
+              
             >
              {position}
             </motion.a>

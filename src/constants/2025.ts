@@ -1,8 +1,8 @@
 import { faInstagram, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 // import { faGlobe } from "@fortawesome/free-solid-svg-icons";
 import RituMam from "/assets/RituMam.jpeg";
-// 2024 Event Data
-export const sponsors2024 = [
+// 2025 Event Data
+export const sponsors2025 = [
   {
     name: "Excel Overseas",
     link: "https://www.exceloverseas.net/",
@@ -20,7 +20,7 @@ export const sponsors2024 = [
   },
 ];
 
-export const speakers2024 = [
+export const speakers2025 = [
   {
     name: "Ms. Tarannum Sheikh",
     position: "Dubai based entrepreneur ",
@@ -77,7 +77,7 @@ export const speakers2024 = [
     ],
   },
   {
-    name: "Myster Speaker !",
+    name: "Mystery Speaker !",
     position: "Guess who ?",
     image:
       "https://imgs.search.brave.com/bamMwg33kkMsrDFzeURNsYWBvo-y6l_6LXxsmDuWPi0/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMubmludGVuZG9s/aWZlLmNvbS9kZGQy/NTJkMjJkZDBkL3Bv/a2Vtb24tc2Nhcmxl/dC1hbmQtdmlvbGV0/LWZ1bGwtbGlzdC1v/Zi1teXN0ZXJ5LWdp/ZnQtY29kZXMtMS45/MDB4LmpwZw", // Placeholder image, update if needed
@@ -93,7 +93,7 @@ export const speakers2024 = [
 ];
 
 
-export const heads2024 = [
+export const heads2025 = [
   {
     image: RituMam,
     name: "Ritu S.",
@@ -120,7 +120,7 @@ export const heads2024 = [
   },
 ];
 
-export const curator2024 = [
+export const curator2025 = [
   {
     image:
       "https://res.cloudinary.com/dlsaawg9j/image/upload/t_Profile/v1739991709/Shamit_Shetty_dh5hzu.png",
@@ -180,7 +180,7 @@ export const curator2024 = [
   },
 ];
 
-export const market2024 = [
+export const market2025 = [
   {
     image:
       "https://res.cloudinary.com/dlsaawg9j/image/upload/t_Profile/v1739991709/Shamit_Shetty_dh5hzu.png",
@@ -260,7 +260,7 @@ export const market2024 = [
   },
 ];
 
-export const decor2024 = [
+export const decor2025 = [
   {
     image:
       "https://res.cloudinary.com/dlsaawg9j/image/upload/t_Profile/v1739948624/Prerna_ecrxa5.jpg",
@@ -270,7 +270,7 @@ export const decor2024 = [
   },
   {
     image:
-      "https://res.cloudinary.com/dlsaawg9j/image/upload/t_Profile/v1739948634/Shourya_V_um70mc.png",
+      "https://res.cloudinary.com/dlsaawg9j/image/upload/t_Profile/v1740919615/WhatsApp_Image_2025-03-02_at_6.14.44_PM_tdnnzn.jpg",
     name: "Shourya M.", 
     position: "Lead",
     social: [faInstagram, "https://www.instagram.com/_spicy_shorma_?igsh=MTh4ODcweDJrODFn"],
@@ -298,7 +298,7 @@ export const decor2024 = [
   },
 ];
 
-export const tech2024 = [
+export const tech2025 = [
   {
     image:
       "https://res.cloudinary.com/dlsaawg9j/image/upload/t_Profile/v1739948618/Shivam-Narkar_xcssqs.jpg",
@@ -329,7 +329,7 @@ export const tech2024 = [
   },
   {
     image:
-      "https://res.cloudinary.com/dlsaawg9j/image/upload/t_Profile/v1739992901/dummy-profile-pic-300x300_cl36tx.webp",
+      "https://res.cloudinary.com/dlsaawg9j/image/upload/t_Profile/v1740920385/Hetal_Jain_agxnuz.jpg",
     name: "Hetal J.",
     position: "Web Developer",
     social: 
@@ -345,7 +345,7 @@ export const tech2024 = [
   },
 ];
 
-export const designer2024 = [
+export const designer2025 = [
   {
     image:
       "https://res.cloudinary.com/dlsaawg9j/image/upload/v1740075359/WhatsApp_Image_2025-02-19_at_9.42.07_PM_amycij.jpg",
@@ -392,7 +392,7 @@ export const designer2024 = [
   },
   {
     image:
-      "https://res.cloudinary.com/dlsaawg9j/image/upload/t_Profile/v1739992901/dummy-profile-pic-300x300_cl36tx.webp",
+      "https://res.cloudinary.com/dlsaawg9j/image/upload/t_Profile/v1740920252/Urvashi_it1mvj.jpg",
     name: "Urvashi Y.",
     position: "Designer",
     social: [
@@ -402,7 +402,7 @@ export const designer2024 = [
   },
   {
     image:
-      "https://res.cloudinary.com/dlsaawg9j/image/upload/t_Profile/v1739992901/dummy-profile-pic-300x300_cl36tx.webp",
+      "https://res.cloudinary.com/dlsaawg9j/image/upload/v1740920249/Saksham_Yadav_dzjail.jpg",
     name: "Saksham Y.",
     position: "Designer",
     social: [
@@ -412,7 +412,7 @@ export const designer2024 = [
   },
  ];
 
-export const social2024 = [
+export const social2025 = [
   {
     image:
       "https://res.cloudinary.com/dlsaawg9j/image/upload/t_Profile/v1739948617/Ayush_ge3oqe.jpg",
@@ -436,7 +436,7 @@ export const social2024 = [
   },
 ];
 
-export const video2024 = [
+export const video2025 = [
   {
     image:
       "https://res.cloudinary.com/dlsaawg9j/image/upload/t_Profile/v1739948617/Ayush_ge3oqe.jpg",
@@ -467,33 +467,33 @@ export const video2024 = [
   },
   {
     image:
-      "https://res.cloudinary.com/dlsaawg9j/image/upload/t_Profile/v1739992901/dummy-profile-pic-300x300_cl36tx.webp",
+      "https://res.cloudinary.com/dlsaawg9j/image/upload/v1739948616/4gai2_zstcvs.jpg",
     name: "Dakshal P.",
     position: "Video Production",
     social: [faInstagram,"https://www.instagram.com/dakshal_14_56?igsh=MXJ0ejlna2ozMHl0dA=="],
   },
   {
     image:
-      "https://res.cloudinary.com/dlsaawg9j/image/upload/t_Profile/v1739992901/dummy-profile-pic-300x300_cl36tx.webp",
+      "https://res.cloudinary.com/dlsaawg9j/image/upload/v1740919979/Hetal_Jain_fmmi6s.jpg",
     name: "Suyog Pawar.",
     position: "Video Production",
     social: [faInstagram,"https://www.instagram.com/suyogg.pawar?igsh=M2czazhlM3Rva2tk"],
   },
   {
     image:
-      "https://res.cloudinary.com/dlsaawg9j/image/upload/t_Profile/v1739992901/dummy-profile-pic-300x300_cl36tx.webp",
+      "https://res.cloudinary.com/dlsaawg9j/image/upload/v1740920032/Namrata_Shirsath_y2aby9.jpg",
     name: "Namarata S.",
     position: "Video Production",
     social: [faInstagram,"https://www.instagram.com/namrata_shirsath__?igsh=MXVhbzI5NDUzdWRleA=="],
   },
   ];
 
-export const team2024 = [
-  { name: "tech", members: [...tech2024] },
-  { name: "curator", members: [...curator2024] },
-  { name: "designer", members: [...designer2024] },
-  { name: "social", members: [...social2024] },
-  { name: "marketing", members: [...market2024] },
-  { name: "decor", members: [...decor2024] },
-  { name: "video", members: [...video2024] },
+export const team2025 = [
+  { name: "tech", members: [...tech2025] },
+  { name: "curator", members: [...curator2025] },
+  { name: "designer", members: [...designer2025] },
+  { name: "social", members: [...social2025] },
+  { name: "marketing", members: [...market2025] },
+  { name: "decor", members: [...decor2025] },
+  { name: "video", members: [...video2025] },
 ];

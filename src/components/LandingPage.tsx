@@ -1,4 +1,5 @@
 import { motion } from "framer-motion"
+import Button from "./Button"
 
 export default function LandingPage() {
     return (
@@ -59,9 +60,7 @@ export default function LandingPage() {
                     transition={{ duration: 0.5, delay: 0.6 }}
                     className="z-20"
                 >
-                    <a href="https://forms.gle/rD8xDgdUmwZDeFen6" className="bg-purple-600 hover:bg-purple-700  text-white text-lg px-8 py-6 rounded-md border border-purple-400">
-                        RESERVE A SEAT
-                    </a>
+                    <Button text="RESERVE A SEAT" className={"px-[32px] py-[20px]"}/>
                 </motion.div>
                 
                 
