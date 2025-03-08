@@ -1,4 +1,3 @@
-import { Link } from "react-router"
 import { Facebook, Twitter, Instagram, Linkedin, Youtube } from "lucide-react"
 
 export default function About() {
