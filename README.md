@@ -25,9 +25,9 @@ You are all set to develop this website!
 
 ## Current team of developers -
 
-| Anjan Nair                                                                                                        | Gaurav Konde                                                                                                     |
+| Shivam Narkar                                                                                                        | Om Kulkarni                                                                                                     |
 | ----------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- |
-| <img width=100 height=100 style="border-radius:50%" src="https://avatars.githubusercontent.com/u/22571613?v=4" /> | <img width=100 height=100 style="border-radius:50%" src="https://avatars.githubusercontent.com/u/63660013?v=4"/> |
+| <img width=100 height=100 style="border-radius:50%" src="https://avatars.githubusercontent.com/u/22571613?v=4" /> | <img width=100 height=100 style="border-radius:50%" src="https://avatars.githubusercontent.com/u/114779868?v=4"/> |
 
 ### A special thanks to all the developers who have and are working on the website!
 
