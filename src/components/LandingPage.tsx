@@ -43,7 +43,7 @@ export default function LandingPage() {
                     className="text-center mb-12 z-10"
                 >
                     <div className="flex flex-col md:flex-row items-center justify-center gap-4 text-xl">
-                        <h3 className="font-bold text-amber-500">21st MARCH, 2024</h3>
+                        <h3 className="font-bold text-amber-500">21st MARCH, 2025</h3>
                         <span className="hidden md:block text-gray-400">|</span>
                         <div className="flex items-center gap-2">
                             <span className="text-amber-500">@ATHARVACOE,</span>

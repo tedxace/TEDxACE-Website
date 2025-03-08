@@ -1,5 +1,5 @@
 import { Link } from "react-router"
-import { Facebook, Twitter, Instagram } from "lucide-react"
+import { Facebook, Twitter, Instagram, Linkedin, Youtube } from "lucide-react"
 
 export default function About() {
   return (
@@ -64,15 +64,22 @@ export default function About() {
       <section className="py-16 text-center">
         <h2 className="text-xl font-semibold mb-8">FOLLOW US ON</h2>
         <div className="flex justify-center space-x-8">
-          <Link to="#" className="p-2 hover:text-purple-500">
-            <Facebook className="w-8 h-8" />
-          </Link>
-          <Link to="#" className="p-2 hover:text-purple-500">
+          
+        <a href="http://twitter.com/tedxace" className="p-2 hover:text-purple-500">
             <Twitter className="w-8 h-8" />
-          </Link>
-          <Link to="#" className="p-2 hover:text-purple-500">
+          </a> 
+          <a href="http://www.youtube.com/@tedxace4216" className="p-2 hover:text-purple-500">
+            <Youtube className="w-8 h-8" />
+          </a> 
+        <a href="https://www.facebook.com/tedxace/" className="p-2 hover:text-purple-500">
+            <Facebook className="w-8 h-8" />
+          </a>
+          <a href="https://in.linkedin.com/company/tedxace" className="p-2 hover:text-purple-500">
+            <Linkedin className="w-8 h-8" />
+          </a>
+          <a href="https://instagram.com/tedxace" className="p-2 hover:text-purple-500">
             <Instagram className="w-8 h-8" />
-          </Link>
+          </a>
         </div>
       </section>
 
