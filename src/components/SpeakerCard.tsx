@@ -45,7 +45,7 @@ const SpeakerCard = ({ image, name, position, text }: { image: any, name: any, p
 
       </section>
       {modal && (
-        <div className=" fixed  w-full h-full   items-center justify-center my-auto top-0   md:left-0  bg-transparent backdrop-blur-3xl text-white z-40" onClick={() => setModal(false)}>
+        <div className=" fixed hidden w-full h-full   items-center justify-center my-auto top-0   md:left-0  bg-transparent backdrop-blur-3xl text-white z-40" onClick={() => setModal(false)}>
           <div className="bg-black md:m-4  h-auto relative mx-auto top-[20%]    w-[80%] md:mx-auto md:h-[500px] md:w-1/2 border border-violet-300 p-10  rounded-xl flex items-center justify-evenly md:flex-row flex-col z-50">
             <div className="hidden md:block">
               <div className={` mx-4 h-[80%] md:h-[400px] md:w-[300px] rounded-2xl my-6 md:my-0  bg-cover bg-center`} style={{backgroundImage:`url(${image})`}}>

@@ -165,14 +165,6 @@ export const curator2025 = [
   },
   {
     image:
-      "https://res.cloudinary.com/dlsaawg9j/image/upload/t_Profile/v1739992901/dummy-profile-pic-300x300_cl36tx.webp",
-    name: "Krishna K.",
-    position: "Curator",
-    social: [
-      faInstagram, "https://www.instagram.com/krishna_karale.10?igsh=eGtpOWU0N3dkdnY3"],
-  },
-  {
-    image:
       "https://res.cloudinary.com/dlsaawg9j/image/upload/t_Profile/v1739948629/IMG-20240810-WA0004_oexyww.jpg",
     name: "Maansi R.",
     position: "Curator",

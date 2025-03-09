@@ -49,7 +49,7 @@ export default function About() {
           <div className="space-y-8">
             <h2 className="text-xl font-semibold">OUR PAST EVENTS</h2>
             <div className="space-y-4">
-              {[2022, 2023, 2024].map((year) => (
+              {[ 2023, 2024].map((year) => (
                 <div key={year} className="aspect-video bg-gray-800 rounded-lg flex items-center justify-center">
                   <span className="text-2xl font-bold">{year}</span>
                 </div>

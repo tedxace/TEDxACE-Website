@@ -63,17 +63,17 @@ function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Left Column - Logo and Subscribe */}
           <div className="space-y-6">
-            <div className="flex items-center">
-              <span className="text-3xl font-bold">
+            <div className="flex  items-center  h-full">
+              <span className="text-3xl md:text-5xl font-bold ">
                 <span className="text-red-600">TEDx</span> ACE
               </span>
             </div>
 
-            <div className="space-y-4">
+            {/* <div className="space-y-4">
               <p className="text-lg">
                 GET LATEST UPDATE on <span className="text-red-600">TEDxACE</span>
               </p>
-              <form onSubmit={handleSubscribe} className="flex">
+              <form onSubmit={handleSubscribe} className="flex w-full">
                 <input
                   type="email"
                   placeholder="Enter Email..."
@@ -81,13 +81,13 @@ function Footer() {
                 
                   onChange={(e) => setEmail(e.target.value)}
                   required
-                  className="bg-white text-black border-0 rounded-none p-3 "
+                  className="bg-white text-black border-0 rounded-none p-3 w-auto "
                 />
                 <button type="submit" className="bg-red-600 hover:bg-red-700  px-4 py-3 text-white rounded-none">
                   SUBSCRIBE
                 </button>
               </form>
-            </div>
+            </div> */}
           </div>
 
           {/* Middle Column - Links */}
