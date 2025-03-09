@@ -40,22 +40,12 @@
 
 // export default Footer
 
-import type React from "react"
-
-import { useState } from "react"
 import { Link } from "react-router"
 import { MapPin } from "lucide-react"
 
 function Footer() {
-  const [email, setEmail] = useState("")
 
-  const handleSubscribe = (e: React.FormEvent) => {
-    e.preventDefault()
-    // Handle subscription logic here
-    console.log("Subscribing email:", email)
-    setEmail("")
-    // You would typically send this to your API
-  }
+  
 
   return (
     <footer className="bg-black text-white">
