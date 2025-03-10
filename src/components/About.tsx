@@ -5,7 +5,7 @@ export default function About() {
     <div className="min-h-screen bg-black text-white">
       {/* Lets goo */}
       {/* Header */}
-  
+
       {/* Main Content */}
       <main className="container mx-auto px-4 py-12 pt-32">
         <h1 className="text-4xl font-bold text-center mb-16">ABOUT US</h1>
@@ -49,7 +49,7 @@ export default function About() {
           <div className="space-y-8">
             <h2 className="text-xl font-semibold">OUR PAST EVENTS</h2>
             <div className="space-y-4">
-              {[ 2023, 2024].map((year) => (
+              {[2023, 2024].map((year) => (
                 <div key={year} className="aspect-video bg-gray-800 rounded-lg flex items-center justify-center">
                   <span className="text-2xl font-bold">{year}</span>
                 </div>
@@ -62,28 +62,33 @@ export default function About() {
       {/* Follow Us Section */}
       <section className="py-16 text-center">
         <h2 className="text-xl font-semibold mb-8">FOLLOW US ON</h2>
-        <div className="flex justify-center space-x-8">
-          
-        <a href="http://twitter.com/tedxace" className="p-2 hover:text-purple-500">
+        <div className="flex  w-full items-center  justify-center  md:space-x-8">
+          <div className="grid  grid-cols-2 md:flex md:space-x-8">
+          <a href="http://twitter.com/tedxace" className="p-2 hover:text-purple-500 ">
             <Twitter className="w-8 h-8" />
-          </a> 
+          </a>
           <a href="http://www.youtube.com/@tedxace4216" className="p-2 hover:text-purple-500">
             <Youtube className="w-8 h-8" />
-          </a> 
-        <a href="https://www.facebook.com/tedxace/" className="p-2 hover:text-purple-500">
+          </a>
+
+          <a href="https://www.facebook.com/tedxace/" className="p-2 hover:text-purple-500">
             <Facebook className="w-8 h-8" />
           </a>
+
           <a href="https://in.linkedin.com/company/tedxace" className="p-2 hover:text-purple-500">
             <Linkedin className="w-8 h-8" />
           </a>
+
+
           <a href="https://instagram.com/tedxace" className="p-2 hover:text-purple-500">
             <Instagram className="w-8 h-8" />
           </a>
+          </div>
         </div>
       </section>
 
       {/* Footer */}
-     
+
     </div>
   )
 }

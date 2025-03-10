@@ -310,7 +310,7 @@ export const tech2025 = [
       "https://res.cloudinary.com/dlsaawg9j/image/upload/t_Profile/v1739948618/Sahil_Vichare_inhlhx.jpg",
     name: "Sahil V.",
     position: "Web Developer",
-    social: [faInstagram, "https://www.instagram.com/sahillllll.05?igsh=MWh4eXZreHo4Y3Ezcw=="],
+    social: [faInstagram, "https://www.instagram.com/_sahilllll.14_?igsh=d2RtaGdtZjBwcWY0&utm_source=qr"],
   },
   {
     image:
