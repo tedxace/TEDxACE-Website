@@ -5,7 +5,7 @@ export default function About() {
     <div className="min-h-screen bg-black text-white">
       {/* Lets goo */}
       {/* Header */}
-  
+
       {/* Main Content */}
       <main className="container mx-auto px-4 py-12 pt-32">
         <h1 className="text-4xl font-bold text-center mb-16">ABOUT US</h1>
@@ -49,11 +49,16 @@ export default function About() {
           <div className="space-y-8">
             <h2 className="text-xl font-semibold">OUR PAST EVENTS</h2>
             <div className="space-y-4">
-              {[ 2023, 2024].map((year) => (
-                <div key={year} className="aspect-video bg-gray-800 rounded-lg flex items-center justify-center">
-                  <span className="text-2xl font-bold">{year}</span>
-                </div>
-              ))}
+              <div className="aspect-video bg-gray-800 rounded-lg flex items-center justify-center">
+                <a href="http://2023.tedxace.com" target="_blank">
+                  <span className="text-2xl font-bold">2023</span>
+                </a>
+              </div>
+              <div className="aspect-video bg-gray-800 rounded-lg flex items-center justify-center">
+                <a href="http://2024.tedxace.com" target="_blank">
+                  <span className="text-2xl font-bold">2024</span>
+                </a>
+              </div>
             </div>
           </div>
         </div>
@@ -63,14 +68,14 @@ export default function About() {
       <section className="py-16 text-center">
         <h2 className="text-xl font-semibold mb-8">FOLLOW US ON</h2>
         <div className="flex justify-center space-x-8">
-          
-        <a href="http://twitter.com/tedxace" className="p-2 hover:text-purple-500">
+
+          <a href="http://twitter.com/tedxace" className="p-2 hover:text-purple-500">
             <Twitter className="w-8 h-8" />
-          </a> 
+          </a>
           <a href="http://www.youtube.com/@tedxace4216" className="p-2 hover:text-purple-500">
             <Youtube className="w-8 h-8" />
-          </a> 
-        <a href="https://www.facebook.com/tedxace/" className="p-2 hover:text-purple-500">
+          </a>
+          <a href="https://www.facebook.com/tedxace/" className="p-2 hover:text-purple-500">
             <Facebook className="w-8 h-8" />
           </a>
           <a href="https://in.linkedin.com/company/tedxace" className="p-2 hover:text-purple-500">
@@ -83,7 +88,7 @@ export default function About() {
       </section>
 
       {/* Footer */}
-     
+
     </div>
   )
 }

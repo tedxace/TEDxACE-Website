@@ -7,7 +7,7 @@ const SpeakerCard = ({ image, name, position, text }: { image: any, name: any, p
 
   return (
     <>
-      <section className="md:w-[337px] hover:cursor-pointer relative md:h-[504px] flex flex-col items-center justify-center " onClick={() => setModal(!modal)}>
+      <section className="md:w-[337px] hover:cursor-pointer relative md:h-[504px] flex flex-col items-center justify-center" onClick={() => setModal(!modal)}>
         <div className="relative   w-[300px] h-[300px] md:w-[337px] md:h-[470.39px] rounded-[30px] overflow-hidden shadow-md group">
           {/* Speaker Image */}
           <img
@@ -40,7 +40,7 @@ const SpeakerCard = ({ image, name, position, text }: { image: any, name: any, p
         <img
           src={"./Menohaven.png"}
           alt="Menoheaven"
-          className="relative left-[10px] bottom-[23px] w-[310px] h-[82px] z-30"
+          className="relative left-[1px] bottom-[20px] w-[310px] h-[82px] z-30"
         />
 
       </section>
