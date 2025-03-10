@@ -97,7 +97,7 @@ const Speakers = () => {
   // ];
 
   return (
-    <div className="bg-black w-full min-h-screen border   p-16 relative ">
+    <div className="bg-black w-full min-h-screen border p-16 relative ">
 
       {/* Background Bottle Image */}
       {/* <div className="absolute top-0 left-[478px] opacity-40 transform -translate-x-1/2 w-full h-[1600px] overflow-visible z-0">

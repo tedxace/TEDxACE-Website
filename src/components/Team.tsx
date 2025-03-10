@@ -76,7 +76,7 @@ const Teams = () => {
               <TabList
                 onChange={handleChange}
                 aria-label="TEDx Team Members"
-                className="text-white pt-32  "
+                className="text-white pt-5  "
                 centered
                 sx={{
                   "& .css-wlpw4n-MuiButtonBase-root-MuiTab-root.Mui-selected ": {

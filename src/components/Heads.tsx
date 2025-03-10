@@ -21,7 +21,7 @@ const Heads = ({ speakers }) => {
   }, [speakers?.length]);
   return (
     <section
-      className="relative pt-24 pb-24   bg-fixed  h-full w-full"
+      className="relative pt-24 pb-[5px]   bg-fixed  h-full w-full"
       style={{
         
         // backgroundAttachment: "fixed",

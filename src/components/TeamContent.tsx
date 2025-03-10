@@ -16,7 +16,8 @@ const TeamContent = ({ team }: { team: any }) => {
   let teamCount = team?.length;
   return (
     <article
-      className={`grid md:grid-cols-4 grid-cols-2 place-items-center gap-10 `}
+      // className={`grid md:grid-cols-4 grid-cols-2 place-items-center gap-10 `}
+      className={`flex flex-wrap justify-evenly w-[700px] sm:w-[620px] md:w-[620px]`}
     >
       {team?.map((member, index) => {
         const { name, image, position, social } = member;
