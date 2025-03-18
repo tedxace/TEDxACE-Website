@@ -43,7 +43,9 @@ const Venue = () => {
             <div className="flex  md:flex-row flex-col justify-between items-center w-full ">
                 <div className="flex flex-col items-center gap-4  w-1/2 ">
                     <div className="flex md:flex-col flex-col-reverse justify-center items-center gap-10 venue_box ">
-
+                    <div className="md:block hidden md:w-[520px] md:p-10 py-10">
+                            <h1 className="text-2xl text-gray-400">Venue : <p className=" text-3xl md:text-5xl text-white font-bold text-wrap w-full md:leading-20 ">Atharva College of Engineering</p></h1>
+                        </div>
                         <div className="flex flex-col w-[200px] h-[300px] md:w-[400px] md:h-[600px]   rounded-2xl bg-[url('https://res.cloudinary.com/dlsaawg9j/image/upload/v1740032521/venue1_jltdsi.png')] bg-cover bg-center relative">
                             <div className="md:absolute bottom-10 right-0 md:-mr-30 bg-[#111]  text-white px-10 py-5 md:w-[300px] h-auto md:flex hidden text-xl flex-col rounded-xl gap-2">
                                 <h1 className="text-gray-300 font-bold text-lg">Venue: </h1>
@@ -54,8 +56,8 @@ const Venue = () => {
                             <h1 className="text-gray-300 font-bold text-lg">Venue: </h1>
                             <p className="capitalize">Phase Three ground floor lobby</p>
                         </div>
-                        <div className="md:w-[520px] md:p-10 py-10">
-                            <h1 className="text-2xl text-gray-400">Venue : <p className="text-3xl md:text-5xl text-white font-bold text-wrap w-full md:leading-20 ">Atharva College of Engineering</p></h1>
+                        <div className="md:hidden block md:w-[520px] md:p-10 py-10">
+                            <h1 className="text-2xl text-gray-400">Venue : <p className=" text-3xl md:text-5xl text-white font-bold text-wrap w-full md:leading-20 ">Atharva College of Engineering</p></h1>
                         </div>
                     </div>
                 </div>
