@@ -3,7 +3,7 @@ import Button from "./Button"
 
 export default function LandingPage() {
     return (
-        <main className="min-h-screen  text-white w-full overflow-hidden  bg-[url('https://res.cloudinary.com/dlsaawg9j/image/upload/v1740030773/bg_xve543.jpg')] bg-cover bg-center ">
+        <main className="min-h-[80vh]  text-white w-full overflow-hidden  bg-[url('https://res.cloudinary.com/dlsaawg9j/image/upload/v1740030773/bg_xve543.jpg')] bg-cover bg-center ">
 
             {/* Main Content */}
             <div className="  w-[100%] h-full px-4 pt-20 pb-20 flex flex-col items-center justify-center  ">

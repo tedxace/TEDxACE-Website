@@ -183,14 +183,14 @@ useEffect(()=>{
           <a
             href="https://forms.gle/rD8xDgdUmwZDeFen6"
             target="_blank"
-            className="bg-violet-800 px-8 flex py-4 rounded-xl"
+            className="bg-violet-800 px-8 flex py-4 rounded-xl text-xl gap-4 uppercase font-bold hover:bg-purple-600 transition-all duration-500 items-center mt-4"
           >
             Buy Tickets <ArrowRight />
           </a>
         </div>
-        <div className="flex items-center flex-col">
+        <div className="flex items-center  flex-col">
           <video
-            className="w-3/4 md:w-1/2 rounded-xl ease-in"
+            className="w-3/4 md:w-[500px] ml-10 rounded-xl object-cover opacity-85"
             autoPlay
             muted
             controls={false}
