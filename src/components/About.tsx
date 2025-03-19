@@ -49,11 +49,13 @@ export default function About() {
           <div className="space-y-8">
             <h2 className="text-xl font-semibold">OUR PAST EVENTS</h2>
             <div className="space-y-4">
-              {[2023, 2024].map((year) => (
-                <div key={year} className="aspect-video bg-gray-800 rounded-lg flex items-center justify-center">
-                  <span className="text-2xl font-bold">{year}</span>
-                </div>
-              ))}
+              <div className={`aspect-video  rounded-lg flex items-center justify-center bg-cover    `} style={{ backgroundImage: "url('https://res.cloudinary.com/dlsaawg9j/image/upload/v1742411208/23_tcg7ky.jpg')" }}>
+                <span className="text-2xl font-bold w-full h-full flex items-center justify-center bg-black/40">2023</span>
+              </div>
+              <div className={`aspect-video  rounded-lg flex items-center justify-center bg-cover   `} style={{ backgroundImage: "url('https://res.cloudinary.com/dlsaawg9j/image/upload/v1742411180/2024_iggezb.jpg')" }}>
+                <span className="text-2xl font-bold w-full h-full flex items-center justify-center bg-black/40">2024</span>
+              </div>
+
             </div>
           </div>
         </div>
@@ -64,25 +66,25 @@ export default function About() {
         <h2 className="text-xl font-semibold mb-8">FOLLOW US ON</h2>
         <div className="flex  w-full items-center  justify-center  md:space-x-8">
           <div className="grid  grid-cols-2 md:flex md:space-x-8">
-          <a href="http://twitter.com/tedxace" className="p-2 hover:text-purple-500 ">
-            <Twitter className="w-8 h-8" />
-          </a>
-          <a href="http://www.youtube.com/@tedxace4216" className="p-2 hover:text-purple-500">
-            <Youtube className="w-8 h-8" />
-          </a>
+            <a href="http://twitter.com/tedxace" className="p-2 hover:text-purple-500 ">
+              <Twitter className="w-8 h-8" />
+            </a>
+            <a href="http://www.youtube.com/@tedxace4216" className="p-2 hover:text-purple-500">
+              <Youtube className="w-8 h-8" />
+            </a>
 
-          <a href="https://www.facebook.com/tedxace/" className="p-2 hover:text-purple-500">
-            <Facebook className="w-8 h-8" />
-          </a>
+            <a href="https://www.facebook.com/tedxace/" className="p-2 hover:text-purple-500">
+              <Facebook className="w-8 h-8" />
+            </a>
 
-          <a href="https://in.linkedin.com/company/tedxace" className="p-2 hover:text-purple-500">
-            <Linkedin className="w-8 h-8" />
-          </a>
+            <a href="https://in.linkedin.com/company/tedxace" className="p-2 hover:text-purple-500">
+              <Linkedin className="w-8 h-8" />
+            </a>
 
 
-          <a href="https://instagram.com/tedxace" className="p-2 hover:text-purple-500">
-            <Instagram className="w-8 h-8" />
-          </a>
+            <a href="https://instagram.com/tedxace" className="p-2 hover:text-purple-500">
+              <Instagram className="w-8 h-8" />
+            </a>
           </div>
         </div>
       </section>

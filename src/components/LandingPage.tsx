@@ -50,7 +50,7 @@ export default function LandingPage() {
                             <span className="text-amber-500">MALAD</span>
                         </div>
                     </div>
-                    <p className="text-gray-400 mt-2">10:30 AM ONWARDS</p>
+                    <p className="text-gray-400 mt-2">10:00 AM ONWARDS</p>
                 </motion.div>
 
                 {/* CTA button */}
