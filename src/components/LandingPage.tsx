@@ -27,7 +27,7 @@ export default function LandingPage() {
                     className="w-full max-w-3xl  mt-4 mb-5 z-10"
                 >
                     <img
-                        src="/assets/Logo1.png"
+                        src="/assets/Logo.png"
                         alt="Alchemy of Ideas"
                         width={700}
                         height={250}

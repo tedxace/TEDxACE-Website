@@ -21,7 +21,7 @@ export const sponsors2025 = [
     {
       name: "Associate Sponsor",
       sponsorName :"Farm Studio",
-      image: "/sponsors/farm_studio.png",
+      image: "/sponsors/Farm-studio.jpeg",
       link: "https://www.farmstudio.co.in/"
     }
   ]
@@ -86,20 +86,34 @@ export const speakers2025 = [
       "Magician",
     ],
   },
+
   {
-    name: "Mystery Speaker !",
-    position: "Guess who ?",
-    image:
-      "https://imgs.search.brave.com/bamMwg33kkMsrDFzeURNsYWBvo-y6l_6LXxsmDuWPi0/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMubmludGVuZG9s/aWZlLmNvbS9kZGQy/NTJkMjJkZDBkL3Bv/a2Vtb24tc2Nhcmxl/dC1hbmQtdmlvbGV0/LWZ1bGwtbGlzdC1v/Zi1teXN0ZXJ5LWdp/ZnQtY29kZXMtMS45/MDB4LmpwZw", // Placeholder image, update if needed
-    text: [
-"Released to soon"    ],
-    list: [
-      "Naval Veteran",
-      "Medical Clown",
-      "Keynote Speaker",
-      "Magician",
+    "name": "Aaron Colaco",
+    "position": "Equity Derivatives, BOA",
+    "image": "https://res.cloudinary.com/dlsaawg9j/image/upload/t_Banner 9:16/v1742407341/Aaron_plbqo6.jpg", // Placeholder image, update if needed
+    "text": [
+      "An inspiring Toastmaster and a dedicated habit maker, Aaron transforms words into impact and small actions into lasting success. Aaron has a background in Computer Engineering, an MBA in Finance, and Data Science from IIT Madras. With a passion for growth and consistency, they believe that great communication and strong habits shape a remarkable life."
     ],
+    "list": [
+      "Toastmaster",
+      "Habit Maker",
+      "Proud Cancer Survivor"
+    ]
   },
+  {
+    "name": "Mr. Harish Solanki",
+    "position": "Kalakaar Moto Trails",
+    "image": "https://res.cloudinary.com/dlsaawg9j/image/upload/v1742407339/WhatsApp_Image_2025-03-19_at_1.01.01_PM_rhijt9.jpg", // Placeholder image, update if needed
+    "text": [
+      "Mr. Harish Solanki, known as Kalakaar Moto Trails, is a passionate motorcyclist, road safety advocate, and recipient of the Navbharat Times Influencers Award 2024. With years of riding experience and expertise in motorcycles and riding, he has completed the All India Ride twice, showcasing his dedication and endurance. Through his platform, he promotes responsible riding and encourages safe driving habits, inspiring the biking community to explore with caution and care."
+    ],
+    "list": [
+      "Passionate Motorcyclist",
+      "Road Safety Advocate",
+      "Recipient of Navbharat Times Influencers Award 2024"
+    ]
+  }
+  
 ];
 
 
