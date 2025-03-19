@@ -27,7 +27,7 @@ const TitleSponsors = () => {
             </div>
             
         </div>
-        <a href="https://www.autographadvisors.com/" target='_blank'  className={'border-2 border-[#8940B2] text-[#8940B2] font-bold text-lg  rounded-lg hover:bg-purple-600 hover:text-white transition-colors text-center flex gap-2 items-center  bg-[#0E0014]  uppercase  md:px-10 md:py-6 p-41'}>
+        <a href="https://www.autographadvisors.com/" target='_blank'  className={'border-2 border-[#8940B2] text-[#8940B2] font-bold text-lg  rounded-lg hover:bg-purple-600 hover:text-white transition-colors text-center flex gap-2 items-center  bg-[#0E0014]  uppercase  md:px-10 md:py-6 p-4'}>
             Explore more work <ArrowRight/>
         </a>
     </div>
