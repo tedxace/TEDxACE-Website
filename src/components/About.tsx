@@ -49,12 +49,12 @@ export default function About() {
           <div className="space-y-8">
             <h2 className="text-xl font-semibold">OUR PAST EVENTS</h2>
             <div className="space-y-4">
-              <div className={`aspect-video  rounded-lg flex items-center justify-center bg-cover    `} style={{ backgroundImage: "url('https://res.cloudinary.com/dlsaawg9j/image/upload/v1742411208/23_tcg7ky.jpg')" }}>
+              <a href="http://2023.tedxace.com/" target="_blank" className={`aspect-video  rounded-lg flex items-center justify-center bg-cover    `} style={{ backgroundImage: "url('https://res.cloudinary.com/dlsaawg9j/image/upload/v1742411208/23_tcg7ky.jpg')" }}>
                 <span className="text-2xl font-bold w-full h-full flex items-center justify-center bg-black/40">2023</span>
-              </div>
-              <div className={`aspect-video  rounded-lg flex items-center justify-center bg-cover   `} style={{ backgroundImage: "url('https://res.cloudinary.com/dlsaawg9j/image/upload/v1742411180/2024_iggezb.jpg')" }}>
-                <span className="text-2xl font-bold w-full h-full flex items-center justify-center bg-black/40">2024</span>
-              </div>
+              </a>
+              <a href="https://te-dx-2024.vercel.app/" target="_blank" className={`aspect-video  rounded-lg flex items-center justify-center bg-cover   `} style={{ backgroundImage: "url('https://res.cloudinary.com/dlsaawg9j/image/upload/v1742411180/2024_iggezb.jpg')" }}>
+                <span className="text-2xl font-bold w-full h-full flex items-center justify-center z-10 bg-black/40">2024</span>
+              </a>
 
             </div>
           </div>
