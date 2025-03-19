@@ -177,7 +177,7 @@ useEffect(()=>{
   const Video1 = () => {
     return (
       <div className="parallax flex flex-col items-center h-full  md:h-full font-[Ysabeau] pt-20 p-10 gap-10">
-        <div className="sticky flex flex-col items-center  gap-4">
+        <div className="sticky flex flex-col items-center   gap-4">
           <p>Join us for the ride</p>
           <h1 className="text-4xl font-bold">To Unleash The Magic Within Ideas</h1>
           <a
@@ -221,7 +221,7 @@ useEffect(()=>{
             src="/assets/sponsor.mp4"
           ></video>
         </div>
-        <div className="flex flex-col bg-[#0D0D0D] border border-gray-600 py-8 px-10 rounded-xl text-wrap w-[300px] mt-4 md:mt-32 gap-10">
+        <div className="flex flex-col bg-[#0D0D0D] border border-gray-600 py-8 px-10 rounded-xl text-wrap w-[300px] mt-4  gap-10">
           <p className="font-sans text-gray-400 text-xl">
             TEDx events spotlight groundbreaking ideas and innovations that can drive meaningful change.
           </p>
@@ -234,7 +234,7 @@ useEffect(()=>{
     return (
       <div className="parallax flex lg:flex-row flex-col  items-center h-full md:h-full justify-center gap-10 md:gap-32 ease-in pt-20 md:items-start">
         <div className="flex flex-col gap-10">
-          <div className="flex flex-col bg-[#0D0D0D] border border-gray-600 py-8 px-10 rounded-xl text-wrap w-auto m-4 md:w-[320px] gap-10">
+          <div className="flex flex-col bg-[#0D0D0D] border border-gray-600 py-8 px-10 rounded-xl text-wrap w-auto m-4 md:w-[320px] mt-4 gap-10">
             <h1 className="text-3xl w-auto font-semibold  font-[Ysabeau]">
               Network With Innovators
             </h1>
@@ -250,7 +250,7 @@ useEffect(()=>{
             src="/assets/speakers.mp4"
           ></video>
         </div>
-        <div className="flex flex-col bg-[#0D0D0D] border border-gray-600 py-8 px-10 rounded-xl text-wrap w-[300px] mt-4 md:mt-32 gap-10">
+        <div className="flex flex-col bg-[#0D0D0D] border border-gray-600 py-8 px-10 rounded-xl text-wrap w-[300px] mt-4  gap-10">
           <p className="font-sans text-gray-400 text-xl">
             Connect with innovators and leaders, sparking collaborations and idea exchanges that fuel your personal and professional growth.
           </p>
@@ -279,7 +279,7 @@ useEffect(()=>{
             src="/assets/team.mp4"
           ></video>
         </div>
-        <div className="flex flex-col bg-[#0D0D0D] border border-gray-600 py-8 px-10 rounded-xl text-wrap w-[300px] mt-10 md:mt-32 gap-10">
+        <div className="flex flex-col bg-[#0D0D0D] border border-gray-600 py-8 px-10 rounded-xl text-wrap w-[300px] mt-4 gap-10">
           <p className="font-sans text-gray-400 text-xl">
             Expand your horizons, envision your future, and explore the unknown alongside trailblazers shaping tomorrow.
           </p>
@@ -289,7 +289,7 @@ useEffect(()=>{
   };
 
   return (
-    <div className="flex flex-col items-center h-full justify-center bg-[#000000] text-white">
+    <div className="flex flex-col  items-center h-full justify-center bg-[#000000] text-white">
       <Video1 />
       <Video2 />
       <Video3 />

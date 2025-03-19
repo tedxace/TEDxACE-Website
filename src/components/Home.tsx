@@ -8,6 +8,7 @@ import Venue from './Venue'
 import VideoElement from './VideoElement'
 import Lenis from 'lenis'
 import Sponsors from './Sponsors'
+import TitleSponsors from './TitleSponsors'
 
 
 const Home = () => {
@@ -53,8 +54,9 @@ const Home = () => {
     <>
       <LandingPage />
       <Speakers />
-      <Venue />
+      <TitleSponsors/>
       <VideoElement />
+      <Venue />
       <Sponsors/>
     </>
   )

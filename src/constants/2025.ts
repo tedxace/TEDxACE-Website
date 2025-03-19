@@ -1,23 +1,33 @@
 import { faInstagram, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 // import { faGlobe } from "@fortawesome/free-solid-svg-icons";
 import RituMam from "/assets/RituMam.jpeg";
+
 // 2025 Event Data
 export const sponsors2025 = [
-  {
-    name: "Excel Overseas",
-    link: "https://www.exceloverseas.net/",
-    image: "/sponsors/excel_logo.png",
-  },
-  {
-    name: "Tempt",
-    link: "https://wearemandys.com",
-    image: "/sponsors/mandys.png",
-  },
-  {
-    name: "Taiyo",
-    link: "#",
-    image: "/sponsors/taiyo.jpg",
-  },
+ {
+  titleSponsor:{
+    name:"Title Sponsor",
+    sponsorName:"Autograph Advisors",
+    image:"/sponsors/autograph_advisor.png",
+    link:"https://www.autographadvisors.com/"
+   },
+   associate_sponsors: [
+    {
+      name: "Associate Sponsor",
+      sponsorName: "Taiyo",
+      image: "/sponsors/taiyo.png",
+      link: "#"
+    },
+    {
+      name: "Associate Sponsor",
+      sponsorName :"Farm Studio",
+      image: "/sponsors/farm_studio.png",
+      link: "https://www.farmstudio.co.in/"
+    }
+  ]
+
+ }
+
 ];
 
 export const speakers2025 = [

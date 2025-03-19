@@ -24,15 +24,15 @@ export default function LandingPage() {
                     initial={{ opacity: 0, scale: 0.9 }}
                     animate={{ opacity: 1, scale: 1 }}
                     transition={{ duration: 0.7, delay: 0.2 }}
-                    className="w-full max-w-3xl mt-10 mb-12 z-10"
+                    className="w-full max-w-3xl  mt-4 mb-5 z-10"
                 >
                     <img
-                        src="/assets/Logo.png"
+                        src="/assets/Logo1.png"
                         alt="Alchemy of Ideas"
-                        width={800}
-                        height={300}
+                        width={700}
+                        height={250}
                         className="w-full h-auto"
-                    />
+                    /> 
                 </motion.div>
 
                 {/* Event Details */}
