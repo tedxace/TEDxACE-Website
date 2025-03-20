@@ -3,7 +3,7 @@ import { ArrowRight } from 'lucide-react'
 
 const TitleSponsors = () => {
   return (
-    <div className='md:h-screen flex flex-col items-center justify-center bg-[#000000] text-white'>
+    <div className='md:h-full flex flex-col items-center justify-center bg-[#000000] text-white'>
         <h1 className='text-4xl font-[Ysabeau] font-bold my-10'>Title Sponsor</h1>
         <img src="/sponsors/autograph_advisor.png" alt="" width={500} className='md:p-4 p-4'/>
         <div className='grid md:grid-cols-2 grid-cols-1 mx-auto md:w-1/2 p-10   gap-12 '>
